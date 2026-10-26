@@ -6,7 +6,7 @@ export async function lesson(root,id){
  const [l,terms]=await Promise.all([api('/lessons/'+id),api('/glossary')]);
  await api('/lessons/'+id+'/open','POST',{});
  document.title=l.title+' — Электроника';
- root.className='reading';root.innerHTML='<a href="#/topic/'+l.topic+'">← К теме</a><article><p class="eyebrow">'+l.minutes+' мин · Уровень '+l.level+(l.optional?' · Дополнительный урок':'')+'</p><h1>'+icon(l.icon)+' '+esc(l.title)+'</h1><p class="muted">'+esc(l.summary)+'</p><section class="panel"><h3>После урока ты сможешь…</h3><ul>'+l.objectives.map(o=>'<li>'+esc(o)+'</li>').join('')+'</ul></section></article>';
+ root.className='reading';root.innerHTML='<a href="#/topic/'+l.topic+'">← Тема «'+esc(l.topic_title)+'»</a><article><p class="eyebrow">Урок '+l.position+' из '+l.topic_count+' · '+l.minutes+' мин · Уровень '+l.level+(l.optional?' · Дополнительный урок':'')+'</p><h1>'+icon(l.icon)+' '+esc(l.title)+'</h1><p class="muted">'+esc(l.summary)+'</p><section class="panel"><h3>После урока ты сможешь…</h3><ul>'+l.objectives.map(o=>'<li>'+esc(o)+'</li>').join('')+'</ul></section></article>';
  const article=root.querySelector('article'),answered=new Set(l.answers.map(a=>a.block_id));
  const required=l.blocks.filter(b=>['quiz','predict'].includes(b.type)).map(b=>b.id);
  if(l.missing.length)article.append(el('aside',{class:'callout warning',html:'Сначала рекомендуем: '+l.missing.map(m=>'<a href="#/lesson/'+m.id+'">'+esc(m.title)+'</a>').join(', ')}));

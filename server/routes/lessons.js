@@ -19,7 +19,9 @@ export function lessonRoutes(db,c) {
    const a=answers.find(a=>a.block_id===b.id);
    return {...publicQuestion(b),hint:b.hint,...(a?{feedback:{is_correct:!!a.is_correct,explanation:b.explanation||b.reveal,answer:b.answer}}:{})};
   });
-  res.json({...l,body:undefined,file:undefined,blocks,progress:progress(db,l.id),
+  const topic = c.topics.find(t => t.id === l.topic);
+  res.json({...l,topic_title:topic.title,position:topic.lessons.indexOf(l)+1,
+   topic_count:topic.lessons.length,body:undefined,file:undefined,blocks,progress:progress(db,l.id),
    answers:answers.map(a=>({...a,answer:JSON.parse(a.answer_json)})),note:db.prepare('SELECT text FROM notes WHERE lesson_id=?').get(l.id)?.text||'',
    previous:c.lessons[l.index-1]?.id,next:c.lessons[l.index+1]?.id,
    missing:l.prerequisites.filter(id=>progress(db,id).status!=='completed').map(id=>({id,title:lesson(id).title}))});
