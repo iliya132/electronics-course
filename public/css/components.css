@@ -39,3 +39,6 @@ figure{margin:32px 0;padding:16px 0}figure svg{width:100%;display:block}figcapti
 .current-flow{max-width:480px}.charge-dot{animation:charge-flow var(--flow-time,2s) linear infinite}.stopped .charge-dot{animation-play-state:paused}.board-node{cursor:pointer}.board-node:focus{outline:3px solid var(--accent);outline-offset:3px}.board-node[aria-pressed=true] rect{stroke-width:4}
 @keyframes charge-flow{to{transform:translateX(440px)}}
 @media(prefers-reduced-motion:reduce){.charge-dot{animation:none}}
+
+.term{position:relative}
+.term:hover::after,.term:focus::after{content:attr(data-definition);position:absolute;left:var(--tooltip-left,0px);top:100%;z-index:30;width:max-content;max-width:min(300px,80vw);padding:10px 12px;margin-top:6px;background:var(--surface);color:var(--text);border:1px solid var(--border-strong,var(--border));border-radius:var(--radius);font-size:14px;font-weight:400;line-height:1.45;text-decoration:none;white-space:normal}

@@ -18,7 +18,16 @@ export function applyTerms(root,terms,ids){
    const match=allowed.filter(t=>!used.has(t.id)).map(t=>({t,i:wordIndex(remaining,t.term)}))
     .filter(m=>m.i>=0).sort((a,b)=>a.i-b.i)[0];
    if(!match){fragment.append(remaining);break;}
-   fragment.append(remaining.slice(0,match.i));const abbr=document.createElement('abbr');abbr.className='term';abbr.tabIndex=0;abbr.title=match.t.definition;abbr.setAttribute('aria-label',match.t.term+': '+match.t.definition);
+   fragment.append(remaining.slice(0,match.i));const abbr=document.createElement('abbr');abbr.className='term';abbr.tabIndex=0;abbr.dataset.definition=match.t.definition;abbr.setAttribute('aria-label',match.t.term+': '+match.t.definition);
+   const position = () => {
+    const rect = abbr.getBoundingClientRect();
+    const width = Math.min(300, innerWidth * .8);
+    const left = Math.max(8 - rect.left, Math.min(0, innerWidth - 8 - rect.left - width));
+    abbr.style.setProperty('--tooltip-left', left + 'px');
+   };
+   abbr.addEventListener('mouseenter', position);
+   abbr.addEventListener('focus', position);
+   abbr.addEventListener('click', () => abbr.focus());
    abbr.textContent=remaining.slice(match.i,match.i+match.t.term.length);fragment.append(abbr);
    remaining=remaining.slice(match.i+match.t.term.length);used.add(match.t.id);changed=true;
   }
