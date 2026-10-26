@@ -20,7 +20,12 @@ export function lessonRoutes(db,c) {
    return {...publicQuestion(b),hint:b.hint,...(a?{feedback:{is_correct:!!a.is_correct,explanation:b.explanation||b.reveal,answer:b.answer}}:{})};
   });
   const topic = c.topics.find(t => t.id === l.topic);
-  res.json({...l,topic_title:topic.title,position:topic.lessons.indexOf(l)+1,
+  const lastRequired = topic.lessons.filter(x => !x.optional).at(-1);
+  const topicExam = topic.exam && lastRequired?.id === l.id ? {
+    id: topic.exam,
+    passed: !!db.prepare('SELECT 1 FROM exam_attempts WHERE exam_id=? AND passed=1').get(topic.exam)
+  } : null;
+  res.json({...l,topic_exam:topicExam,topic_title:topic.title,position:topic.lessons.indexOf(l)+1,
    topic_count:topic.lessons.length,body:undefined,file:undefined,blocks,progress:progress(db,l.id),
    answers:answers.map(a=>({...a,answer:JSON.parse(a.answer_json)})),note:db.prepare('SELECT text FROM notes WHERE lesson_id=?').get(l.id)?.text||'',
    previous:c.lessons[l.index-1]?.id,next:c.lessons[l.index+1]?.id,

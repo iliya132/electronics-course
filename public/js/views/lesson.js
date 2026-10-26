@@ -34,6 +34,11 @@ export async function lesson(root,id){
  root.append(el('section',{class:'note'},[el('h2',{text:'Моя заметка'}),note,noteState]));
  complete.onclick=act(async()=>{await api('/lessons/'+id+'/complete','POST',{});complete.textContent='✓ Урок завершён';toast('Урок завершён. Карточки добавлены в повторение.');document.dispatchEvent(new Event('course:update'));});
  const actions=el('div',{class:'lesson-actions'},[remaining,el('div',{class:'row wrap'},[complete])]);
+ if (l.topic_exam && !l.topic_exam.passed) {
+  actions.lastChild.append(el('a', {
+    class: 'button', href: '#/exam/' + l.topic_exam.id, text: 'Экзамен темы →'
+  }));
+ }
  if(l.next)actions.lastChild.append(el('a',{class:'button',href:'#/lesson/'+l.next,text:'Следующий урок →'}));
  if(l.previous)actions.append(el('p',{},[el('a',{href:'#/lesson/'+l.previous,text:'← Предыдущий урок'})]));
  root.append(actions);update();

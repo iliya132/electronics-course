@@ -139,3 +139,21 @@ test('Старт возобновляет экзамен до сдачи, пос
   const next = (await api.post('/api/exams/exam-basics/start').expect(200)).body;
   assert.notEqual(next.attemptId, first.attemptId);
 });
+
+test('Продолжение предпочитает обязательный урок, последний ведёт к экзамену', async t => {
+  const {db} = fixture(t);
+  const c = loadContent();
+  const api = request(createApp(db, c));
+  c.lessons[0].optional = true;
+  assert.equal((await api.get('/api/course').expect(200)).body.next.id, c.lessons[1].id);
+  await api.post('/api/lessons/' + c.lessons[0].id + '/open').expect(200);
+  assert.equal((await api.get('/api/course').expect(200)).body.next.id, c.lessons[0].id);
+  const topic = c.topics[0];
+  const last = topic.lessons.filter(l => !l.optional).at(-1);
+  const info = (await api.get('/api/lessons/' + last.id)).body;
+  assert.deepEqual(info.topic_exam, {id: topic.exam, passed: false});
+  assert.equal(info.position, topic.lessons.indexOf(last) + 1);
+  assert.equal(info.topic_title, topic.title);
+  assert.equal(info.topic_count, topic.lessons.length);
+  assert.equal((await api.get('/api/lessons/' + c.lessons[0].id)).body.topic_exam, null);
+});
