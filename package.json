@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "dev": "node --watch server/index.js",
+    "dev": "node --watch --watch-path=./server --watch-path=./content server/index.js",
     "validate": "node scripts/validate-content.js",
     "figures": "node scripts/figures.js",
     "test": "node --test test/*.test.js"
