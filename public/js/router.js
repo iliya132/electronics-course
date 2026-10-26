@@ -1,3 +1,4 @@
+import {esc} from './dom.js';
 const routes=new Map();let cleanup=null,revision=0;
 export function route(name,render){routes.set(name,render);}
 export async function navigate(){
@@ -16,7 +17,10 @@ export async function navigate(){
   document.querySelectorAll('.topbar nav a').forEach(a=>a.classList.toggle('active',a.hash==='#/'+name));
   document.dispatchEvent(new Event('course:update'));
   document.dispatchEvent(new Event('route:ready'));
- }catch(e){main.textContent=e.message;}
+ } catch (e) {
+  if (version !== revision) return;
+  main.innerHTML = '<p>' + esc(e.message) + '</p><p><a href="#/">← К курсу</a></p>';
+ }
 }
 export function startRouter(){window.addEventListener('hashchange',navigate);navigate();}
 

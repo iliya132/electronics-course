@@ -14,7 +14,18 @@ export async function lesson(root,id){
  const remaining=el('p',{class:'muted','aria-live':'polite'});
  const update=()=>{const n=required.filter(id=>!answered.has(id)).length;complete.hidden=n>0;remaining.textContent=n?'Осталось ответить: '+n:'';};
  const disposers=[];
- for(const b of l.blocks)await renderBlock(article,b,{lessonId:id,answers:l.answers,disposers,onAnswered:key=>{answered.add(key);update();}});
+ for (const b of l.blocks) {
+  try {
+    await renderBlock(article, b, {
+      lessonId: id, answers: l.answers, disposers,
+      onAnswered: key => { answered.add(key); update(); }
+    });
+  } catch (e) {
+    article.append(el('aside', {
+      class: 'callout warning', text: 'Не удалось показать блок «' + b.type + '»: ' + e.message
+    }));
+  }
+ }
  applyTerms(article,terms,l.glossary);
  const note=el('textarea',{'aria-label':'Моя заметка',placeholder:'Запиши, что было важным или осталось непонятным.'});note.value=l.note;
  const noteState=el('small',{'aria-live':'polite'});let noteTimer,dirty=false;
