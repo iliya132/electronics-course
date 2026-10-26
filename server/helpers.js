@@ -23,3 +23,5 @@ export function lessonSummary(db,l) {
  return {id,title,icon,summary,minutes,level,optional,kind,topic,...progress(db,id)};
 }
 
+
+export const dayKey = (date = new Date()) => new Intl.DateTimeFormat('sv-SE').format(date);

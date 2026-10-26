@@ -1,3 +1,4 @@
+import {dayKey} from './helpers.js';
 import Database from 'better-sqlite3';
 import { mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
@@ -37,7 +38,7 @@ export function openDb(path = 'data/app.sqlite') {
 }
 export function recordActivity(db, field, amount = 1, date = new Date()) {
   if (!['lessons_done','cards_reviewed','minutes'].includes(field)) throw Error('Поле активности');
-  const day = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Moscow' }).format(date);
+  const day = dayKey(date);
   db.prepare('INSERT OR IGNORE INTO activity(day) VALUES (?)').run(day);
   db.prepare(`UPDATE activity SET ${field} = ${field} + ? WHERE day = ?`).run(amount, day);
 }

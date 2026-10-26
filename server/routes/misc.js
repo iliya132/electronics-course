@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { check } from '../helpers.js';
+import { check,dayKey } from '../helpers.js';
 import { tables,exportProgress,importProgress } from '../backup.js';
 export function miscRoutes(db,c){
  const r=Router();
@@ -19,12 +19,12 @@ export function miscRoutes(db,c){
  });
  r.get('/stats',(_,res)=>{
   const activity=db.prepare('SELECT * FROM activity ORDER BY day DESC').all();
-  const now=new Date(),fmt=d=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Moscow'}).format(d);
+  const now=new Date(),fmt=dayKey;
   let day=new Date(now),streak=0;
   const active=new Set(activity.filter(a=>a.lessons_done||a.cards_reviewed||a.minutes>0).map(a=>a.day));
-  if(!active.has(fmt(day)))day.setUTCDate(day.getUTCDate()-1);
-  while(active.has(fmt(day))){streak++;day.setUTCDate(day.getUTCDate()-1);}
-  const week=new Date(now);week.setUTCDate(week.getUTCDate()-6);
+  if(!active.has(fmt(day)))day.setDate(day.getDate()-1);
+  while(active.has(fmt(day))){streak++;day.setDate(day.getDate()-1);}
+  const week=new Date(now);week.setDate(week.getDate()-6);
   const attempts=db.prepare('SELECT exam_id,MAX(score_percent) best FROM exam_attempts WHERE finished_at IS NOT NULL GROUP BY exam_id').all();
   res.json({streak,minutes_week:Math.round(activity.filter(a=>a.day>=fmt(week)).reduce((n,a)=>n+a.minutes,0)),
    minutes:Math.round(activity.reduce((n,a)=>n+a.minutes,0)),lessons:db.prepare("SELECT COUNT(*) n FROM lesson_progress WHERE status='completed'").get().n,
