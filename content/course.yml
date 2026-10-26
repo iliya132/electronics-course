@@ -12,6 +12,7 @@ topics:
   - 10-transistors
   - 11-analog
   - 12-digital
+  - 13-mcu
 final_exam:
   id: final
   questions_per_attempt: 30
