@@ -41,7 +41,7 @@ figure{margin:32px 0;padding:16px 0}figure svg{width:100%;display:block}figcapti
 @media(prefers-reduced-motion:reduce){.charge-dot{animation:none}}
 
 .term{position:relative}
-.term:hover::after,.term:focus::after{content:attr(data-definition);position:absolute;left:var(--tooltip-left,0px);top:100%;z-index:30;width:max-content;max-width:min(300px,80vw);padding:10px 12px;margin-top:6px;background:var(--surface);color:var(--text);border:1px solid var(--border-strong,var(--border));border-radius:var(--radius);font-size:14px;font-weight:400;line-height:1.45;text-decoration:none;white-space:normal}
+.term:hover::after,.term:focus::after{content:attr(data-definition);box-sizing:border-box;position:absolute;left:var(--tooltip-left,0px);top:100%;z-index:30;width:max-content;max-width:min(300px,80vw);padding:10px 12px;margin-top:6px;background:var(--surface);color:var(--text);border:1px solid var(--border-strong,var(--border));border-radius:var(--radius);font-size:14px;font-weight:400;line-height:1.45;text-decoration:none;white-space:normal}
 
 .callout.fact,.callout.board{border-color:var(--muted)}
 .callout.safety>strong::before{content:'';display:inline-block;width:18px;height:18px;margin-right:8px;vertical-align:-3px;background:var(--bad);-webkit-mask:url(/icons/triangle-alert.svg) center/contain no-repeat;mask:url(/icons/triangle-alert.svg) center/contain no-repeat}
