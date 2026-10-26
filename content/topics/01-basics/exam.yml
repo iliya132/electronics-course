@@ -3,241 +3,432 @@ topic: basics
 pass_percent: 70
 questions_per_attempt: 10
 questions:
-  - id: basics-exam-001
-    lesson: charge-current
-    difficulty: 1
-    type: numeric
-    question: При постоянном токе 0.1 А за 60 с какой заряд пересечёт провод?
-    answer: 6
-    explanation: Q = I·t = 0.1 × 60 = 6 Кл.
-    unit: Кл
-  - id: basics-exam-002
-    lesson: charge-current
-    difficulty: 1
-    type: numeric
-    question: При постоянном токе 0.25 А за 8 с какой заряд пересечёт провод?
+  - type: single
+    question: При разборе задачи «Заряд и ток» какой вывод обоснован?
+    options:
+      - Ампер-час является единицей напряжения
+      - Электроны превращаются в свет и исчезают
+      - Ток характеризует перенос заряда за время.
     answer: 2
-    explanation: Q = I·t = 0.25 × 8 = 2 Кл.
-    unit: Кл
-  - id: basics-exam-003
-    lesson: charge-current
-    difficulty: 2
-    type: numeric
-    question: При постоянном токе 0.5 А за 12 с какой заряд пересечёт провод?
-    answer: 6
-    explanation: Q = I·t = 0.5 × 12 = 6 Кл.
-    unit: Кл
-  - id: basics-exam-004
-    lesson: charge-current
-    difficulty: 2
-    type: numeric
-    question: При постоянном токе 0.02 А за 100 с какой заряд пересечёт провод?
-    answer: 2
-    explanation: Q = I·t = 0.02 × 100 = 2 Кл.
-    unit: Кл
-  - id: basics-exam-005
-    lesson: charge-current
-    difficulty: 3
-    type: numeric
-    question: При постоянном токе 2 А за 15 с какой заряд пересечёт провод?
-    answer: 30
-    explanation: Q = I·t = 2 × 15 = 30 Кл.
-    unit: Кл
-  - id: basics-exam-006
-    lesson: charge-current
-    difficulty: 1
-    type: numeric
-    question: Оцени время работы источника 1800 мА·ч с током 90 мА без потерь.
-    answer: 20
-    explanation: t = C/I = 1800/90 = 20 ч.
-    unit: ч
-  - id: basics-exam-007
-    lesson: charge-current
-    difficulty: 1
-    type: numeric
-    question: Оцени время работы источника 1000 мА·ч с током 50 мА без потерь.
-    answer: 20
-    explanation: t = C/I = 1000/50 = 20 ч.
-    unit: ч
-  - id: basics-exam-008
-    lesson: charge-current
-    difficulty: 2
-    type: numeric
-    question: Оцени время работы источника 2100 мА·ч с током 300 мА без потерь.
-    answer: 7
-    explanation: t = C/I = 2100/300 = 7 ч.
-    unit: ч
-  - id: basics-exam-009
-    lesson: charge-current
-    difficulty: 2
-    type: numeric
-    question: Оцени время работы источника 1200 мА·ч с током 80 мА без потерь.
-    answer: 15
-    explanation: t = C/I = 1200/80 = 15 ч.
-    unit: ч
-  - id: basics-exam-010
-    lesson: charge-current
-    difficulty: 3
-    type: numeric
-    question: Оцени время работы источника 3000 мА·ч с током 120 мА без потерь.
-    answer: 25
-    explanation: t = C/I = 3000/120 = 25 ч.
-    unit: ч
-  - id: basics-exam-011
-    lesson: voltage
-    difficulty: 1
-    type: numeric
-    question: Потенциал красного щупа 7 В, чёрного 2 В относительно GND. Что покажет прибор?
-    answer: 5
-    explanation: U = φкрасного − φчёрного = 7 − 2 = 5 В.
-    unit: В
-  - id: basics-exam-012
-    lesson: voltage
-    difficulty: 1
-    type: numeric
-    question: Потенциал красного щупа 12 В, чёрного 9 В относительно GND. Что покажет прибор?
-    answer: 3
-    explanation: U = φкрасного − φчёрного = 12 − 9 = 3 В.
-    unit: В
-  - id: basics-exam-013
-    lesson: voltage
-    difficulty: 2
-    type: numeric
-    question: Потенциал красного щупа 2 В, чёрного 6 В относительно GND. Что покажет прибор?
-    answer: -4
-    explanation: U = φкрасного − φчёрного = 2 − 6 = -4 В.
-    unit: В
-  - id: basics-exam-014
-    lesson: voltage
-    difficulty: 2
-    type: numeric
-    question: Потенциал красного щупа 0 В, чёрного 3 В относительно GND. Что покажет прибор?
-    answer: -3
-    explanation: U = φкрасного − φчёрного = 0 − 3 = -3 В.
-    unit: В
-  - id: basics-exam-015
-    lesson: voltage
-    difficulty: 3
-    type: numeric
-    question: Потенциал красного щупа 6 В, чёрного 1 В относительно GND. Что покажет прибор?
-    answer: 5
-    explanation: U = φкрасного − φчёрного = 6 − 1 = 5 В.
-    unit: В
-  - id: basics-exam-016
-    lesson: voltage
-    difficulty: 1
-    type: numeric
-    question: Работа при переносе 3 Кл равна 18 Дж. Определи разность потенциалов.
-    answer: 6
-    explanation: U = W/Q = 18/3 = 6 В.
-    unit: В
-  - id: basics-exam-017
-    lesson: voltage
-    difficulty: 1
-    type: numeric
-    question: Работа при переносе 4 Кл равна 20 Дж. Определи разность потенциалов.
-    answer: 5
-    explanation: U = W/Q = 20/4 = 5 В.
-    unit: В
-  - id: basics-exam-018
-    lesson: voltage
-    difficulty: 2
-    type: numeric
-    question: Работа при переносе 5 Кл равна 15 Дж. Определи разность потенциалов.
-    answer: 3
-    explanation: U = W/Q = 15/5 = 3 В.
-    unit: В
-  - id: basics-exam-019
-    lesson: voltage
-    difficulty: 2
-    type: numeric
-    question: Работа при переносе 2 Кл равна 30 Дж. Определи разность потенциалов.
-    answer: 15
-    explanation: U = W/Q = 30/2 = 15 В.
-    unit: В
-  - id: basics-exam-020
-    lesson: voltage
-    difficulty: 3
-    type: numeric
-    question: Работа при переносе 8 Кл равна 24 Дж. Определи разность потенциалов.
-    answer: 3
-    explanation: U = W/Q = 24/8 = 3 В.
-    unit: В
-  - id: basics-exam-021
-    lesson: charge-current
-    difficulty: 1
-    type: single
-    question: Какое изменение при неизменном токе удвоит прошедший заряд?
-    answer: 0
+    hint: >-
+      Сравни одинаковые нагрузки при разных доступных ёмкостях. Для постоянного тока время оценивают
+      отношением ёмкости к току.
     explanation: >-
-      Q = I·t: при постоянном I заряд пропорционален времени. Перестановка щупов и смена единиц
-      заряд не увеличивают.
-    options:
-      - Удвоить время
-      - Поменять щупы
-      - Записать ток в миллиамперах
-  - id: basics-exam-022
+      Ток характеризует перенос заряда за время. Фонарик расходует энергию источника. Заряд уже есть
+      в проводниках; сила тока показывает скорость его переноса через сечение. Ошибочные варианты:
+      Ампер-час является единицей напряжения; Электроны превращаются в свет и исчезают. Они не
+      учитывают описанный принцип.
+    id: basics-charge-current-0
     lesson: charge-current
     difficulty: 1
-    type: multi
-    question: Какие записи соответствуют определению тока?
-    answer:
-      - 0
-      - 2
-    explanation: I = Q/t, поэтому 1 А = 1 Кл/с. Ампер-час является зарядом, не током.
-    options:
-      - I = Q/t
-      - А·ч — единица тока
-      - 1 А = 1 Кл/с
-  - id: basics-exam-023
-    lesson: voltage
+  - type: numeric
+    question: Доступная ёмкость уже с учётом потерь 1700 мА·ч, постоянный ток 50 мА. Оцени время.
+    answer: 34
+    unit: ч
+    tolerance_percent: 1
+    hint: >-
+      t = Cдоступная/I. Для преобразователя сначала считают баланс энергии и собственное
+      потребление.
+    explanation: 1700/50 = 34 ч.
+    id: basics-charge-current-1
+    lesson: charge-current
+    difficulty: 1
+  - type: numeric
+    question: Доступная ёмкость уже с учётом потерь 1800 мА·ч, постоянный ток 50 мА. Оцени время.
+    answer: 36
+    unit: ч
+    tolerance_percent: 1
+    hint: >-
+      t = Cдоступная/I. Для преобразователя сначала считают баланс энергии и собственное
+      потребление.
+    explanation: 1800/50 = 36 ч.
+    id: basics-charge-current-2
+    lesson: charge-current
     difficulty: 2
-    type: single
-    question: Как измерить напряжение между двумя выводами резистора?
+  - type: numeric
+    question: Доступная ёмкость уже с учётом потерь 1900 мА·ч, постоянный ток 50 мА. Оцени время.
+    answer: 38
+    unit: ч
+    tolerance_percent: 1
+    hint: >-
+      t = Cдоступная/I. Для преобразователя сначала считают баланс энергии и собственное
+      потребление.
+    explanation: 1900/50 = 38 ч.
+    id: basics-charge-current-3
+    lesson: charge-current
+    difficulty: 2
+  - type: numeric
+    question: Доступная ёмкость уже с учётом потерь 2000 мА·ч, постоянный ток 50 мА. Оцени время.
+    answer: 40
+    unit: ч
+    tolerance_percent: 1
+    hint: >-
+      t = Cдоступная/I. Для преобразователя сначала считают баланс энергии и собственное
+      потребление.
+    explanation: 2000/50 = 40 ч.
+    id: basics-charge-current-4
+    lesson: charge-current
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Напряжение» какой вывод обоснован?
+    options:
+      - GND всегда является заземлением здания
+      - Напряжение измеряется между двумя точками.
+      - Один щуп всегда достаточен для измерения
     answer: 1
+    hint: >-
+      Подключай вольтметр параллельно участку и выбирай гнездо V. Токовое гнездо для такого
+      подключения недопустимо.
     explanation: >-
-      Вольтметр подключают параллельно участку. Включение в разрыв относится к амперметру; один щуп
-      не задаёт разность.
-    options:
-      - Включить V-метр в разрыв
-      - Коснуться щупами обоих выводов в режиме V
-      - Подключить только красный щуп
-  - id: basics-exam-024
-    lesson: voltage
-    difficulty: 2
-    type: multi
-    question: Что справедливо для обозначения GND на батарейном устройстве?
-    answer:
-      - 0
-      - 1
-    explanation: GND задаёт ноль отсчёта и часто общий возврат. Связи с землёй здания может не быть.
-    options:
-      - Это выбранная точка отсчёта
-      - Часто это общий провод
-      - Всегда соединено с землёй здания
-  - id: basics-exam-025
-    lesson: charge-current
-    difficulty: 3
-    type: single
-    question: Провод при исправной работе не расходуется, потому что…
-    answer: 2
-    explanation: >-
-      Носители заряда уже находятся в металле и движутся в цепи. Металл не сгорает при нормальном
-      токе.
-    options:
-      - Заряд не движется
-      - Батарея постоянно восстанавливает металл
-      - Носители заряда движутся в существующем проводнике
-  - id: basics-exam-026
+      Напряжение измеряется между двумя точками. Вольтметру нужны два щупа. Напряжение является
+      разностью потенциалов двух точек, а знак зависит от порядка вычитания. Ошибочные варианты:
+      Один щуп всегда достаточен для измерения; GND всегда является заземлением здания. Они не
+      учитывают описанный принцип.
+    id: basics-voltage-0
     lesson: voltage
     difficulty: 1
-    type: single
-    question: При нулевой разности потенциалов двух щупов исправный вольтметр покажет…
-    answer: 0
-    explanation: >-
-      Показание определяется разностью потенциалов. Наличие батареи поблизости не меняет равенство
-      потенциалов щупов.
+  - type: numeric
+    question: >-
+      Ненагруженный делитель: Uвх = 5 В, R1 сверху = 10 кОм, R2 снизу = 7 кОм. Найди Uвых
+      относительно GND.
+    answer: 2.0588235294117645
+    unit: В
+    tolerance_percent: 1
+    hint: Uвых = Uвх·R2/(R1+R2); одинаковые приставки сопротивлений сокращаются. 1 кОм = 1000 Ом.
+    explanation: 5 × 7/(10+7) = 2,05882 В.
+    id: basics-voltage-1
+    lesson: voltage
+    difficulty: 1
+  - type: numeric
+    question: >-
+      Ненагруженный делитель: Uвх = 5 В, R1 сверху = 10 кОм, R2 снизу = 8 кОм. Найди Uвых
+      относительно GND.
+    answer: 2.2222222222222223
+    unit: В
+    tolerance_percent: 1
+    hint: Uвых = Uвх·R2/(R1+R2); одинаковые приставки сопротивлений сокращаются. 1 кОм = 1000 Ом.
+    explanation: 5 × 8/(10+8) = 2,22222 В.
+    id: basics-voltage-2
+    lesson: voltage
+    difficulty: 2
+  - type: numeric
+    question: >-
+      Ненагруженный делитель: Uвх = 5 В, R1 сверху = 10 кОм, R2 снизу = 9 кОм. Найди Uвых
+      относительно GND.
+    answer: 2.3684210526315788
+    unit: В
+    tolerance_percent: 1
+    hint: Uвых = Uвх·R2/(R1+R2); одинаковые приставки сопротивлений сокращаются. 1 кОм = 1000 Ом.
+    explanation: 5 × 9/(10+9) = 2,36842 В.
+    id: basics-voltage-3
+    lesson: voltage
+    difficulty: 2
+  - type: numeric
+    question: >-
+      Ненагруженный делитель: Uвх = 5 В, R1 сверху = 10 кОм, R2 снизу = 10 кОм. Найди Uвых
+      относительно GND.
+    answer: 2.5
+    unit: В
+    tolerance_percent: 1
+    hint: Uвых = Uвх·R2/(R1+R2); одинаковые приставки сопротивлений сокращаются. 1 кОм = 1000 Ом.
+    explanation: 5 × 10/(10+10) = 2,5 В.
+    id: basics-voltage-4
+    lesson: voltage
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Сопротивление» какой вывод обоснован?
     options:
-      - 0 В
-      - Напряжение всей батареи
-      - Бесконечное напряжение
+      - При прочих равных сопротивление растёт с длиной и уменьшается с сечением.
+      - Удвоение сечения удваивает сопротивление
+      - Сопротивление провода не зависит от длины
+    answer: 0
+    hint: >-
+      Измеряй сопротивление только при снятом питании. Вычти сопротивление щупов при измерении малых
+      значений. Для кабеля туда и обратно учитывай длину обоих проводников.
+    explanation: >-
+      При прочих равных сопротивление растёт с длиной и уменьшается с сечением. Длинный тонкий
+      провод может заметно греться. Сопротивление описывает ограничение тока; оно зависит от
+      материала, длины, сечения и температуры. Проводники имеют много подвижных носителей, изоляторы
+      — мало; в полупроводнике проводимость сильно зависит от примесей и условий. Ошибочные
+      варианты: Удвоение сечения удваивает сопротивление; Сопротивление провода не зависит от длины.
+      Они не учитывают описанный принцип.
+    id: basics-resistance-0
+    lesson: resistance
+    difficulty: 1
+  - type: numeric
+    question: 'Медный провод: ρ = 0,0175 Ом·мм²/м, длина 14 м, сечение 0.5 мм². Найди R (одного проводника).'
+    answer: 0.49000000000000005
+    unit: Ом
+    tolerance_percent: 1
+    hint: R = ρL/S; ρ — удельное сопротивление в Ом·мм²/м, L — длина в м, S — сечение в мм².
+    explanation: 0,0175 × 14 / 0,5 = 0,49 Ом.
+    id: basics-resistance-1
+    lesson: resistance
+    difficulty: 1
+  - type: numeric
+    question: 'Медный провод: ρ = 0,0175 Ом·мм²/м, длина 16 м, сечение 0.5 мм². Найди R (одного проводника).'
+    answer: 0.56
+    unit: Ом
+    tolerance_percent: 1
+    hint: R = ρL/S; ρ — удельное сопротивление в Ом·мм²/м, L — длина в м, S — сечение в мм².
+    explanation: 0,0175 × 16 / 0,5 = 0,56 Ом.
+    id: basics-resistance-2
+    lesson: resistance
+    difficulty: 2
+  - type: numeric
+    question: 'Медный провод: ρ = 0,0175 Ом·мм²/м, длина 18 м, сечение 0.5 мм². Найди R (одного проводника).'
+    answer: 0.6300000000000001
+    unit: Ом
+    tolerance_percent: 1
+    hint: R = ρL/S; ρ — удельное сопротивление в Ом·мм²/м, L — длина в м, S — сечение в мм².
+    explanation: 0,0175 × 18 / 0,5 = 0,63 Ом.
+    id: basics-resistance-3
+    lesson: resistance
+    difficulty: 2
+  - type: numeric
+    question: 'Медный провод: ρ = 0,0175 Ом·мм²/м, длина 20 м, сечение 0.5 мм². Найди R (одного проводника).'
+    answer: 0.7000000000000001
+    unit: Ом
+    tolerance_percent: 1
+    hint: R = ρL/S; ρ — удельное сопротивление в Ом·мм²/м, L — длина в м, S — сечение в мм².
+    explanation: 0,0175 × 20 / 0,5 = 0,7 Ом.
+    id: basics-resistance-4
+    lesson: resistance
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Закон Ома» какой вывод обоснован?
+    options:
+      - При большем сопротивлении ток всегда больше
+      - Закон Ома с постоянным R точно описывает любой диод
+      - При неизменном напряжении удвоение сопротивления уменьшает ток вдвое.
+    answer: 2
+    hint: >-
+      Посчитай ток до сборки, затем измерь напряжение на известном резисторе и вычисли I. Не
+      переноси линейную модель на диод без проверки.
+    explanation: >-
+      При неизменном напряжении удвоение сопротивления уменьшает ток вдвое. Замена резистора меняет
+      яркость индикатора. Для омического резистора ток пропорционален напряжению и обратно
+      пропорционален сопротивлению. Из I=U/R получают U=IR и R=U/I. Прямая ВАХ проходит через начало
+      координат; её наклон равен проводимости 1/R. Ошибочные варианты: При большем сопротивлении ток
+      всегда больше; Закон Ома с постоянным R точно описывает любой диод. Они не учитывают описанный
+      принцип.
+    id: basics-ohm-law-0
+    lesson: ohm-law
+    difficulty: 1
+  - type: numeric
+    question: U = 9 В, R = 700 Ом. Найди ток в миллиамперах.
+    answer: 12.857142857142858
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 9/700 × 1000 = 12,8571 мА.
+    id: basics-ohm-law-1
+    lesson: ohm-law
+    difficulty: 1
+  - type: numeric
+    question: U = 10 В, R = 800 Ом. Найди ток в миллиамперах.
+    answer: 12.5
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 10/800 × 1000 = 12,5 мА.
+    id: basics-ohm-law-2
+    lesson: ohm-law
+    difficulty: 2
+  - type: numeric
+    question: U = 11 В, R = 900 Ом. Найди ток в миллиамперах.
+    answer: 12.222222222222223
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 11/900 × 1000 = 12,2222 мА.
+    id: basics-ohm-law-3
+    lesson: ohm-law
+    difficulty: 2
+  - type: numeric
+    question: U = 12 В, R = 1000 Ом. Найди ток в миллиамперах.
+    answer: 12
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 12/1000 × 1000 = 12 мА.
+    id: basics-ohm-law-4
+    lesson: ohm-law
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Мощность и энергия» какой вывод обоснован?
+    options:
+      - Любой резистор выдержит мощность при правильном номинале
+      - Одинаковое сопротивление не означает одинаковую допустимую мощность.
+      - Ватт и ватт-час измеряют одну величину
+    answer: 1
+    hint: >-
+      Проверь мощность резистора и запас по нагреву. Для аккумулятора оцени энергию по среднему
+      напряжению, а не только по ампер-часам.
+    explanation: >-
+      Одинаковое сопротивление не означает одинаковую допустимую мощность. Маленький резистор может
+      сгореть даже при правильном сопротивлении. Мощность — скорость преобразования энергии, а
+      энергия — накопленное количество. При постоянном режиме E=Pt; один ватт-час равен 3600
+      джоулям. Для резистора P=UI=I²R=U²/R. Ошибочные варианты: Ватт и ватт-час измеряют одну
+      величину; Любой резистор выдержит мощность при правильном номинале. Они не учитывают описанный
+      принцип.
+    id: basics-power-energy-0
+    lesson: power-energy
+    difficulty: 1
+  - type: numeric
+    question: На нагрузке 5 В, ток 0,14 А. Найди мощность.
+    answer: 0.7000000000000001
+    unit: Вт
+    tolerance_percent: 1
+    hint: P = UI; P — мощность в Вт, U — напряжение в В, I — ток в А.
+    explanation: 5 × 0,14 = 0,7 Вт.
+    id: basics-power-energy-1
+    lesson: power-energy
+    difficulty: 1
+  - type: numeric
+    question: На нагрузке 5 В, ток 0,16 А. Найди мощность.
+    answer: 0.8
+    unit: Вт
+    tolerance_percent: 1
+    hint: P = UI; P — мощность в Вт, U — напряжение в В, I — ток в А.
+    explanation: 5 × 0,16 = 0,8 Вт.
+    id: basics-power-energy-2
+    lesson: power-energy
+    difficulty: 2
+  - type: numeric
+    question: На нагрузке 5 В, ток 0,18 А. Найди мощность.
+    answer: 0.8999999999999999
+    unit: Вт
+    tolerance_percent: 1
+    hint: P = UI; P — мощность в Вт, U — напряжение в В, I — ток в А.
+    explanation: 5 × 0,18 = 0,9 Вт.
+    id: basics-power-energy-3
+    lesson: power-energy
+    difficulty: 2
+  - type: numeric
+    question: На нагрузке 5 В, ток 0,2 А. Найди мощность.
+    answer: 1
+    unit: Вт
+    tolerance_percent: 1
+    hint: P = UI; P — мощность в Вт, U — напряжение в В, I — ток в А.
+    explanation: 5 × 0,2 = 1 Вт.
+    id: basics-power-energy-4
+    lesson: power-energy
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Единицы СИ и приставки» какой вывод обоснован?
+    options:
+      - Приставка меняет масштаб единицы, а не физическую величину.
+      - м и М обозначают одинаковый множитель
+      - 4,7 кОм равны 4,7 Ом
+    answer: 0
+    hint: >-
+      Перед подстановкой переведи величины в согласованные единицы. После расчёта оцени порядок: ток
+      светодиода обычно выражают в миллиамперах, а не десятках ампер.
+    explanation: >-
+      Приставка меняет масштаб единицы, а не физическую величину. Ошибку в тысячу раз часто создаёт
+      одна буква. Милли — 10⁻³, микро — 10⁻⁶, нано — 10⁻⁹, пико — 10⁻¹², кило — 10³, мега — 10⁶.
+      Инженерная запись использует степени, кратные трём; регистр буквы важен. Ошибочные варианты: м
+      и М обозначают одинаковый множитель; 4,7 кОм равны 4,7 Ом. Они не учитывают описанный принцип.
+    id: basics-units-prefixes-0
+    lesson: units-prefixes
+    difficulty: 1
+  - type: numeric
+    question: Переведи 0,007 А в миллиамперы.
+    answer: 7
+    unit: мА
+    tolerance_percent: 1
+    hint: 1 А = 1000 мА; приставка милли означает 10⁻³.
+    explanation: 0,007 × 1000 = 7 мА.
+    id: basics-units-prefixes-1
+    lesson: units-prefixes
+    difficulty: 1
+  - type: numeric
+    question: Переведи 0,008 А в миллиамперы.
+    answer: 8
+    unit: мА
+    tolerance_percent: 1
+    hint: 1 А = 1000 мА; приставка милли означает 10⁻³.
+    explanation: 0,008 × 1000 = 8 мА.
+    id: basics-units-prefixes-2
+    lesson: units-prefixes
+    difficulty: 2
+  - type: numeric
+    question: Переведи 0,009 А в миллиамперы.
+    answer: 9.000000000000002
+    unit: мА
+    tolerance_percent: 1
+    hint: 1 А = 1000 мА; приставка милли означает 10⁻³.
+    explanation: 0,009 × 1000 = 9 мА.
+    id: basics-units-prefixes-3
+    lesson: units-prefixes
+    difficulty: 2
+  - type: numeric
+    question: Переведи 0,01 А в миллиамперы.
+    answer: 10
+    unit: мА
+    tolerance_percent: 1
+    hint: 1 А = 1000 мА; приставка милли означает 10⁻³.
+    explanation: 0,01 × 1000 = 10 мА.
+    id: basics-units-prefixes-4
+    lesson: units-prefixes
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Внутреннее сопротивление батарейки» какой вывод обоснован?
+    options:
+      - Внутреннее сопротивление измеряют прямым коротким замыканием
+      - Напряжение без нагрузки полностью характеризует батарейку
+      - Внутреннее сопротивление проявляется просадкой напряжения под нагрузкой.
+    answer: 2
+    hint: >-
+      Запиши напряжение без нагрузки и под нагрузкой сразу после подключения. Используй одну и ту же
+      нагрузку для сравнения батареек.
+    explanation: >-
+      Внутреннее сопротивление проявляется просадкой напряжения под нагрузкой. Старая батарейка
+      показывает нормальное напряжение без нагрузки, но фонарик тусклый. Измерим просадку на
+      известном резисторе и оценим внутреннее сопротивление эквивалентной модели. Ошибочные
+      варианты: Внутреннее сопротивление измеряют прямым коротким замыканием; Напряжение без
+      нагрузки полностью характеризует батарейку. Они не учитывают описанный принцип.
+    id: basics-battery-internal-r-0
+    lesson: battery-internal-r
+    difficulty: 1
+  - type: numeric
+    question: 'AA без нагрузки: 1,5 В. На резисторе 10 Ом: 1,36 В. Оцени внутреннее сопротивление.'
+    answer: 1.0294117647058834
+    unit: Ом
+    tolerance_percent: 1
+    hint: I = U/Rнагрузки; r = (E−U)/I. Напряжения в В, сопротивления в Ом, ток в А.
+    explanation: (1,5−1,36) / (1,36/10) = 1,02941 Ом.
+    id: basics-battery-internal-r-1
+    lesson: battery-internal-r
+    difficulty: 1
+  - type: numeric
+    question: 'AA без нагрузки: 1,5 В. На резисторе 10 Ом: 1,34 В. Оцени внутреннее сопротивление.'
+    answer: 1.1940298507462679
+    unit: Ом
+    tolerance_percent: 1
+    hint: I = U/Rнагрузки; r = (E−U)/I. Напряжения в В, сопротивления в Ом, ток в А.
+    explanation: (1,5−1,34) / (1,34/10) = 1,19403 Ом.
+    id: basics-battery-internal-r-2
+    lesson: battery-internal-r
+    difficulty: 2
+  - type: numeric
+    question: 'AA без нагрузки: 1,5 В. На резисторе 10 Ом: 1,32 В. Оцени внутреннее сопротивление.'
+    answer: 1.363636363636363
+    unit: Ом
+    tolerance_percent: 1
+    hint: I = U/Rнагрузки; r = (E−U)/I. Напряжения в В, сопротивления в Ом, ток в А.
+    explanation: (1,5−1,32) / (1,32/10) = 1,36364 Ом.
+    id: basics-battery-internal-r-3
+    lesson: battery-internal-r
+    difficulty: 2
+  - type: numeric
+    question: 'AA без нагрузки: 1,5 В. На резисторе 10 Ом: 1,3 В. Оцени внутреннее сопротивление.'
+    answer: 1.538461538461538
+    unit: Ом
+    tolerance_percent: 1
+    hint: I = U/Rнагрузки; r = (E−U)/I. Напряжения в В, сопротивления в Ом, ток в А.
+    explanation: (1,5−1,3) / (1,3/10) = 1,53846 Ом.
+    id: basics-battery-internal-r-4
+    lesson: battery-internal-r
+    difficulty: 3
