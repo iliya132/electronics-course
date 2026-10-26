@@ -1,5 +1,5 @@
 import {api,act} from '../api.js';
-import {el,esc} from '../dom.js';
+import {el,esc,lessonRow} from '../dom.js';
 export async function review(root){
  const queue=await api('/review/queue');root.className='reading';let index=0;
  const render=()=>{
@@ -34,12 +34,20 @@ export async function search(root){
    (!data.lessons.length&&!data.terms.length?'<p>Ничего не найдено. Попробуй другое слово.</p>':'');
  }),200);};root.append(input,results);return ()=>{clearTimeout(timer);version++;};
 }
-export async function summary(root){
- const [course,stats]=await Promise.all([api('/course'),api('/stats')]);root.className='reading';
- if(!course.final_exam.passed){root.innerHTML='<h1>Итоги пока впереди</h1><p>Итоговый экран откроется после сдачи финального экзамена.</p><a href="#/">Вернуться к курсу</a>';return;}
- root.innerHTML='<p class="eyebrow">Поздравляем с завершением</p><h1>Курс пройден</h1><p>Средний лучший результат: '+stats.average+' %.<br>Завершено уроков: '+stats.lessons+'. Время: '+stats.minutes+' мин.</p><h2>Что стоит повторить</h2>'+
- stats.weak.map(t=>'<p>'+esc(t.title)+' · '+t.best.toFixed(0)+' % <a href="#/exam/'+t.exam_id+'">Повторить</a></p>').join('')+
- '<h2>Что дальше</h2><p>Выбери итоговый проект и доведи устройство от расчёта до проверки.</p><a class="button primary" href="#/topic/capstone">Итоговые проекты →</a>';
+export async function summary(root) {
+  const [course, stats] = await Promise.all([api('/course'), api('/stats')]);
+  root.className = 'reading';
+  if (!course.final_exam.passed) {
+    root.innerHTML = "<h1>Итоги пока впереди</h1><p>Итоговый экран откроется после сдачи финальног" +
+      "о экзамена.</p><a href=\"#/\">Вернуться к курсу</a>";
+    return;
+  }
+  root.innerHTML = "<p class=\"eyebrow\">Поздравляем с завершением</p><h1>Курс пройден</h1><p>Сред" +
+    "ний лучший результат: " + stats.average + ' %.<br>Завершено уроков: ' + stats.lessons + '. Время: ' +
+    stats.minutes + ' мин.</p><h2>Что стоит повторить</h2>' + stats.weak.map(t => '<p>' + esc(t.title) + ' · ' +
+    t.best.toFixed(0) + ' % <a href="#/exam/' + t.exam_id + '">Повторить</a></p>').join('') +
+    ("<h2>Что дальше</h2><p>Выбери итоговый проект и доведи устройство от расчёта " +
+    "до проверки.</p><a class=\"button primary\" href=\"#/topic/capstone\">Итоговые п" + "роекты →</a>");
+  const projects = course.topics.find(t => t.id === 'capstone')?.lessons || [];
+  root.insertAdjacentHTML('beforeend', projects.map(lessonRow).join(''));
 }
-
-

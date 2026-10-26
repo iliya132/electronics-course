@@ -84,3 +84,7 @@ npm test
 
 Технические решения, границы учебных моделей и результаты приёмки: [NOTES.md](NOTES.md), [ACCEPTANCE.md](ACCEPTANCE.md). Первичные источники для сверки компонентов: [SOURCES.md](SOURCES.md).
 
+
+Служебные проверки на отдельных портах:
+- `node scripts/browser-qa.js` — сайт на порту 3003 с тестовой базой `data/browser-qa.sqlite` и завершёнными уроками первой темы, для проверки экзамена.
+- `node scripts/widget-preview.js` — галерея виджетов по адресу `http://localhost:3002/widgets`, для ручной проверки размеров и управления.

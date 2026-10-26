@@ -52,11 +52,13 @@ export async function exam(root, id) {
     }));
   }
 }
-export function showResult(root, r) {
+export async function showResult(root, r) {
+  const history = await api('/exams/' + r.exam_id + '/history');
+  const retryLabel = history.attempts.some(a => a.passed) ? 'Пересдать для улучшения результата' : 'Пересдать';
   root.innerHTML = '<p class="eyebrow">Результат экзамена</p><h1>' + r.score_percent.toFixed(0) + ' % — ' + r.grade +
     '</h1><p>' + (r.passed ? '✓ Сдано' : '✕ Не сдано') + ' · Верно ' + r.correct + ' из ' + r.total +
     '</p><div class="row wrap"><a class="button primary" href="#/exam/' + r.exam_id +
-    '">Пересдать</a><a class="button" href="#/">К курсу</a>' + (r.exam_id === 'final' && r.passed ?
+    '">' + retryLabel + '</a><a class="button" href="#/">К курсу</a>' + (r.exam_id === 'final' && r.passed ?
     '<a class="button" href="#/summary">Итоги курса →</a>' : '') + '</div><h2>Разбор ошибок</h2>';
   const errors = r.detail.filter(q => !q.is_correct);
   if (!errors.length) {
@@ -76,7 +78,7 @@ export async function attempt(root, id) {
   const data = await api('/exams/attempts/' + id);
   root.className = 'reading';
   if (data.finished) {
-    showResult(root, data.result);
+    await showResult(root, data.result);
     return;
   }
   const answers = new Map((data.answers || []).map(a => [a.id, a.answer]));
@@ -206,7 +208,7 @@ export async function attempt(root, id) {
       finish.disabled = true;
       try {
         await saveChain;
-        showResult(root, await api('/exams/attempts/' + id + '/finish', 'POST', {}));
+        await showResult(root, await api('/exams/attempts/' + id + '/finish', 'POST', {}));
       } finally {
         finish.disabled = false;
       }

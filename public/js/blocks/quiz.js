@@ -1,4 +1,4 @@
-import { el,esc } from '../dom.js';
+import { el } from '../dom.js';
 import { api,act } from '../api.js';
 let sequence=0;
 export function answerControls(q,value){
