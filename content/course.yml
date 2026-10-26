@@ -8,6 +8,7 @@ topics:
   - 06-inductors-ac
   - 07-filters
   - 08-diodes
+  - 09-power
 final_exam:
   id: final
   questions_per_attempt: 30
