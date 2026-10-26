@@ -18,6 +18,7 @@ topics:
   - 16-esp32
   - 17-board-design
   - 18-teardown
+  - 19-capstone
 final_exam:
   id: final
   questions_per_attempt: 30
