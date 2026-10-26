@@ -15,6 +15,7 @@ topics:
   - 13-mcu
   - 14-arduino
   - 15-buses
+  - 16-esp32
 final_exam:
   id: final
   questions_per_attempt: 30
