@@ -105,6 +105,6 @@ test('Сайт использует локальные ресурсы и огр�
    const source=readFileSync(join(folder,entry),'utf8').replaceAll('http://www.w3.org/2000/svg','');
    assert.doesNotMatch(source,/https?:\/\/|wss?:\/\//,entry);
   }
-  for(const path of ['/js/app.js','/css/tokens.css','/icons/zap.svg','/figures/ohm-law/concept.svg'])await api.get(path).expect(200);
+  for(const path of ['/js/app.js','/css/tokens.css','/icons/zap.svg','/figures/'+content.lessonById.get('ohm-law').blocks.find(b=>b.type==='figure').file])await api.get(path).expect(200);
  }finally{db.close();}
 });
