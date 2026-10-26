@@ -10,6 +10,7 @@ topics:
   - 08-diodes
   - 09-power
   - 10-transistors
+  - 11-analog
 final_exam:
   id: final
   questions_per_attempt: 30

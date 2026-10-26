@@ -13,7 +13,7 @@ export function extended(key,k){
  case 'bjt':{const ic=n*10,beta=10,v=3.3,vbe=.7;q=`NPN-ключ: Ic = ${ic} мА, принудительный коэффициент Ic/Ib = 10, GPIO = 3,3 В, Vbe = 0,7 В. Найди Rб.`;const ib=ic/1000/beta;a=(v-vbe)/ib;u='Ом';formula='Ib = Ic/βforced; Rб = (Uупр−Vbe)/Ib. βforced = 10 задан моделью насыщения, не типичным hFE.';sub=`(3,3−0,7)/(${ic}/1000/10)`;check=a*ib+vbe-v;break;}
  case 'mosloss':{const i=n*.2,r=.05;q=`Ключ имеет гарантированное Rds(on) = 0,05 Ом при заданном Ugs. Ток ${f(i)} А. Найди статические потери.`;a=i*i*r;u='Вт';formula='Pпроводимости = I²Rds(on); отдельно учитывают переключения, нагрев и зависимость сопротивления от Ugs.';sub=`${f(i)}²×0,05`;check=a/(i*i)-r;break;}
  case 'gain':{const rf=n*10,rg=10;q=`Неинвертирующий ОУ: Rf = ${rf} кОм, Rg = 10 кОм. Найди усиление.`;a=1+rf/rg;u='раз';formula='K = 1+Rf/Rg при отрицательной обратной связи и отсутствии ограничения выхода.';sub=`1+${rf}/10`;check=(a-1)*rg-rf;break;}
- case 'adc':{const bits=8+(k%5),ref=3.3;q=`Идеальный АЦП: ${bits} бит, Uref = 3,3 В. Найди шаг LSB в милливольтах.`;a=ref/2**bits*1000;u='мВ';formula='LSB = Uref/2ⁿ; n — число битов. Код ограничен диапазоном 0…2ⁿ−1.';sub=`3,3/2^${bits}×1000`;check=a/1000*2**bits-ref;break;}
+ case 'adc':{const bits=8+(k%5),ref=2.5+k*.1;q=`Идеальный АЦП: ${bits} бит, Uref = ${f(ref)} В. Найди шаг LSB в милливольтах.`;a=ref/2**bits*1000;u='мВ';formula='LSB = Uref/2ⁿ; n — число битов. Код ограничен диапазоном 0…2ⁿ−1.';sub=`${f(ref)}/2^${bits}×1000`;check=a/1000*2**bits-ref;break;}
  case 'shunt':{const r=.1,i=n*.1;q=`Шунт 0,1 Ом, ток ${f(i)} А. Найди падение напряжения в милливольтах.`;a=i*r*1000;u='мВ';formula='Uш = I·Rш; шунт также рассеивает I²Rш. Милливольт — 10⁻³ В.';sub=`${f(i)}×0,1×1000`;check=a/1000/r-i;break;}
  case 'timer':{const r1=10,r2=n*10,c=10;q=`Астабильный 555: R1 = 10 кОм, R2 = ${r2} кОм, C = 10 мкФ. Найди частоту.`;a=1/Math.log(2)/((r1+2*r2)*1000*c*1e-6);u='Гц';formula='f = 1/[ln(2)·(R1+2R2)·C] ≈ 1,443/[(R1+2R2)C]. Сопротивления в Ом, C в Ф.';sub=`1/[ln(2)×(10000+2×${r2}000)×10×10⁻⁶]`;check=a*Math.log(2)*(r1+2*r2)*1000*c*1e-6-1;break;}
  case 'binary':{const value=16+n;q=`Каково десятичное значение двоичного числа ${value.toString(2)}?`;a=value;u='ед.';formula='Двоичные разряды справа налево имеют веса 1, 2, 4, 8, 16… Значение — сумма весов единичных разрядов.';sub=value.toString(2).split('').reverse().flatMap((b,i)=>b==='1'?[String(2**i)]:[]).join('+');check=parseInt(value.toString(2),2)-a;break;}
@@ -38,4 +38,5 @@ export function extended(key,k){
  assert.ok(Number.isFinite(a)&&Math.abs(check)<1e-7,key+': '+check);
  return pack(q,a,u,formula,sub);
 }
+
 
