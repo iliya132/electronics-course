@@ -1,6 +1,7 @@
 title: 'Электроника: от тока до ESP32'
 topics:
   - 01-basics
+  - 02-circuits
 final_exam:
   id: final
   questions_per_attempt: 30
