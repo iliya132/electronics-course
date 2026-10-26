@@ -4,6 +4,7 @@ topics:
   - 02-circuits
   - 03-passives
   - 04-sources
+  - 05-capacitors
 final_exam:
   id: final
   questions_per_attempt: 30
