@@ -1,7 +1,9 @@
 const routes=new Map();let cleanup=null,revision=0;
 export function route(name,render){routes.set(name,render);}
 export async function navigate(){
- const version=++revision;if(cleanup){cleanup();cleanup=null;}
+ const version=++revision;
+ document.title='Электроника';
+ if(cleanup){cleanup();cleanup=null;}
  document.getElementById('reading-progress').style.width='0';
  const [name='',id]=location.hash.replace(/^#\/?/,'').split('/');
  const main=document.getElementById('main');main.innerHTML='<p class="muted">Загрузка…</p>';
