@@ -3,6 +3,7 @@ topics:
   - 01-basics
   - 02-circuits
   - 03-passives
+  - 04-sources
 final_exam:
   id: final
   questions_per_attempt: 30
