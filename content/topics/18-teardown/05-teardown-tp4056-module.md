@@ -6,12 +6,12 @@ summary: Заряд, аварийная защита ячейки и управ�
 kind: teardown
 optional: false
 level: 3
-minutes: 60
+minutes: 25
 prerequisites:
   - teardown-buck-module
 objectives:
-  - 'Собрать и проверить: TP4056: заряд и защита'
-  - Сопоставить расчёт с измерениями и найти причину отклонения
+  - Находить узлы и объяснять их назначение
+  - Прослеживать питание и управление по схеме
 glossary:
   - charge
   - current
@@ -77,7 +77,7 @@ caption: Rprog(кОм) ≈ 1200/Iзар(мА). Уточни зависимост
 ```quiz
 id: node-0
 type: single
-question: Зачем нужен TP4056 в этой схеме?
+question: Какую функцию выполняет узел «TP4056»?
 options:
   - Управляет зарядом одной Li-ion ячейки по CC/CV
   - Задаёт ток зарядного контроллера
@@ -90,7 +90,7 @@ explanation: Управляет зарядом одной Li-ion ячейки п
 ```quiz
 id: node-1
 type: single
-question: Зачем нужен RPROG в этой схеме?
+question: Какую функцию выполняет узел «RPROG»?
 options:
   - Управляет зарядом одной Li-ion ячейки по CC/CV
   - Показывают состояния зарядника через светодиоды
@@ -105,7 +105,7 @@ explanation: >-
 ```quiz
 id: node-2
 type: single
-question: Зачем нужен CHRG / STDBY в этой схеме?
+question: Какую функцию выполняет узел «CHRG / STDBY»?
 options:
   - Задаёт ток зарядного контроллера
   - Показывают состояния зарядника через светодиоды
@@ -120,7 +120,7 @@ explanation: >-
 ```quiz
 id: node-3
 type: single
-question: Зачем нужен DW01 в этой схеме?
+question: Какую функцию выполняет узел «DW01»?
 options:
   - Контролирует аварийные состояния ячейки
   - Управляет зарядом одной Li-ion ячейки по CC/CV
@@ -133,7 +133,7 @@ explanation: Контролирует аварийные состояния яч
 ```quiz
 id: node-4
 type: single
-question: Зачем нужен Двойной MOSFET в этой схеме?
+question: Какую функцию выполняет узел «Двойной MOSFET»?
 options:
   - Управляет зарядом одной Li-ion ячейки по CC/CV
   - Задаёт ток зарядного контроллера
@@ -148,7 +148,7 @@ explanation: >-
 ```quiz
 id: node-5
 type: single
-question: Зачем нужен B и OUT в этой схеме?
+question: Какую функцию выполняет узел «B и OUT»?
 options:
   - Задаёт ток зарядного контроллера
   - Разделяют подключение ячейки и защищённой нагрузки

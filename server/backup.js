@@ -20,14 +20,17 @@ export function importProgress(db,c,data){
     const e=row.exam_id==='final'?{questions:c.exams.flatMap(e=>e.questions)}:c.examById.get(row.exam_id);
     check(e,'Неизвестный экзамен');
     let refs;try{refs=JSON.parse(row.question_ids_json);}catch{check(false,'Неверный набор вопросов');}
-    check(Array.isArray(refs)&&refs.length>0&&new Set(refs.map(r=>r.id)).size===refs.length,'Неверный набор вопросов');
+    check(Array.isArray(refs)&&refs.length>0&&refs.every(r=>r&&typeof r==='object'&&typeof r.id==='string')&&new Set(refs.map(r=>r.id)).size===refs.length,'Неверный набор вопросов');
     for(const ref of refs){
      const q=e.questions.find(q=>q.id===ref.id);check(q,'Вопрос отсутствует в банке');
      if(q.options)check(Array.isArray(ref.order)&&ref.order.length===q.options.length&&
       new Set(ref.order).size===q.options.length&&ref.order.every(i=>Number.isInteger(i)&&i>=0&&i<q.options.length),'Неверная перестановка');
     }
    }
-   if(t==='settings')check(['theme','font_size'].includes(row.key),'Неизвестная настройка');
+   if(t==='settings'){
+    let value;try{value=JSON.parse(row.value);}catch{check(false,'Неверный JSON настройки');}
+    check(row.key==='theme'?['system','light','dark'].includes(value):row.key==='font_size'&&[16,18,20,22].includes(value),'Неверная настройка');
+   }
   }
  }
  db.transaction(()=>{

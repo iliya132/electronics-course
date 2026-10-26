@@ -26,6 +26,7 @@ export function examRoutes(db,c) {
   const a=attempt(req.params.id);check(!a.finished_at,'Попытка уже завершена');
   const qs=hydrateQuestions(examDefinition(c,a.exam_id),JSON.parse(a.question_ids_json));
   const q=required(qs.find(q=>q.id===req.body.question_id),'Вопрос не входит в попытку');
+  if(req.body.answer===null){db.prepare('DELETE FROM exam_answers WHERE attempt_id=? AND question_id=?').run(a.id,q.id);return res.json({ok:true});}
   check(validAnswer(q,req.body.answer),'Ответ имеет неверный формат');
   db.prepare('INSERT INTO exam_answers(attempt_id,question_id,answer_json) VALUES (?,?,?) ON CONFLICT(attempt_id,question_id) DO UPDATE SET answer_json=excluded.answer_json')
    .run(a.id,q.id,JSON.stringify(req.body.answer));res.json({ok:true});

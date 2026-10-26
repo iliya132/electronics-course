@@ -10,7 +10,7 @@ export function mount(container,params={}){
  const buttons=[];
  function open(node,index){
   buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
-  detail.replaceChildren(el('h3',{text:'Для чего нужен '+node.name+'?'}));
+  detail.replaceChildren(el('h3',{text:'Какова роль узла «'+node.name+'»?'}));
   const select=el('select',{'aria-label':'Роль узла'},[el('option',{value:'',text:'Выбери роль'})]);
   choices.forEach(role=>select.append(el('option',{value:role,text:role})));
   const feedback=el('p');select.onchange=()=>{feedback.textContent=select.value===node.role?'✓ Верно. '+(node.explanation||node.role):'Пока неверно. Сопоставь обозначение с назначением.';

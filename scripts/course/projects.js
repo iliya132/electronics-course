@@ -8,8 +8,8 @@ export async function writeProject(topic,order,l,d,previous){
  const calc=calculation(d.model,2);
  if(d.code){mkdirSync('public/examples/'+l.id,{recursive:true});writeFileSync('public/examples/'+l.id+'/'+l.id+'.ino',d.code+'\n');}
  const meta={id:l.id,title:l.title,icon:l.icon,summary:d.truth.slice(0,140),kind:l.kind,optional:l.optional,
- level:topic.number<8?1:topic.number<14?2:3,minutes:60,prerequisites:previous?[previous]:[],
- objectives:['Собрать и проверить: '+l.title,'Сопоставить расчёт с измерениями и найти причину отклонения'],
+ level:topic.number<8?1:topic.number<14?2:3,minutes:l.kind==='teardown'?25:60,prerequisites:previous?[previous]:[],
+ objectives:l.kind==='teardown'?['Находить узлы и объяснять их назначение','Прослеживать питание и управление по схеме']:['Собрать и проверить: '+l.title,'Сопоставить расчёт с измерениями и найти причину отклонения'],
  glossary:d.terms||[],flashcards:[{q:'Что проверяем в проекте «'+l.title+'»?',a:d.truth},{q:'Как найти ошибку?',a:d.trouble.join(' ')}]};
  let body='';
  if(l.kind==='teardown'){
@@ -19,7 +19,7 @@ export async function writeProject(topic,order,l,d,previous){
   for(const [i,node]of d.nodes.entries()){
    const wrong=d.nodes.filter(n=>n.role!==node.role).slice(0,2).map(n=>n.role),opts=[node.role,...wrong],shift=i%opts.length;
    for(let j=0;j<shift;j++)opts.push(opts.shift());
-   body+=block('quiz',{id:'node-'+i,type:'single',question:'Зачем нужен '+node.name+' в этой схеме?',options:opts,answer:(opts.length-shift)%opts.length,
+   body+=block('quiz',{id:'node-'+i,type:'single',question:'Какую функцию выполняет узел «'+node.name+'»?',options:opts,answer:(opts.length-shift)%opts.length,
     hint:'Найди соединения узла с соседями.',explanation:node.role+'. '+node.explanation});
   }
   body+=block('callout',{kind:'safety',text:d.safety})+block('checkpoint',{items:[d.truth,d.check,calc.formula]});

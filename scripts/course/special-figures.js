@@ -1,10 +1,11 @@
+import {boardFigure} from './board-figures.js';
 import {svg,text,line,arrow,blocks} from '../lib/svg.js';
 import {schematic} from '../lib/schematic.js';
 import {plot} from '../lib/plot.js';
 const poly=(points,attrs='')=>'<polyline points="'+points+'" fill="none" stroke="currentColor" stroke-width="2" '+attrs+'/>';
 export function specialConcept(id,d){
  if(d.nodes){
-  return blocks(d.nodes.map(n=>n.name), 'Узлы устройства: функциональный обзор');
+  return boardFigure(id);
  }
  if(id==='series'||id==='parallel'){
   return schematic(s=>{
@@ -56,6 +57,7 @@ export function specialConcept(id,d){
  return null;
 }
 export function specialModel(id,d){
+ if(id==='teardown-esp32-devkit')return plot({fn:u=>(u-3.3)*.3,xRange:[3.5,6],yRange:[0,1],xLabel:'Uвх, В',yLabel:'Pпот, Вт',title:'LDO: Uвых=3,3 В, I=0,3 А'});
  if(id==='diode-basics')return plot({fn:v=>1e-9*(Math.exp(v/(2*.02585))-1)*1000,xRange:[0,.8],yRange:[0,6],xLabel:'Uдиода, В',yLabel:'I, мА',title:'Шокли: Is=1 нА, n=2, VT=25,85 мВ'});
  if(d.model==='threshold'){
   return svg(text(240,25,'Гистерезис: два возможных пути','text-anchor="middle"')+

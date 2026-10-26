@@ -8,8 +8,8 @@ export function cardContent(c,card){
  const q=card.source==='exam'?c.exams.flatMap(e=>e.questions).find(q=>'q:'+q.id===card.card_id)
   :l.blocks.find(b=>'quiz:'+l.id+':'+b.id===card.card_id);
  if(!q)return null;
- const a=q.options?(Array.isArray(q.answer)?q.answer.map(i=>q.options[i]).join('; '):q.options[q.answer]):q.answer+' '+q.unit;
- return {q:q.question,a:a+'. '+(q.explanation||q.reveal)};
+ const a=q.options?(Array.isArray(q.answer)?q.answer.map(i=>q.options[i]).join('; '):q.options[q.answer]):Number(q.answer.toPrecision(6)).toLocaleString('ru-RU')+' '+q.unit;
+ return {q:q.question,a:a.replace(/[.。]$/,'')+'. '+(q.explanation||q.reveal)};
 }
 export function reviewRoutes(db,c){
  const r=Router();
