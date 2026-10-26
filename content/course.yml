@@ -11,6 +11,7 @@ topics:
   - 09-power
   - 10-transistors
   - 11-analog
+  - 12-digital
 final_exam:
   id: final
   questions_per_attempt: 30
