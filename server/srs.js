@@ -5,8 +5,10 @@ export function nextReview(card,correct,now=new Date()) {
  return {box,due_at:due.toISOString(),last_reviewed_at:now.toISOString(),lapses:card.lapses+(correct?0:1)};
 }
 export function addCard(db,id,source,lesson,now=new Date()) {
+ const due = new Date(now);
+ due.setUTCDate(due.getUTCDate() + intervals[0]);
  db.prepare('INSERT OR IGNORE INTO cards(card_id,source,lesson_id,due_at) VALUES (?,?,?,?)')
- .run(id,source,lesson,now.toISOString());
+ .run(id,source,lesson,due.toISOString());
 }
 export function mistakeCard(db,id,source,lesson) {
  addCard(db,id,source,lesson);

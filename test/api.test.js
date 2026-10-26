@@ -157,3 +157,21 @@ test('Продолжение предпочитает обязательный �
   assert.equal(info.topic_count, topic.lessons.length);
   assert.equal((await api.get('/api/lessons/' + c.lessons[0].id)).body.topic_exam, null);
 });
+
+test('Новые карточки ждут сутки, ошибки доступны сразу', async t => {
+  const {api, db, c} = fixture(t);
+  const l = c.lessons[0];
+  const start = Date.now();
+  for (const q of l.blocks.filter(b => ['quiz', 'predict'].includes(b.type))) {
+    await api.post('/api/lessons/' + l.id + '/answer').send({block_id: q.id, answer: q.answer}).expect(200);
+  }
+  await api.post('/api/lessons/' + l.id + '/complete').expect(200);
+  assert.equal((await api.get('/api/review/queue')).body.length, 0);
+  const cards = db.prepare('SELECT * FROM cards').all();
+  assert.ok(cards.length);
+  assert.ok(cards.every(card => Date.parse(card.due_at) >= start + 86400000));
+  const q = l.blocks.find(b => b.type === 'quiz' && b.question_type === 'single');
+  await api.post('/api/recall/answer')
+    .send({lesson_id: l.id, block_id: q.id, answer: (q.answer + 1) % q.options.length}).expect(200);
+  assert.equal((await api.get('/api/review/queue')).body.length, 1);
+});

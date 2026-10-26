@@ -76,6 +76,9 @@ test('Все занятия, 17 экзаменов, финал, повторен
   const counts={};for(const q of final){const topic=content.lessonById.get(q.lesson).topic;counts[topic]=(counts[topic]||0)+1;}
   assert.equal(Object.keys(counts).length,17);assert.ok(Object.values(counts).every(n=>n===1||n===2));
   assert.equal((await api.get('/api/course')).body.percent,100);
+  assert.equal((await api.get('/api/review/queue')).body.length, 0);
+  db.prepare("UPDATE cards SET due_at=? WHERE card_id=(SELECT card_id FROM cards LIMIT 1)")
+    .run(new Date(Date.now() - 1000).toISOString());
   const card=(await api.get('/api/review/queue')).body[0];
   const reviewed=(await api.post('/api/review/answer').send({card_id:card.card_id,correct:true}).expect(200)).body;
   assert.equal(reviewed.box,2);
