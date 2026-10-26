@@ -1,0 +1,243 @@
+id: exam-basics
+topic: basics
+pass_percent: 70
+questions_per_attempt: 10
+questions:
+  - id: basics-exam-001
+    lesson: charge-current
+    difficulty: 1
+    type: numeric
+    question: При постоянном токе 0.1 А за 60 с какой заряд пересечёт провод?
+    answer: 6
+    explanation: Q = I·t = 0.1 × 60 = 6 Кл.
+    unit: Кл
+  - id: basics-exam-002
+    lesson: charge-current
+    difficulty: 1
+    type: numeric
+    question: При постоянном токе 0.25 А за 8 с какой заряд пересечёт провод?
+    answer: 2
+    explanation: Q = I·t = 0.25 × 8 = 2 Кл.
+    unit: Кл
+  - id: basics-exam-003
+    lesson: charge-current
+    difficulty: 2
+    type: numeric
+    question: При постоянном токе 0.5 А за 12 с какой заряд пересечёт провод?
+    answer: 6
+    explanation: Q = I·t = 0.5 × 12 = 6 Кл.
+    unit: Кл
+  - id: basics-exam-004
+    lesson: charge-current
+    difficulty: 2
+    type: numeric
+    question: При постоянном токе 0.02 А за 100 с какой заряд пересечёт провод?
+    answer: 2
+    explanation: Q = I·t = 0.02 × 100 = 2 Кл.
+    unit: Кл
+  - id: basics-exam-005
+    lesson: charge-current
+    difficulty: 3
+    type: numeric
+    question: При постоянном токе 2 А за 15 с какой заряд пересечёт провод?
+    answer: 30
+    explanation: Q = I·t = 2 × 15 = 30 Кл.
+    unit: Кл
+  - id: basics-exam-006
+    lesson: charge-current
+    difficulty: 1
+    type: numeric
+    question: Оцени время работы источника 1800 мА·ч с током 90 мА без потерь.
+    answer: 20
+    explanation: t = C/I = 1800/90 = 20 ч.
+    unit: ч
+  - id: basics-exam-007
+    lesson: charge-current
+    difficulty: 1
+    type: numeric
+    question: Оцени время работы источника 1000 мА·ч с током 50 мА без потерь.
+    answer: 20
+    explanation: t = C/I = 1000/50 = 20 ч.
+    unit: ч
+  - id: basics-exam-008
+    lesson: charge-current
+    difficulty: 2
+    type: numeric
+    question: Оцени время работы источника 2100 мА·ч с током 300 мА без потерь.
+    answer: 7
+    explanation: t = C/I = 2100/300 = 7 ч.
+    unit: ч
+  - id: basics-exam-009
+    lesson: charge-current
+    difficulty: 2
+    type: numeric
+    question: Оцени время работы источника 1200 мА·ч с током 80 мА без потерь.
+    answer: 15
+    explanation: t = C/I = 1200/80 = 15 ч.
+    unit: ч
+  - id: basics-exam-010
+    lesson: charge-current
+    difficulty: 3
+    type: numeric
+    question: Оцени время работы источника 3000 мА·ч с током 120 мА без потерь.
+    answer: 25
+    explanation: t = C/I = 3000/120 = 25 ч.
+    unit: ч
+  - id: basics-exam-011
+    lesson: voltage
+    difficulty: 1
+    type: numeric
+    question: Потенциал красного щупа 7 В, чёрного 2 В относительно GND. Что покажет прибор?
+    answer: 5
+    explanation: U = φкрасного − φчёрного = 7 − 2 = 5 В.
+    unit: В
+  - id: basics-exam-012
+    lesson: voltage
+    difficulty: 1
+    type: numeric
+    question: Потенциал красного щупа 12 В, чёрного 9 В относительно GND. Что покажет прибор?
+    answer: 3
+    explanation: U = φкрасного − φчёрного = 12 − 9 = 3 В.
+    unit: В
+  - id: basics-exam-013
+    lesson: voltage
+    difficulty: 2
+    type: numeric
+    question: Потенциал красного щупа 2 В, чёрного 6 В относительно GND. Что покажет прибор?
+    answer: -4
+    explanation: U = φкрасного − φчёрного = 2 − 6 = -4 В.
+    unit: В
+  - id: basics-exam-014
+    lesson: voltage
+    difficulty: 2
+    type: numeric
+    question: Потенциал красного щупа 0 В, чёрного 3 В относительно GND. Что покажет прибор?
+    answer: -3
+    explanation: U = φкрасного − φчёрного = 0 − 3 = -3 В.
+    unit: В
+  - id: basics-exam-015
+    lesson: voltage
+    difficulty: 3
+    type: numeric
+    question: Потенциал красного щупа 6 В, чёрного 1 В относительно GND. Что покажет прибор?
+    answer: 5
+    explanation: U = φкрасного − φчёрного = 6 − 1 = 5 В.
+    unit: В
+  - id: basics-exam-016
+    lesson: voltage
+    difficulty: 1
+    type: numeric
+    question: Работа при переносе 3 Кл равна 18 Дж. Определи разность потенциалов.
+    answer: 6
+    explanation: U = W/Q = 18/3 = 6 В.
+    unit: В
+  - id: basics-exam-017
+    lesson: voltage
+    difficulty: 1
+    type: numeric
+    question: Работа при переносе 4 Кл равна 20 Дж. Определи разность потенциалов.
+    answer: 5
+    explanation: U = W/Q = 20/4 = 5 В.
+    unit: В
+  - id: basics-exam-018
+    lesson: voltage
+    difficulty: 2
+    type: numeric
+    question: Работа при переносе 5 Кл равна 15 Дж. Определи разность потенциалов.
+    answer: 3
+    explanation: U = W/Q = 15/5 = 3 В.
+    unit: В
+  - id: basics-exam-019
+    lesson: voltage
+    difficulty: 2
+    type: numeric
+    question: Работа при переносе 2 Кл равна 30 Дж. Определи разность потенциалов.
+    answer: 15
+    explanation: U = W/Q = 30/2 = 15 В.
+    unit: В
+  - id: basics-exam-020
+    lesson: voltage
+    difficulty: 3
+    type: numeric
+    question: Работа при переносе 8 Кл равна 24 Дж. Определи разность потенциалов.
+    answer: 3
+    explanation: U = W/Q = 24/8 = 3 В.
+    unit: В
+  - id: basics-exam-021
+    lesson: charge-current
+    difficulty: 1
+    type: single
+    question: Какое изменение при неизменном токе удвоит прошедший заряд?
+    answer: 0
+    explanation: >-
+      Q = I·t: при постоянном I заряд пропорционален времени. Перестановка щупов и смена единиц
+      заряд не увеличивают.
+    options:
+      - Удвоить время
+      - Поменять щупы
+      - Записать ток в миллиамперах
+  - id: basics-exam-022
+    lesson: charge-current
+    difficulty: 1
+    type: multi
+    question: Какие записи соответствуют определению тока?
+    answer:
+      - 0
+      - 2
+    explanation: I = Q/t, поэтому 1 А = 1 Кл/с. Ампер-час является зарядом, не током.
+    options:
+      - I = Q/t
+      - А·ч — единица тока
+      - 1 А = 1 Кл/с
+  - id: basics-exam-023
+    lesson: voltage
+    difficulty: 2
+    type: single
+    question: Как измерить напряжение между двумя выводами резистора?
+    answer: 1
+    explanation: >-
+      Вольтметр подключают параллельно участку. Включение в разрыв относится к амперметру; один щуп
+      не задаёт разность.
+    options:
+      - Включить V-метр в разрыв
+      - Коснуться щупами обоих выводов в режиме V
+      - Подключить только красный щуп
+  - id: basics-exam-024
+    lesson: voltage
+    difficulty: 2
+    type: multi
+    question: Что справедливо для обозначения GND на батарейном устройстве?
+    answer:
+      - 0
+      - 1
+    explanation: GND задаёт ноль отсчёта и часто общий возврат. Связи с землёй здания может не быть.
+    options:
+      - Это выбранная точка отсчёта
+      - Часто это общий провод
+      - Всегда соединено с землёй здания
+  - id: basics-exam-025
+    lesson: charge-current
+    difficulty: 3
+    type: single
+    question: Провод при исправной работе не расходуется, потому что…
+    answer: 2
+    explanation: >-
+      Носители заряда уже находятся в металле и движутся в цепи. Металл не сгорает при нормальном
+      токе.
+    options:
+      - Заряд не движется
+      - Батарея постоянно восстанавливает металл
+      - Носители заряда движутся в существующем проводнике
+  - id: basics-exam-026
+    lesson: voltage
+    difficulty: 1
+    type: single
+    question: При нулевой разности потенциалов двух щупов исправный вольтметр покажет…
+    answer: 0
+    explanation: >-
+      Показание определяется разностью потенциалов. Наличие батареи поблизости не меняет равенство
+      потенциалов щупов.
+    options:
+      - 0 В
+      - Напряжение всей батареи
+      - Бесконечное напряжение
