@@ -18,11 +18,13 @@ export function writeLesson(folder, order, d) {
  body+=block('quiz',{id:'independent',...d.independent});
  body+=block('callout',{kind:'mistake',text:d.mistake});
  if(d.widget) body+=block('widget',{name:d.widget,params:d.params||{},caption:d.widgetCaption||'Измени параметры и сравни результат с расчётом.'});
+ if(d.board) body+=block('callout',{kind:'board',text:d.board});
  if(d.safety) body+=block('callout',{kind:'safety',text:d.safety});
  body+='\n## Практика\n\nРеши самостоятельно; при затруднении открой подсказку.\n';
  d.practice.forEach((q,i)=>body+=block('quiz',{id:'practice-'+(i+1),...q}));
  if(order>1 || folder!=='01-basics') body+=block('recall',{id:'recall',count:1});
  body+=block('checkpoint',{items:d.checkpoint});
+ if(d.home)body+='\n## Попробуй дома\n\n[Проект: '+d.home.title+'](#/lesson/'+d.home.id+'). Собери узел и сравни расчёт с измерением.\n';
  const dir=join('content/topics',folder); mkdirSync(dir,{recursive:true});
  writeFileSync(join(dir,String(order).padStart(2,'0')+'-'+d.id+'.md'),
    '---\n'+yaml.dump(meta,{lineWidth:100,noRefs:true})+'---\n\n'+body);

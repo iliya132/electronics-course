@@ -1,8 +1,8 @@
-export const sensorBase=`#include <Wire.h>
+export const sensorBase=String.raw`#include <Wire.h>
 #include <Adafruit_BME280.h>
 Adafruit_BME280 bme;
 bool beginSensor(){Wire.begin(21,22);return bme.begin(0x76)||bme.begin(0x77);}`;
-export const web=`#include <WiFi.h>
+export const web=String.raw`#include <WiFi.h>
 #include <WebServer.h>
 ${sensorBase}
 WebServer server(80);
@@ -26,7 +26,7 @@ void setup(){
  });server.begin();
 }
 void loop(){server.handleClient();}`;
-export const mqtt=`#include <WiFi.h>
+export const mqtt=String.raw`#include <WiFi.h>
 #include <PubSubClient.h>
 ${sensorBase}
 WiFiClient transport;PubSubClient mqtt(transport);
@@ -47,7 +47,7 @@ void loop(){
   if(!mqtt.publish("course/weather",payload))Serial.println("Publish failed");
  }
 }`;
-export const ble=`#include <BLEDevice.h>
+export const ble=String.raw`#include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>
 #include <BLE2902.h>
@@ -67,7 +67,7 @@ void loop(){
  String value=sensorOK?String(bme.readTemperature(),2):"sensor error";
  characteristic->setValue(value.c_str());characteristic->notify();
 }`;
-export const sleep=`#include <esp_sleep.h>
+export const sleep=String.raw`#include <esp_sleep.h>
 ${sensorBase}
 RTC_DATA_ATTR uint32_t boots=0;
 void setup(){
@@ -77,7 +77,7 @@ void setup(){
  Serial.flush();esp_sleep_enable_timer_wakeup(600ULL*1000000ULL);esp_deep_sleep_start();
 }
 void loop(){}`;
-export const weather=`#include <WiFi.h>
+export const weather=String.raw`#include <WiFi.h>
 #include <PubSubClient.h>
 #include <esp_sleep.h>
 ${sensorBase}

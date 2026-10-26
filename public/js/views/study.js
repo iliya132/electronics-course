@@ -32,7 +32,7 @@ export async function search(root){
   results.innerHTML='<h2>Уроки</h2>'+data.lessons.map(l=>'<a class="lesson-row" href="#/lesson/'+l.id+'"><span>'+esc(l.title)+'<small>'+esc(l.summary)+'</small></span></a>').join('')+
    '<h2>Термины</h2>'+data.terms.map(t=>'<p><strong>'+esc(t.term)+'</strong><br>'+esc(t.definition)+'</p>').join('')+
    (!data.lessons.length&&!data.terms.length?'<p>Ничего не найдено. Попробуй другое слово.</p>':'');
- },200);};root.append(input,results);return ()=>{clearTimeout(timer);version++;};
+ }),200);};root.append(input,results);return ()=>{clearTimeout(timer);version++;};
 }
 export async function summary(root){
  const [course,stats]=await Promise.all([api('/course'),api('/stats')]);root.className='reading';
@@ -41,4 +41,5 @@ export async function summary(root){
  stats.weak.map(t=>'<p>'+esc(t.title)+' · '+t.best.toFixed(0)+' % <a href="#/exam/'+t.exam_id+'">Повторить</a></p>').join('')+
  '<h2>Что дальше</h2><p>Выбери итоговый проект и доведи устройство от расчёта до проверки.</p><a class="button primary" href="#/topic/capstone">Итоговые проекты →</a>';
 }
+
 

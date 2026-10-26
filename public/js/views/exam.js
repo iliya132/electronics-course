@@ -1,7 +1,8 @@
 import {api,act,toast} from '../api.js';
 import {el,esc,progressBar} from '../dom.js';
 import {answerControls} from '../blocks/quiz.js';
-const format=(q,a)=>a==null?'Пропущен':q.options?(Array.isArray(a)?a.map(i=>q.options[i]).join('; '):q.options[a]):a+' '+q.unit;
+const num=a=>typeof a==='number'?Number(a.toPrecision(6)).toLocaleString('ru-RU'):a;
+const format=(q,a)=>a==null||(Array.isArray(a)&&!a.length)?'Пропущен':q.options?(Array.isArray(a)?a.map(i=>q.options[i]).join('; '):q.options[a]):num(a)+' '+q.unit;
 export async function exam(root,id){
  const [info,course]=await Promise.all([api('/exams/'+id+'/history'),api('/course')]);
  const topic=course.topics.find(t=>t.exam?.id===id);
@@ -27,12 +28,12 @@ export async function attempt(root,id){
  const answers=new Map((data.answers||[]).map(a=>[a.id,a.answer]));let index=0,controls,reviewing=false,dirty=false,saveTimer;
  let saveChain=Promise.resolve();
  const queueSave=(q,value)=>{
-  answers.set(q.id,value);
+  if(value===null)answers.delete(q.id);else answers.set(q.id,value);
   saveChain=saveChain.catch(()=>{}).then(()=>api('/exams/attempts/'+id+'/answer','PUT',{question_id:q.id,answer:value}));
   return saveChain;
  };
  const save=async()=>{if(!controls||reviewing)return;const value=controls.read();
-  if(value!==undefined){dirty=false;await queueSave(data.questions[index],value);}};
+  if(value!==undefined||answers.has(data.questions[index].id)){dirty=false;await queueSave(data.questions[index],value??null);}};
  const render=()=>{
   reviewing=false;const q=data.questions[index];
   root.innerHTML='<p class="eyebrow">Экзамен · вопрос '+(index+1)+' из '+data.questions.length+'</p>'+progressBar((index+1)/data.questions.length*100);

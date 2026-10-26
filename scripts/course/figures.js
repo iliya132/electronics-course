@@ -1,3 +1,4 @@
+import {specialConcept,specialModel} from './special-figures.js';
 import {mkdirSync,writeFileSync} from 'node:fs';
 import {plot} from '../lib/plot.js';
 import {blocks} from '../lib/svg.js';
@@ -20,7 +21,7 @@ export function makeFigures(id,d){
    s.junction(8,3);s.wire(8,3,10,3);s.label(9,2.6,'Uвых');},'Делитель: R1 сверху, R2 к земле',{height:360});
  }
  const p=plots[d.model];if(!p)throw Error('Нет графика '+d.model);
- writeFileSync(dir+'/concept.svg',concept);
- writeFileSync(dir+'/model.svg',plot({fn:p[0],xRange:p[1],yRange:p[2],xLabel:p[3],yLabel:p[4],title:p[5]}));
+ writeFileSync(dir+'/concept.svg',specialConcept(id,d)||concept);
+ writeFileSync(dir+'/model.svg',specialModel(id,d)||plot({fn:p[0],xRange:p[1],yRange:p[2],xLabel:p[3],yLabel:p[4],title:p[5]}));
 }
 

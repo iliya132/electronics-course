@@ -12,7 +12,13 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Термометр на NTC'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - ohm
+  - divider
+  - multimeter
+  - resistor
+  - ntc
+  - mcu
 flashcards:
   - q: Что проверяем в проекте «Термометр на NTC»?
     a: Нагрев NTC в нижнем плече уменьшает выходное напряжение.

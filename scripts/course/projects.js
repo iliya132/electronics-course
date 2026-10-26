@@ -1,4 +1,4 @@
-import {writeFileSync} from 'node:fs';
+import {writeFileSync,mkdirSync} from 'node:fs';
 import yaml from 'js-yaml';
 import {block} from '../author-lesson.js';
 import {calculation} from './calculations.js';
@@ -6,6 +6,7 @@ const quiz=(id,q)=>{const {formula,steps,result,...rest}=q;return block('quiz',{
 export async function writeProject(topic,order,l,d,previous){
  if(!d.parts||!d.steps||!d.verify||!d.trouble)throw Error('Неполный проект '+l.id);
  const calc=calculation(d.model,2);
+ if(d.code){mkdirSync('public/examples/'+l.id,{recursive:true});writeFileSync('public/examples/'+l.id+'/'+l.id+'.ino',d.code+'\n');}
  const meta={id:l.id,title:l.title,icon:l.icon,summary:d.truth.slice(0,140),kind:l.kind,optional:l.optional,
  level:topic.number<8?1:topic.number<14?2:3,minutes:60,prerequisites:previous?[previous]:[],
  objectives:['Собрать и проверить: '+l.title,'Сопоставить расчёт с измерениями и найти причину отклонения'],
@@ -29,7 +30,7 @@ export async function writeProject(topic,order,l,d,previous){
    block('example',{title:'Контрольный расчёт',steps:calc.steps,result:calc.result})+
    block('figure',{file:l.id+'/model.svg',alt:'Зависимость в расчётной модели проекта',caption:'Модель и условия обозначены на осях.'})+
    '\n## Сборка по шагам\n\n'+d.steps.map((s,i)=>(i+1)+'. '+s).join('\n')+
-   (d.code?'\n\n```cpp\n'+d.code+'\n```\n':'')+
+   (d.code?'\n\n[Скачать скетч .ino](/examples/'+l.id+'/'+l.id+'.ino)\n\n```cpp\n'+d.code+'\n```\n':'')+
    '\n## Проверка\n\n'+d.verify+'\n'+quiz('measurement',calculation(d.model,3))+
    '\n## Если не работает\n\n'+d.trouble.map(s=>'- '+s).join('\n')+
    block('callout',{kind:'mistake',text:d.wrong1+'. '+d.truth})+

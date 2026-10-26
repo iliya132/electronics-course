@@ -12,7 +12,8 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Метеостанция MQTT'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - ohm
 flashcards:
   - q: Что проверяем в проекте «Метеостанция MQTT»?
     a: Сначала проверяют сообщение в топике, затем настройку графика.
@@ -69,6 +70,8 @@ caption: Модель и условия обозначены на осях.
 3. Загрузи программу и подпишись на course/weather.
 4. Настрой график температуры у подписчика и отключи сеть для проверки переподключения.
 
+[Скачать скетч .ino](/examples/mqtt-weather/mqtt-weather.ino)
+
 ```cpp
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -90,7 +93,7 @@ void loop(){
  mqtt.loop();
  if(sensorOK && mqtt.connected() && (unsigned long)(now-lastPublish)>=10000){
   lastPublish=now;char payload[96];
-  snprintf(payload,sizeof(payload),"{"temperature":%.2f,"humidity":%.2f}",bme.readTemperature(),bme.readHumidity());
+  snprintf(payload,sizeof(payload),"{\"temperature\":%.2f,\"humidity\":%.2f}",bme.readTemperature(),bme.readHumidity());
   if(!mqtt.publish("course/weather",payload))Serial.println("Publish failed");
  }
 }

@@ -36,3 +36,6 @@ figure{margin:32px 0;padding:16px 0}figure svg{width:100%;display:block}figcapti
 @media(max-width:800px){.course-grid{grid-template-columns:1fr;gap:24px}.aside-card{order:-1}.continue{align-items:flex-start}.topbar{padding:0 18px}.topbar nav{gap:14px}}
 @media(max-width:420px){.brand{font-size:15px;gap:5px}.brand img{width:17px}.topbar nav{gap:8px;font-size:12px}.topbar{padding:0 10px}.icon-link{width:25px}.quiz,.widget,.panel{padding:16px}.continue{flex-direction:column;padding:18px}.widget-controls{grid-template-columns:1fr}.reading h1{font-size:30px}}
 
+.current-flow{max-width:480px}.charge-dot{animation:charge-flow var(--flow-time,2s) linear infinite}.stopped .charge-dot{animation-play-state:paused}.board-node{cursor:pointer}.board-node:focus{outline:3px solid var(--accent);outline-offset:3px}.board-node[aria-pressed=true] rect{stroke-width:4}
+@keyframes charge-flow{to{transform:translateX(440px)}}
+@media(prefers-reduced-motion:reduce){.charge-dot{animation:none}}

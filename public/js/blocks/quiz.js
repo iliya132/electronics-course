@@ -16,7 +16,7 @@ export function answerControls(q,value){
  });
  return {box,read:()=>{
   const checked=[...box.querySelectorAll('input:checked')].map(i=>Number(i.value));
-  return type==='multi'?checked:(checked.length?checked[0]:undefined);
+  return checked.length?(type==='multi'?checked:checked[0]):undefined;
  }};
 }
 export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{}}={}){

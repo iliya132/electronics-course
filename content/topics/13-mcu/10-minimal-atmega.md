@@ -12,7 +12,10 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: ATmega328P на макетке'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - ohm
+  - reset
+  - uart
 flashcards:
   - q: Что проверяем в проекте «ATmega328P на макетке»?
     a: Наличие USB-UART не заменяет bootloader или ISP для пустого чипа.
@@ -69,6 +72,8 @@ caption: Модель и условия обозначены на осях.
 3. Для пустого чипа используй ISP: MOSI 17, MISO 18, SCK 19, RESET, VCC и GND; установи корректные fuse.
 4. Для чипа с Uno bootloader UART RX 2/TX 3 подключи крест-накрест, общий GND; сброс сформируй по схеме bootloader.
 5. LED с резистором подключи к PB5 19 и GND. Загрузи Blink для выбранного ядра.
+
+[Скачать скетч .ino](/examples/minimal-atmega/minimal-atmega.ino)
 
 ```cpp
 void setup(){ pinMode(13, OUTPUT); }

@@ -12,7 +12,12 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Arduino Uno R3: узлы платы'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - ohm
+  - ptc
+  - capacitor
+  - diode
+  - crystal
 flashcards:
   - q: 'Что проверяем в проекте «Arduino Uno R3: узлы платы»?'
     a: USB-интерфейс и выполнение скетча на Uno R3 обслуживают разные микроконтроллеры.

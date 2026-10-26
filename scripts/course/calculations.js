@@ -3,6 +3,8 @@ const fmt=x=>Number(x.toPrecision(6)).toLocaleString('ru-RU',{maximumFractionDig
 export function calculation(key,k=1){
  const n=k+1;let q,a,u,formula,sub,verify;
  switch(key){
+ case 'charge':{const current=n*.1,time=10;q=`Через провод проходит ток ${fmt(current)} А за 10 с. Какой заряд прошёл?`;a=current*time;u='Кл';formula='I=Q/t, поэтому Q=I·t; I в А, Q в кулонах (Кл), t в с.';sub=`${fmt(current)} × 10`;verify=a/time-current;break;}
+ case 'voltage':{const energy=n*6,charge=3;q=`На перенос 3 Кл источник передал ${energy} Дж энергии. Найди напряжение.`;a=energy/charge;u='В';formula='U=A/Q; U — напряжение в В, A — работа в Дж, Q — заряд в Кл.';sub=`${energy}/3`;verify=a*charge-energy;break;}
  case 'ohm':{const v=n+2,r=100*n;q=`U = ${v} В, R = ${r} Ом. Найди ток в миллиамперах.`;a=v/r*1000;u='мА';formula='I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.';sub=`${v}/${r} × 1000`;verify=a/1000*r-v;break;}
  case 'wire':{const l=2*n,s=.5;q=`Медный провод: ρ = 0,0175 Ом·мм²/м, длина ${l} м, сечение ${s} мм². Найди R (одного проводника).`;a=.0175*l/s;u='Ом';formula='R = ρL/S; ρ — удельное сопротивление в Ом·мм²/м, L — длина в м, S — сечение в мм².';sub=`0,0175 × ${l} / 0,5`;verify=a*s/l-.0175;break;}
  case 'power':{const v=5,i=n*.02;q=`На нагрузке ${v} В, ток ${fmt(i)} А. Найди мощность.`;a=v*i;u='Вт';formula='P = UI; P — мощность в Вт, U — напряжение в В, I — ток в А.';sub=`5 × ${fmt(i)}`;verify=a/v-i;break;}

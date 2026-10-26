@@ -4,7 +4,7 @@ const v=(key,label,min,max,step,value)=>[key,label,min,max,step,value];
 export const configs={
  'ohm-slider':{controls:[v('u','Напряжение, В',0,12,.1,5),v('r','Сопротивление, Ом',10,1000,10,100)],
  result:(s,o)=>'I = '+f(s.u)+' / '+f(s.r)+' = '+f(o.i)+' мА; P = U²/R = '+f(o.p)+' Вт.',
- graph:(s)=>chart(u=>1000*u/s.r,{xmax:12,ymax:1200/s.r,xlabel:'U, В',ylabel:'I, мА'})},
+ graph:(s)=>chart(u=>1000*u/s.r,{xmax:12,ymax:12000/s.r,xlabel:'U, В',ylabel:'I, мА'})},
  'series-parallel':{controls:[v('r1','R1, Ом',10,1000,10,100),v('r2','R2, Ом',10,1000,10,100),v('parallel','Соединение: 0 последовательно, 1 параллельно',0,1,1,0)],
  result:(s,o)=>(s.parallel?'R = R1·R2/(R1+R2)':'R = R1+R2')+' = '+f(o.r)+' Ом.',
  graph:s=>chart(r=>calculations['series-parallel']({...s,r2:r}).r,{xmax:1000,ymax:s.parallel?s.r1:s.r1+1000,xlabel:'R2, Ом',ylabel:'R, Ом'})},
@@ -37,7 +37,7 @@ export const configs={
  graph:(s,o)=>chart(t=>{const x=t%1,d=s.d/100;return x<d?o.delta*x/d:o.delta*(1-(x-d)/(1-d));},{xmax:2,ymax:Math.max(.01,o.delta),ylabel:'ΔI, А'})},
  'opamp-gain':{controls:[v('rf','Rf, кОм',0,100,1,10),v('rg','Rg, кОм',1,100,1,10),v('u','Вход, В',0,2,.01,.1),v('supply','Верхний предел выхода модели, В',1,12,.1,3.3)],
  result:(s,o)=>'K = 1+Rf/Rg = '+f(o.gain)+'; K·Uвх = '+f(o.raw)+' В; выход '+f(o.v)+' В.'+(o.raw>s.supply?' Ограничение выходного сигнала!':'')+' У реального ОУ проверь диапазоны входа и выхода.',
- graph:(s,o)=>chart(t=>Math.min(s.supply,Math.max(0,s.u*o.gain*(1+Math.sin(t*Math.PI*2))/2)),{xmax:2,ymax:s.supply})},
+ graph:(s,o)=>chart(t=>Math.min(s.supply,Math.max(0,s.u*o.gain*(1+Math.sin(t*Math.PI*2))/2)),{xmax:2,ymax:s.supply,second:t=>s.u*(1+Math.sin(t*Math.PI*2))/2})},
  'adc-quantizer':{controls:[v('n','Разрядность, бит',2,12,1,10),v('ref','Uref, В',1,5,.1,5),v('u','Вход, В',0,5,.01,2.5)],
  result:(s,o)=>'LSB = Uref/2ⁿ = '+f(o.lsb*1000)+' мВ; код = '+o.code+'; код·LSB = '+f(o.v)+' В; разность '+f(o.error*1000)+' мВ.'+(s.u>s.ref?' Вход за диапазоном — в реальной схеме недопустимо.':''),
  graph:(s,o)=>chart(u=>calculations['adc-quantizer']({...s,u}).v,{xmax:s.ref,ymax:s.ref,xlabel:'Uвх, В',ylabel:'Код·LSB, В'})},

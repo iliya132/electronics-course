@@ -68,6 +68,8 @@ caption: Модель и условия обозначены на осях.
 3. Загрузи скетч с ядром Arduino-ESP32; прочитай IP в Serial 115200.
 4. Открой IP с устройства той же сети и проверь обновление JSON.
 
+[Скачать скетч .ino](/examples/web-sensor-server/web-sensor-server.ino)
+
 ```cpp
 #include <WiFi.h>
 #include <WebServer.h>
@@ -90,8 +92,8 @@ void setup(){
   server.send(200,"text/html; charset=utf-8","<meta charset='utf-8'><h1>Датчик ESP32</h1><pre id='v'></pre><script>setInterval(()=>fetch('/data').then(r=>r.text()).then(t=>document.getElementById('v').textContent=t),2000)</script>");
  });
  server.on("/data",HTTP_GET,[](){
-  if(!sensorOK){server.send(503,"application/json","{"error":"sensor"}");return;}
-  String json="{"temperature":"+String(bme.readTemperature(),2)+","humidity":"+String(bme.readHumidity(),2)+"}";
+  if(!sensorOK){server.send(503,"application/json","{\"error\":\"sensor\"}");return;}
+  String json="{\"temperature\":"+String(bme.readTemperature(),2)+",\"humidity\":"+String(bme.readHumidity(),2)+"}";
   server.send(200,"application/json",json);
  });server.begin();
 }

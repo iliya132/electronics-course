@@ -12,7 +12,13 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Метеостанция с автономным питанием'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - charge
+  - current
+  - ohm
+  - ldo
+  - uart
+  - mqtt
 flashcards:
   - q: Что проверяем в проекте «Метеостанция с автономным питанием»?
     a: Срок работы определяет средний ток всей платы, а не только ток сна кристалла.
@@ -73,6 +79,8 @@ caption: Модель и условия обозначены на осях.
 4. В скетче укажи SSID, пароль и IP локального брокера; проверь приём course/weather.
 5. Отключи нагрузку при зарядке в этой схеме без power-path. Измерь цикл работы после перевода на батарейное питание.
 
+[Скачать скетч .ino](/examples/esp32-weather-station/esp32-weather-station.ino)
+
 ```cpp
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -91,7 +99,7 @@ void setup(){
   mqtt.setServer("192.168.1.10",1883);mqtt.setSocketTimeout(3);
   String id="weather-"+String((uint32_t)ESP.getEfuseMac(),HEX);
   if(mqtt.connect(id.c_str())){
-   char json[96];snprintf(json,sizeof(json),"{"t":%.2f,"h":%.2f}",bme.readTemperature(),bme.readHumidity());
+   char json[96];snprintf(json,sizeof(json),"{\"t\":%.2f,\"h\":%.2f}",bme.readTemperature(),bme.readHumidity());
    bool sent=mqtt.publish("course/weather",json);Serial.println(sent?"sent":"failed");mqtt.loop();mqtt.disconnect();
   }
  }

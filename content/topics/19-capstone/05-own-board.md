@@ -12,7 +12,12 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Собственная плата датчика'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - current
+  - ohm
+  - uart
+  - footprint
+  - bom
 flashcards:
   - q: Что проверяем в проекте «Собственная плата датчика»?
     a: ERC и DRC помогают искать ошибки, но не подтверждают работоспособность устройства.
@@ -73,6 +78,8 @@ caption: Модель и условия обозначены на осях.
 5. Запусти ERC/DRC, распечатай 1:1, проверь Gerber/сверловку/BOM и схему коллегой или отдельным проходом.
 6. При изготовлении первое включение делай от источника с ограничением тока. Сначала проверь питание, затем UART-загрузку и код датчика.
 
+[Скачать скетч .ino](/examples/own-board/own-board.ino)
+
 ```cpp
 #include <WiFi.h>
 #include <WebServer.h>
@@ -95,8 +102,8 @@ void setup(){
   server.send(200,"text/html; charset=utf-8","<meta charset='utf-8'><h1>Датчик ESP32</h1><pre id='v'></pre><script>setInterval(()=>fetch('/data').then(r=>r.text()).then(t=>document.getElementById('v').textContent=t),2000)</script>");
  });
  server.on("/data",HTTP_GET,[](){
-  if(!sensorOK){server.send(503,"application/json","{"error":"sensor"}");return;}
-  String json="{"temperature":"+String(bme.readTemperature(),2)+","humidity":"+String(bme.readHumidity(),2)+"}";
+  if(!sensorOK){server.send(503,"application/json","{\"error\":\"sensor\"}");return;}
+  String json="{\"temperature\":"+String(bme.readTemperature(),2)+",\"humidity\":"+String(bme.readHumidity(),2)+"}";
   server.send(200,"application/json",json);
  });server.begin();
 }

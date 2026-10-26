@@ -12,7 +12,13 @@ prerequisites:
 objectives:
   - 'Собрать и проверить: Вход 12 В для логики 3,3 В'
   - Сопоставить расчёт с измерениями и найти причину отклонения
-glossary: []
+glossary:
+  - volt
+  - ohm
+  - divider
+  - comparator
+  - gpio
+  - optocoupler
 flashcards:
   - q: Что проверяем в проекте «Вход 12 В для логики 3,3 В»?
     a: Защитный узел проверяют до соединения с GPIO.
