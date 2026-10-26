@@ -31,7 +31,7 @@ export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{},recall=f
  }
  const show=data=>{feedback.className='feedback '+(data.is_correct?'correct':'incorrect');
   feedback.textContent=(data.is_correct?'✓ Верно. ':'✕ Пока неверно. ')+data.explanation;
-  submit.textContent='Проверить ещё раз';};
+  submit.textContent=q.type==='predict'?'Изменить прогноз':'Проверить ещё раз';};
  if(q.feedback)show(q.feedback);
  if ((q.question_type || q.type) === 'multi') {
   controls.box.prepend(el('p', {class: 'muted', text: 'Можно выбрать несколько вариантов.'}));
