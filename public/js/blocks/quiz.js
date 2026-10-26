@@ -33,6 +33,9 @@ export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{},recall=f
   feedback.textContent=(data.is_correct?'✓ Верно. ':'✕ Пока неверно. ')+data.explanation;
   submit.textContent='Проверить ещё раз';};
  if(q.feedback)show(q.feedback);
+ if ((q.question_type || q.type) === 'multi') {
+  controls.box.prepend(el('p', {class: 'muted', text: 'Можно выбрать несколько вариантов.'}));
+ }
  fieldset.prepend(legend,controls.box);fieldset.append(actions,feedback);form.append(fieldset);container.append(form);
  form.addEventListener('submit',act(async e=>{
   e.preventDefault();const answer=controls.read();

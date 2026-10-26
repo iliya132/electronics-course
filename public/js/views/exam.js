@@ -38,11 +38,23 @@ export async function attempt(root,id){
   reviewing=false;const q=data.questions[index];
   root.innerHTML='<p class="eyebrow">Экзамен · вопрос '+(index+1)+' из '+data.questions.length+'</p>'+progressBar((index+1)/data.questions.length*100);
   const form=el('form'),fieldset=el('fieldset',{class:'panel'},[el('legend',{text:q.question})]);
-  controls=answerControls(q,answers.get(q.id));fieldset.append(controls.box);form.append(fieldset);form.onsubmit=e=>e.preventDefault();root.append(form);
-  controls.box.addEventListener('change',()=>{dirty=true;clearTimeout(saveTimer);saveTimer=setTimeout(act(save),250);});
+  if ((q.question_type || q.type) === 'multi') {
+    fieldset.append(el('p', {class: 'muted', text: 'Можно выбрать несколько вариантов.'}));
+  }
+  const error = el('p', {class: 'feedback incorrect', role: 'alert'});
+  const guard = fn => async () => {
+    error.textContent = '';
+    try {
+      await fn();
+    } catch (e) {
+      error.textContent = e.message;
+    }
+  };
+  controls=answerControls(q,answers.get(q.id));fieldset.append(controls.box);form.append(fieldset);form.onsubmit=e=>e.preventDefault();root.append(form,error);
+  controls.box.addEventListener('change',()=>{dirty=true;clearTimeout(saveTimer);saveTimer=setTimeout(guard(save),250);});
   const back=el('button',{text:'← Назад',disabled:index===0}),next=el('button',{class:'primary',text:index===data.questions.length-1?'Проверить ответы →':'Далее →'});
-  back.onclick=act(async()=>{clearTimeout(saveTimer);await save();index--;render();});
-  next.onclick=act(async()=>{clearTimeout(saveTimer);await save();if(index<data.questions.length-1){index++;render();}else review();});
+  back.onclick=guard(async()=>{clearTimeout(saveTimer);await save();index--;render();});
+  next.onclick=guard(async()=>{clearTimeout(saveTimer);await save();if(index<data.questions.length-1){index++;render();}else review();});
   root.append(el('div',{class:'row spread'},[back,next]),el('p',{class:'muted',text:'Пустой ответ можно пропустить и заполнить перед сдачей.'}));
  };
  const review=()=>{
