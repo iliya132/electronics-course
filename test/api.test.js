@@ -188,3 +188,23 @@ test('Курс собирает прогресс за ограниченное �
   assert.equal(response.body.final_exam.remaining, 17);
   assert.ok(count <= 20, 'SQL queries: ' + count);
 });
+
+test('Импорт отклоняет неизвестный блок, ответ без попытки и неверную карточку атомарно', async t => {
+  const {api, c} = fixture(t);
+  const l = c.lessons[0];
+  const q = l.blocks.find(b => b.type === 'quiz');
+  await api.post('/api/lessons/' + l.id + '/answer').send({block_id: q.id, answer: q.answer}).expect(200);
+  const original = (await api.get('/api/export')).body;
+  for (const mutate of [
+    b => { b.tables.block_answers[0].block_id = 'unknown'; },
+    b => { b.tables.block_answers[0].lesson_id = null; },
+    b => { b.tables.exam_answers.push({attempt_id: 999, question_id: 'test-0', answer_json: '0', is_correct: 0}); },
+    b => { b.tables.cards.push({card_id: 'invalid', source: 'quiz', lesson_id: l.id, box: 1,
+      due_at: new Date().toISOString(), last_reviewed_at: null, lapses: 0}); }
+  ]) {
+    const backup = structuredClone(original);
+    mutate(backup);
+    await api.post('/api/import').send(backup).expect(400);
+    assert.deepEqual((await api.get('/api/export')).body.tables, original.tables);
+  }
+});
