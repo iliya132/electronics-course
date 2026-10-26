@@ -86,3 +86,14 @@ test('Пустое или не JSON тело и чрезмерная прокр�
   await api.post('/api/lessons/ohm-law/progress')
     .send({scroll_pos: 1e7 + 1, time_delta_sec: 0}).expect(400);
 });
+
+test('Host допускает только локальные адреса', async t => {
+  const {db} = fixture(t);
+  const api = request(createApp(db, loadContent()));
+  await api.get('/api/course').set('Host', 'evil.example').expect(403);
+  await api.post('/api/reset').set('Host', 'evil.example').send({confirm: 'СБРОСИТЬ'}).expect(403);
+  for (const host of ['localhost:3000', '127.0.0.1:3000', '[::1]:3000']) {
+    await api.get('/api/course').set('Host', host).expect(200);
+  }
+  await api.get('/api/course').expect(200);
+});

@@ -8,6 +8,10 @@ import { miscRoutes } from './routes/misc.js';
 export function createApp(db,content){
  const app=express();app.disable('x-powered-by');
  app.use((req,res,next)=>{
+  const hostAllowed = /^(localhost|127\.0\.0\.1|\[::1\])(:\d+)?$/;
+  if (!hostAllowed.test(req.get('host') || '')) {
+    return res.status(403).json({error: 'Недопустимый Host'});
+  }
   res.set('X-Content-Type-Options','nosniff');
   res.set('Content-Security-Policy',"default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'");
   const origin=req.get('origin');
