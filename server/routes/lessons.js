@@ -7,39 +7,85 @@ import { recordActivity } from '../db.js';
 export function lessonRoutes(db,c) {
  const r=Router(); const lesson=id=>required(c.lessonById.get(id),'Урок не найден');
  const open=id=>db.prepare("INSERT INTO lesson_progress(lesson_id,status,started_at) VALUES (?,'in_progress',?) ON CONFLICT(lesson_id) DO NOTHING").run(id,new Date().toISOString());
- r.get('/lessons/:id',(req,res)=>{
-  const l=lesson(req.params.id),answers=db.prepare('SELECT * FROM block_answers WHERE lesson_id=?').all(l.id);
-  const blocks=l.blocks.map(b=>{
-   if(b.type==='recall'){
-    const pool=c.lessons.filter(old=>old.index<l.index&&progress(db,old.id).status==='completed')
-     .flatMap(old=>old.blocks.filter(q=>q.type==='quiz').map(q=>({...publicQuestion(q),hint:q.hint,source_lesson:old.id})));
-    return {...b,questions:shuffle(pool).slice(0,b.count)};
-   }
-   if(!['quiz','predict'].includes(b.type))return b;
-   const a=answers.find(a=>a.block_id===b.id);
-   return {...publicQuestion(b),hint:b.hint,...(a?{feedback:{is_correct:!!a.is_correct,explanation:b.explanation||b.reveal,answer:b.answer}}:{})};
-  });
-  const topic = c.topics.find(t => t.id === l.topic);
-  const lastRequired = topic.lessons.filter(x => !x.optional).at(-1);
-  const topicExam = topic.exam && lastRequired?.id === l.id ? {
-    id: topic.exam,
-    passed: !!db.prepare('SELECT 1 FROM exam_attempts WHERE exam_id=? AND passed=1').get(topic.exam)
-  } : null;
-  res.json({...l,topic_exam:topicExam,topic_title:topic.title,position:topic.lessons.indexOf(l)+1,
-   topic_count:topic.lessons.length,body:undefined,file:undefined,blocks,progress:progress(db,l.id),
-   answers:answers.map(a=>({...a,answer:JSON.parse(a.answer_json)})),note:db.prepare('SELECT text FROM notes WHERE lesson_id=?').get(l.id)?.text||'',
-   previous:c.lessons[l.index-1]?.id,next:c.lessons[l.index+1]?.id,
-   missing:l.prerequisites.filter(id=>progress(db,id).status!=='completed').map(id=>({id,title:lesson(id).title}))});
+ r.get('/lessons/:id', (req, res) => {
+   const l = lesson(req.params.id);
+   const answers = db.prepare('SELECT * FROM block_answers WHERE lesson_id=?').all(l.id);
+   const blocks = l.blocks.map(b => {
+     if (b.type === 'recall') {
+       const pool = c.lessons.filter(old => old.index < l.index && progress(db,
+         old.id).status === 'completed').flatMap(old => old.blocks.filter(q => q.type === 'quiz').map(q => ({
+         ...publicQuestion(q),
+         hint: q.hint,
+         source_lesson: old.id
+       })));
+       return {
+         ...b,
+         questions: shuffle(pool).slice(0, b.count)
+       };
+     }
+     if (!['quiz', 'predict'].includes(b.type)) {
+       return b;
+     }
+     const a = answers.find(a => a.block_id === b.id);
+     return {
+       ...publicQuestion(b),
+       hint: b.hint,
+       ...(a ? {
+         feedback: {
+           is_correct: !!a.is_correct,
+           explanation: b.explanation || b.reveal,
+           answer: b.answer
+         }
+       } : {})
+     };
+   });
+   const topic = c.topics.find(t => t.id === l.topic);
+   const lastRequired = topic.lessons.filter(x => !x.optional).at(-1);
+   const topicExam = topic.exam && lastRequired?.id === l.id ? {
+     id: topic.exam,
+     passed: !!db.prepare('SELECT 1 FROM exam_attempts WHERE exam_id=? AND passed=1').get(topic.exam)
+   } : null;
+   res.json({
+     ...l,
+     topic_exam: topicExam,
+     topic_title: topic.title,
+     position: topic.lessons.indexOf(l) + 1,
+     topic_count: topic.lessons.length,
+     body: undefined,
+     file: undefined,
+     blocks,
+     progress: progress(db, l.id),
+     answers: answers.map(a => ({
+       ...a,
+       answer: JSON.parse(a.answer_json)
+     })),
+     note: db.prepare('SELECT text FROM notes WHERE lesson_id=?').get(l.id)?.text || '',
+     previous: c.lessons[l.index - 1]?.id,
+     next: c.lessons[l.index + 1]?.id,
+     missing: l.prerequisites.filter(id => progress(db, id).status !== 'completed').map(id => ({
+       id,
+       title: lesson(id).title
+     }))
+   });
  });
  r.post('/lessons/:id/open',(req,res)=>{lesson(req.params.id);open(req.params.id);res.json(progress(db,req.params.id));});
- r.post('/lessons/:id/progress',(req,res)=>{
-  const l=lesson(req.params.id),{scroll_pos,time_delta_sec}=req.body;
-  check(Number.isFinite(scroll_pos)&&scroll_pos>=0&&scroll_pos<=1e7&&Number.isInteger(time_delta_sec)&&time_delta_sec>=0&&time_delta_sec<=120,'Неверная позиция или время');
-  open(l.id);
-  db.transaction(()=>{
-   db.prepare('UPDATE lesson_progress SET scroll_pos=?,time_spent_sec=time_spent_sec+? WHERE lesson_id=?').run(scroll_pos,time_delta_sec,l.id);
-   recordActivity(db,'minutes',time_delta_sec/60);
-  })();res.json({ok:true});
+ r.post('/lessons/:id/progress', (req, res) => {
+   const l = lesson(req.params.id);
+   const {
+     scroll_pos,
+     time_delta_sec
+   } = req.body;
+   check(Number.isFinite(scroll_pos) && scroll_pos >= 0 && scroll_pos <= 1e7 && Number.isInteger(time_delta_sec) &&
+     time_delta_sec >= 0 && time_delta_sec <= 120, 'Неверная позиция или время');
+   open(l.id);
+   db.transaction(() => {
+     db.prepare("UPDATE lesson_progress SET scroll_pos=?,time_spent_sec=time_spent_sec+? WHER" +
+       "E lesson_id=?").run(scroll_pos, time_delta_sec, l.id);
+     recordActivity(db, 'minutes', time_delta_sec / 60);
+   })();
+   res.json({
+     ok: true
+   });
  });
  r.post('/lessons/:id/answer',(req,res)=>{
   const l=lesson(req.params.id),{block_id,answer}=req.body;
@@ -74,14 +120,24 @@ export function lessonRoutes(db,c) {
    .run(l.id,req.body.text,new Date().toISOString());res.json({ok:true});
  });
  r.post('/recall/answer', (req, res) => {
-  const {lesson_id, block_id, answer} = req.body;
-  const l = lesson(lesson_id);
-  const b = required(l.blocks.find(x => x.id === block_id && x.type === 'quiz'), 'Вопрос не найден');
-  check(progress(db, l.id).status === 'completed', 'Урок ещё не пройден');
-  check(validAnswer(b, answer), 'Ответ имеет неверный формат');
-  const correct = grade(b, answer);
-  if (!correct) mistakeCard(db, 'quiz:' + l.id + ':' + b.id, 'quiz', l.id);
-  res.json({is_correct: correct, answer: b.answer, explanation: b.explanation});
+   const {
+     lesson_id,
+     block_id,
+     answer
+   } = req.body;
+   const l = lesson(lesson_id);
+   const b = required(l.blocks.find(x => x.id === block_id && x.type === 'quiz'), 'Вопрос не найден');
+   check(progress(db, l.id).status === 'completed', 'Урок ещё не пройден');
+   check(validAnswer(b, answer), 'Ответ имеет неверный формат');
+   const correct = grade(b, answer);
+   if (!correct) {
+     mistakeCard(db, 'quiz:' + l.id + ':' + b.id, 'quiz', l.id);
+   }
+   res.json({
+     is_correct: correct,
+     answer: b.answer,
+     explanation: b.explanation
+   });
  });
  return r;
 }

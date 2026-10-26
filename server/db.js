@@ -37,7 +37,9 @@ export function openDb(path = 'data/app.sqlite') {
   return db;
 }
 export function recordActivity(db, field, amount = 1, date = new Date()) {
-  if (!['lessons_done','cards_reviewed','minutes'].includes(field)) throw Error('Поле активности');
+  if (!['lessons_done', 'cards_reviewed', 'minutes'].includes(field)) {
+    throw Error('Поле активности');
+  }
   const day = dayKey(date);
   db.prepare('INSERT OR IGNORE INTO activity(day) VALUES (?)').run(day);
   db.prepare(`UPDATE activity SET ${field} = ${field} + ? WHERE day = ?`).run(amount, day);

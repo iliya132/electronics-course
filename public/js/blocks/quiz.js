@@ -19,35 +19,93 @@ export function answerControls(q,value){
   return checked.length?(type==='multi'?checked:checked[0]):undefined;
  }};
 }
-export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{},recall=false}={}){
- const form=el('form',{class:'quiz'}),fieldset=el('fieldset'),legend=el('legend',{text:q.question});
- const controls=answerControls(q.type==='predict'?{...q,question_type:'single'}:q,saved?.answer);
- const submit=el('button',{type:'submit',class:'primary',text:q.type==='predict'?'Предсказать':'Проверить'});
- const feedback=el('p',{class:'feedback','aria-live':'polite'});
- const actions=el('div',{class:'row wrap'},[submit]);
- if(q.hint){
-  const hint=el('p',{text:q.hint,hidden:true}),btn=el('button',{type:'button',text:'Подсказка'});
-  btn.onclick=()=>{hint.hidden=!hint.hidden;btn.textContent=hint.hidden?'Подсказка':'Скрыть подсказку';};actions.append(btn);fieldset.append(hint);
- }
- const show=data=>{feedback.className='feedback '+(data.is_correct?'correct':'incorrect');
-  feedback.textContent=(data.is_correct?'✓ Верно. ':'✕ Пока неверно. ')+data.explanation;
-  submit.textContent=q.type==='predict'?'Изменить прогноз':'Проверить ещё раз';};
- if(q.feedback)show(q.feedback);
- if ((q.question_type || q.type) === 'multi') {
-  controls.box.prepend(el('p', {class: 'muted', text: 'Можно выбрать несколько вариантов.'}));
- }
- fieldset.prepend(legend,controls.box);fieldset.append(actions,feedback);form.append(fieldset);container.append(form);
- form.addEventListener('submit',act(async e=>{
-  e.preventDefault();const answer=controls.read();
-  if(answer===undefined){feedback.textContent='Сначала введи или выбери ответ.';return;}
-  submit.disabled=true;
-  try{
-   const data = recall
-    ? await api('/recall/answer', 'POST', {lesson_id: lessonId, block_id: q.id, answer})
-    : await api('/lessons/' + lessonId + '/answer', 'POST', {block_id: q.id, answer});
-   show(data);onAnswered(q.id);document.dispatchEvent(new Event('course:update'));
-  }finally{submit.disabled=false;}
- }));
- return form;
+export function mountQuiz(container, q, {
+  lessonId,
+  saved,
+  onAnswered = () => {},
+  recall = false
+} = {}) {
+  const form = el('form', {
+    class: 'quiz'
+  });
+  const fieldset = el('fieldset');
+  const legend = el('legend', {
+    text: q.question
+  });
+  const controls = answerControls(q.type === 'predict' ? {
+    ...q,
+    question_type: 'single'
+  } : q, saved?.answer);
+  const submit = el('button', {
+    type: 'submit',
+    class: 'primary',
+    text: q.type === 'predict' ? 'Предсказать' : 'Проверить'
+  });
+  const feedback = el('p', {
+    class: 'feedback',
+    'aria-live': 'polite'
+  });
+  const actions = el('div', {
+    class: 'row wrap'
+  }, [submit]);
+  if (q.hint) {
+    const hint = el('p', {
+      text: q.hint,
+      hidden: true
+    });
+    const btn = el('button', {
+      type: 'button',
+      text: 'Подсказка'
+    });
+    btn.onclick = () => {
+      hint.hidden = !hint.hidden;
+      btn.textContent = hint.hidden ? 'Подсказка' : 'Скрыть подсказку';
+    };
+    actions.append(btn);
+    fieldset.append(hint);
+  }
+  const show = data => {
+    feedback.className = 'feedback ' + (data.is_correct ? 'correct' : 'incorrect');
+    feedback.textContent = (data.is_correct ? '✓ Верно. ' : '✕ Пока неверно. ') + data.explanation;
+    submit.textContent = q.type === 'predict' ? 'Изменить прогноз' : 'Проверить ещё раз';
+  };
+  if (q.feedback) {
+    show(q.feedback);
+  }
+  if ((q.question_type || q.type) === 'multi') {
+    controls.box.prepend(el('p', {
+      class: 'muted',
+      text: 'Можно выбрать несколько вариантов.'
+    }));
+  }
+  fieldset.prepend(legend, controls.box);
+  fieldset.append(actions, feedback);
+  form.append(fieldset);
+  container.append(form);
+  form.addEventListener('submit', act(async e => {
+    e.preventDefault();
+    const answer = controls.read();
+    if (answer === undefined) {
+      feedback.textContent = 'Сначала введи или выбери ответ.';
+      return;
+    }
+    submit.disabled = true;
+    try {
+      const data = recall ? await api('/recall/answer', 'POST', {
+        lesson_id: lessonId,
+        block_id: q.id,
+        answer
+      }) : await api('/lessons/' + lessonId + '/answer', 'POST', {
+        block_id: q.id,
+        answer
+      });
+      show(data);
+      onAnswered(q.id);
+      document.dispatchEvent(new Event('course:update'));
+    } finally {
+      submit.disabled = false;
+    }
+  }));
+  return form;
 }
 

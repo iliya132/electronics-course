@@ -1,11 +1,18 @@
 import {mountBackup} from './backup.js';
 import { api,act,toast } from '../api.js';
-export function applySettings(s){
- if(s.theme&&s.theme!=='system')document.documentElement.dataset.theme=s.theme;else delete document.documentElement.dataset.theme;
- document.documentElement.style.setProperty('--font-size',(s.font_size||18)+'px');
- try {
-  localStorage.setItem('prefs', JSON.stringify({theme: s.theme, font_size: s.font_size}));
- } catch {}
+export function applySettings(s) {
+  if (s.theme && s.theme !== 'system') {
+    document.documentElement.dataset.theme = s.theme;
+  } else {
+    delete document.documentElement.dataset.theme;
+  }
+  document.documentElement.style.setProperty('--font-size', (s.font_size || 18) + 'px');
+  try {
+    localStorage.setItem('prefs', JSON.stringify({
+      theme: s.theme,
+      font_size: s.font_size
+    }));
+  } catch {}
 }
 export async function settings(root){
  const s=await api('/settings');root.className='reading settings';

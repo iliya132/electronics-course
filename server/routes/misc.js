@@ -17,19 +17,37 @@ export function miscRoutes(db,c){
   db.transaction(()=>{save.run('theme',JSON.stringify(theme));save.run('font_size',JSON.stringify(font_size));})();
   res.json({theme,font_size});
  });
- r.get('/stats',(_,res)=>{
-  const activity=db.prepare('SELECT * FROM activity ORDER BY day DESC').all();
-  const now=new Date(),fmt=dayKey;
-  let day=new Date(now),streak=0;
-  const active=new Set(activity.filter(a=>a.lessons_done||a.cards_reviewed||a.minutes>0).map(a=>a.day));
-  if(!active.has(fmt(day)))day.setDate(day.getDate()-1);
-  while(active.has(fmt(day))){streak++;day.setDate(day.getDate()-1);}
-  const week=new Date(now);week.setDate(week.getDate()-6);
-  const attempts=db.prepare('SELECT exam_id,MAX(score_percent) best FROM exam_attempts WHERE finished_at IS NOT NULL GROUP BY exam_id').all();
-  res.json({streak,minutes_week:Math.round(activity.filter(a=>a.day>=fmt(week)).reduce((n,a)=>n+a.minutes,0)),
-   minutes:Math.round(activity.reduce((n,a)=>n+a.minutes,0)),lessons:db.prepare("SELECT COUNT(*) n FROM lesson_progress WHERE status='completed'").get().n,
-   cards_reviewed:activity.reduce((n,a)=>n+a.cards_reviewed,0),average:attempts.length?Math.round(attempts.reduce((n,a)=>n+a.best,0)/attempts.length):0,
-   weak:attempts.filter(a=>a.exam_id!=='final').sort((a,b)=>a.best-b.best).slice(0,3).map(a=>({...a,title:c.topics.find(t=>t.exam===a.exam_id)?.title})),activity});
+ r.get('/stats', (_, res) => {
+   const activity = db.prepare('SELECT * FROM activity ORDER BY day DESC').all();
+   const now = new Date();
+   const fmt = dayKey;
+   let day = new Date(now);
+   let streak = 0;
+   const active = new Set(activity.filter(a => a.lessons_done || a.cards_reviewed || a.minutes > 0).map(a => a.day));
+   if (!active.has(fmt(day))) {
+     day.setDate(day.getDate() - 1);
+   }
+   while (active.has(fmt(day))) {
+     streak++;
+     day.setDate(day.getDate() - 1);
+   }
+   const week = new Date(now);
+   week.setDate(week.getDate() - 6);
+   const attempts = db.prepare("SELECT exam_id,MAX(score_percent) best FROM exam_attempts WHERE finished_at " +
+     "IS NOT NULL GROUP BY exam_id").all();
+   res.json({
+     streak,
+     minutes_week: Math.round(activity.filter(a => a.day >= fmt(week)).reduce((n, a) => n + a.minutes, 0)),
+     minutes: Math.round(activity.reduce((n, a) => n + a.minutes, 0)),
+     lessons: db.prepare("SELECT COUNT(*) n FROM lesson_progress WHERE status='completed'").get().n,
+     cards_reviewed: activity.reduce((n, a) => n + a.cards_reviewed, 0),
+     average: attempts.length ? Math.round(attempts.reduce((n, a) => n + a.best, 0) / attempts.length) : 0,
+     weak: attempts.filter(a => a.exam_id !== 'final').sort((a, b) => a.best - b.best).slice(0, 3).map(a => ({
+       ...a,
+       title: c.topics.find(t => t.exam === a.exam_id)?.title
+     })),
+     activity
+   });
  });
  r.get('/export',(_,res)=>res.json(exportProgress(db)));
  r.post('/import',(req,res)=>{importProgress(db,c,req.body);res.json({ok:true});});
