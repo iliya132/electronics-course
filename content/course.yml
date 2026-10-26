@@ -1,0 +1,4 @@
+title: 'Электроника: от тока до ESP32'
+topics: [01-basics]
+final_exam: {id: final, questions_per_attempt: 30, pass_percent: 70}
+
