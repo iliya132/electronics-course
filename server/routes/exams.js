@@ -8,6 +8,15 @@ export function examRoutes(db,c) {
  r.post('/exams/:examId/start',(req,res)=>{
   const exam=required(examDefinition(c,req.params.examId),'Экзамен не найден');
   if(!examState(db,c,exam.id).available)throw httpError(403,'Сначала заверши обязательные уроки или экзамены тем');
+  const open = db.prepare(
+    'SELECT * FROM exam_attempts WHERE exam_id=? AND finished_at IS NULL ORDER BY id DESC'
+  ).get(exam.id);
+  if (open) {
+    return res.json({
+      attemptId: open.id, resumed: true,
+      questions: examPublic(hydrateQuestions(exam, JSON.parse(open.question_ids_json)))
+    });
+  }
   const selection=selectQuestions(db,c,exam);
   check(selection.length===exam.questions_per_attempt,'В банке недостаточно вопросов');
   const id=db.prepare('INSERT INTO exam_attempts(exam_id,question_ids_json,started_at) VALUES (?,?,?)')

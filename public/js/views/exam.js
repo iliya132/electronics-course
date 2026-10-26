@@ -7,7 +7,7 @@ export async function exam(root,id){
  const [info,course]=await Promise.all([api('/exams/'+id+'/history'),api('/course')]);
  const topic=course.topics.find(t=>t.exam?.id===id);
  root.className='reading';root.innerHTML='<a href="'+(topic?'#/topic/'+topic.id:'#/')+'">← К курсу</a><p class="eyebrow">Проверка знаний</p><h1>'+esc(topic?'Экзамен: '+topic.title:'Итоговый экзамен')+'</h1><p>'+info.count+' вопросов · порог '+info.pass_percent+' % · без ограничения времени.</p><p class="muted">Можно возвращаться к вопросам. Ответы и объяснения появятся после сдачи.</p>';
- const start=el('button',{class:'primary',text:'Начать экзамен',disabled:!info.available});
+ const start=el('button',{class:'primary',text:info.attempts.some(a=>a.finished_at===null)?'Продолжить попытку':'Начать экзамен',disabled:!info.available});
  start.onclick=act(async()=>{start.disabled=true;try{const a=await api('/exams/'+id+'/start','POST',{});location.hash='#/attempt/'+a.attemptId;}finally{start.disabled=false;}});
  root.append(start);
  if(!info.available)root.append(el('p',{class:'muted',text:'Осталось '+(id==='final'?'сдать экзаменов: ':'завершить обязательных уроков: ')+info.remaining}));

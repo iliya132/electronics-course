@@ -5,7 +5,7 @@ export function examDefinition(c,id) {
 }
 export function selectQuestions(db,c,exam) {
  const seen=new Set(),wrong=new Set(),last=new Set();
- const attempts=db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? ORDER BY id DESC').all(exam.id);
+ const attempts=db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? AND finished_at IS NOT NULL ORDER BY id DESC').all(exam.id);
  attempts.forEach((a,i)=>JSON.parse(a.question_ids_json).forEach(q=>{
   const id=typeof q==='string'?q:q.id;seen.add(id);if(i===0)last.add(id);
  }));

@@ -121,3 +121,21 @@ test('Вспомним сохраняет исходные ответы и со�
     }
   }
 });
+
+test('Старт возобновляет экзамен до сдачи, после сдачи создаёт новый', async t => {
+  const {api, db, c} = fixture(t);
+  for (const l of c.topics[0].lessons) {
+    db.prepare("INSERT INTO lesson_progress(lesson_id,status) VALUES (?,'completed')").run(l.id);
+  }
+  const first = (await api.post('/api/exams/exam-basics/start').expect(200)).body;
+  await api.put('/api/exams/attempts/' + first.attemptId + '/answer')
+    .send({question_id: first.questions[0].id, answer: 0}).expect(200);
+  const resumed = (await api.post('/api/exams/exam-basics/start').expect(200)).body;
+  assert.equal(resumed.attemptId, first.attemptId);
+  assert.equal(resumed.resumed, true);
+  assert.deepEqual(resumed.questions, first.questions);
+  assert.equal((await api.get('/api/exams/attempts/' + first.attemptId)).body.answers.length, 1);
+  await api.post('/api/exams/attempts/' + first.attemptId + '/finish').expect(200);
+  const next = (await api.post('/api/exams/exam-basics/start').expect(200)).body;
+  assert.notEqual(next.attemptId, first.attemptId);
+});
