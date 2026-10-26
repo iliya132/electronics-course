@@ -17,6 +17,7 @@ topics:
   - 15-buses
   - 16-esp32
   - 17-board-design
+  - 18-teardown
 final_exam:
   id: final
   questions_per_attempt: 30
