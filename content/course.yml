@@ -13,6 +13,7 @@ topics:
   - 11-analog
   - 12-digital
   - 13-mcu
+  - 14-arduino
 final_exam:
   id: final
   questions_per_attempt: 30
