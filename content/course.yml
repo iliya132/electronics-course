@@ -6,6 +6,7 @@ topics:
   - 04-sources
   - 05-capacitors
   - 06-inductors-ac
+  - 07-filters
 final_exam:
   id: final
   questions_per_attempt: 30
