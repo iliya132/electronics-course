@@ -22,7 +22,7 @@
 .panel,.quiz,.example,.checkpoint,.widget{border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin:24px 0}.quiz,.checkpoint{background:var(--surface)}
 .reading{max-width:var(--reading-width);margin:0 auto}.reading h1{font-size:36px}.reading h2{scroll-margin-top:90px}
 .reading-track{height:3px;position:sticky;top:56px;z-index:21}#reading-progress{height:3px;width:0;background:var(--accent)}
-.quiz legend{font-weight:600;margin-bottom:16px;width:100%}.quiz fieldset{border:0;padding:0;margin:0;min-width:0}.choice{display:flex;align-items:flex-start;gap:10px;margin:8px 0;padding:10px;border:1px solid var(--border);border-radius:6px;background:var(--bg)}
+.quiz legend{font-weight:600;margin-bottom:16px;width:100%}.quiz fieldset{border:0;padding:0;margin:0;min-width:0}.choice{display:flex;align-items:flex-start;gap:10px;margin:8px 0;padding:10px;border:1px solid var(--border-strong);border-radius:6px;background:var(--bg)}
 .choice input{margin:7px 0 0;accent-color:var(--accent)}.feedback{margin:16px 0 0}.feedback.correct{color:var(--ok)}.feedback.incorrect{color:var(--bad)}
 .callout{border-left:3px solid var(--accent);background:var(--surface);padding:18px 22px;margin:24px 0}.callout p:last-child{margin:0}.callout.mistake,.callout.safety{border-color:var(--bad)}.callout.warning{border-color:var(--warn)}
 figure{margin:32px 0;padding:16px 0}figure svg{width:100%;display:block}figcaption{font-size:14px;color:var(--muted);margin-top:12px}

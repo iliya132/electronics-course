@@ -8,7 +8,7 @@ table{border-collapse:collapse;width:100%;display:block;overflow:auto}th,td{text
 main{max-width:1100px;margin:0 auto;padding:56px 28px 80px;min-height:70vh}main:focus{outline:none}
 small,.muted{color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:650;color:var(--muted)}
 .stack>*+*{margin-top:16px}.row{display:flex;align-items:center;gap:16px}.wrap{flex-wrap:wrap}.spread{justify-content:space-between}
-.button,button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--border);border-radius:var(--radius);background:var(--bg);color:var(--text);padding:10px 16px;min-height:44px;text-decoration:none;font-weight:550}
+.button,button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--border-strong);border-radius:var(--radius);background:var(--bg);color:var(--text);padding:10px 16px;min-height:44px;text-decoration:none;font-weight:550}
 button:hover,.button:hover{border-color:var(--accent);text-decoration:none}.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 input,select,textarea{border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);padding:10px;max-width:100%}textarea{width:100%;min-height:140px}
 label{display:block}hr{border:0;border-top:1px solid var(--border);margin:32px 0}.hidden,[hidden]{display:none!important}
