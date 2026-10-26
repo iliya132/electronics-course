@@ -27,7 +27,7 @@ export function lessonRoutes(db,c) {
  r.post('/lessons/:id/open',(req,res)=>{lesson(req.params.id);open(req.params.id);res.json(progress(db,req.params.id));});
  r.post('/lessons/:id/progress',(req,res)=>{
   const l=lesson(req.params.id),{scroll_pos,time_delta_sec}=req.body;
-  check(Number.isFinite(scroll_pos)&&scroll_pos>=0&&Number.isInteger(time_delta_sec)&&time_delta_sec>=0&&time_delta_sec<=120,'Неверная позиция или время');
+  check(Number.isFinite(scroll_pos)&&scroll_pos>=0&&scroll_pos<=1e7&&Number.isInteger(time_delta_sec)&&time_delta_sec>=0&&time_delta_sec<=120,'Неверная позиция или время');
   open(l.id);
   db.transaction(()=>{
    db.prepare('UPDATE lesson_progress SET scroll_pos=?,time_spent_sec=time_spent_sec+? WHERE lesson_id=?').run(scroll_pos,time_delta_sec,l.id);

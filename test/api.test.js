@@ -75,3 +75,14 @@ test('Неверные настройки резервной копии не з�
  assert.equal((await api.get('/api/settings')).body.theme,'dark');
 });
 
+
+test('Пустое или не JSON тело и чрезмерная прокрутка отклоняются', async t => {
+  const {api} = fixture(t);
+  for (const path of ['/api/reset', '/api/lessons/ohm-law/progress']) {
+    const response = await api.post(path).expect(400);
+    assert.match(response.body.error, /[а-яА-Я]/);
+    await api.post(path).type('text').send('invalid').expect(400);
+  }
+  await api.post('/api/lessons/ohm-law/progress')
+    .send({scroll_pos: 1e7 + 1, time_delta_sec: 0}).expect(400);
+});

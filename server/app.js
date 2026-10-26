@@ -18,6 +18,10 @@ export function createApp(db,content){
   next();
  });
  app.use(express.json({limit:'10mb'}));
+ app.use((req, _res, next) => {
+  req.body ??= {};
+  next();
+ });
  app.use('/api',courseRoutes(db,content),lessonRoutes(db,content),examRoutes(db,content),reviewRoutes(db,content),miscRoutes(db,content));
  app.use('/api',(_,res)=>res.status(404).json({error:'Маршрут не найден'}));
  app.use('/icons',express.static(join(content.root,'node_modules/lucide-static/icons')));
