@@ -1,0 +1,495 @@
+id: exam-inductors-ac
+topic: inductors-ac
+pass_percent: 70
+questions_per_attempt: 10
+questions:
+  - type: single
+    question: При разборе задачи «Катушка индуктивности» какой вывод обоснован?
+    options:
+      - Катушка не может проводить постоянный ток
+      - При размыкании ток обязан сразу исчезнуть без выброса
+      - Индуктивность препятствует резкому изменению тока, а не самому постоянному току.
+    answer: 2
+    hint: >-
+      Для переключаемой катушки заранее обеспечь путь тока выключения. Проверяй ток насыщения и
+      сопротивление обмотки, а не только индуктивность.
+    explanation: >-
+      Индуктивность препятствует резкому изменению тока, а не самому постоянному току. При
+      размыкании реле возникает выброс напряжения. Катушка запасает энергию магнитного поля и
+      препятствует быстрому изменению тока: U=L·dI/dt. Энергия равна LI²/2. При разрыве пути катушка
+      создаёт напряжение, стремясь сохранить ток; реальный сердечник может насыщаться. Ошибочные
+      варианты: Катушка не может проводить постоянный ток; При размыкании ток обязан сразу исчезнуть
+      без выброса. Они не учитывают описанный принцип.
+    id: inductors-ac-inductor-basics-0
+    lesson: inductor-basics
+    difficulty: 1
+  - type: numeric
+    question: Катушка 70 мкГн несёт ток 2 А. Найди энергию в микроджоулях.
+    answer: 140
+    unit: мкДж
+    tolerance_percent: 1
+    hint: E = LI²/2; L в Гн, I в А, E в Дж. Для мкГн энергия получится в мкДж.
+    explanation: 70 × 2² / 2 = 140 мкДж.
+    id: inductors-ac-inductor-basics-1
+    lesson: inductor-basics
+    difficulty: 1
+  - type: numeric
+    question: Катушка 80 мкГн несёт ток 2 А. Найди энергию в микроджоулях.
+    answer: 160
+    unit: мкДж
+    tolerance_percent: 1
+    hint: E = LI²/2; L в Гн, I в А, E в Дж. Для мкГн энергия получится в мкДж.
+    explanation: 80 × 2² / 2 = 160 мкДж.
+    id: inductors-ac-inductor-basics-2
+    lesson: inductor-basics
+    difficulty: 2
+  - type: numeric
+    question: Катушка 90 мкГн несёт ток 2 А. Найди энергию в микроджоулях.
+    answer: 180
+    unit: мкДж
+    tolerance_percent: 1
+    hint: E = LI²/2; L в Гн, I в А, E в Дж. Для мкГн энергия получится в мкДж.
+    explanation: 90 × 2² / 2 = 180 мкДж.
+    id: inductors-ac-inductor-basics-3
+    lesson: inductor-basics
+    difficulty: 2
+  - type: numeric
+    question: Катушка 100 мкГн несёт ток 2 А. Найди энергию в микроджоулях.
+    answer: 200
+    unit: мкДж
+    tolerance_percent: 1
+    hint: E = LI²/2; L в Гн, I в А, E в Дж. Для мкГн энергия получится в мкДж.
+    explanation: 100 × 2² / 2 = 200 мкДж.
+    id: inductors-ac-inductor-basics-4
+    lesson: inductor-basics
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «RL-цепь» какой вывод обоснован?
+    options:
+      - Защитный диод ускоряет спад тока при любых условиях
+      - Увеличение L при том же R замедляет изменение тока.
+      - Постоянная времени RL равна R/L
+    answer: 1
+    hint: >-
+      Сопоставь время включения с τ и установившийся ток с U/R. Для реального реле учитывай
+      сопротивление провода и механику.
+    explanation: >-
+      Увеличение L при том же R замедляет изменение тока. Ток обмотки растёт постепенно после
+      включения. В последовательной RL-цепи i(t)=U/R·(1−exp(−tR/L)); постоянная времени τ=L/R. После
+      отключения путь разряда определяет скорость спада. Защитный диод уменьшает выброс, но обычно
+      замедляет отпускание реле. Ошибочные варианты: Постоянная времени RL равна R/L; Защитный диод
+      ускоряет спад тока при любых условиях. Они не учитывают описанный принцип.
+    id: inductors-ac-rl-circuit-0
+    lesson: rl-circuit
+    difficulty: 1
+  - type: numeric
+    question: L = 70 мГн, R = 100 Ом. Найди τ в миллисекундах.
+    answer: 0.7
+    unit: мс
+    tolerance_percent: 1
+    hint: τ = L/R; L в Гн, R в Ом, τ в с. Миллигенри = 10⁻³ Гн.
+    explanation: 70/100 = 0,7 мс.
+    id: inductors-ac-rl-circuit-1
+    lesson: rl-circuit
+    difficulty: 1
+  - type: numeric
+    question: L = 80 мГн, R = 100 Ом. Найди τ в миллисекундах.
+    answer: 0.8
+    unit: мс
+    tolerance_percent: 1
+    hint: τ = L/R; L в Гн, R в Ом, τ в с. Миллигенри = 10⁻³ Гн.
+    explanation: 80/100 = 0,8 мс.
+    id: inductors-ac-rl-circuit-2
+    lesson: rl-circuit
+    difficulty: 2
+  - type: numeric
+    question: L = 90 мГн, R = 100 Ом. Найди τ в миллисекундах.
+    answer: 0.9
+    unit: мс
+    tolerance_percent: 1
+    hint: τ = L/R; L в Гн, R в Ом, τ в с. Миллигенри = 10⁻³ Гн.
+    explanation: 90/100 = 0,9 мс.
+    id: inductors-ac-rl-circuit-3
+    lesson: rl-circuit
+    difficulty: 2
+  - type: numeric
+    question: L = 100 мГн, R = 100 Ом. Найди τ в миллисекундах.
+    answer: 1
+    unit: мс
+    tolerance_percent: 1
+    hint: τ = L/R; L в Гн, R в Ом, τ в с. Миллигенри = 10⁻³ Гн.
+    explanation: 100/100 = 1 мс.
+    id: inductors-ac-rl-circuit-4
+    lesson: rl-circuit
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Переменный ток» какой вывод обоснован?
+    options:
+      - Частота обратно пропорциональна периоду.
+      - Удвоение периода удваивает частоту
+      - Размах синусоиды равен её амплитуде
+    answer: 0
+    hint: >-
+      На осциллограмме измеряй период между одинаковыми точками соседних циклов. Не путай амплитуду
+      от среднего уровня с размахом пик–пик.
+    explanation: >-
+      Частота обратно пропорциональна периоду. Один и тот же сигнал может меняться медленно или
+      быстро. Период T — время повторения, частота f=1/T. Синусоида описывается U=A·sin(2πft+φ), где
+      A — амплитуда, φ — фаза. Фаза сравнивает положение колебаний одинаковой частоты. Ошибочные
+      варианты: Удвоение периода удваивает частоту; Размах синусоиды равен её амплитуде. Они не
+      учитывают описанный принцип.
+    id: inductors-ac-ac-basics-0
+    lesson: ac-basics
+    difficulty: 1
+  - type: numeric
+    question: Частота сигнала 350 Гц. Чему равен период в миллисекундах?
+    answer: 2.857142857142857
+    unit: мс
+    tolerance_percent: 1
+    hint: T = 1/f; T в с, f в Гц. Для миллисекунд умножь результат на 1000.
+    explanation: 1000/350 = 2,85714 мс.
+    id: inductors-ac-ac-basics-1
+    lesson: ac-basics
+    difficulty: 1
+  - type: numeric
+    question: Частота сигнала 400 Гц. Чему равен период в миллисекундах?
+    answer: 2.5
+    unit: мс
+    tolerance_percent: 1
+    hint: T = 1/f; T в с, f в Гц. Для миллисекунд умножь результат на 1000.
+    explanation: 1000/400 = 2,5 мс.
+    id: inductors-ac-ac-basics-2
+    lesson: ac-basics
+    difficulty: 2
+  - type: numeric
+    question: Частота сигнала 450 Гц. Чему равен период в миллисекундах?
+    answer: 2.2222222222222223
+    unit: мс
+    tolerance_percent: 1
+    hint: T = 1/f; T в с, f в Гц. Для миллисекунд умножь результат на 1000.
+    explanation: 1000/450 = 2,22222 мс.
+    id: inductors-ac-ac-basics-3
+    lesson: ac-basics
+    difficulty: 2
+  - type: numeric
+    question: Частота сигнала 500 Гц. Чему равен период в миллисекундах?
+    answer: 2
+    unit: мс
+    tolerance_percent: 1
+    hint: T = 1/f; T в с, f в Гц. Для миллисекунд умножь результат на 1000.
+    explanation: 1000/500 = 2 мс.
+    id: inductors-ac-ac-basics-4
+    lesson: ac-basics
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Действующее значение (RMS)» какой вывод обоснован?
+    options:
+      - Любой сигнал имеет RMS равный пику делённому на √2
+      - RMS является средним знаковым напряжением синусоиды
+      - Формула Uпик/√2 применима к синусоиде, а не любой форме.
+    answer: 2
+    hint: >-
+      Сравни тип прибора и форму сигнала. Для прямоугольных импульсов не дели пик на √2
+      автоматически.
+    explanation: >-
+      Формула Uпик/√2 применима к синусоиде, а не любой форме. Резистор можно нагреть переменным и
+      постоянным током одинаково. RMS выбирает такое эквивалентное постоянное значение по средней
+      мощности. Для синусоиды Urms=Uпик/√2, но для других форм нужна их собственная формула или True
+      RMS-прибор с подходящей полосой. Ошибочные варианты: Любой сигнал имеет RMS равный пику
+      делённому на √2; RMS является средним знаковым напряжением синусоиды. Они не учитывают
+      описанный принцип.
+    id: inductors-ac-rms-power-0
+    lesson: rms-power
+    difficulty: 1
+  - type: numeric
+    question: Синусоида имеет RMS 7 В. Найди пиковое напряжение.
+    answer: 9.899494936611665
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 7 × √2 = 9,89949 В.
+    id: inductors-ac-rms-power-1
+    lesson: rms-power
+    difficulty: 1
+  - type: numeric
+    question: Синусоида имеет RMS 8 В. Найди пиковое напряжение.
+    answer: 11.313708498984761
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 8 × √2 = 11,3137 В.
+    id: inductors-ac-rms-power-2
+    lesson: rms-power
+    difficulty: 2
+  - type: numeric
+    question: Синусоида имеет RMS 9 В. Найди пиковое напряжение.
+    answer: 12.727922061357857
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 9 × √2 = 12,7279 В.
+    id: inductors-ac-rms-power-3
+    lesson: rms-power
+    difficulty: 2
+  - type: numeric
+    question: Синусоида имеет RMS 10 В. Найди пиковое напряжение.
+    answer: 14.142135623730951
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 10 × √2 = 14,1421 В.
+    id: inductors-ac-rms-power-4
+    lesson: rms-power
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Трансформатор» какой вывод обоснован?
+    options:
+      - Постоянный ток можно подавать на любую обмотку без ограничения
+      - Обычный трансформатор рассчитан на переменное магнитное поле.
+      - Сеть безопасно подключать к открытой макетке
+    answer: 1
+    hint: >-
+      Используй только готовый изолированный низковольтный AC-адаптер. Сравни напряжение без
+      нагрузки и под допустимой нагрузкой без вскрытия корпуса.
+    explanation: >-
+      Обычный трансформатор рассчитан на переменное магнитное поле. Низковольтный AC-адаптер
+      передаёт энергию через магнитное поле. Отношение напряжений идеального трансформатора равно
+      отношению витков. Изоляция обмоток обеспечивает гальваническое разделение; реальный выход
+      проседает из-за потерь, а холостой ток не равен нулю. Постоянное питание обычного
+      трансформатора опасно насыщением и нагревом. Ошибочные варианты: Сеть безопасно подключать к
+      открытой макетке; Постоянный ток можно подавать на любую обмотку без ограничения. Они не
+      учитывают описанный принцип.
+    id: inductors-ac-transformer-0
+    lesson: transformer
+    difficulty: 1
+  - type: numeric
+    question: >-
+      На первичной обмотке идеального учебного трансформатора 12 В AC, N1/N2 = 7. Найди вторичное
+      RMS.
+    answer: 1.7142857142857142
+    unit: В
+    tolerance_percent: 1
+    hint: >-
+      U2/U1 = N2/N1 для идеального трансформатора. Все напряжения одной формы и одного вида:
+      например, RMS.
+    explanation: 12/7 = 1,71429 В.
+    id: inductors-ac-transformer-1
+    lesson: transformer
+    difficulty: 1
+  - type: numeric
+    question: >-
+      На первичной обмотке идеального учебного трансформатора 12 В AC, N1/N2 = 8. Найди вторичное
+      RMS.
+    answer: 1.5
+    unit: В
+    tolerance_percent: 1
+    hint: >-
+      U2/U1 = N2/N1 для идеального трансформатора. Все напряжения одной формы и одного вида:
+      например, RMS.
+    explanation: 12/8 = 1,5 В.
+    id: inductors-ac-transformer-2
+    lesson: transformer
+    difficulty: 2
+  - type: numeric
+    question: >-
+      На первичной обмотке идеального учебного трансформатора 12 В AC, N1/N2 = 9. Найди вторичное
+      RMS.
+    answer: 1.3333333333333333
+    unit: В
+    tolerance_percent: 1
+    hint: >-
+      U2/U1 = N2/N1 для идеального трансформатора. Все напряжения одной формы и одного вида:
+      например, RMS.
+    explanation: 12/9 = 1,33333 В.
+    id: inductors-ac-transformer-3
+    lesson: transformer
+    difficulty: 2
+  - type: numeric
+    question: >-
+      На первичной обмотке идеального учебного трансформатора 12 В AC, N1/N2 = 10. Найди вторичное
+      RMS.
+    answer: 1.2
+    unit: В
+    tolerance_percent: 1
+    hint: >-
+      U2/U1 = N2/N1 для идеального трансформатора. Все напряжения одной формы и одного вида:
+      например, RMS.
+    explanation: 12/10 = 1,2 В.
+    id: inductors-ac-transformer-4
+    lesson: transformer
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Ферритовые бусины и дроссели» какой вывод обоснован?
+    options:
+      - Феррит выбирают по частоте помехи и току, а не одной надписи импеданса.
+      - Импеданс бусины одинаков на всех частотах
+      - Любой дроссель полностью эквивалентен ферритовой бусине
+    answer: 0
+    hint: >-
+      Смотри график Z(f), сопротивление DC, допустимый ток и снижение импеданса под током. Добавляй
+      конденсаторы так, чтобы не получить нежелательный резонанс.
+    explanation: >-
+      Феррит выбирают по частоте помехи и току, а не одной надписи импеданса. Шум цифровой части
+      может попадать в питание датчика. Ферритовая бусина имеет малое сопротивление на DC и больший
+      импеданс на высокой частоте, часто с потерями, гасящими помеху. Дроссель и бусина не
+      взаимозаменяемы: у них разные частотные свойства и насыщение. Ошибочные варианты: Импеданс
+      бусины одинаков на всех частотах; Любой дроссель полностью эквивалентен ферритовой бусине. Они
+      не учитывают описанный принцип.
+    id: inductors-ac-ferrite-beads-0
+    lesson: ferrite-beads
+    difficulty: 1
+  - type: numeric
+    question: U = 9 В, R = 700 Ом. Найди ток в миллиамперах.
+    answer: 12.857142857142858
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 9/700 × 1000 = 12,8571 мА.
+    id: inductors-ac-ferrite-beads-1
+    lesson: ferrite-beads
+    difficulty: 1
+  - type: numeric
+    question: U = 10 В, R = 800 Ом. Найди ток в миллиамперах.
+    answer: 12.5
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 10/800 × 1000 = 12,5 мА.
+    id: inductors-ac-ferrite-beads-2
+    lesson: ferrite-beads
+    difficulty: 2
+  - type: numeric
+    question: U = 11 В, R = 900 Ом. Найди ток в миллиамперах.
+    answer: 12.222222222222223
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 11/900 × 1000 = 12,2222 мА.
+    id: inductors-ac-ferrite-beads-3
+    lesson: ferrite-beads
+    difficulty: 2
+  - type: numeric
+    question: U = 12 В, R = 1000 Ом. Найди ток в миллиамперах.
+    answer: 12
+    unit: мА
+    tolerance_percent: 1
+    hint: I = U/R; U в В, R в Ом, I в А. 1 мА = 0,001 А.
+    explanation: 12/1000 × 1000 = 12 мА.
+    id: inductors-ac-ferrite-beads-4
+    lesson: ferrite-beads
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «LC-контур» какой вывод обоснован?
+    options:
+      - Увеличение ёмкости увеличивает частоту LC
+      - В реальном контуре без внешней энергии колебания бесконечны
+      - Резонансная частота зависит от произведения L и C.
+    answer: 2
+    hint: >-
+      При моделировании добавь сопротивления и нагрузку. Для фильтра питания слишком высокая
+      добротность может дать звон и перенапряжение.
+    explanation: >-
+      Резонансная частота зависит от произведения L и C. Катушка и конденсатор могут обмениваться
+      энергией. При резонансе f0=1/(2π√LC) реактивные эффекты компенсируются в соответствующей
+      схеме. Добротность характеризует потери и ширину резонанса; реальная нагрузка и сопротивления
+      ограничивают рост амплитуды. Ошибочные варианты: Увеличение ёмкости увеличивает частоту LC; В
+      реальном контуре без внешней энергии колебания бесконечны. Они не учитывают описанный принцип.
+    id: inductors-ac-lc-resonance-0
+    lesson: lc-resonance
+    difficulty: 1
+  - type: numeric
+    question: L = 700 мкГн, C = 100 нФ. Найди частоту идеального LC-контура в килогерцах.
+    answer: 19.022654130042064
+    unit: кГц
+    tolerance_percent: 1
+    hint: f0 = 1/(2π√(LC)); L в Гн, C в Ф. Сопротивления и нагрузка меняют добротность.
+    explanation: 1/(2π√(700×10⁻⁶ × 100×10⁻⁹))/1000 = 19,0227 кГц.
+    id: inductors-ac-lc-resonance-1
+    lesson: lc-resonance
+    difficulty: 1
+  - type: numeric
+    question: L = 800 мкГн, C = 100 нФ. Найди частоту идеального LC-контура в килогерцах.
+    answer: 17.794063585429427
+    unit: кГц
+    tolerance_percent: 1
+    hint: f0 = 1/(2π√(LC)); L в Гн, C в Ф. Сопротивления и нагрузка меняют добротность.
+    explanation: 1/(2π√(800×10⁻⁶ × 100×10⁻⁹))/1000 = 17,7941 кГц.
+    id: inductors-ac-lc-resonance-2
+    lesson: lc-resonance
+    difficulty: 2
+  - type: numeric
+    question: L = 900 мкГн, C = 100 нФ. Найди частоту идеального LC-контура в килогерцах.
+    answer: 16.776404034829014
+    unit: кГц
+    tolerance_percent: 1
+    hint: f0 = 1/(2π√(LC)); L в Гн, C в Ф. Сопротивления и нагрузка меняют добротность.
+    explanation: 1/(2π√(900×10⁻⁶ × 100×10⁻⁹))/1000 = 16,7764 кГц.
+    id: inductors-ac-lc-resonance-3
+    lesson: lc-resonance
+    difficulty: 2
+  - type: numeric
+    question: L = 1000 мкГн, C = 100 нФ. Найди частоту идеального LC-контура в килогерцах.
+    answer: 15.915494309189533
+    unit: кГц
+    tolerance_percent: 1
+    hint: f0 = 1/(2π√(LC)); L в Гн, C в Ф. Сопротивления и нагрузка меняют добротность.
+    explanation: 1/(2π√(1000×10⁻⁶ × 100×10⁻⁹))/1000 = 15,9155 кГц.
+    id: inductors-ac-lc-resonance-4
+    lesson: lc-resonance
+    difficulty: 3
+  - type: single
+    question: При разборе задачи «Низковольтный AC-адаптер» какой вывод обоснован?
+    options:
+      - Для измерения нужно вскрыть сетевой адаптер
+      - Пиковое напряжение синусоиды выше её RMS в √2 раза.
+      - Выход 12 В AC никогда не бывает выше 12 В мгновенно
+    answer: 1
+    hint: Измеряй мультиметром в режиме AC V и сравни с пиком синусоиды по формуле.
+    explanation: >-
+      Пиковое напряжение синусоиды выше её RMS в √2 раза. Проверим разницу между RMS и пиковым
+      напряжением на безопасном AC-источнике. Работа ограничивается доступным низковольтным выходом
+      готового адаптера. Ошибочные варианты: Выход 12 В AC никогда не бывает выше 12 В мгновенно;
+      Для измерения нужно вскрыть сетевой адаптер. Они не учитывают описанный принцип.
+    id: inductors-ac-ac-adapter-lab-0
+    lesson: ac-adapter-lab
+    difficulty: 1
+  - type: numeric
+    question: Синусоида имеет RMS 7 В. Найди пиковое напряжение.
+    answer: 9.899494936611665
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 7 × √2 = 9,89949 В.
+    id: inductors-ac-ac-adapter-lab-1
+    lesson: ac-adapter-lab
+    difficulty: 1
+  - type: numeric
+    question: Синусоида имеет RMS 8 В. Найди пиковое напряжение.
+    answer: 11.313708498984761
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 8 × √2 = 11,3137 В.
+    id: inductors-ac-ac-adapter-lab-2
+    lesson: ac-adapter-lab
+    difficulty: 2
+  - type: numeric
+    question: Синусоида имеет RMS 9 В. Найди пиковое напряжение.
+    answer: 12.727922061357857
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 9 × √2 = 12,7279 В.
+    id: inductors-ac-ac-adapter-lab-3
+    lesson: ac-adapter-lab
+    difficulty: 2
+  - type: numeric
+    question: Синусоида имеет RMS 10 В. Найди пиковое напряжение.
+    answer: 14.142135623730951
+    unit: В
+    tolerance_percent: 1
+    hint: Uпик = √2·Urms только для синусоиды; размах равен 2Uпик.
+    explanation: 10 × √2 = 14,1421 В.
+    id: inductors-ac-ac-adapter-lab-4
+    lesson: ac-adapter-lab
+    difficulty: 3

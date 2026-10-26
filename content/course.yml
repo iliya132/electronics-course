@@ -5,6 +5,7 @@ topics:
   - 03-passives
   - 04-sources
   - 05-capacitors
+  - 06-inductors-ac
 final_exam:
   id: final
   questions_per_attempt: 30
