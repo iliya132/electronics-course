@@ -17,3 +17,4 @@ label{display:block}hr{border:0;border-top:1px solid var(--border);margin:32px 0
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 @media print{.topbar,.site-footer,.quiz,.widget,.lesson-actions,.lesson-toc,.reading-track,.note,.status{display:none!important}main{padding:0}body{font-size:12pt;color:#000;background:white}figure,.callout{break-inside:avoid}}
 
+.reading{overflow-wrap:anywhere}
