@@ -6,17 +6,35 @@ export function chart(fn,{xmax=1,ymin=0,ymax=1,xlabel='t / T',ylabel='U, В',sec
  let grid='';
  for(let i=0;i<=4;i++){const x=i*xmax/4,y=ymin+i*(ymax-ymin)/4;
   grid+='<text x="'+X(x)+'" y="'+(h-p+20)+'" text-anchor="middle">'+number(x)+'</text><text x="'+(p-7)+'" y="'+(Y(y)+5)+'" text-anchor="end">'+number(y)+'</text>';}
- return '<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+esc(ylabel+' по '+xlabel)+'"><g fill="currentColor" font-size="14" font-family="system-ui">'+grid+'<text x="240" y="235" text-anchor="middle">'+esc(xlabel)+'</text><text x="8" y="18">'+esc(ylabel)+'</text></g><path d="M'+p+' '+p+'V'+(h-p)+'H'+(w-p)+'" fill="none" stroke="currentColor"/><polyline points="'+curve(fn)+'" fill="none" stroke="var(--accent)" stroke-width="2.5"/>'+(second?'<polyline points="'+curve(second)+'" fill="none" stroke="currentColor" stroke-dasharray="5 4"/>':'')+'</svg>';
+ return '<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+esc(ylabel+' по '+xlabel)+'"><g fill="currentColor" font-size="18" font-family="system-ui">'+grid+'<text x="240" y="235" text-anchor="middle">'+esc(xlabel)+'</text><text x="8" y="18">'+esc(ylabel)+'</text></g><path d="M'+p+' '+p+'V'+(h-p)+'H'+(w-p)+'" fill="none" stroke="currentColor"/><polyline points="'+curve(fn)+'" fill="none" stroke="var(--accent)" stroke-width="2.5"/>'+(second?'<polyline points="'+curve(second)+'" fill="none" stroke="currentColor" stroke-dasharray="5 4"/>':'')+'</svg>';
 }
-export function controls(container,spec,initial,onChange){
- const state={},form=el('div',{class:'widget-controls'});
- for(const [key,label,min,max,step,value]of spec){
-  state[key]=initial[key]??value;const output=el('span',{text:String(state[key])});
-  const input=el('input',{type:'range',min,max,step,value:state[key],'aria-label':label});
-  const lab=el('label',{},[el('span',{text:label+' · '}),output,input]);
-  input.oninput=()=>{state[key]=Number(input.value);output.textContent=number(state[key]);onChange(state);};
-  form.append(lab);
- }
- container.append(form);return state;
+export function controls(container, spec, initial, onChange) {
+  const state = {};
+  const form = el('div', {class: 'widget-controls'});
+  for (const [key, label, min, max, step, value] of spec) {
+    const lo = initial[key + '_min'] ?? min;
+    const hi = initial[key + '_max'] ?? max;
+    state[key] = Math.min(hi, Math.max(lo, initial[key] ?? value));
+    if (max - min === 1 && step === 1) {
+      const input = el('input', {type: 'checkbox'});
+      input.checked = state[key] === max;
+      input.onchange = () => {
+        state[key] = input.checked ? max : min;
+        onChange(state);
+      };
+      form.append(el('label', {}, [input, ' ' + label]));
+      continue;
+    }
+    const output = el('span', {text: number(state[key])});
+    const input = el('input', {type: 'range', min: lo, max: hi, step, value: state[key], 'aria-label': label});
+    const lab = el('label', {}, [el('span', {text: label + ' · '}), output, input]);
+    input.oninput = () => {
+      state[key] = Number(input.value);
+      output.textContent = number(state[key]);
+      onChange(state);
+    };
+    form.append(lab);
+  }
+  container.append(form);
+  return state;
 }
-
