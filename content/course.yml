@@ -9,6 +9,7 @@ topics:
   - 07-filters
   - 08-diodes
   - 09-power
+  - 10-transistors
 final_exam:
   id: final
   questions_per_attempt: 30

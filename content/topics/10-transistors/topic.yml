@@ -1,0 +1,4 @@
+id: transistors
+title: Транзисторы
+icon: toggle-left
+summary: управлять нагрузкой с выводов микроконтроллера и защищать цепь.
