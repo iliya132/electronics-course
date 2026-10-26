@@ -19,7 +19,7 @@ export function answerControls(q,value){
   return checked.length?(type==='multi'?checked:checked[0]):undefined;
  }};
 }
-export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{}}={}){
+export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{},recall=false}={}){
  const form=el('form',{class:'quiz'}),fieldset=el('fieldset'),legend=el('legend',{text:q.question});
  const controls=answerControls(q.type==='predict'?{...q,question_type:'single'}:q,saved?.answer);
  const submit=el('button',{type:'submit',class:'primary',text:q.type==='predict'?'Предсказать':'Проверить'});
@@ -39,7 +39,9 @@ export function mountQuiz(container,q,{lessonId,saved,onAnswered=()=>{}}={}){
   if(answer===undefined){feedback.textContent='Сначала введи или выбери ответ.';return;}
   submit.disabled=true;
   try{
-   const data=await api('/lessons/'+lessonId+'/answer','POST',{block_id:q.id,answer});
+   const data = recall
+    ? await api('/recall/answer', 'POST', {lesson_id: lessonId, block_id: q.id, answer})
+    : await api('/lessons/' + lessonId + '/answer', 'POST', {block_id: q.id, answer});
    show(data);onAnswered(q.id);document.dispatchEvent(new Event('course:update'));
   }finally{submit.disabled=false;}
  }));

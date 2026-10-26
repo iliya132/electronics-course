@@ -27,7 +27,7 @@ export async function renderBlock(root,b,context){
  if(b.type==='recall'){
   if(!b.questions.length)return;
   const box=el('section',{},[el('h3',{text:'Вспомним предыдущие уроки'})]);
-  b.questions.forEach(q=>mountQuiz(box,q,{lessonId:q.source_lesson}));root.append(box);return;
+  b.questions.forEach(q=>mountQuiz(box,q,{lessonId:q.source_lesson,recall:true}));root.append(box);return;
  }
  if(b.type==='widget'){
   const box=el('section',{class:'widget'},[el('p',{class:'muted',text:b.caption})]),mount=el('div');box.append(mount);root.append(box);

@@ -12,7 +12,7 @@ export function lessonRoutes(db,c) {
   const blocks=l.blocks.map(b=>{
    if(b.type==='recall'){
     const pool=c.lessons.filter(old=>old.index<l.index&&progress(db,old.id).status==='completed')
-     .flatMap(old=>old.blocks.filter(q=>q.type==='quiz').map(q=>({...publicQuestion(q),source_lesson:old.id})));
+     .flatMap(old=>old.blocks.filter(q=>q.type==='quiz').map(q=>({...publicQuestion(q),hint:q.hint,source_lesson:old.id})));
     return {...b,questions:shuffle(pool).slice(0,b.count)};
    }
    if(!['quiz','predict'].includes(b.type))return b;
@@ -65,6 +65,16 @@ export function lessonRoutes(db,c) {
   const l=lesson(req.params.id);check(typeof req.body.text==='string'&&req.body.text.length<=20000,'Заметка: максимум 20000 символов');
   db.prepare('INSERT INTO notes VALUES (?,?,?) ON CONFLICT(lesson_id) DO UPDATE SET text=excluded.text,updated_at=excluded.updated_at')
    .run(l.id,req.body.text,new Date().toISOString());res.json({ok:true});
+ });
+ r.post('/recall/answer', (req, res) => {
+  const {lesson_id, block_id, answer} = req.body;
+  const l = lesson(lesson_id);
+  const b = required(l.blocks.find(x => x.id === block_id && x.type === 'quiz'), 'Вопрос не найден');
+  check(progress(db, l.id).status === 'completed', 'Урок ещё не пройден');
+  check(validAnswer(b, answer), 'Ответ имеет неверный формат');
+  const correct = grade(b, answer);
+  if (!correct) mistakeCard(db, 'quiz:' + l.id + ':' + b.id, 'quiz', l.id);
+  res.json({is_correct: correct, answer: b.answer, explanation: b.explanation});
  });
  return r;
 }

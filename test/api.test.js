@@ -97,3 +97,27 @@ test('Host допускает только локальные адреса', asy
   }
   await api.get('/api/course').expect(200);
 });
+
+test('Вспомним сохраняет исходные ответы и создаёт карточку ошибки', async t => {
+  const {api, db, c} = fixture(t);
+  const l = c.lessons[0];
+  const q = l.blocks.find(b => b.type === 'quiz' && b.question_type === 'single');
+  assert.ok(q);
+  const payload = {lesson_id: l.id, block_id: q.id, answer: (q.answer + 1) % q.options.length};
+  await api.post('/api/recall/answer').send(payload).expect(400);
+  for (const b of l.blocks.filter(b => ['quiz', 'predict'].includes(b.type))) {
+    await api.post('/api/lessons/' + l.id + '/answer').send({block_id: b.id, answer: b.answer}).expect(200);
+  }
+  await api.post('/api/lessons/' + l.id + '/complete').expect(200);
+  const before = db.prepare('SELECT * FROM block_answers WHERE lesson_id=? AND block_id=?').get(l.id, q.id);
+  const response = await api.post('/api/recall/answer').send(payload).expect(200);
+  assert.equal(response.body.is_correct, false);
+  assert.deepEqual(db.prepare('SELECT * FROM block_answers WHERE lesson_id=? AND block_id=?').get(l.id, q.id), before);
+  assert.ok(db.prepare('SELECT * FROM cards WHERE card_id=?').get('quiz:' + l.id + ':' + q.id));
+  const later = (await api.get('/api/lessons/' + c.lessons[1].id)).body;
+  for (const b of later.blocks.filter(b => b.type === 'recall')) {
+    for (const question of b.questions) {
+      assert.equal(question.hint, l.blocks.find(b => b.id === question.id).hint);
+    }
+  }
+});
