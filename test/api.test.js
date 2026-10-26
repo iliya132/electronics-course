@@ -175,3 +175,16 @@ test('Новые карточки ждут сутки, ошибки доступ
     .send({lesson_id: l.id, block_id: q.id, answer: (q.answer + 1) % q.options.length}).expect(200);
   assert.equal((await api.get('/api/review/queue')).body.length, 1);
 });
+
+test('Курс собирает прогресс за ограниченное число SQL-запросов', async t => {
+  const {db} = fixture(t);
+  const c = loadContent();
+  const api = request(createApp(db, c));
+  let count = 0;
+  const prepare = db.prepare.bind(db);
+  db.prepare = (...args) => { count++; return prepare(...args); };
+  const response = await api.get('/api/course').expect(200);
+  assert.equal(response.body.total, 183);
+  assert.equal(response.body.final_exam.remaining, 17);
+  assert.ok(count <= 20, 'SQL queries: ' + count);
+});
