@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img">
+<title>Метеостанция C1: питание, датчик, сон и связь</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="40" width="130" height="56" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="40" width="130" height="56" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="66.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">USB 5 В</tspan><tspan x="85" dy="13.2">(зарядка)</tspan></text>
+<rect x="190" y="40" width="160" height="56" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="40" width="160" height="56" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="270" y="66.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="270" dy="0">TP4056 + защита</tspan><tspan x="270" dy="13.2">DW01A / FS8205A</tspan></text>
+<rect x="390" y="40" width="150" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="390" y="40" width="150" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="465" y="65.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="465" dy="0">ячейка 18650</tspan><tspan x="465" dy="14.399999999999999">2600 мА·ч</tspan></text>
+<rect x="580" y="40" width="150" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="580" y="40" width="150" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="655" y="66.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="655" dy="0">LDO AP2112K</tspan><tspan x="655" dy="13.2">3,3 В, 600 мА</tspan></text>
+<rect x="360" y="170" width="200" height="90" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="360" y="170" width="200" height="90" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="460" y="205.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="460" dy="0">ESP32 (модуль)</tspan><tspan x="460" dy="14.399999999999999">deep sleep 10 мин</tspan><tspan x="460" dy="14.399999999999999">пробуждение по таймеру</tspan></text>
+<rect x="70" y="170" width="160" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="70" y="170" width="160" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="150" y="202.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="150" dy="0">BME280</tspan><tspan x="150" dy="14.399999999999999">I²C, 3,3 В</tspan></text>
+<rect x="70" y="280" width="160" height="56" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="70" y="280" width="160" height="56" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="150" y="306.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="150" dy="0">делитель 100 к + 100 к</tspan><tspan x="150" dy="13.2">измерение батареи</tspan></text>
+<rect x="640" y="190" width="220" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="190" width="220" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="750" y="221.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="750" dy="0">Wi-Fi → MQTT-брокер</tspan><tspan x="750" dy="13.2">weather/temp, hum, press,</tspan><tspan x="750" dy="13.2">bat</tspan></text>
+<line x1="150" y1="68" x2="181" y2="68" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 68L181 63.05L181 72.95Z" fill="currentColor" stroke="none"/>
+<line x1="350" y1="68" x2="381" y2="68" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M390 68L381 63.05L381 72.95Z" fill="currentColor" stroke="none"/>
+<line x1="540" y1="68" x2="571" y2="68" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M580 68L571 63.05L571 72.95Z" fill="currentColor" stroke="none"/>
+<line x1="617.86" y1="96" x2="526.88" y2="164.58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M519.69 170L529.86 168.54L523.9 160.63Z" fill="currentColor" stroke="none"/>
+<line x1="230" y1="207.58" x2="351" y2="211.48" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M360 211.77L351.16 206.54L350.85 216.43Z" fill="currentColor" stroke="none"/>
+<line x1="360" y1="211.77" x2="239" y2="207.87" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M230 207.58L238.84 212.82L239.15 202.92Z" fill="currentColor" stroke="none"/>
+<line x1="230" y1="284" x2="351.38" y2="247.59" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M360 245L349.96 242.84L352.8 252.33Z" fill="currentColor" stroke="none"/>
+<line x1="560" y1="220.17" x2="631.01" y2="223.85" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640 224.31L631.27 218.9L630.76 228.79Z" fill="currentColor" stroke="none"/>
+</g></svg>

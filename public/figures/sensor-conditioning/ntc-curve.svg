@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Выход делителя с NTC 10 кОм (B = 3950)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Выход делителя с NTC 10 кОм (B = 3950)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">-10</tspan></text>
+<line x1="154" y1="62" x2="154" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="154" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="154" dy="0">10</tspan></text>
+<line x1="242" y1="62" x2="242" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="242" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="242" dy="0">30</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">50</tspan></text>
+<line x1="418" y1="62" x2="418" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="418" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="418" dy="0">70</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="215.33" x2="462" y2="215.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="220.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="148.67" x2="462" y2="148.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="153.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="82" x2="462" y2="82" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="87" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Температура, °C</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Напряжение на АЦП, В</tspan></text>
+<path d="M66 249.76L67.98 249.05L69.96 248.33L71.94 247.6L73.92 246.86L75.9 246.1L77.88 245.34L79.86 244.57L81.84 243.78L83.82 242.99L85.8 242.18L87.78 241.37L89.76 240.55L91.74 239.71L93.72 238.87L95.7 238.01L97.68 237.15L99.66 236.28L101.64 235.39L103.62 234.5L105.6 233.6L107.58 232.69L109.56 231.77L111.54 230.84L113.52 229.9L115.5 228.96L117.48 228L119.46 227.04L121.44 226.07L123.42 225.09L125.4 224.1L127.38 223.11L129.36 222.11L131.34 221.1L133.32 220.08L135.3 219.06L137.28 218.03L139.26 216.99L141.24 215.95L143.22 214.9L145.2 213.84L147.18 212.78L149.16 211.72L151.14 210.65L153.12 209.57L155.1 208.49L157.08 207.4L159.06 206.31L161.04 205.22L163.02 204.12L165 203.02L166.98 201.92L168.96 200.81L170.94 199.7L172.92 198.59L174.9 197.47L176.88 196.35L178.86 195.24L180.84 194.11L182.82 192.99L184.8 191.87L186.78 190.75L188.76 189.62L190.74 188.5L192.72 187.37L194.7 186.25L196.68 185.12L198.66 184L200.64 182.88L202.62 181.76L204.6 180.64L206.58 179.52L208.56 178.4L210.54 177.29L212.52 176.18L214.5 175.07L216.48 173.96L218.46 172.86L220.44 171.76L222.42 170.66L224.4 169.56L226.38 168.47L228.36 167.39L230.34 166.31L232.32 165.23L234.3 164.16L236.28 163.09L238.26 162.02L240.24 160.97L242.22 159.91L244.2 158.86L246.18 157.82L248.16 156.79L250.14 155.75L252.12 154.73L254.1 153.71L256.08 152.7L258.06 151.69L260.04 150.69L262.02 149.7L264 148.71L265.98 147.73L267.96 146.76L269.94 145.79L271.92 144.83L273.9 143.88L275.88 142.94L277.86 142L279.84 141.07L281.82 140.15L283.8 139.23L285.78 138.32L287.76 137.42L289.74 136.53L291.72 135.65L293.7 134.77L295.68 133.9L297.66 133.04L299.64 132.19L301.62 131.34L303.6 130.5L305.58 129.67L307.56 128.85L309.54 128.04L311.52 127.23L313.5 126.43L315.48 125.64L317.46 124.86L319.44 124.09L321.42 123.32L323.4 122.56L325.38 121.81L327.36 121.07L329.34 120.34L331.32 119.61L333.3 118.89L335.28 118.18L337.26 117.48L339.24 116.78L341.22 116.1L343.2 115.42L345.18 114.74L347.16 114.08L349.14 113.42L351.12 112.77L353.1 112.13L355.08 111.5L357.06 110.87L359.04 110.25L361.02 109.64L363 109.03L364.98 108.44L366.96 107.85L368.94 107.26L370.92 106.69L372.9 106.12L374.88 105.56L376.86 105L378.84 104.45L380.82 103.91L382.8 103.38L384.78 102.85L386.76 102.33L388.74 101.81L390.72 101.3L392.7 100.8L394.68 100.3L396.66 99.81L398.64 99.33L400.62 98.85L402.6 98.38L404.58 97.92L406.56 97.46L408.54 97.01L410.52 96.56L412.5 96.12L414.48 95.68L416.46 95.25L418.44 94.83L420.42 94.41L422.4 94L424.38 93.59L426.36 93.19L428.34 92.79L430.32 92.4L432.3 92.01L434.28 91.63L436.26 91.25L438.24 90.88L440.22 90.52L442.2 90.16L444.18 89.8L446.16 89.45L448.14 89.1L450.12 88.76L452.1 88.42L454.08 88.09L456.06 87.76L458.04 87.43L460.02 87.11L462 86.8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90" y1="85" x2="112" y2="85" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="118" y="90" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">NTC сверху, 10 кОм снизу, питание 3,3 В</tspan></text>
+<circle cx="110" cy="231.57" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="126" y="253.57" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="126" dy="0">0 °C: 0,76 В</tspan></text>
+<circle cx="220" cy="172" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="236" y="194" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="236" dy="0">25 °C: 1,65 В</tspan></text>
+<circle cx="330" cy="120.09" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="346" y="142.09" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="346" dy="0">50 °C: 2,43 В</tspan></text>
+</g></svg>

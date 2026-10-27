@@ -56,6 +56,10 @@ export function validateContent(c) {
       if (b.type==='example' && (!b.title || !Array.isArray(b.steps) || b.steps.length<2 || !b.result)) fail(f,'example: title/steps/result',i);
       if (b.type==='callout' && (!['tip','warning','mistake','safety','fact','board'].includes(b.kind) || !b.text)) fail(f,'callout: kind/text',i);
       if (b.type==='checkpoint' && (!Array.isArray(b.items) || !b.items.length)) fail(f,'checkpoint: items',i);
+      if (['checkpoint','example','quiz','predict'].includes(b.type)) {
+        const lists=[b.items,b.steps,b.options].filter(Array.isArray);
+        if (lists.some(a=>a.some(x=>typeof x!=='string')) || (Array.isArray(l.objectives) && l.objectives.some(x=>typeof x!=='string'))) fail(f,b.type+': элемент списка не строка (кавычки вокруг «: »)',i);
+      }
       if (b.type==='recall' && (!Number.isInteger(b.count) || b.count<1 || b.count>3)) fail(f,'recall: count 1–3',i);
     });
     const quizzes=bs.filter(b=>b.type==='quiz');

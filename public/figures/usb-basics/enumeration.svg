@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img">
+<title>Подключение USB-устройства: от обнаружения до работы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="110" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="135.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="85" dy="0">устройство</tspan><tspan x="85" dy="14.399999999999999">втыкают</tspan><tspan x="85" dy="14.399999999999999">(D+ через 1,5 кОм)</tspan></text>
+<rect x="190" y="110" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="255" y="135.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="255" dy="0">хост видит</tspan><tspan x="255" dy="14.399999999999999">подтяжку,</tspan><tspan x="255" dy="14.399999999999999">сбрасывает шину</tspan></text>
+<rect x="360" y="110" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="360" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="425" y="135.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="425" dy="0">enumeration:</tspan><tspan x="425" dy="14.399999999999999">хост запрашивает</tspan><tspan x="425" dy="14.399999999999999">дескрипторы</tspan></text>
+<rect x="530" y="110" width="130" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="530" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="595" y="135.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="595" dy="0">выбирается</tspan><tspan x="595" dy="14.399999999999999">драйвер по</tspan><tspan x="595" dy="14.399999999999999">VID/PID и классу</tspan></text>
+<rect x="690" y="110" width="100" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="690" y="110" width="100" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="740" y="142.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="740" dy="0">обмен</tspan><tspan x="740" dy="14.399999999999999">данными</tspan></text>
+<line x1="150" y1="145" x2="181" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 145L181 140.05L181 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="320" y1="145" x2="351" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M360 145L351 140.05L351 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="490" y1="145" x2="521" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M530 145L521 140.05L521 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="660" y1="145" x2="681" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M690 145L681 140.05L681 149.95Z" fill="currentColor" stroke="none"/>
+<text x="20" y="240" text-anchor="start" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">классы: CDC — виртуальный COM-порт, HID — клавиатура и мышь, MSC — флешка</tspan></text>
+</g></svg>

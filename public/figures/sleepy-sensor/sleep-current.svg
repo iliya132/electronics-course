@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 216" role="img">
+<title>Ток в deep sleep: чип и разные платы (порядок величин)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="390" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="390" dy="0">Ток в deep sleep: чип и разные платы (порядок величин)</tspan></text>
+<text x="240" y="65" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="240" dy="0">DevKit (LDO + LED + USB-UART)</tspan></text>
+<rect x="250" y="48" width="316.67" height="24" rx="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="574.67" y="65" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="574.67" dy="0">5–15 мА</tspan></text>
+<text x="240" y="105" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="240" dy="0">DevKit без светодиода</tspan></text>
+<rect x="250" y="88" width="190" height="24" rx="4" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="448" y="105" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="448" dy="0">≈ 6 мА</tspan></text>
+<text x="240" y="145" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="240" dy="0">модуль + LDO HT7333</tspan></text>
+<rect x="250" y="128" width="2" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="258.95" y="145" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="258.95" dy="0">≈ 30 мкА</tspan></text>
+<text x="240" y="185" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="240" dy="0">чип в deep sleep</tspan></text>
+<rect x="250" y="168" width="2" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="258.32" y="185" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="258.32" dy="0">≈ 10 мкА</tspan></text>
+</g></svg>

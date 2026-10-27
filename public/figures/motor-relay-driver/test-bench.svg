@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img">
+<title>Стенд: вентилятор 12 В на N-MOSFET с обратным диодом</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M250 40L520 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="520" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="520" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="520" dy="0">+12 В</tspan></text>
+<circle cx="330" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="440" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 40L330 88" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="110" r="22" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="330" y="116" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="330" dy="0">M</tspan></text>
+<text x="300" y="116" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="300" dy="0">вентилятор</tspan></text>
+<path d="M330 132L330 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="185" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M440 40L440 68" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(440 120) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-10M10 0H45M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="462" y="118" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="462" dy="0">VD</tspan></text>
+<text x="462" y="136" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">1N4007</tspan></text>
+<path d="M440 172L440 185L330 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="266" y1="235" x2="300" y2="235" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="215" x2="300" y2="255" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="214" x2="309" y2="224" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="229" x2="309" y2="241" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="246" x2="309" y2="256" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M309 219L330 219L330 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M309 251L330 251L330 285" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="309" y1="235" x2="330" y2="235" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="235" x2="330" y2="251" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="235" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="329" y1="235" x2="323" y2="235" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M315 235L323 239.4L323 230.6Z" fill="currentColor" stroke="none"/>
+<path d="M330 285L330 305" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 305)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M50 235L110 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(150 235) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="150" y="207" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="150" dy="0">Rз 100 Ом</tspan></text>
+<path d="M190 235L266 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="230" cy="235" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M230 235L230 247" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 277) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="204" y="275" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="204" dy="0">Rпд</tspan></text>
+<text x="204" y="293" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="204" dy="0">10 кОм</tspan></text>
+<g transform="translate(230 307)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="50" cy="235" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="14" y="268" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">вывод МК (ШИМ)</tspan></text>
+<text x="400" y="250" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">измеряем:</tspan><tspan x="400" dy="14.399999999999999">Iвент — в разрыв +12 В,</tspan><tspan x="400" dy="14.399999999999999">Uси — сток–исток,</tspan><tspan x="400" dy="14.399999999999999">T корпуса ключа</tspan></text>
+</g></svg>

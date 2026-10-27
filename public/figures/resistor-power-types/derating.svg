@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Допустимая мощность падает при нагреве</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Допустимая мощность падает при нагреве</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="115.5" y1="62" x2="115.5" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="115.5" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="115.5" dy="0">20</tspan></text>
+<line x1="165" y1="62" x2="165" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="165" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="165" dy="0">40</tspan></text>
+<line x1="214.5" y1="62" x2="214.5" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="214.5" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="214.5" dy="0">60</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">80</tspan></text>
+<line x1="313.5" y1="62" x2="313.5" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="313.5" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="313.5" dy="0">100</tspan></text>
+<line x1="363" y1="62" x2="363" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="363" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="363" dy="0">120</tspan></text>
+<line x1="412.5" y1="62" x2="412.5" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="412.5" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="412.5" dy="0">140</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">160</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="236.17" x2="462" y2="236.17" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="241.17" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">25</tspan></text>
+<line x1="66" y1="190.33" x2="462" y2="190.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="195.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">50</tspan></text>
+<line x1="66" y1="144.5" x2="462" y2="144.5" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="149.5" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">75</tspan></text>
+<line x1="66" y1="98.67" x2="462" y2="98.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="103.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">100</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Температура среды, °C</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Допустимая мощность, % от номинала</tspan></text>
+<line x1="239.25" y1="62" x2="239.25" y2="282" stroke="var(--muted, #5b6573)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="244.25" y="78" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244.25" dy="0">70 °C</tspan></text>
+<path d="M66 98.67L67.65 98.67L69.3 98.67L70.95 98.67L72.6 98.67L74.25 98.67L75.9 98.67L77.55 98.67L79.2 98.67L80.85 98.67L82.5 98.67L84.15 98.67L85.8 98.67L87.45 98.67L89.1 98.67L90.75 98.67L92.4 98.67L94.05 98.67L95.7 98.67L97.35 98.67L99 98.67L100.65 98.67L102.3 98.67L103.95 98.67L105.6 98.67L107.25 98.67L108.9 98.67L110.55 98.67L112.2 98.67L113.85 98.67L115.5 98.67L117.15 98.67L118.8 98.67L120.45 98.67L122.1 98.67L123.75 98.67L125.4 98.67L127.05 98.67L128.7 98.67L130.35 98.67L132 98.67L133.65 98.67L135.3 98.67L136.95 98.67L138.6 98.67L140.25 98.67L141.9 98.67L143.55 98.67L145.2 98.67L146.85 98.67L148.5 98.67L150.15 98.67L151.8 98.67L153.45 98.67L155.1 98.67L156.75 98.67L158.4 98.67L160.05 98.67L161.7 98.67L163.35 98.67L165 98.67L166.65 98.67L168.3 98.67L169.95 98.67L171.6 98.67L173.25 98.67L174.9 98.67L176.55 98.67L178.2 98.67L179.85 98.67L181.5 98.67L183.15 98.67L184.8 98.67L186.45 98.67L188.1 98.67L189.75 98.67L191.4 98.67L193.05 98.67L194.7 98.67L196.35 98.67L198 98.67L199.65 98.67L201.3 98.67L202.95 98.67L204.6 98.67L206.25 98.67L207.9 98.67L209.55 98.67L211.2 98.67L212.85 98.67L214.5 98.67L216.15 98.67L217.8 98.67L219.45 98.67L221.1 98.67L222.75 98.67L224.4 98.67L226.05 98.67L227.7 98.67L229.35 98.67L231 98.67L232.65 98.67L234.3 98.67L235.95 98.67L237.6 98.67L239.25 98.67L240.9 100.1L242.55 101.54L244.2 102.98L245.85 104.42L247.5 105.86L249.15 107.29L250.8 108.73L252.45 110.17L254.1 111.61L255.75 113.05L257.4 114.48L259.05 115.92L260.7 117.36L262.35 118.8L264 120.24L265.65 121.67L267.3 123.11L268.95 124.55L270.6 125.99L272.25 127.42L273.9 128.86L275.55 130.3L277.2 131.74L278.85 133.18L280.5 134.61L282.15 136.05L283.8 137.49L285.45 138.93L287.1 140.37L288.75 141.8L290.4 143.24L292.05 144.68L293.7 146.12L295.35 147.56L297 148.99L298.65 150.43L300.3 151.87L301.95 153.31L303.6 154.75L305.25 156.18L306.9 157.62L308.55 159.06L310.2 160.5L311.85 161.93L313.5 163.37L315.15 164.81L316.8 166.25L318.45 167.69L320.1 169.12L321.75 170.56L323.4 172L325.05 173.44L326.7 174.88L328.35 176.31L330 177.75L331.65 179.19L333.3 180.63L334.95 182.07L336.6 183.5L338.25 184.94L339.9 186.38L341.55 187.82L343.2 189.25L344.85 190.69L346.5 192.13L348.15 193.57L349.8 195.01L351.45 196.44L353.1 197.88L354.75 199.32L356.4 200.76L358.05 202.2L359.7 203.63L361.35 205.07L363 206.51L364.65 207.95L366.3 209.39L367.95 210.82L369.6 212.26L371.25 213.7L372.9 215.14L374.55 216.58L376.2 218.01L377.85 219.45L379.5 220.89L381.15 222.33L382.8 223.76L384.45 225.2L386.1 226.64L387.75 228.08L389.4 229.52L391.05 230.95L392.7 232.39L394.35 233.83L396 235.27L397.65 236.71L399.3 238.14L400.95 239.58L402.6 241.02L404.25 242.46L405.9 243.9L407.55 245.33L409.2 246.77L410.85 248.21L412.5 249.65L414.15 251.08L415.8 252.52L417.45 253.96L419.1 255.4L420.75 256.84L422.4 258.27L424.05 259.71L425.7 261.15L427.35 262.59L429 264.03L430.65 265.46L432.3 266.9L433.95 268.34L435.6 269.78L437.25 271.22L438.9 272.65L440.55 274.09L442.2 275.53L443.85 276.97L445.5 278.41L447.15 279.84L448.8 281.28L450.45 282L452.1 282L453.75 282L455.4 282L457.05 282L458.7 282L460.35 282L462 282" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="313.5" cy="163.37" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="323.5" y="153.37" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="323.5" dy="0">100 °C → 65 %</tspan></text>
+<circle cx="449.63" cy="282" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="441.63" y="270" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="441.63" dy="0">155 °C → 0</tspan></text>
+</g></svg>

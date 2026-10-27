@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img">
+<title>Модуль TP4056 с защитой: зарядка и защита ячейки</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="100" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="100" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="126.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">USB micro</tspan><tspan x="85" dy="13.2">или Type-C</tspan><tspan x="85" dy="13.2">5 В</tspan></text>
+<rect x="190" y="90" width="150" height="90" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="90" width="150" height="90" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="265" y="132.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="265" dy="0">TP4056</tspan><tspan x="265" dy="14.399999999999999">CC/CV, 4,2 В</tspan></text>
+<rect x="190" y="220" width="150" height="50" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="220" width="150" height="50" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="265" y="243.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="265" dy="0">Rprog 1,2 кОм</tspan><tspan x="265" dy="13.2">→ 1 А</tspan></text>
+<rect x="380" y="40" width="150" height="50" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="380" y="40" width="150" height="50" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="455" y="70" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="455" dy="0">LED CHRG / STDBY</tspan></text>
+<rect x="380" y="220" width="150" height="60" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="380" y="220" width="150" height="60" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="455" y="248.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="455" dy="0">DW01A</tspan><tspan x="455" dy="13.2">защита ячейки</tspan></text>
+<rect x="570" y="220" width="150" height="60" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="220" width="150" height="60" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="645" y="248.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="645" dy="0">FS8205A</tspan><tspan x="645" dy="13.2">два MOSFET</tspan></text>
+<rect x="570" y="100" width="130" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="100" width="130" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="635" y="132.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="635" dy="0">ячейка 18650</tspan><tspan x="635" dy="14.399999999999999">B+ / B−</tspan></text>
+<rect x="740" y="100" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="740" y="100" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="805" y="132.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="805" dy="0">нагрузка</tspan><tspan x="805" dy="14.399999999999999">OUT+ / OUT−</tspan></text>
+<line x1="150" y1="135" x2="181" y2="135" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 135L181 130.05L181 139.95Z" fill="currentColor" stroke="none"/>
+<line x1="265" y1="220" x2="265" y2="189" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M265 180L260.05 189L269.95 189Z" fill="currentColor" stroke="none"/>
+<line x1="340" y1="107.37" x2="378.7" y2="93.11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M387.14 90L376.99 88.47L380.41 97.76Z" fill="currentColor" stroke="none"/>
+<line x1="340" y1="135" x2="561" y2="135" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 135L561 130.05L561 139.95Z" fill="currentColor" stroke="none"/>
+<text x="455" y="127" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="455" dy="0">зарядка</tspan></text>
+<line x1="530" y1="250" x2="561" y2="250" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 250L561 245.05L561 254.95Z" fill="currentColor" stroke="none"/>
+<line x1="642.39" y1="220" x2="638.82" y2="178.97" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M638.04 170L633.89 179.39L643.75 178.54Z" fill="currentColor" stroke="none"/>
+<line x1="638.04" y1="170" x2="641.61" y2="211.03" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M642.39 220L646.54 210.61L636.68 211.46Z" fill="currentColor" stroke="none"/>
+<line x1="700" y1="135" x2="731" y2="135" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M740 135L731 130.05L731 139.95Z" fill="currentColor" stroke="none"/>
+</g></svg>

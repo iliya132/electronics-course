@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Блок-схема мини-повербанка</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="60" width="78" height="56" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.4"/>
+<text x="49" y="86" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="49" dy="0">USB 5 В</tspan></text>
+<text x="49" y="103" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="49" dy="0">зарядка</tspan></text>
+<rect x="122" y="60" width="100" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="172" y="86" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="172" dy="0">TP4056</tspan></text>
+<text x="172" y="103" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="172" dy="0">заряд + защита</tspan></text>
+<rect x="256" y="60" width="78" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.4"/>
+<text x="295" y="86" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="295" dy="0">18650</tspan></text>
+<text x="295" y="103" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="295" dy="0">с защитой</tspan></text>
+<rect x="370" y="60" width="100" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="420" y="86" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="420" dy="0">boost</tspan></text>
+<text x="420" y="103" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="420" dy="0">3–4,2 → 5 В</tspan></text>
+<line x1="88" y1="88" x2="113" y2="88" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M122 88L113 83.05L113 92.95Z" fill="currentColor" stroke="none"/>
+<line x1="222" y1="88" x2="247" y2="88" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M256 88L247 83.05L247 92.95Z" fill="currentColor" stroke="none"/>
+<line x1="334" y1="88" x2="361" y2="88" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M370 88L361 83.05L361 92.95Z" fill="currentColor" stroke="none"/>
+<text x="272" y="52" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="272" dy="0">2000 мА·ч</tspan></text>
+<line x1="420" y1="116" x2="420" y2="147" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M420 156L424.95 147L415.05 147Z" fill="currentColor" stroke="none"/>
+<rect x="370" y="156" width="100" height="50" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.4"/>
+<text x="420" y="179" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="420" dy="0">нагрузка</tspan></text>
+<text x="420" y="196" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="420" dy="0">10 Ом 5 Вт</tspan></text>
+<circle cx="300" cy="168" r="18" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="300" y="174" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="300" dy="0">A</tspan></text>
+<text x="300" y="198" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="300" dy="0">ток батареи</tspan></text>
+<line x1="318" y1="168" x2="347" y2="168" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="5 4"/>
+<path d="M356 168L347 163.05L347 172.95Z" fill="currentColor" stroke="none"/>
+<text x="240" y="252" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="240" dy="0">Батарею не замыкай и не заряжай без платы защиты</tspan></text>
+<text x="240" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Заряд — слева, питание нагрузки — справа</tspan></text>
+</g></svg>

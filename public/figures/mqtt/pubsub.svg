@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img">
+<title>MQTT: издатели, брокер и подписчики</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="40" width="190" height="64" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="40" width="190" height="64" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="69.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">ESP32-датчик</tspan><tspan x="115" dy="14.399999999999999">publish home/room/temp</tspan></text>
+<rect x="20" y="160" width="190" height="64" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="160" width="190" height="64" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="189.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">ESP32-реле</tspan><tspan x="115" dy="14.399999999999999">subscribe home/room/relay</tspan></text>
+<rect x="310" y="100" width="170" height="90" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="310" y="100" width="170" height="90" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="395" y="141.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="395" dy="0">брокер</tspan><tspan x="395" dy="16.8">mosquitto :1883</tspan></text>
+<rect x="590" y="40" width="190" height="64" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="590" y="40" width="190" height="64" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="685" y="69.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="685" dy="0">Home Assistant</tspan><tspan x="685" dy="14.399999999999999">subscribe home/#</tspan></text>
+<rect x="590" y="160" width="190" height="64" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="590" y="160" width="190" height="64" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="685" y="189.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="685" dy="0">телефон / Node-RED</tspan><tspan x="685" dy="14.399999999999999">subscribe home/room/temp</tspan></text>
+<line x1="210" y1="96.77" x2="301.29" y2="120.57" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M310 122.84L302.54 115.78L300.04 125.36Z" fill="currentColor" stroke="none"/>
+<text x="260" y="101.8" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="260" dy="0">publish</tspan></text>
+<line x1="310" y1="159.27" x2="218.88" y2="174.56" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 176.05L219.7 179.45L218.06 169.68Z" fill="currentColor" stroke="none"/>
+<text x="260" y="159.66" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="260" dy="0">доставка</tspan></text>
+<line x1="480" y1="123.6" x2="581.27" y2="98.11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M590 95.91L580.06 93.31L582.48 102.91Z" fill="currentColor" stroke="none"/>
+<text x="535" y="101.76" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="535" dy="0">доставка</tspan></text>
+<line x1="480" y1="158.78" x2="581.12" y2="175.16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M590 176.6L581.91 170.28L580.32 180.05Z" fill="currentColor" stroke="none"/>
+<text x="535" y="159.69" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="535" dy="0">доставка</tspan></text>
+<text x="20" y="280" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">издатель не знает подписчиков: брокер сам рассылает сообщения по темам (топикам)</tspan></text>
+</g></svg>

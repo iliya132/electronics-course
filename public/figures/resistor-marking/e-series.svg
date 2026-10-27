@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" role="img">
+<title>Ряды E12 и E24 на логарифмической шкале</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Номиналы растут «по процентам», а не поровну</tspan></text>
+<line x1="30" y1="96" x2="456" y2="96" stroke="var(--muted, #5b6573)" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="30" y1="176" x2="456" y2="176" stroke="var(--muted, #5b6573)" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="36" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="36" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="36" dy="0">10</tspan></text>
+<circle cx="68.46" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="68.46" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="68.46" dy="0">12</tspan></text>
+<circle cx="108.2" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="108.2" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="108.2" dy="0">15</tspan></text>
+<circle cx="140.66" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="140.66" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="140.66" dy="0">18</tspan></text>
+<circle cx="176.39" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="176.39" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="176.39" dy="0">22</tspan></text>
+<circle cx="212.86" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="212.86" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="212.86" dy="0">27</tspan></text>
+<circle cx="248.59" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="248.59" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="248.59" dy="0">33</tspan></text>
+<circle cx="278.34" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="278.34" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="278.34" dy="0">39</tspan></text>
+<circle cx="311.56" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="311.56" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="311.56" dy="0">47</tspan></text>
+<circle cx="342.76" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="342.76" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="342.76" dy="0">56</tspan></text>
+<circle cx="377.33" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="377.33" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="377.33" dy="0">68</tspan></text>
+<circle cx="410.66" cy="96" r="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="410.66" y="120" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="410.66" dy="0">82</tspan></text>
+<circle cx="36" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="68.46" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="108.2" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="140.66" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="176.39" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="212.86" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="248.59" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="278.34" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="311.56" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="342.76" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="377.33" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="410.66" cy="176" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="52.97" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="82.72" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="119.69" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="159.42" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="191.89" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="231.62" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="264.08" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="295.72" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="326.1" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="360.88" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="394.78" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<circle cx="429.21" cy="176" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="52.97" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="52.97" dy="0">11</tspan></text>
+<text x="82.72" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="82.72" dy="0">13</tspan></text>
+<text x="119.69" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="119.69" dy="0">16</tspan></text>
+<text x="159.42" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="159.42" dy="0">20</tspan></text>
+<text x="191.89" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="191.89" dy="0">24</tspan></text>
+<text x="231.62" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="231.62" dy="0">30</tspan></text>
+<text x="264.08" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="264.08" dy="0">36</tspan></text>
+<text x="295.72" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="295.72" dy="0">43</tspan></text>
+<text x="326.1" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="326.1" dy="0">51</tspan></text>
+<text x="360.88" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="360.88" dy="0">62</tspan></text>
+<text x="394.78" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="394.78" dy="0">75</tspan></text>
+<text x="429.21" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="429.21" dy="0">91</tspan></text>
+<text x="30" y="68" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="30" dy="0">E12 (допуск ±10 %): 12 значений на декаду</tspan></text>
+<text x="30" y="150" text-anchor="start" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="30" dy="0">E24 (±5 %): добавлены зелёные</tspan></text>
+<text x="450" y="220" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="450" dy="0">Ом ×10, ×100, ×1000 …</tspan></text>
+</g></svg>

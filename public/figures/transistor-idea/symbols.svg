@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" role="img">
+<title>Условные обозначения NPN, PNP, N-MOSFET и P-MOSFET</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="118" cy="150" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="70" y1="150" x2="110" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="110" y1="130" x2="110" y2="170" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M110 141L140 120L140 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M110 159L140 180L140 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="120" y1="166" x2="130.63" y2="173.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M138 178.6L133.47 169.38L127.79 177.49Z" fill="currentColor" stroke="none"/>
+<circle cx="298" cy="150" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="250" y1="150" x2="290" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="130" x2="290" y2="170" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M290 141L320 120L320 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M290 159L320 180L320 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="312" y1="174.4" x2="301.37" y2="166.96" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M294 161.8L298.53 171.02L304.21 162.91Z" fill="currentColor" stroke="none"/>
+<line x1="436" y1="150" x2="470" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="470" y1="130" x2="470" y2="170" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="479" y1="129" x2="479" y2="139" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="479" y1="144" x2="479" y2="156" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="479" y1="161" x2="479" y2="171" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M479 134L500 134L500 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M479 166L500 166L500 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="479" y1="150" x2="500" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="500" y1="150" x2="500" y2="166" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="500" cy="150" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="499" y1="150" x2="493" y2="150" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M485 150L493 154.4L493 145.6Z" fill="currentColor" stroke="none"/>
+<line x1="596" y1="150" x2="630" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="630" y1="130" x2="630" y2="170" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="639" y1="129" x2="639" y2="139" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="639" y1="144" x2="639" y2="156" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="639" y1="161" x2="639" y2="171" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M639 134L660 134L660 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M639 166L660 166L660 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="639" y1="150" x2="660" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="660" y1="150" x2="660" y2="166" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="660" cy="150" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="645" y1="150" x2="651" y2="150" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M659 150L651 145.6L651 154.4Z" fill="currentColor" stroke="none"/>
+<text x="70" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="70" dy="0">Б</tspan></text>
+<text x="156" y="94" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="156" dy="0">К</tspan></text>
+<text x="156" y="216" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="156" dy="0">Э</tspan></text>
+<text x="250" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="250" dy="0">Б</tspan></text>
+<text x="336" y="94" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="336" dy="0">К</tspan></text>
+<text x="336" y="216" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="336" dy="0">Э</tspan></text>
+<text x="436" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="436" dy="0">З</tspan></text>
+<text x="508" y="94" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="508" dy="0">С</tspan></text>
+<text x="508" y="216" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="508" dy="0">И</tspan></text>
+<text x="596" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="596" dy="0">З</tspan></text>
+<text x="668" y="94" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="668" dy="0">С</tspan></text>
+<text x="668" y="216" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="668" dy="0">И</tspan></text>
+<text x="114" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="114" dy="0">NPN</tspan></text>
+<text x="294" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="294" dy="0">PNP</tspan></text>
+<text x="474" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="474" dy="0">N-MOSFET</tspan></text>
+<text x="634" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="634" dy="0">P-MOSFET</tspan></text>
+<text x="200" y="292" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="200" dy="0">управляет ток базы</tspan></text>
+<text x="550" y="292" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="550" dy="0">управляет напряжение на затворе</tspan></text>
+</g></svg>

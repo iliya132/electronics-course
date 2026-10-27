@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
+<title>Обозначения элементов на схеме</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="320" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="320" dy="0">Обозначения элементов на схеме</tspan></text>
+<rect x="20" y="42" width="600" height="28" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="61" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Буква</tspan></text>
+<text x="135.69" y="61" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="135.69" dy="0">Элемент</tspan></text>
+<text x="381.85" y="61" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="381.85" dy="0">Пример</tspan></text>
+<line x1="20" y1="70" x2="620" y2="70" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="89" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">R</tspan></text>
+<text x="135.69" y="89" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">резистор</tspan></text>
+<text x="381.85" y="89" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">R1 10k</tspan></text>
+<line x1="20" y1="98" x2="620" y2="98" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="117" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">C</tspan></text>
+<text x="135.69" y="117" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">конденсатор</tspan></text>
+<text x="381.85" y="117" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">C3 100n</tspan></text>
+<line x1="20" y1="126" x2="620" y2="126" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="145" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">L</tspan></text>
+<text x="135.69" y="145" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">дроссель, катушка</tspan></text>
+<text x="381.85" y="145" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">L1 10u</tspan></text>
+<line x1="20" y1="154" x2="620" y2="154" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="173" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">D</tspan></text>
+<text x="135.69" y="173" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">диод, светодиод</tspan></text>
+<text x="381.85" y="173" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">D2 LED</tspan></text>
+<line x1="20" y1="182" x2="620" y2="182" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="201" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Q</tspan></text>
+<text x="135.69" y="201" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">транзистор</tspan></text>
+<text x="381.85" y="201" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">Q1 IRLZ44N</tspan></text>
+<line x1="20" y1="210" x2="620" y2="210" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="229" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">U</tspan></text>
+<text x="135.69" y="229" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">микросхема</tspan></text>
+<text x="381.85" y="229" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">U1 ESP32</tspan></text>
+<line x1="20" y1="238" x2="620" y2="238" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="257" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">J</tspan></text>
+<text x="135.69" y="257" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">разъём</tspan></text>
+<text x="381.85" y="257" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">J1 USB-C</tspan></text>
+<line x1="20" y1="266" x2="620" y2="266" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="285" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">F</tspan></text>
+<text x="135.69" y="285" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">предохранитель</tspan></text>
+<text x="381.85" y="285" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">F1 500 мА</tspan></text>
+<line x1="20" y1="294" x2="620" y2="294" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="313" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Y</tspan></text>
+<text x="135.69" y="313" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">кварц</tspan></text>
+<text x="381.85" y="313" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">Y1 16 МГц</tspan></text>
+<line x1="20" y1="322" x2="620" y2="322" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="341" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">SW</tspan></text>
+<text x="135.69" y="341" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">кнопка, переключатель</tspan></text>
+<text x="381.85" y="341" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">SW1 BOOT</tspan></text>
+<line x1="20" y1="350" x2="620" y2="350" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="369" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">TP</tspan></text>
+<text x="135.69" y="369" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="135.69" dy="0">контрольная точка</tspan></text>
+<text x="381.85" y="369" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="381.85" dy="0">TP1 3V3</tspan></text>
+</g></svg>

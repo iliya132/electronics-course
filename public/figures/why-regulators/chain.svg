@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img">
+<title>Цепочка питания платы 12 В → 5 В → 3,3 В</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="70" width="90" height="56" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.4"/>
+<text x="55" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="55" dy="0">адаптер</tspan></text>
+<text x="55" y="113" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="55" dy="0">12 В</tspan></text>
+<rect x="140" y="70" width="90" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="185" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="185" dy="0">buck</tspan></text>
+<text x="185" y="113" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="185" dy="0">12 → 5 В</tspan></text>
+<rect x="270" y="70" width="90" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="315" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="315" dy="0">LDO</tspan></text>
+<text x="315" y="113" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="315" dy="0">5 → 3,3 В</tspan></text>
+<rect x="380" y="70" width="90" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.4"/>
+<text x="425" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="425" dy="0">МК, Wi-Fi</tspan></text>
+<text x="425" y="113" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="425" dy="0">3,3 В</tspan></text>
+<line x1="100" y1="98" x2="131" y2="98" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M140 98L131 93.05L131 102.95Z" fill="currentColor" stroke="none"/>
+<line x1="230" y1="98" x2="261" y2="98" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M270 98L261 93.05L261 102.95Z" fill="currentColor" stroke="none"/>
+<line x1="360" y1="98" x2="371" y2="98" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M380 98L371 93.05L371 102.95Z" fill="currentColor" stroke="none"/>
+<text x="120" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="120" dy="0">12 В</tspan></text>
+<text x="250" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="250" dy="0">5 В</tspan></text>
+<circle cx="250" cy="98" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="250" y1="98" x2="250" y2="151" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M250 160L254.95 151L245.05 151Z" fill="currentColor" stroke="none"/>
+<rect x="205" y="160" width="90" height="52" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="250" y="182" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="250" dy="0">реле, моторы</tspan></text>
+<text x="250" y="200" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">5 В</tspan></text>
+<circle cx="370" cy="98" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="370" y1="98" x2="370" y2="151" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M370 160L374.95 151L365.05 151Z" fill="currentColor" stroke="none"/>
+<rect x="325" y="160" width="100" height="52" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.4"/>
+<text x="375" y="182" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="375" dy="0">датчик</tspan></text>
+<text x="375" y="200" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="375" dy="0">3,3 В, малый шум</tspan></text>
+<text x="240" y="250" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Каждая ступень решает свою задачу: понижает напряжение, чистит шум</tspan></text>
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Типичное питание платы</tspan></text>
+</g></svg>

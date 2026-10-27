@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img">
+<title>Треугольник Ома</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M130 28L30 208L230 208Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="80" y1="118" x2="180" y2="118" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="130" y1="118" x2="130" y2="208" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="130" y="98" text-anchor="middle" font-size="34" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="130" dy="0">U</tspan></text>
+<text x="82" y="178" text-anchor="middle" font-size="34" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="82" dy="0">I</tspan></text>
+<text x="180" y="178" text-anchor="middle" font-size="34" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="180" dy="0">R</tspan></text>
+<text x="270" y="56" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="270" dy="0">Закрой нужную букву —</tspan></text>
+<text x="270" y="76" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="270" dy="0">останется формула:</tspan></text>
+<text x="270" y="120" text-anchor="start" font-size="24" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="270" dy="0">U = I · R</tspan></text>
+<text x="270" y="160" text-anchor="start" font-size="24" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="270" dy="0">I = U / R</tspan></text>
+<text x="270" y="200" text-anchor="start" font-size="24" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="270" dy="0">R = U / I</tspan></text>
+</g></svg>

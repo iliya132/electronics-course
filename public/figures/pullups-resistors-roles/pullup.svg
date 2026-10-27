@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Кнопка со схемами подтяжки к питанию и к земле</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="118" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="118" dy="0">Подтяжка к питанию (pull-up)</tspan></text>
+<text x="116" y="52" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="116" dy="0">+3,3 В</tspan></text>
+<path d="M108 56L108 66" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(108 106) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="82" y="104" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="82" dy="0">10 кОм</tspan></text>
+<path d="M108 146L108 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="108" cy="160" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(108 190) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<g transform="translate(108 220)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M108 160L164 160" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="168" cy="160" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="176" y="165" text-anchor="start" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="176" dy="0">вход МК</tspan></text>
+<text x="358" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="358" dy="0">Подтяжка к земле (pull-down)</tspan></text>
+<text x="356" y="52" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="356" dy="0">+3,3 В</tspan></text>
+<path d="M348 56L348 66" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(348 96) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<path d="M348 126L348 160" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="348" cy="160" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(348 200) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="322" y="198" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="322" dy="0">10 кОм</tspan></text>
+<path d="M348 240L348 246" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(348 246)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M348 160L404 160" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="408" cy="160" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="416" y="165" text-anchor="start" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="416" dy="0">вход МК</tspan></text>
+<line x1="240" y1="40" x2="240" y2="290" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+<text x="125" y="280" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="125" dy="0">нет нажатия: 1, нажата: 0</tspan></text>
+<text x="365" y="280" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="365" dy="0">нет нажатия: 0, нажата: 1</tspan></text>
+</g></svg>

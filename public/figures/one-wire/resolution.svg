@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 234" role="img">
+<title>DS18B20: разрешение и время преобразования</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="360" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="360" dy="0">DS18B20: разрешение и время преобразования</tspan></text>
+<rect x="20" y="42" width="680" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Разрешение</tspan></text>
+<text x="242.74" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="242.74" dy="0">Шаг, °C</tspan></text>
+<text x="421.68" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="421.68" dy="0">Время преобразования</tspan></text>
+<line x1="20" y1="76" x2="700" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">9 бит</tspan></text>
+<text x="242.74" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="242.74" dy="0">0,5</tspan></text>
+<text x="421.68" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="421.68" dy="0">93,75 мс</tspan></text>
+<line x1="20" y1="110" x2="700" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">10 бит</tspan></text>
+<text x="242.74" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="242.74" dy="0">0,25</tspan></text>
+<text x="421.68" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="421.68" dy="0">187,5 мс</tspan></text>
+<line x1="20" y1="144" x2="700" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">11 бит</tspan></text>
+<text x="242.74" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="242.74" dy="0">0,125</tspan></text>
+<text x="421.68" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="421.68" dy="0">375 мс</tspan></text>
+<line x1="20" y1="178" x2="700" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">12 бит</tspan></text>
+<text x="242.74" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="242.74" dy="0">0,0625</tspan></text>
+<text x="421.68" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="421.68" dy="0">750 мс</tspan></text>
+</g></svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Выход TL431 от входного напряжения (модель)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Выход TL431 от входного напряжения (модель)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="145.2" y1="62" x2="145.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="145.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145.2" dy="0">3</tspan></text>
+<line x1="224.4" y1="62" x2="224.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="224.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224.4" dy="0">6</tspan></text>
+<line x1="303.6" y1="62" x2="303.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="303.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="303.6" dy="0">9</tspan></text>
+<line x1="382.8" y1="62" x2="382.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="382.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="382.8" dy="0">12</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">15</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="245.33" x2="462" y2="245.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="250.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="208.67" x2="462" y2="208.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="213.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3</tspan></text>
+<line x1="66" y1="135.33" x2="462" y2="135.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="140.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">4</tspan></text>
+<line x1="66" y1="98.67" x2="462" y2="98.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="103.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">5</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">6</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Входное напряжение, В</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Выход, В</tspan></text>
+<line x1="66" y1="99.03" x2="462" y2="99.03" stroke="var(--ok, #1a7f4b)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="458" y="93.03" text-anchor="end" font-size="14" font-weight="400" fill="var(--ok, #1a7f4b)"><tspan x="458" dy="0">4,99 В</tspan></text>
+<path d="M66 282L67.98 279.25L69.96 276.5L71.94 273.75L73.92 271L75.9 268.25L77.88 265.5L79.86 262.75L81.84 260L83.82 257.25L85.8 254.5L87.78 251.75L89.76 249L91.74 246.25L93.72 243.5L95.7 240.75L97.68 238L99.66 235.25L101.64 232.5L103.62 229.75L105.6 227L107.58 224.25L109.56 221.5L111.54 218.75L113.52 216L115.5 213.25L117.48 210.5L119.46 207.75L121.44 205L123.42 202.25L125.4 199.5L127.38 196.75L129.36 194L131.34 191.25L133.32 188.5L135.3 185.75L137.28 183L139.26 180.25L141.24 177.5L143.22 174.75L145.2 172L147.18 169.25L149.16 166.5L151.14 163.75L153.12 161L155.1 158.25L157.08 155.5L159.06 152.75L161.04 150L163.02 147.25L165 144.5L166.98 141.75L168.96 139L170.94 136.25L172.92 133.5L174.9 130.75L176.88 128L178.86 125.25L180.84 122.5L182.82 119.75L184.8 117L186.78 114.25L188.76 111.5L190.74 108.75L192.72 106L194.7 103.25L196.68 100.5L198.66 99.03L200.64 99.03L202.62 99.03L204.6 99.03L206.58 99.03L208.56 99.03L210.54 99.02L212.52 99.02L214.5 99.02L216.48 99.02L218.46 99.02L220.44 99.02L222.42 99.02L224.4 99.02L226.38 99.01L228.36 99.01L230.34 99.01L232.32 99.01L234.3 99.01L236.28 99.01L238.26 99.01L240.24 99L242.22 99L244.2 99L246.18 99L248.16 99L250.14 99L252.12 99L254.1 98.99L256.08 98.99L258.06 98.99L260.04 98.99L262.02 98.99L264 98.99L265.98 98.99L267.96 98.98L269.94 98.98L271.92 98.98L273.9 98.98L275.88 98.98L277.86 98.98L279.84 98.98L281.82 98.98L283.8 98.97L285.78 98.97L287.76 98.97L289.74 98.97L291.72 98.97L293.7 98.97L295.68 98.97L297.66 98.96L299.64 98.96L301.62 98.96L303.6 98.96L305.58 98.96L307.56 98.96L309.54 98.96L311.52 98.95L313.5 98.95L315.48 98.95L317.46 98.95L319.44 98.95L321.42 98.95L323.4 98.95L325.38 98.94L327.36 98.94L329.34 98.94L331.32 98.94L333.3 98.94L335.28 98.94L337.26 98.94L339.24 98.94L341.22 98.93L343.2 98.93L345.18 98.93L347.16 98.93L349.14 98.93L351.12 98.93L353.1 98.93L355.08 98.92L357.06 98.92L359.04 98.92L361.02 98.92L363 98.92L364.98 98.92L366.96 98.92L368.94 98.91L370.92 98.91L372.9 98.91L374.88 98.91L376.86 98.91L378.84 98.91L380.82 98.91L382.8 98.91L384.78 98.9L386.76 98.9L388.74 98.9L390.72 98.9L392.7 98.9L394.68 98.9L396.66 98.9L398.64 98.89L400.62 98.89L402.6 98.89L404.58 98.89L406.56 98.89L408.54 98.89L410.52 98.89L412.5 98.88L414.48 98.88L416.46 98.88L418.44 98.88L420.42 98.88L422.4 98.88L424.38 98.88L426.36 98.87L428.34 98.87L430.32 98.87L432.3 98.87L434.28 98.87L436.26 98.87L438.24 98.87L440.22 98.87L442.2 98.86L444.18 98.86L446.16 98.86L448.14 98.86L450.12 98.86L452.1 98.86L454.08 98.86L456.06 98.85L458.04 98.85L460.02 98.85L462 98.85" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90" y1="195" x2="112" y2="195" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="118" y="200" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">Rс = 2,2 кОм, нагрузка 1 мА</tspan></text>
+</g></svg>

@@ -1,3 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
- <title>Функциональные связи узлов устройства</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="currentColor"/></marker></defs>
- <g font-family="system-ui" font-size="18" fill="currentColor" stroke="none"><line x1="90" y1="60" x2="176" y2="60" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><line x1="240" y1="60" x2="326" y2="60" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><line x1="390" y1="85" x2="154" y2="188" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><line x1="90" y1="220" x2="176" y2="220" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><line x1="240" y1="220" x2="326" y2="220" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><line x1="390" y1="195" x2="304" y2="92" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/><rect x="24" y="30" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="90" y="65" text-anchor="middle" font-size="14">Вход / мост</text><rect x="174" y="30" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="240" y="65" text-anchor="middle" font-size="14">Ключ</text><rect x="324" y="30" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="390" y="65" text-anchor="middle" font-size="14">Трансформатор</text><rect x="24" y="190" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="90" y="225" text-anchor="middle" font-size="14">Диод / фильтр</text><rect x="174" y="190" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="240" y="225" text-anchor="middle" font-size="14">Выход 5 В</text><rect x="324" y="190" width="132" height="60" rx="5" fill="var(--bg)" stroke="currentColor"/><text x="390" y="225" text-anchor="middle" font-size="14">TL431 + опто</text><text x="240" y="295" text-anchor="middle" font-size="13">Стрелки: энергия или управление; не монтажные провода</text><text x="240" y="145" text-anchor="middle" font-size="15">Изоляция в трансформаторе и оптопаре</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img">
+<title>Учебная функциональная схема изолированного USB-блока питания</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="60" width="120" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="60" width="120" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="80" y="86.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="80" dy="0">вход</tspan><tspan x="80" dy="13.2">предохранитель,</tspan><tspan x="80" dy="13.2">фильтр</tspan></text>
+<rect x="160" y="60" width="100" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="160" y="60" width="100" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="210" y="100" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="210" dy="0">мост</tspan></text>
+<rect x="280" y="60" width="110" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="280" y="60" width="110" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="335" y="93.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="335" dy="0">накопительный</tspan><tspan x="335" dy="13.2">конденсатор</tspan></text>
+<rect x="410" y="60" width="130" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="410" y="60" width="130" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="475" y="92.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="475" dy="0">контроллер</tspan><tspan x="475" dy="14.399999999999999">и ключ</tspan></text>
+<rect x="570" y="60" width="110" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="60" width="110" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="625" y="100" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="625" dy="0">трансформатор</tspan></text>
+<rect x="700" y="60" width="90" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="700" y="60" width="90" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="745" y="100" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="745" dy="0">диод Шоттки</tspan></text>
+<rect x="810" y="60" width="80" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="810" y="60" width="80" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="850" y="93.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="850" dy="0">фильтр</tspan><tspan x="850" dy="13.2">5 В</tspan></text>
+<rect x="650" y="220" width="140" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="650" y="220" width="140" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="720" y="253.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="720" dy="0">TL431</tspan><tspan x="720" dy="13.2">(сравнение с опорой)</tspan></text>
+<rect x="450" y="220" width="150" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="450" y="220" width="150" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="525" y="253.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="525" dy="0">оптопара</tspan><tspan x="525" dy="13.2">(через барьер)</tspan></text>
+<line x1="560" y1="30" x2="560" y2="330" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 5"/>
+<line x1="140" y1="95" x2="151" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 95L151 90.05L151 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="260" y1="95" x2="271" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M280 95L271 90.05L271 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="390" y1="95" x2="401" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M410 95L401 90.05L401 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="540" y1="95" x2="561" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 95L561 90.05L561 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="680" y1="95" x2="691" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M700 95L691 90.05L691 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="790" y1="95" x2="801" y2="95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M810 95L801 90.05L801 99.95Z" fill="currentColor" stroke="none"/>
+<line x1="821.56" y1="130" x2="754.11" y2="213.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M748.44 220L757.95 216.14L750.27 209.89Z" fill="currentColor" stroke="none"/>
+<text x="785" y="167" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="785" dy="0">выход</tspan></text>
+<line x1="650" y1="255" x2="609" y2="255" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 255L609 259.95L609 250.05Z" fill="currentColor" stroke="none"/>
+<line x1="514.06" y1="220" x2="488.62" y2="138.59" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M485.94 130L483.9 140.07L493.35 137.11Z" fill="currentColor" stroke="none"/>
+<text x="500" y="167" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="500" dy="0">обратная связь</tspan></text>
+<text x="360" y="24" text-anchor="start" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="360" dy="0">опасная первичная сторона (красные блоки)</tspan></text>
+<text x="575" y="340" text-anchor="start" font-size="12" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="575" dy="0">пунктир — барьер изоляции</tspan></text>
+<text x="20" y="350" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">схема учебная, без номиналов для сборки; реальные сетевые устройства не вскрывают</tspan></text>
+</g></svg>

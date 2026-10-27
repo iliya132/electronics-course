@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Датчик проснулся на 2 с каждую минуту</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Датчик проснулся на 2 с каждую минуту</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="132" y1="62" x2="132" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="132" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="132" dy="0">20</tspan></text>
+<line x1="198" y1="62" x2="198" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="198" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="198" dy="0">40</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">60</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">80</tspan></text>
+<line x1="396" y1="62" x2="396" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="396" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="396" dy="0">100</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">120</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,01</tspan></text>
+<line x1="66" y1="230.84" x2="462" y2="230.84" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="235.84" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,1</tspan></text>
+<line x1="66" y1="179.67" x2="462" y2="179.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="184.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="128.51" x2="462" y2="128.51" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="133.51" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="77.35" x2="462" y2="77.35" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="82.35" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">100</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Время, с</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Ток, мА (лог. шкала)</tspan></text>
+<line x1="66" y1="152.81" x2="462" y2="152.81" stroke="var(--bad, #b3261e)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="458" y="146.81" text-anchor="end" font-size="14" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="458" dy="0">средний ≈ 3,35 мА</tspan></text>
+<path d="M66 266.6L72.6 266.6L72.6 266.6L72.6 266.6L72.6 77.35L79.2 77.35L79.2 77.35L79.2 77.35L79.2 266.6L270.6 266.6L270.6 266.6L270.6 266.6L270.6 77.35L277.2 77.35L277.2 77.35L277.2 77.35L277.2 266.6L462 266.6L462 266.6" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="75.9" cy="77.35" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="85.9" y="89.35" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="85.9" dy="0">100 мА: 2 с</tspan></text>
+<circle cx="165" cy="266.6" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="165" y="254.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="165" dy="0">0,02 мА: сон</tspan></text>
+</g></svg>

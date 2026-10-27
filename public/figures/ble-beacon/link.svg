@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img">
+<title>BLE-датчик и телефон с nRF Connect</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="90" width="230" height="110" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="90" width="230" height="110" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="135" y="128.4" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="135" dy="0">ESP32-Temp</tspan><tspan x="135" dy="14.399999999999999">GATT: сервис 0x181A</tspan><tspan x="135" dy="14.399999999999999">характеристика 0x2A6E</tspan><tspan x="135" dy="14.399999999999999">(read + notify)</tspan></text>
+<rect x="520" y="90" width="260" height="110" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="520" y="90" width="260" height="110" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="650" y="128.4" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="650" dy="0">телефон: nRF Connect</tspan><tspan x="650" dy="14.399999999999999">1. сканирование</tspan><tspan x="650" dy="14.399999999999999">2. подключение</tspan><tspan x="650" dy="14.399999999999999">3. подписка на notify</tspan></text>
+<line x1="250" y1="145" x2="511" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M520 145L511 140.05L511 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="520" y1="145" x2="259" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M250 145L259 149.95L259 140.05Z" fill="currentColor" stroke="none"/>
+<text x="385" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="385" dy="0">advertising → соединение</tspan></text>
+</g></svg>

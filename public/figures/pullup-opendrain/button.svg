@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 330" role="img">
+<title>Кнопка с подтяжкой к плюсу и к земле</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="20" dy="0">Подтяжка к плюсу (pull-up)</tspan></text>
+<path d="M60 50L200 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60" cy="50" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="60" y="36" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="60" dy="0">+3,3 В</tspan></text>
+<path d="M140 50L140 62" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(140 92) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="114" y="90" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="114" dy="0">Rпу</tspan></text>
+<text x="114" y="108" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="114" dy="0">10 кОм</tspan></text>
+<path d="M140 122L140 175" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="140" cy="150" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M140 150L260 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="260" cy="150" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="266" y="140" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="266" dy="0">вывод МК</tspan></text>
+<g transform="translate(140 205) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="166" y="203" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="166" dy="0">SB</tspan></text>
+<path d="M140 235L140 260" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(140 260)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="20" y="316" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">отпущена: 1 (3,3 В); нажата: 0 (≈ 0 В), ток 0,33 мА</tspan></text>
+<text x="390" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="390" dy="0">Подтяжка к земле (pull-down)</tspan></text>
+<path d="M430 50L570 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="430" cy="50" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="430" y="36" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="430" dy="0">+3,3 В</tspan></text>
+<path d="M510 50L510 62" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(510 92) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="484" y="90" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="484" dy="0">SB</tspan></text>
+<path d="M510 122L510 175" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="510" cy="150" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M510 150L630 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="630" cy="150" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="636" y="140" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="636" dy="0">вывод МК</tspan></text>
+<g transform="translate(510 205) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="484" y="203" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="484" dy="0">Rпд</tspan></text>
+<text x="484" y="221" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="484" dy="0">10 кОм</tspan></text>
+<path d="M510 235L510 260" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(510 260)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="390" y="316" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="390" dy="0">отпущена: 0; нажата: 1, ток 0,33 мА</tspan></text>
+</g></svg>

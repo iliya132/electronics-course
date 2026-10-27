@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 268" role="img">
+<title>analogWrite(значение): скважность и среднее напряжение (5 В)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="390" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="390" dy="0">analogWrite(значение): скважность и среднее напряжение (5 В)</tspan></text>
+<rect x="20" y="42" width="740" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">analogWrite</tspan></text>
+<text x="184.54" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="184.54" dy="0">Скважность</tspan></text>
+<text x="326.85" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="326.85" dy="0">Среднее напряжение</tspan></text>
+<text x="540.31" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="540.31" dy="0">Яркость светодиода</tspan></text>
+<line x1="20" y1="76" x2="760" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">0</tspan></text>
+<text x="184.54" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="184.54" dy="0">0 %</tspan></text>
+<text x="326.85" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="326.85" dy="0">0 В</tspan></text>
+<text x="540.31" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="540.31" dy="0">выключен</tspan></text>
+<line x1="20" y1="110" x2="760" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">64</tspan></text>
+<text x="184.54" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="184.54" dy="0">25 %</tspan></text>
+<text x="326.85" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="326.85" dy="0">1,25 В</tspan></text>
+<text x="540.31" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="540.31" dy="0">слабая</tspan></text>
+<line x1="20" y1="144" x2="760" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">128</tspan></text>
+<text x="184.54" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="184.54" dy="0">50 %</tspan></text>
+<text x="326.85" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="326.85" dy="0">2,5 В</tspan></text>
+<text x="540.31" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="540.31" dy="0">средняя</tspan></text>
+<line x1="20" y1="178" x2="760" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">191</tspan></text>
+<text x="184.54" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="184.54" dy="0">75 %</tspan></text>
+<text x="326.85" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="326.85" dy="0">3,75 В</tspan></text>
+<text x="540.31" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="540.31" dy="0">яркая</tspan></text>
+<line x1="20" y1="212" x2="760" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">255</tspan></text>
+<text x="184.54" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="184.54" dy="0">100 %</tspan></text>
+<text x="326.85" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="326.85" dy="0">5 В</tspan></text>
+<text x="540.31" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="540.31" dy="0">максимум</tspan></text>
+</g></svg>

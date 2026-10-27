@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Нормальная цепь и короткое замыкание</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="10" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="10" dy="0">Есть нагрузка</tspan></text>
+<g transform="translate(40 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<path d="M40 120L40 90L190 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40 200L40 230L190 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M190 90L190 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M190 200L190 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<line x1="76" y1="64" x2="125" y2="64" stroke="var(--ok, #1a7f4b)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M134 64L125 59.05L125 68.95Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<text x="10" y="270" text-anchor="start" font-size="14" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="10" dy="0">ток небольшой: 0,3 А</tspan><tspan x="10" dy="16.8">ограничивает лампа</tspan></text>
+<text x="250" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="250" dy="0">Короткое замыкание</tspan></text>
+<g transform="translate(280 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<path d="M280 120L280 90L430 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M280 200L280 230L430 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M430 90L430 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="310" y1="64" x2="374" y2="64" stroke="var(--bad, #b3261e)" stroke-width="5" stroke-linecap="round"/>
+<path d="M388 64L374 56.3L374 71.7Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<line x1="446" y1="144" x2="446" y2="166" stroke="var(--bad, #b3261e)" stroke-width="5" stroke-linecap="round"/>
+<path d="M446 180L453.7 166L438.3 166Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="250" y="270" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="250" dy="0">ток огромный: 5 А и выше</tspan><tspan x="250" dy="16.8">ограничен лишь r батарейки</tspan></text>
+<line x1="240" y1="44" x2="240" y2="300" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+</g></svg>

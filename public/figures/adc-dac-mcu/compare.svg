@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 268" role="img">
+<title>АЦП и ЦАП в популярных МК</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="390" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="390" dy="0">АЦП и ЦАП в популярных МК</tspan></text>
+<rect x="20" y="42" width="740" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0"></tspan></text>
+<text x="206.15" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="206.15" dy="0">Arduino Uno</tspan></text>
+<text x="356.89" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="356.89" dy="0">ESP32</tspan></text>
+<text x="603.56" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="603.56" dy="0">STM32F103</tspan></text>
+<line x1="20" y1="76" x2="760" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Разрядность АЦП</tspan></text>
+<text x="206.15" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="206.15" dy="0">10 бит</tspan></text>
+<text x="356.89" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="356.89" dy="0">12 бит</tspan></text>
+<text x="603.56" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="603.56" dy="0">12 бит</tspan></text>
+<line x1="20" y1="110" x2="760" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Опора по умолчанию</tspan></text>
+<text x="206.15" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="206.15" dy="0">5 В (VCC)</tspan></text>
+<text x="356.89" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="356.89" dy="0">≈ 1,1 В с ослаблением до 3,3 В</tspan></text>
+<text x="603.56" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="603.56" dy="0">3,3 В</tspan></text>
+<line x1="20" y1="144" x2="760" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Шаг LSB</tspan></text>
+<text x="206.15" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="206.15" dy="0">4,88 мВ</tspan></text>
+<text x="356.89" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="356.89" dy="0">≈ 0,8 мВ (шкала 0–3,3)</tspan></text>
+<text x="603.56" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="603.56" dy="0">0,81 мВ</tspan></text>
+<line x1="20" y1="178" x2="760" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Источник сигнала</tspan></text>
+<text x="206.15" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="206.15" dy="0">до 10 кОм</tspan></text>
+<text x="356.89" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="356.89" dy="0">до ≈ 10 кОм, нужен буфер</tspan></text>
+<text x="603.56" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="603.56" dy="0">до 50 кОм</tspan></text>
+<line x1="20" y1="212" x2="760" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ЦАП</tspan></text>
+<text x="206.15" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="206.15" dy="0">нет (ШИМ + RC)</tspan></text>
+<text x="356.89" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="356.89" dy="0">2 канала, 8 бит</tspan></text>
+<text x="603.56" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="603.56" dy="0">нет в F103</tspan></text>
+</g></svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img">
+<title>Верхний ключ на P-MOSFET с транзистором сдвига уровня</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M150 40L520 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="520" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="520" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="520" dy="0">+12 В</tspan></text>
+<circle cx="230" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M230 40L230 55" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 105) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="204" y="103" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="204" dy="0">Rпу</tspan></text>
+<text x="204" y="121" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="204" dy="0">100 кОм</tspan></text>
+<path d="M230 155L230 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="230" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 40L330 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(0 340) scale(1 -1)">
+<line x1="266" y1="170" x2="300" y2="170" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="150" x2="300" y2="190" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="149" x2="309" y2="159" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="164" x2="309" y2="176" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="181" x2="309" y2="191" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M309 154L330 154L330 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M309 186L330 186L330 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="309" y1="170" x2="330" y2="170" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="170" x2="330" y2="186" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="170" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="315" y1="170" x2="321" y2="170" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M329 170L321 165.6L321 174.4Z" fill="currentColor" stroke="none"/>
+</g>
+<path d="M230 170L266 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 270) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="304" y="268" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">лента</tspan></text>
+<text x="304" y="286" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="304" dy="0">1 А</tspan></text>
+<path d="M330 320L330 346" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 346)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M230 170L230 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="208" cy="290" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="160" y1="290" x2="200" y2="290" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="200" y1="270" x2="200" y2="310" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M200 281L230 260L230 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200 299L230 320L230 340" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="210" y1="306" x2="220.63" y2="313.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M228 318.6L223.47 309.38L217.79 317.49Z" fill="currentColor" stroke="none"/>
+<path d="M230 340L230 362" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 362)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M30 290L60 290" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 290) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="100" y="262" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="100" dy="0">Rб 4,7 кОм</tspan></text>
+<path d="M140 290L160 290" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="30" cy="290" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="16" y="322" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="16" dy="0">вывод МК</tspan></text>
+<text x="250" y="340" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="250" dy="0">Q2</tspan></text>
+<text x="395" y="120" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="395" dy="0">МК = 0:  Q2 закрыт,</tspan><tspan x="395" dy="14.399999999999999">затвор подтянут к +12 В,</tspan><tspan x="395" dy="14.399999999999999">Uзи = 0 → лента выключена</tspan></text>
+<text x="395" y="240" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="395" dy="0">МК = 1:  Q2 открыт,</tspan><tspan x="395" dy="14.399999999999999">затвор ≈ 0,2 В,</tspan><tspan x="395" dy="14.399999999999999">Uзи ≈ −11,8 В → лента включена</tspan></text>
+</g></svg>

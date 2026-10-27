@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" role="img">
+<title>ESP32 как веб-сервер в домашней сети</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="100" width="190" height="90" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="100" width="190" height="90" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="125" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="125" dy="0">ESP32 (STA)</tspan><tspan x="125" dy="15.6">WebServer, датчик</tspan></text>
+<rect x="300" y="100" width="180" height="90" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="300" y="100" width="180" height="90" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="390" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="390" dy="0">Wi-Fi роутер</tspan><tspan x="390" dy="15.6">192.168.1.1</tspan></text>
+<rect x="570" y="100" width="180" height="90" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="100" width="180" height="90" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="660" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="660" dy="0">браузер</tspan><tspan x="660" dy="15.6">адрес 192.168.1.50</tspan></text>
+<line x1="220" y1="145" x2="291" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 145L291 140.05L291 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="300" y1="145" x2="229" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M220 145L229 149.95L229 140.05Z" fill="currentColor" stroke="none"/>
+<text x="260" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="260" dy="0">Wi-Fi</tspan></text>
+<line x1="480" y1="145" x2="561" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 145L561 140.05L561 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="145" x2="489" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M480 145L489 149.95L489 140.05Z" fill="currentColor" stroke="none"/>
+<text x="525" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="525" dy="0">Wi-Fi / Ethernet</tspan></text>
+<text x="30" y="250" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">STA: ESP32 — клиент роутера; AP: ESP32 сам создаёт сеть (192.168.4.1) для настройки</tspan></text>
+</g></svg>

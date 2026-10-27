@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Мощность на резисторе 100 Ом</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Мощность на резисторе 100 Ом</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="145.2" y1="62" x2="145.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="145.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145.2" dy="0">20</tspan></text>
+<line x1="224.4" y1="62" x2="224.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="224.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224.4" dy="0">40</tspan></text>
+<line x1="303.6" y1="62" x2="303.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="303.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="303.6" dy="0">60</tspan></text>
+<line x1="382.8" y1="62" x2="382.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="382.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="382.8" dy="0">80</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">100</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="238" x2="462" y2="238" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="243" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">200</tspan></text>
+<line x1="66" y1="194" x2="462" y2="194" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="199" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">400</tspan></text>
+<line x1="66" y1="150" x2="462" y2="150" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="155" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">600</tspan></text>
+<line x1="66" y1="106" x2="462" y2="106" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="111" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">800</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1000</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Ток I, мА</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Мощность P = I²·R, мВт</tspan></text>
+<path d="M66 282L67.65 282L69.3 281.98L70.95 281.97L72.6 281.94L74.25 281.9L75.9 281.86L77.55 281.81L79.2 281.76L80.85 281.69L82.5 281.62L84.15 281.54L85.8 281.45L87.45 281.35L89.1 281.25L90.75 281.14L92.4 281.02L94.05 280.9L95.7 280.76L97.35 280.62L99 280.47L100.65 280.32L102.3 280.15L103.95 279.98L105.6 279.8L107.25 279.61L108.9 279.42L110.55 279.22L112.2 279.01L113.85 278.79L115.5 278.56L117.15 278.33L118.8 278.09L120.45 277.84L122.1 277.58L123.75 277.32L125.4 277.05L127.05 276.77L128.7 276.48L130.35 276.19L132 275.89L133.65 275.58L135.3 275.26L136.95 274.94L138.6 274.61L140.25 274.27L141.9 273.92L143.55 273.56L145.2 273.2L146.85 272.83L148.5 272.45L150.15 272.07L151.8 271.67L153.45 271.27L155.1 270.86L156.75 270.45L158.4 270.02L160.05 269.59L161.7 269.15L163.35 268.7L165 268.25L166.65 267.79L168.3 267.32L169.95 266.84L171.6 266.36L173.25 265.86L174.9 265.36L176.55 264.85L178.2 264.34L179.85 263.82L181.5 263.28L183.15 262.75L184.8 262.2L186.45 261.65L188.1 261.08L189.75 260.52L191.4 259.94L193.05 259.35L194.7 258.76L196.35 258.16L198 257.56L199.65 256.94L201.3 256.32L202.95 255.69L204.6 255.05L206.25 254.4L207.9 253.75L209.55 253.09L211.2 252.42L212.85 251.75L214.5 251.06L216.15 250.37L217.8 249.67L219.45 248.97L221.1 248.25L222.75 247.53L224.4 246.8L226.05 246.06L227.7 245.32L229.35 244.57L231 243.81L232.65 243.04L234.3 242.26L235.95 241.48L237.6 240.69L239.25 239.89L240.9 239.08L242.55 238.27L244.2 237.45L245.85 236.62L247.5 235.78L249.15 234.94L250.8 234.09L252.45 233.23L254.1 232.36L255.75 231.49L257.4 230.61L259.05 229.72L260.7 228.82L262.35 227.91L264 227L265.65 226.08L267.3 225.15L268.95 224.22L270.6 223.27L272.25 222.32L273.9 221.36L275.55 220.4L277.2 219.42L278.85 218.44L280.5 217.45L282.15 216.45L283.8 215.45L285.45 214.44L287.1 213.42L288.75 212.39L290.4 211.36L292.05 210.31L293.7 209.26L295.35 208.2L297 207.14L298.65 206.07L300.3 204.98L301.95 203.9L303.6 202.8L305.25 201.7L306.9 200.58L308.55 199.47L310.2 198.34L311.85 197.2L313.5 196.06L315.15 194.91L316.8 193.76L318.45 192.59L320.1 191.42L321.75 190.24L323.4 189.05L325.05 187.85L326.7 186.65L328.35 185.44L330 184.22L331.65 183L333.3 181.76L334.95 180.52L336.6 179.27L338.25 178.02L339.9 176.75L341.55 175.48L343.2 174.2L344.85 172.91L346.5 171.62L348.15 170.32L349.8 169.01L351.45 167.69L353.1 166.36L354.75 165.03L356.4 163.69L358.05 162.34L359.7 160.98L361.35 159.62L363 158.25L364.65 156.87L366.3 155.48L367.95 154.09L369.6 152.69L371.25 151.28L372.9 149.86L374.55 148.44L376.2 147.01L377.85 145.57L379.5 144.12L381.15 142.66L382.8 141.2L384.45 139.73L386.1 138.25L387.75 136.77L389.4 135.27L391.05 133.77L392.7 132.26L394.35 130.75L396 129.22L397.65 127.69L399.3 126.15L400.95 124.6L402.6 123.05L404.25 121.49L405.9 119.92L407.55 118.34L409.2 116.76L410.85 115.16L412.5 113.56L414.15 111.95L415.8 110.34L417.45 108.72L419.1 107.08L420.75 105.45L422.4 103.8L424.05 102.15L425.7 100.48L427.35 98.82L429 97.14L430.65 95.45L432.3 93.76L433.95 92.06L435.6 90.36L437.25 88.64L438.9 86.92L440.55 85.19L442.2 83.45L443.85 81.7L445.5 79.95L447.15 78.19L448.8 76.42L450.45 74.65L452.1 72.86L453.75 71.07L455.4 69.27L457.05 67.47L458.7 65.65L460.35 63.83L462 62" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="165" cy="268.25" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="175" y="256.25" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="175" dy="0">25 мА → 62,5 мВт</tspan></text>
+<circle cx="264" cy="227" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="254" y="217" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="254" dy="0">50 мА → 250 мВт</tspan></text>
+<circle cx="462" cy="62" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="452" y="82" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="452" dy="0">100 мА → 1 Вт</tspan></text>
+<text x="85.8" y="88.4" text-anchor="start" font-size="14" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="85.8" dy="0">ток ×2 → мощность ×4</tspan></text>
+</g></svg>

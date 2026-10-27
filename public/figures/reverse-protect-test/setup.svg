@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Схема измерения защиты от переполюсовки</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(50 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="50" y="190" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="50" dy="0">4×AA ≈ 6 В</tspan></text>
+<path d="M50 100L50 60L110 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="110" y="36" width="130" height="48" rx="8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-dasharray="6 4"/>
+<text x="175" y="56" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="175" dy="0">защита</tspan></text>
+<text x="175" y="74" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="175" dy="0">Si / Шоттки / P-MOSFET</tspan></text>
+<circle cx="300" cy="60" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M240 60L380 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M380 60L380 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-35 0H-24M24 0H35"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="390" y="138" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="390" dy="0">33 Ом</tspan></text>
+<path d="M380 175L380 220L50 220L50 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="140" r="18" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="300" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="300" dy="0">V</tspan></text>
+<path d="M300 60L300 122" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 158L300 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="220" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="250" y="252" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">Меряем Uнагр и Uбат, потом меняем полярность батареи</tspan></text>
+</g></svg>

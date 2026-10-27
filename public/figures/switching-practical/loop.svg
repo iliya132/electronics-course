@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Петля тока входного конденсатора</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="110" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="110" dy="0">Плохо: конденсатор далеко</tspan></text>
+<rect x="100" y="90" width="80" height="60" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="140" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="140" dy="0">IC</tspan></text>
+<text x="92" y="108" text-anchor="end" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="92" dy="0">VIN</tspan></text>
+<text x="92" y="142" text-anchor="end" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="92" dy="0">GND</tspan></text>
+<rect x="10" y="200" width="24" height="48" rx="4" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="22" y="228" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="22" dy="0">C</tspan></text>
+<path d="M22 200L22 104L100 104L100 136L46 136L46 248L22 248Z" fill="var(--bad, #b3261e)" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.3"/>
+<text x="140" y="228" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="140" dy="0">петля ≈ 6 см²</tspan></text>
+<text x="140" y="248" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="140" dy="0">выбросы и излучение</tspan></text>
+<text x="350" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="350" dy="0">Хорошо: конденсатор вплотную</tspan></text>
+<rect x="340" y="90" width="80" height="60" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="380" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="380" dy="0">IC</tspan></text>
+<text x="332" y="108" text-anchor="end" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="332" dy="0">VIN</tspan></text>
+<text x="332" y="142" text-anchor="end" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="332" dy="0">GND</tspan></text>
+<rect x="302" y="96" width="24" height="48" rx="4" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="314" y="124" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="314" dy="0">C</tspan></text>
+<path d="M326 104L340 104L340 136L326 136Z" fill="var(--ok, #1a7f4b)" stroke="var(--ok, #1a7f4b)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.35"/>
+<text x="350" y="200" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="350" dy="0">петля ≈ 0,3 см²</tspan></text>
+<text x="350" y="220" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="350" dy="0">выбросы малы</tspan></text>
+<line x1="240" y1="44" x2="240" y2="270" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+<text x="240" y="290" text-anchor="middle" font-size="11.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Заливка — площадь контура, по которому текут быстрые токи переключения</tspan></text>
+</g></svg>

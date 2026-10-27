@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img">
+<title>ШИМ-выход, RC-фильтр и аналоговый выход</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="14" y="64" width="100" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<text x="64" y="90" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor"><tspan x="64" dy="0">МК</tspan></text>
+<text x="64" y="110" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">ШИМ-выход</tspan></text>
+<path d="M114 94L150 94" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 94) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="190" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="190" dy="0">R</tspan></text>
+<path d="M230 94L370 94" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="94" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M300 94L300 112" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 138) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-5M-5 -18V18M5 -18V18M5 0H26"/></g>
+<text x="320" y="136" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="320" dy="0">C</tspan></text>
+<path d="M300 164L300 172" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 172)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="374" cy="94" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="386" y="99" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="386" dy="0">Uср</tspan></text>
+<text x="240" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">Uср = D · U, ripple ≈ U·D(1−D) / (f·R·C)</tspan></text>
+</g></svg>

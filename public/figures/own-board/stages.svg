@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img">
+<title>C5: этапы собственной платы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="80" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="10" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="75" y="113.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="75" dy="0">ТЗ и бюджет</tspan><tspan x="75" dy="13.2">питания</tspan></text>
+<rect x="160" y="80" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="160" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="225" y="113.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="225" dy="0">схема</tspan><tspan x="225" dy="13.2">по блокам</tspan></text>
+<rect x="310" y="80" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="310" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="375" y="106.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="375" dy="0">ERC,</tspan><tspan x="375" dy="13.2">проверка</tspan><tspan x="375" dy="13.2">по даташитам</tspan></text>
+<rect x="460" y="80" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="460" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="525" y="106.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="525" dy="0">плата:</tspan><tspan x="525" dy="13.2">размещение,</tspan><tspan x="525" dy="13.2">трассировка</tspan></text>
+<rect x="610" y="80" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="610" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="675" y="113.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="675" dy="0">DRC, 3D,</tspan><tspan x="675" dy="13.2">Gerber, BOM</tspan></text>
+<rect x="760" y="80" width="130" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="760" y="80" width="130" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="825" y="106.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="825" dy="0">заказ,</tspan><tspan x="825" dy="13.2">сборка,</tspan><tspan x="825" dy="13.2">отладка</tspan></text>
+<line x1="140" y1="115" x2="151" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 115L151 110.05L151 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="290" y1="115" x2="301" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M310 115L301 110.05L301 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="440" y1="115" x2="451" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 115L451 110.05L451 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="590" y1="115" x2="601" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M610 115L601 110.05L601 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="740" y1="115" x2="751" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M760 115L751 110.05L751 119.95Z" fill="currentColor" stroke="none"/>
+</g></svg>

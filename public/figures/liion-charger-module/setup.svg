@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Подключение модуля TP4056, аккумулятора и приборов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="50" width="100" height="70" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="70" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="70" dy="0">USB 5 В</tspan></text>
+<text x="70" y="100" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="70" dy="0">зарядка или</tspan><tspan x="70" dy="13.2">повербанк</tspan></text>
+<path d="M120 80L160 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160" y="50" width="130" height="160" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5"/>
+<text x="225" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="225" dy="0">Модуль TP4056</tspan></text>
+<text x="225" y="98" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="225" dy="0">с защитой</tspan><tspan x="225" dy="13.2">DW01 + 8205A</tspan></text>
+<text x="178" y="188" text-anchor="start" font-size="10" font-weight="400" fill="currentColor"><tspan x="178" dy="0">OUT+</tspan></text>
+<text x="250" y="188" text-anchor="start" font-size="10" font-weight="400" fill="currentColor"><tspan x="250" dy="0">OUT−</tspan></text>
+<path d="M290 80L290 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(325 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-35 0H-18M18 0H35"/><circle r="18" stroke="var(--bad, #b3261e)"/></g>
+<text x="325" y="86" text-anchor="middle" font-size="18" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="325" dy="0">A</tspan></text>
+<path d="M360 80L395 80L395 124" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(395 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-36 0H-6M-6 -18V18M6 -9V9M6 0H36"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="421" y="158" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="421" dy="0">18650</tspan></text>
+<path d="M395 196L395 250L225 250L225 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M360 80L360 120" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-18M18 0H30"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="360" y="166" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="360" dy="0">V</tspan></text>
+<path d="M360 190L360 250" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="360" cy="80" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="360" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="240" y="292" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Амперметр — в разрыв «плюса», вольтметр — на клеммы аккумулятора</tspan></text>
+</g></svg>

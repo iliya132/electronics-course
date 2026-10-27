@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img">
+<title>Регистратор: Arduino, SD-модуль по SPI и датчик</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="30" width="170" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="30" width="170" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="105" y="62.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="105" dy="0">NTC 10 кОм + 10 кОм</tspan><tspan x="105" dy="14.399999999999999">вход A0</tspan></text>
+<rect x="270" y="90" width="190" height="140" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="270" y="90" width="190" height="140" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="365" y="143.4" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="365" dy="0">Arduino Uno</tspan><tspan x="365" dy="14.399999999999999">D13 SCK, D12 MISO,</tspan><tspan x="365" dy="14.399999999999999">D11 MOSI, D10 CS</tspan><tspan x="365" dy="14.399999999999999">A0 ← NTC</tspan></text>
+<rect x="570" y="80" width="200" height="100" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="80" width="200" height="100" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="670" y="120.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="670" dy="0">модуль SD-карты</tspan><tspan x="670" dy="14.399999999999999">(стабилизатор 3,3 В</tspan><tspan x="670" dy="14.399999999999999">и преобразователь уровней)</tspan></text>
+<line x1="190" y1="96.06" x2="261.55" y2="122.2" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M270 125.29L263.25 117.55L259.85 126.85Z" fill="currentColor" stroke="none"/>
+<line x1="460" y1="150.66" x2="561.04" y2="140.72" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 139.84L560.56 135.79L561.53 145.64Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="139.84" x2="468.96" y2="149.77" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 150.66L469.44 154.7L468.47 144.85Z" fill="currentColor" stroke="none"/>
+<text x="515" y="137.25" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="515" dy="0">SPI</tspan></text>
+<text x="20" y="270" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">питание модуля 5 В; обязательно общая земля; карта FAT16 или FAT32</tspan></text>
+</g></svg>

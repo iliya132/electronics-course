@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Расход энергии за сутки от числа поливов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Расход энергии за сутки от числа поливов</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="132" y1="62" x2="132" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="132" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="132" dy="0">1</tspan></text>
+<line x1="198" y1="62" x2="198" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="198" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="198" dy="0">2</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">3</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">4</tspan></text>
+<line x1="396" y1="62" x2="396" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="396" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="396" dy="0">5</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">6</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="227" x2="462" y2="227" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="232" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">4</tspan></text>
+<line x1="66" y1="117" x2="462" y2="117" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="122" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">6</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">8</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Число поливов в сутки</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Расход, мА·ч в сутки</tspan></text>
+<path d="M66 214.9L72.6 212.84L79.2 210.78L85.8 208.71L92.4 206.65L99 204.59L105.6 202.52L112.2 200.46L118.8 198.4L125.4 196.34L132 194.28L138.6 192.21L145.2 190.15L151.8 188.09L158.4 186.03L165 183.96L171.6 181.9L178.2 179.84L184.8 177.78L191.4 175.71L198 173.65L204.6 171.04L211.2 168.43L217.8 165.81L224.4 163.2L231 160.59L237.6 157.98L244.2 155.36L250.8 152.75L257.4 150.14L264 147.52L270.6 144.91L277.2 142.3L283.8 139.69L290.4 137.08L297 134.46L303.6 131.85L310.2 129.24L316.8 126.63L323.4 124.01L330 121.4L336.6 118.79L343.2 116.18L349.8 113.56L356.4 110.95L363 108.34L369.6 105.73L376.2 103.11L382.8 100.5L389.4 97.89L396 95.28L402.6 92.66L409.2 90.05L415.8 87.44L422.4 84.82L429 82.21L435.6 79.6L442.2 76.99L448.8 74.38L455.4 71.76L462 69.15" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="120" y1="95" x2="142" y2="95" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="148" y="100" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="148" dy="0">сон + два измерения + насос 9 с</tspan></text>
+<circle cx="198" cy="173.65" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="210" y="195.65" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="210" dy="0">2 полива: 3,9 мА·ч</tspan></text>
+</g></svg>

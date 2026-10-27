@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img">
+<title>Вольтметр 0–25 В: делитель, защита, АЦП</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="120" width="130" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="120" width="130" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="140.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="85" dy="0">измеряемое</tspan><tspan x="85" dy="14.399999999999999">напряжение</tspan><tspan x="85" dy="14.399999999999999">0…25 В</tspan></text>
+<rect x="190" y="120" width="110" height="60" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="120" width="110" height="60" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="245" y="155" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="245" dy="0">R1 30 кОм</tspan></text>
+<rect x="340" y="100" width="130" height="100" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="340" y="100" width="130" height="100" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="405" y="140.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="405" dy="0">узел 0…5 В</tspan><tspan x="405" dy="14.399999999999999">R2 7,5 кОм на GND</tspan><tspan x="405" dy="14.399999999999999">стабилитрон 5,1 В</tspan></text>
+<rect x="510" y="120" width="90" height="60" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="510" y="120" width="90" height="60" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="555" y="155" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="555" dy="0">Rс 1 кОм</tspan></text>
+<rect x="640" y="110" width="140" height="80" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="110" width="140" height="80" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="710" y="147.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="710" dy="0">Arduino A0</tspan><tspan x="710" dy="15.6">АЦП 10 бит</tspan></text>
+<line x1="150" y1="150" x2="181" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 150L181 145.05L181 154.95Z" fill="currentColor" stroke="none"/>
+<line x1="300" y1="150" x2="331" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M340 150L331 145.05L331 154.95Z" fill="currentColor" stroke="none"/>
+<line x1="470" y1="150" x2="501" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M510 150L501 145.05L501 154.95Z" fill="currentColor" stroke="none"/>
+<line x1="600" y1="150" x2="631" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640 150L631 145.05L631 154.95Z" fill="currentColor" stroke="none"/>
+<text x="20" y="270" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">коэффициент деления 7,5/(30 + 7,5) = 0,2: 25 В → 5 В; шаг АЦП 25/1024 = 24,4 мВ</tspan></text>
+</g></svg>

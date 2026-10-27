@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img">
+<title>Дребезг контактов при нажатии кнопки (иллюстрация)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M90 60L190 60L190 160L214 160L214 60L238 60L238 160L256 160L256 60L280 60L280 160L690 160" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="190" y1="40" x2="190" y2="200" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<line x1="280" y1="40" x2="280" y2="200" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<text x="80" y="65" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">1 (отпущена)</tspan></text>
+<text x="80" y="165" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">0 (нажата)</tspan></text>
+<text x="194" y="32" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="194" dy="0">первое касание</tspan></text>
+<text x="284" y="215" text-anchor="start" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="284" dy="0">устойчивое 0 через ≈ 5 мс</tspan></text>
+<text x="390" y="245" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="390" dy="0">время, мс: отскоки дают несколько ложных нажатий</tspan></text>
+</g></svg>

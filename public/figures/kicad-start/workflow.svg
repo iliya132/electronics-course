@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" role="img">
+<title>Путь проекта в KiCad: от схемы к Gerber</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="80" width="120" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="10" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="70" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="70" dy="0">схема</tspan><tspan x="70" dy="14.399999999999999">(символы)</tspan></text>
+<rect x="150" y="80" width="120" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="150" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="210" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="210" dy="0">ERC</tspan><tspan x="210" dy="14.399999999999999">проверка схемы</tspan></text>
+<rect x="290" y="80" width="120" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="290" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="350" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="350" dy="0">футпринты</tspan><tspan x="350" dy="14.399999999999999">нетлист</tspan></text>
+<rect x="430" y="80" width="120" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="430" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="490" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="490" dy="0">плата</tspan><tspan x="490" dy="14.399999999999999">разводка</tspan></text>
+<rect x="570" y="80" width="120" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="630" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="630" dy="0">DRC</tspan><tspan x="630" dy="14.399999999999999">проверка платы</tspan></text>
+<rect x="710" y="80" width="120" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="710" y="80" width="120" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="770" y="112.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="770" dy="0">Gerber</tspan><tspan x="770" dy="14.399999999999999">BOM, CPL</tspan></text>
+<line x1="130" y1="115" x2="141" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M150 115L141 110.05L141 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="270" y1="115" x2="281" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M290 115L281 110.05L281 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="410" y1="115" x2="421" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M430 115L421 110.05L421 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="550" y1="115" x2="561" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 115L561 110.05L561 119.95Z" fill="currentColor" stroke="none"/>
+<line x1="690" y1="115" x2="701" y2="115" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M710 115L701 110.05L701 119.95Z" fill="currentColor" stroke="none"/>
+</g></svg>

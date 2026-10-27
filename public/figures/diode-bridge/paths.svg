@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img">
+<title>Пути тока в диодном мосте</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="120" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="120" dy="0">Полупериод 1: A плюс</tspan></text>
+<line x1="26" y1="170" x2="63.86" y2="137.78" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<line x1="82.14" y1="122.22" x2="120" y2="90" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M56.73 129.4L70.99 146.15L82.14 122.22Z" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="75.01" y1="113.85" x2="89.27" y2="130.6" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="52" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="52" dy="0">D1</tspan></text>
+<line x1="214" y1="170" x2="176.14" y2="137.78" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="157.86" y1="122.22" x2="120" y2="90" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M169.01 146.15L183.27 129.4L157.86 122.22Z" fill="none" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="150.73" y1="130.6" x2="164.99" y2="113.85" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<text x="188" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="188" dy="0">D2</tspan></text>
+<line x1="120" y1="250" x2="82.14" y2="217.78" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="63.86" y1="202.22" x2="26" y2="170" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M75.01 226.15L89.27 209.4L63.86 202.22Z" fill="none" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="56.73" y1="210.6" x2="70.99" y2="193.85" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<text x="52" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="52" dy="0">D3</tspan></text>
+<line x1="120" y1="250" x2="157.86" y2="217.78" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<line x1="176.14" y1="202.22" x2="214" y2="170" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M150.73 209.4L164.99 226.15L176.14 202.22Z" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="169.01" y1="193.85" x2="183.27" y2="210.6" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="188" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="188" dy="0">D4</tspan></text>
+<line x1="120" y1="90" x2="120" y2="130" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<rect x="109" y="130" width="22" height="80" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="120" y1="210" x2="120" y2="250" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<text x="138" y="176" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="138" dy="0">Rн</tspan></text>
+<text x="128" y="82" text-anchor="start" font-size="18" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="128" dy="0">+</tspan></text>
+<text x="128" y="270" text-anchor="start" font-size="20" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="128" dy="0">−</tspan></text>
+<circle cx="26" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="214" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="120" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="120" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="20" y="193" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">A</tspan></text>
+<text x="220" y="193" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="220" dy="0">B</tspan></text>
+<text x="360" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="360" dy="0">Полупериод 2: B плюс</tspan></text>
+<line x1="266" y1="170" x2="303.86" y2="137.78" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="322.14" y1="122.22" x2="360" y2="90" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M296.73 129.4L310.99 146.15L322.14 122.22Z" fill="none" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="315.01" y1="113.85" x2="329.27" y2="130.6" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<text x="292" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="292" dy="0">D1</tspan></text>
+<line x1="454" y1="170" x2="416.14" y2="137.78" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<line x1="397.86" y1="122.22" x2="360" y2="90" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M409.01 146.15L423.27 129.4L397.86 122.22Z" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="390.73" y1="130.6" x2="404.99" y2="113.85" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="428" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="428" dy="0">D2</tspan></text>
+<line x1="360" y1="250" x2="322.14" y2="217.78" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<line x1="303.86" y1="202.22" x2="266" y2="170" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M315.01 226.15L329.27 209.4L303.86 202.22Z" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="296.73" y1="210.6" x2="310.99" y2="193.85" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="292" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="292" dy="0">D3</tspan></text>
+<line x1="360" y1="250" x2="397.86" y2="217.78" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="416.14" y1="202.22" x2="454" y2="170" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M390.73 209.4L404.99 226.15L416.14 202.22Z" fill="none" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="409.01" y1="193.85" x2="423.27" y2="210.6" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<text x="428" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="428" dy="0">D4</tspan></text>
+<line x1="360" y1="90" x2="360" y2="130" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<rect x="349" y="130" width="22" height="80" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<line x1="360" y1="210" x2="360" y2="250" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<text x="378" y="176" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="378" dy="0">Rн</tspan></text>
+<text x="368" y="82" text-anchor="start" font-size="18" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="368" dy="0">+</tspan></text>
+<text x="368" y="270" text-anchor="start" font-size="20" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="368" dy="0">−</tspan></text>
+<circle cx="266" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="454" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="360" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="360" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="260" y="193" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="260" dy="0">A</tspan></text>
+<text x="460" y="193" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="460" dy="0">B</tspan></text>
+<line x1="240" y1="44" x2="240" y2="296" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+<text x="240" y="318" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Проводят два диода по диагонали; через Rн ток всегда сверху вниз</tspan></text>
+</g></svg>

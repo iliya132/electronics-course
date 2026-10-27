@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img">
+<title>Цепочка датчик — делитель — буфер — фильтр — АЦП</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="60" width="112" height="64" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="76" y="97" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="76" dy="0">датчик</tspan></text>
+<text x="76" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="76" dy="0">NTC, LDR,</tspan><tspan x="76" dy="14.399999999999999">термопара</tspan></text>
+<line x1="132" y1="92" x2="159" y2="92" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M168 92L159 87.05L159 96.95Z" fill="currentColor" stroke="none"/>
+<rect x="168" y="60" width="112" height="64" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="224" y="89" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="224" dy="0">делитель /</tspan><tspan x="224" dy="16.8">смещение</tspan></text>
+<text x="224" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224" dy="0">напряжение</tspan><tspan x="224" dy="14.399999999999999">вместо</tspan><tspan x="224" dy="14.399999999999999">сопротивления</tspan></text>
+<line x1="280" y1="92" x2="307" y2="92" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M316 92L307 87.05L307 96.95Z" fill="currentColor" stroke="none"/>
+<rect x="316" y="60" width="112" height="64" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="372" y="89" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="372" dy="0">усилитель /</tspan><tspan x="372" dy="16.8">буфер</tspan></text>
+<text x="372" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="372" dy="0">масштаб</tspan><tspan x="372" dy="14.399999999999999">и низкий</tspan><tspan x="372" dy="14.399999999999999">Rвых</tspan></text>
+<line x1="428" y1="92" x2="455" y2="92" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M464 92L455 87.05L455 96.95Z" fill="currentColor" stroke="none"/>
+<rect x="464" y="60" width="112" height="64" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="520" y="97" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="520" dy="0">RC-фильтр</tspan></text>
+<text x="520" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="520" dy="0">убирает</tspan><tspan x="520" dy="14.399999999999999">высокочастотный</tspan><tspan x="520" dy="14.399999999999999">шум</tspan></text>
+<line x1="576" y1="92" x2="603" y2="92" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M612 92L603 87.05L603 96.95Z" fill="currentColor" stroke="none"/>
+<rect x="612" y="60" width="112" height="64" rx="8" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2"/>
+<text x="668" y="97" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="668" dy="0">АЦП</tspan></text>
+<text x="668" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="668" dy="0">0…3,3 В</tspan><tspan x="668" dy="14.399999999999999">в код</tspan></text>
+<text x="380" y="30" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="380" dy="0">каждый блок решает свою задачу, порядок важен</tspan></text>
+</g></svg>

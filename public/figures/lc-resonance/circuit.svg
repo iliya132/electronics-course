@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>LC-контур</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(150 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-24c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0H45"/></g>
+<text x="150" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="150" dy="0">L</tspan></text>
+<path d="M105 80L70 80L70 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M195 80L330 80L330 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 145) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-5M-5 -18V18M5 -18V18M5 0H40"/></g>
+<text x="354" y="143" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="354" dy="0">C</tspan></text>
+<path d="M330 185L330 210L70 210L70 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="190" y1="118" x2="221" y2="118" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M230 118L221 113.05L221 122.95Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<line x1="230" y1="138" x2="199" y2="138" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 138L199 142.95L199 133.05Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="210" y="168" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="210" dy="0">энергия «перетекает»</tspan></text>
+<text x="210" y="186" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="210" dy="0">между полем C и полем L</tspan></text>
+<text x="240" y="252" text-anchor="middle" font-size="18" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="240" dy="0">f₀ = 1 / (2π · √(L · C))</tspan></text>
+</g></svg>

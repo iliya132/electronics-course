@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Делитель напряжения из двух резисторов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="150" cy="36" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="138" y="40" text-anchor="end" font-size="16" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="138" dy="0">Uвх</tspan></text>
+<path d="M154 36L200 36L200 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 120) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="226" y="118" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="226" dy="0">R1</tspan></text>
+<path d="M200 160L200 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 230) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="226" y="228" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="226" dy="0">R2</tspan></text>
+<path d="M200 270L200 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 280)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="200" cy="175" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M200 175L300 175" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="304" cy="175" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="316" y="180" text-anchor="start" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="316" dy="0">Uвых</tspan></text>
+<text x="232" y="40" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="232" dy="0">Uвых = Uвх · R2 / (R1 + R2)</tspan></text>
+<text x="232" y="64" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="232" dy="0">Выход берут между средней</tspan><tspan x="232" dy="15.6">точкой и землёй, то есть</tspan><tspan x="232" dy="15.6">на нижнем резисторе R2.</tspan></text>
+</g></svg>

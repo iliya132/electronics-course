@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img">
+<title>Регистратор C2: измерение, время, хранение и показ</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="110" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="136.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">источник</tspan><tspan x="85" dy="13.2">и нагрузка</tspan><tspan x="85" dy="13.2">(до 3 А, 26 В)</tspan></text>
+<rect x="190" y="110" width="150" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="110" width="150" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="265" y="136.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="265" dy="0">INA219</tspan><tspan x="265" dy="13.2">I²C 0x40</tspan><tspan x="265" dy="13.2">шунт 0,1 Ом</tspan></text>
+<rect x="390" y="90" width="170" height="110" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="390" y="90" width="170" height="110" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="475" y="135.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="475" dy="0">Arduino Nano</tspan><tspan x="475" dy="14.399999999999999">I²C: A4, A5</tspan><tspan x="475" dy="14.399999999999999">SPI: D10–D13</tspan></text>
+<rect x="620" y="30" width="160" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="620" y="30" width="160" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="700" y="58.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="700" dy="0">DS3231 (RTC)</tspan><tspan x="700" dy="13.2">I²C 0x68</tspan></text>
+<rect x="620" y="120" width="160" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="620" y="120" width="160" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="700" y="148.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="700" dy="0">LCD1602 I²C</tspan><tspan x="700" dy="13.2">0x27</tspan></text>
+<rect x="620" y="210" width="160" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="620" y="210" width="160" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="700" y="238.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="700" dy="0">SD-модуль (SPI)</tspan><tspan x="700" dy="13.2">LOG.CSV</tspan></text>
+<line x1="150" y1="145" x2="181" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 145L181 140.05L181 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="340" y1="145" x2="381" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M390 145L381 140.05L381 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="390" y1="145" x2="349" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M340 145L349 149.95L349 140.05Z" fill="currentColor" stroke="none"/>
+<text x="365" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="365" dy="0">I²C</tspan></text>
+<line x1="560" y1="112.89" x2="612.17" y2="93.18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M620.59 90L610.42 88.55L613.92 97.81Z" fill="currentColor" stroke="none"/>
+<line x1="620.59" y1="90" x2="568.42" y2="109.71" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M560 112.89L570.17 114.34L566.67 105.08Z" fill="currentColor" stroke="none"/>
+<line x1="560" y1="146.89" x2="611" y2="148.02" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M620 148.22L611.11 143.07L610.89 152.97Z" fill="currentColor" stroke="none"/>
+<line x1="560" y1="180.89" x2="620.66" y2="206.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M628.95 210L622.58 201.94L618.73 211.06Z" fill="currentColor" stroke="none"/>
+<line x1="628.95" y1="210" x2="568.29" y2="184.39" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M560 180.89L566.37 188.95L570.22 179.83Z" fill="currentColor" stroke="none"/>
+<text x="20" y="300" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">LCD вместо OLED: без буфера в RAM Nano (2 КБ); три I²C-устройства с разными адресами</tspan></text>
+</g></svg>

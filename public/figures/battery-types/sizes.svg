@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Популярные типоразмеры батарей в масштабе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Размеры в одном масштабе (2,6 px на мм)</tspan></text>
+<rect x="26" y="116.3" width="27.3" height="115.7" rx="6" fill="#8a8a8a" stroke="var(--muted, #5b6573)" stroke-width="1.5" opacity="0.85"/>
+<rect x="34.19" y="113.3" width="10.92" height="3" rx="1" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+<text x="39.65" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="39.65" dy="0">AAA</tspan></text>
+<text x="39.65" y="266" text-anchor="middle" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="39.65" dy="0">1,5 / 1,2 В</tspan></text>
+<rect x="93.3" y="100.7" width="37.7" height="131.3" rx="6" fill="#b08d3c" stroke="var(--muted, #5b6573)" stroke-width="1.5" opacity="0.85"/>
+<rect x="104.61" y="97.7" width="15.08" height="3" rx="1" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+<text x="112.15" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="112.15" dy="0">AA</tspan></text>
+<text x="112.15" y="266" text-anchor="middle" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="112.15" dy="0">1,5 / 1,2 В</tspan></text>
+<rect x="171" y="63" width="48.36" height="169" rx="6" fill="#2b58ad" stroke="var(--muted, #5b6573)" stroke-width="1.5" opacity="0.85"/>
+<rect x="185.51" y="60" width="19.34" height="3" rx="1" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+<text x="195.18" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="195.18" dy="0">18650</tspan></text>
+<text x="195.18" y="266" text-anchor="middle" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="195.18" dy="0">3,7 В</tspan></text>
+<rect x="259.36" y="50" width="56.42" height="182" rx="6" fill="#2b8b45" stroke="var(--muted, #5b6573)" stroke-width="1.5" opacity="0.85"/>
+<rect x="276.29" y="47" width="22.57" height="3" rx="1" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+<text x="287.57" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="287.57" dy="0">21700</tspan></text>
+<text x="287.57" y="266" text-anchor="middle" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="287.57" dy="0">3,7 В</tspan></text>
+<rect x="355.78" y="212" width="52" height="16" rx="4" fill="#555" stroke="var(--muted, #5b6573)" stroke-width="1.5"/>
+<text x="381.78" y="250" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="381.78" dy="0">CR2032</tspan></text>
+<text x="381.78" y="266" text-anchor="middle" font-size="10" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="381.78" dy="0">3 В, 220 мА·ч</tspan></text>
+</g></svg>

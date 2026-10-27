@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Схема платы защиты элемента Li-ion</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Плата защиты: DW01 и два ключа в «минусовом» проводе</tspan></text>
+<g transform="translate(84 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="100" y="100" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="100" dy="0">B+</tspan></text>
+<text x="100" y="218" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="100" dy="0">B−</tspan></text>
+<path d="M84 110L84 64L430 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="432" cy="64" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="420" y="52" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="420" dy="0">P+</tspan></text>
+<rect x="150" y="100" width="120" height="54" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<text x="210" y="124" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="210" dy="0">DW01</tspan></text>
+<text x="210" y="142" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="210" dy="0">контроль U и I</tspan></text>
+<path d="M210 64L210 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="210" cy="64" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M84 190L84 240L140 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="140" y="224" width="46" height="32" rx="4" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5"/>
+<text x="163" y="245" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="163" dy="0">Q1</tspan></text>
+<path d="M186 240L210 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="210" y="224" width="46" height="32" rx="4" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.5"/>
+<text x="233" y="245" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="233" dy="0">Q2</tspan></text>
+<path d="M256 240L432 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="432" cy="240" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="420" y="232" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="420" dy="0">P−</tspan></text>
+<line x1="190" y1="154" x2="190" y2="190" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<line x1="190" y1="190" x2="163" y2="190" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<line x1="163" y1="190" x2="163" y2="216" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<path d="M163 224L167.4 216L158.6 216Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<line x1="232" y1="154" x2="232" y2="190" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round"/>
+<line x1="232" y1="190" x2="232" y2="216" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round"/>
+<path d="M232 224L236.4 216L227.6 216Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="286" y="120" text-anchor="start" font-size="11" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="286" dy="0">OD → Q1: откл. разряд</tspan><tspan x="286" dy="13.2">(переразряд, КЗ, перегрузка)</tspan></text>
+<text x="286" y="168" text-anchor="start" font-size="12" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="286" dy="0">OC → Q2: отключает заряд</tspan><tspan x="286" dy="14.399999999999999">(перезаряд)</tspan></text>
+<text x="240" y="286" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">DW01 следит за напряжением и током</tspan></text>
+</g></svg>

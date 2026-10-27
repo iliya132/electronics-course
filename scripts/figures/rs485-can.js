@@ -1,3 +1,33 @@
-import {data} from '../course/topic-15.js';
-import {makeFigures} from '../course/figures.js';
-export function generate(){makeFigures('rs485-can',data['rs485-can']);}
+import { diagram, tableFig } from '../lib/diag.js';
+import { out, fresh } from '../lib/fig.js';
+
+export function generate() {
+  fresh('rs485-can');
+
+  diagram({
+    title: 'Шина RS-485: витая пара A и B, терминаторы на концах',
+    w: 800, h: 300,
+    boxes: [
+      { id: 't1', x: 20, y: 110, w: 110, h: 60, text: '120 Ом\nтерминатор', tone: 'warn', size: 12 },
+      { id: 'n1', x: 190, y: 40, w: 130, h: 60, text: 'узел 1\nMAX485', tone: 'accent', size: 12 },
+      { id: 'n2', x: 370, y: 190, w: 130, h: 60, text: 'узел 2\nMAX485', tone: 'accent', size: 12 },
+      { id: 'n3', x: 540, y: 40, w: 130, h: 60, text: 'узел 3\nMAX485', tone: 'accent', size: 12 },
+      { id: 't2', x: 690, y: 110, w: 90, h: 60, text: '120 Ом\nтерминатор', tone: 'warn', size: 12 },
+    ],
+    arrows: [['t1', 'n1'], ['n1', 'n2'], ['n2', 'n3'], ['n3', 't2']],
+    notes: [{ x: 20, y: 275, text: 'передача дифференциальная: по разности A − B; приёмник видит разность ±200 мВ', size: 12 }],
+  }).save(out('rs485-can', 'bus'));
+
+  tableFig({
+    title: 'Сравнение RS-232, RS-485 и CAN',
+    cols: ['Параметр', 'RS-232', 'RS-485', 'CAN'],
+    rows: [
+      ['Сигнал', 'несимметричный ±12 В', 'дифференциальный A/B', 'дифференциальный CAN_H/L'],
+      ['Устройств на шине', '2 (точка–точка)', 'до 32 (и больше)', 'до ~100, мультимастер'],
+      ['Длина', 'до 15 м', 'до 1200 м (100 кбит/с)', '40 м при 1 Мбит/с, 500 м при 125 кбит/с'],
+      ['Скорость', 'до 115 кбит/с', 'до 10 Мбит/с на 12 м', 'до 1 Мбит/с'],
+      ['Применение', 'старые порты ПК', 'промавтоматика, Modbus', 'автомобили, станки'],
+    ],
+    widths: [1.2, 1.6, 1.8, 2.2], w: 900,
+  }).save(out('rs485-can', 'compare'));
+}

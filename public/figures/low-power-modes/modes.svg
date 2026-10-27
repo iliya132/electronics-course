@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 216" role="img">
+<title>Типичный ток ESP32 в разных режимах (порядок величин)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="380" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="380" dy="0">Типичный ток ESP32 в разных режимах (порядок величин)</tspan></text>
+<text x="180" y="65" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="180" dy="0">передача Wi-Fi</tspan></text>
+<rect x="190" y="48" width="420" height="24" rx="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="618" y="65" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="618" dy="0">160–240 мА</tspan></text>
+<text x="180" y="105" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="180" dy="0">активный, без радио</tspan></text>
+<rect x="190" y="88" width="70" height="24" rx="4" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="268" y="105" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="268" dy="0">30–50 мА</tspan></text>
+<text x="180" y="145" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="180" dy="0">light sleep</tspan></text>
+<rect x="190" y="128" width="2" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="199.4" y="145" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="199.4" dy="0">≈ 0,8 мА</tspan></text>
+<text x="180" y="185" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="180" dy="0">deep sleep (чип)</tspan></text>
+<rect x="190" y="168" width="2" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="198.02" y="185" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="198.02" dy="0">≈ 10 мкА</tspan></text>
+</g></svg>

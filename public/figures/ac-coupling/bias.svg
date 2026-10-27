@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Связь по переменному току и делитель смещения на входе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="14" y="92" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="14" dy="0">сигнал</tspan></text>
+<circle cx="70" cy="110" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<path d="M75 110L100 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(140 110) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-5M-5 -18V18M5 -18V18M5 0H40"/></g>
+<text x="140" y="84" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="140" dy="0">C</tspan></text>
+<path d="M180 110L280 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M250 96L250 124" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250" cy="110" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<rect x="280" y="80" width="110" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<text x="335" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="335" dy="0">вход АЦП</tspan></text>
+<text x="262" y="14" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="262" dy="0">+3,3 В</tspan></text>
+<g transform="translate(250 56) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="274" y="54" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="274" dy="0">R1 10к</tspan></text>
+<g transform="translate(250 164) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="274" y="162" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="274" dy="0">R2 10к</tspan></text>
+<path d="M250 204L250 214" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 214)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="24" y="188" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">Делитель R1/R2 задаёт 1,65 В смещения</tspan></text>
+<text x="24" y="206" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">(середина диапазона АЦП), а C пропускает</tspan></text>
+<text x="24" y="224" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">только переменную часть сигнала</tspan></text>
+</g></svg>

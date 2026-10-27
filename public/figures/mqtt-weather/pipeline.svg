@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" role="img">
+<title>Метеостанция: BME280 → MQTT → график</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="100" width="140" height="80" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="100" width="140" height="80" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="90" y="137.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="90" dy="0">BME280</tspan><tspan x="90" dy="15.6">(I²C)</tspan></text>
+<rect x="200" y="90" width="160" height="100" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="200" y="90" width="160" height="100" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="280" y="130.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="280" dy="0">ESP32</tspan><tspan x="280" dy="14.399999999999999">PubSubClient</tspan><tspan x="280" dy="14.399999999999999">публикует раз в 30 с</tspan></text>
+<rect x="400" y="100" width="150" height="80" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="400" y="100" width="150" height="80" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="475" y="137.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="475" dy="0">брокер Mosquitto</tspan><tspan x="475" dy="14.399999999999999">(Raspberry Pi / ПК)</tspan></text>
+<rect x="600" y="40" width="200" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="40" width="200" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="700" y="72.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="700" dy="0">Node-RED</tspan><tspan x="700" dy="14.399999999999999">график, история</tspan></text>
+<rect x="600" y="160" width="200" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="160" width="200" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="700" y="192.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="700" dy="0">Home Assistant</tspan><tspan x="700" dy="14.399999999999999">или приложение на телефоне</tspan></text>
+<line x1="160" y1="140" x2="191" y2="140" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 140L191 135.05L191 144.95Z" fill="currentColor" stroke="none"/>
+<line x1="200" y1="140" x2="169" y2="140" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 140L169 144.95L169 135.05Z" fill="currentColor" stroke="none"/>
+<line x1="360" y1="140" x2="391" y2="140" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M400 140L391 135.05L391 144.95Z" fill="currentColor" stroke="none"/>
+<text x="380" y="132" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="380" dy="0">publish</tspan></text>
+<line x1="550" y1="118.33" x2="591.35" y2="106.39" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 103.89L589.98 101.63L592.73 111.14Z" fill="currentColor" stroke="none"/>
+<text x="575" y="103.11" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="575" dy="0">subscribe</tspan></text>
+<line x1="550" y1="158.33" x2="591.26" y2="168.42" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 170.56L592.43 163.61L590.08 173.23Z" fill="currentColor" stroke="none"/>
+<text x="575" y="156.44" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="575" dy="0">subscribe</tspan></text>
+</g></svg>

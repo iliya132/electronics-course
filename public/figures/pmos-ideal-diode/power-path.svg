@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" role="img">
+<title>Выбор источника питания USB или батарея</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M60 100L180 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180" y="70" width="120" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="240" y="97" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="240" dy="0">идеальный</tspan><tspan x="240" dy="16.8">диод</tspan></text>
+<path d="M300 100L440 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 210L180 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="180" y="180" width="120" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="240" y="207" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="240" dy="0">идеальный</tspan><tspan x="240" dy="16.8">диод</tspan></text>
+<path d="M300 210L440 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M440 100L440 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="440" cy="155" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M440 155L520 155" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="520" y="125" width="100" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="570" y="160" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="570" dy="0">нагрузка</tspan></text>
+<text x="60" y="84" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="60" dy="0">USB 5 В</tspan></text>
+<text x="60" y="194" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="60" dy="0">батарея 3,7 В</tspan></text>
+<text x="440" y="262" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="440" dy="0">питает источник с большим напряжением,</tspan><tspan x="440" dy="14.399999999999999">обратного тока нет</tspan></text>
+</g></svg>

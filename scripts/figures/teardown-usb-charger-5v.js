@@ -1,3 +1,41 @@
-import {data} from '../course/topic-18.js';
-import {makeFigures} from '../course/figures.js';
-export function generate(){makeFigures('teardown-usb-charger-5v',data['teardown-usb-charger-5v']);}
+import { diagram, tableFig } from '../lib/diag.js';
+import { out, fresh } from '../lib/fig.js';
+
+export function generate() {
+  fresh('teardown-usb-charger-5v');
+
+  diagram({
+    title: 'Учебная функциональная схема изолированного USB-блока питания',
+    w: 900, h: 380,
+    boxes: [
+      { id: 'in', x: 20, y: 60, w: 120, h: 70, text: 'вход\nпредохранитель,\nфильтр', tone: 'bad', size: 11 },
+      { id: 'br', x: 160, y: 60, w: 100, h: 70, text: 'мост', tone: 'bad', size: 13 },
+      { id: 'cp', x: 280, y: 60, w: 110, h: 70, text: 'накопительный\nконденсатор', tone: 'bad', size: 11 },
+      { id: 'sw', x: 410, y: 60, w: 130, h: 70, text: 'контроллер\nи ключ', tone: 'bad', size: 12 },
+      { id: 'tr', x: 570, y: 60, w: 110, h: 70, text: 'трансформатор', tone: 'warn', size: 12 },
+      { id: 'dd', x: 700, y: 60, w: 90, h: 70, text: 'диод Шоттки', tone: 'ok', size: 11 },
+      { id: 'co', x: 810, y: 60, w: 80, h: 70, text: 'фильтр\n5 В', tone: 'ok', size: 11 },
+      { id: 'tl', x: 650, y: 220, w: 140, h: 70, text: 'TL431\n(сравнение с опорой)', tone: 'ok', size: 11 },
+      { id: 'op', x: 450, y: 220, w: 150, h: 70, text: 'оптопара\n(через барьер)', tone: 'warn', size: 11 },
+    ],
+    arrows: [['in', 'br'], ['br', 'cp'], ['cp', 'sw'], ['sw', 'tr'], ['tr', 'dd'], ['dd', 'co'], ['co', 'tl', 'выход'], ['tl', 'op'], ['op', 'sw', 'обратная связь']],
+    lines: [[560, 30, 560, 330, { tone: 'bad', dash: '6 5' }]],
+    notes: [
+      { x: 360, y: 24, text: 'опасная первичная сторона (красные блоки)', size: 12, tone: 'bad', weight: 700 },
+      { x: 575, y: 340, text: 'пунктир — барьер изоляции', size: 12, tone: 'bad' },
+      { x: 20, y: 350, text: 'схема учебная, без номиналов для сборки; реальные сетевые устройства не вскрывают', size: 12 },
+    ],
+  }).save(out('teardown-usb-charger-5v', 'concept'));
+
+  tableFig({
+    title: 'Что где искать и расчётные ориентиры (учебные числа)',
+    cols: ['Узел', 'Роль', 'Ориентир'],
+    rows: [
+      ['Мост и накопительный конденсатор', 'выпрямление и запас энергии', 'пик 230 В ·√2 ≈ 325 В'],
+      ['Пульсации на конденсаторе', 'ΔU ≈ I/(2·f·C)', '20 мА, 50 Гц, 10 мкФ: ≈ 20 В'],
+      ['Трансформатор', 'передача энергии, изоляция', 'витки определяют 5 В на выходе'],
+      ['TL431 + оптопара', 'обратная связь через барьер', 'Uвых = 2,495·(1 + R1/R2)'],
+    ],
+    widths: [1.8, 1.8, 1.8], w: 860,
+  }).save(out('teardown-usb-charger-5v', 'checklist'));
+}

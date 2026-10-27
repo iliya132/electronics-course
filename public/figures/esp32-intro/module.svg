@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 320" role="img">
+<title>Модуль ESP32-WROOM-32: что внутри «металлической коробочки»</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="280" y="90" width="200" height="120" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="280" y="90" width="200" height="120" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="380" y="140.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="380" dy="0">кристалл ESP32</tspan><tspan x="380" dy="14.399999999999999">ядра, RAM 520 КБ,</tspan><tspan x="380" dy="14.399999999999999">Wi-Fi/BT, периферия</tspan></text>
+<rect x="40" y="50" width="170" height="56" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="50" width="170" height="56" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="125" y="75.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="125" dy="0">Flash 4 МБ</tspan><tspan x="125" dy="14.399999999999999">(SPI)</tspan></text>
+<rect x="40" y="140" width="170" height="56" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="140" width="170" height="56" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="125" y="173" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="125" dy="0">кварц 40 МГц</tspan></text>
+<rect x="570" y="50" width="170" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="50" width="170" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="655" y="75.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="655" dy="0">печатная антенна</tspan><tspan x="655" dy="14.399999999999999">на краю модуля</tspan></text>
+<rect x="570" y="150" width="170" height="70" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="150" width="170" height="70" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="655" y="175.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="655" dy="0">38 выводов:</tspan><tspan x="655" dy="14.399999999999999">3V3, GND, EN, GPIO,</tspan><tspan x="655" dy="14.399999999999999">UART0</tspan></text>
+<line x1="210" y1="102" x2="271.34" y2="119.32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M280 121.76L272.68 114.56L269.99 124.08Z" fill="currentColor" stroke="none"/>
+<line x1="280" y1="121.76" x2="218.66" y2="104.45" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 102L217.32 109.21L220.01 99.68Z" fill="currentColor" stroke="none"/>
+<line x1="210" y1="162" x2="271.02" y2="157.69" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M280 157.06L270.67 152.75L271.37 162.63Z" fill="currentColor" stroke="none"/>
+<line x1="480" y1="123.82" x2="561.29" y2="102.53" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 100.25L560.04 97.75L562.55 107.32Z" fill="currentColor" stroke="none"/>
+<line x1="480" y1="162.73" x2="561.07" y2="173.05" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 174.18L561.7 168.14L560.45 177.96Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="174.18" x2="488.93" y2="163.86" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M480 162.73L488.3 168.77L489.55 158.95Z" fill="currentColor" stroke="none"/>
+<text x="40" y="270" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">модуль 18 × 25,5 мм сертифицирован как готовое радиоустройство; антенну нельзя накрывать металлом и землёй</tspan></text>
+</g></svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 290" role="img">
+<title>Два резистора последовательно подключены к батарейке 9 В</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(70 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="44" y="158" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="44" dy="0">9 В</tspan></text>
+<g transform="translate(170 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="170" y="50" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="170" dy="0">R1 = 100 Ом</tspan></text>
+<g transform="translate(330 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="330" y="50" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="330" dy="0">R2 = 200 Ом</tspan></text>
+<path d="M70 120L70 80L130 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M210 80L290 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M370 80L430 80L430 240L70 240L70 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M130 80Q170 110 210 80" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 80L199.8 81.4L205.8 89.4Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<text x="170" y="128.5" text-anchor="middle" font-size="16" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="170" dy="0">U1 = 3 В</tspan></text>
+<path d="M290 80Q330 110 370 80" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M370 80L359.8 81.4L365.8 89.4Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="330" y="128.5" text-anchor="middle" font-size="16" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="330" dy="0">U2 = 6 В</tspan></text>
+<line x1="272" y1="240" x2="238" y2="240" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M228 240L238 245.5L238 234.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="250" y="266" text-anchor="middle" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="250" dy="0">I = 30 мА (одинаков везде)</tspan></text>
+</g></svg>

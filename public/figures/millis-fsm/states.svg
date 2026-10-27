@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img">
+<title>Конечный автомат светофора</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="120" width="150" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="120" width="150" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="105" y="151.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="105" dy="0">КРАСНЫЙ</tspan><tspan x="105" dy="16.8">5 с</tspan></text>
+<rect x="300" y="40" width="150" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="300" y="40" width="150" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="375" y="71.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="375" dy="0">ЗЕЛЁНЫЙ</tspan><tspan x="375" dy="16.8">4 с</tspan></text>
+<rect x="570" y="120" width="150" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="120" width="150" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="645" y="151.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="645" dy="0">ЖЁЛТЫЙ</tspan><tspan x="645" dy="16.8">1,5 с</tspan></text>
+<line x1="180" y1="132.78" x2="291.37" y2="99.78" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 97.22L289.96 95.03L292.78 104.53Z" fill="currentColor" stroke="none"/>
+<text x="240" y="107" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">время вышло</tspan></text>
+<line x1="450" y1="97.22" x2="561.37" y2="130.22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 132.78L562.78 125.47L559.96 134.97Z" fill="currentColor" stroke="none"/>
+<text x="510" y="107" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="510" dy="0">время вышло</tspan></text>
+<line x1="570" y1="155" x2="189" y2="155" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M180 155L189 159.95L189 150.05Z" fill="currentColor" stroke="none"/>
+<text x="375" y="147" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="375" dy="0">время вышло</tspan></text>
+<text x="30" y="250" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="30" dy="0">в каждом состоянии программа запоминает момент входа и сравнивает millis() с длительностью</tspan></text>
+</g></svg>

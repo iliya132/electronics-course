@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img">
+<title>Схема с двумя источниками и тремя ветвями</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M90 70L390 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90 250L390 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(90 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="112" y="108" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="112" dy="0">R1</tspan></text>
+<g transform="translate(90 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="68" y="208" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="68" dy="0">E1</tspan></text>
+<path d="M90 150L90 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(240 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="262" y="153" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="262" dy="0">R3</tspan></text>
+<path d="M240 70L240 115" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M240 195L240 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(390 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="368" y="108" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="368" dy="0">R2</tspan></text>
+<g transform="translate(390 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="412" y="208" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="412" dy="0">E2</tspan></text>
+<path d="M390 150L390 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="240" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="240" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="228" y="60" text-anchor="end" font-size="16" font-weight="700" fill="currentColor"><tspan x="228" dy="0">a</tspan></text>
+<text x="228" y="272" text-anchor="end" font-size="16" font-weight="700" fill="currentColor"><tspan x="228" dy="0">b</tspan></text>
+<line x1="143" y1="70" x2="167" y2="70" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M177 70L167 64.5L167 75.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="160" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="160" dy="0">I1 = 55 мА</tspan></text>
+<line x1="347" y1="70" x2="323" y2="70" stroke="var(--bad, #b3261e)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M313 70L323 75.5L323 64.5Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="330" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="330" dy="0">I2 = −10 мА</tspan></text>
+<line x1="240" y1="83" x2="240" y2="95" stroke="var(--ok, #1a7f4b)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M240 105L245.5 95L234.5 95Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<text x="252" y="99" text-anchor="start" font-size="16" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="252" dy="0">I3 = 45 мА</tspan></text>
+<text x="240" y="292" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">E1 = 10 В, R1 = 100 Ом;  E2 = 4 В, R2 = 50 Ом;  R3 = 100 Ом</tspan></text>
+<text x="240" y="312" text-anchor="middle" font-size="13" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="240" dy="0">Минус у I2: ток идёт против нарисованной стрелки (E2 заряжается)</tspan></text>
+</g></svg>

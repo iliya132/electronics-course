@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Линейный блок питания: мост, конденсатор, 7805</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="30" cy="140" r="18" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="30" y="147" text-anchor="middle" font-size="20" font-weight="700" fill="currentColor"><tspan x="30" dy="0">~</tspan></text>
+<text x="30" y="176" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">AC 9 В</tspan></text>
+<path d="M30 122L30 104L70 104" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M30 158L30 176L30 180L70 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="70" y="92" width="66" height="100" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="103" y="140" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="103" dy="0">мост</tspan></text>
+<path d="M136 104L160 104L160 70L270 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M136 180L160 180L160 215L440 215" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M200 70L200 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 0H-5M-5 -18V18M5 -18V18M5 0H25"/></g>
+<text x="218" y="138" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="218" dy="0">C1</tspan></text>
+<path d="M200 165L200 215" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="215" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<rect x="270" y="46" width="80" height="48" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6"/>
+<text x="310" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="310" dy="0">7805</tspan></text>
+<text x="310" y="84" text-anchor="middle" font-size="9.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="310" dy="0">IN   OUT</tspan></text>
+<path d="M310 94L310 215" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="310" cy="215" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M350 70L440 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="385" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M385 70L385 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(385 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 0H-5M-5 -18V18M5 -18V18M5 0H25"/></g>
+<text x="403" y="138" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="403" dy="0">C2</tspan></text>
+<path d="M385 165L385 215" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="385" cy="215" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M430 70L430 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(430 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 0H-24M24 0H25"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="448" y="138" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="448" dy="0">Rн</tspan></text>
+<path d="M430 165L430 215" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="240" y="262" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">C1 = 1000 мкФ / 25 В, C2 = 100 мкФ, Rн: 16,5 Ом (≈ 0,3 А при 5 В)</tspan></text>
+</g></svg>

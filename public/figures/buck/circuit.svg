@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Понижающий импульсный преобразователь (buck)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="18" cy="90" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="18" y="76" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="18" dy="0">Uвх</tspan></text>
+<path d="M22 90L86 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="50" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M50 90L50 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(50 138) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-5M-5 -18V18M5 -18V18M5 0H26"/></g>
+<text x="68" y="136" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="68" dy="0">Cвх</tspan></text>
+<path d="M50 164L50 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(50 235)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="86" y="62" width="64" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6"/>
+<text x="118" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="118" dy="0">ключ</tspan></text>
+<text x="118" y="104" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="118" dy="0">Q</tspan></text>
+<path d="M150 90L200 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="190" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="190" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="190" dy="0">SW</tspan></text>
+<path d="M190 90L190 116" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 160) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-10M10 0H32M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="210" y="158" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="210" dy="0">D</tspan></text>
+<path d="M190 192L190 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 235)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M190 90L220 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(270 90) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0H40"/></g>
+<text x="270" y="66" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="270" dy="0">L</tspan></text>
+<path d="M310 90L454 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M380 90L380 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 138) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-5M-5 -18V18M5 -18V18M5 0H26"/></g>
+<text x="398" y="136" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="398" dy="0">Cвых</tspan></text>
+<path d="M380 164L380 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 235)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="458" cy="90" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="458" y="76" text-anchor="end" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="458" dy="0">Uвых</tspan></text>
+<text x="240" y="270" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Ключ открыт — дроссель заряжается; закрыт — ток идёт через диод D</tspan></text>
+</g></svg>

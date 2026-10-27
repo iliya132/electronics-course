@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img">
+<title>Карта выводов Arduino Uno</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="40" width="170" height="56" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="40" width="170" height="56" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="115" y="65.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">D0 (RX), D1 (TX)</tspan><tspan x="115" dy="14.399999999999999">UART, USB-связь</tspan></text>
+<rect x="30" y="116" width="170" height="56" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="116" width="170" height="56" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="115" y="141.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">D2, D3</tspan><tspan x="115" dy="14.399999999999999">внешние прерывания</tspan></text>
+<rect x="30" y="192" width="170" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="192" width="170" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="115" y="217.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">~3, ~5, ~6, ~9, ~10, ~11</tspan><tspan x="115" dy="14.399999999999999">ШИМ</tspan></text>
+<rect x="30" y="268" width="170" height="56" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="268" width="170" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="293.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">D10 SS, D11 MOSI,</tspan><tspan x="115" dy="14.399999999999999">D12 MISO, D13 SCK (LED L)</tspan></text>
+<rect x="300" y="80" width="190" height="220" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="300" y="80" width="190" height="220" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="395" y="161.4" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="395" dy="0">Arduino Uno</tspan><tspan x="395" dy="16.8">ATmega328P</tspan><tspan x="395" dy="16.8">16 МГц, 5 В</tspan><tspan x="395" dy="16.8">32 КБ Flash</tspan><tspan x="395" dy="16.8">2 КБ RAM</tspan></text>
+<rect x="600" y="40" width="170" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="40" width="170" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="685" y="65.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="685" dy="0">A0–A5</tspan><tspan x="685" dy="14.399999999999999">6 аналоговых входов</tspan><tspan x="685" dy="14.399999999999999">АЦП 10 бит</tspan></text>
+<rect x="600" y="130" width="170" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="130" width="170" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="685" y="162.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="685" dy="0">A4 (SDA), A5 (SCL)</tspan><tspan x="685" dy="14.399999999999999">шина I²C</tspan></text>
+<rect x="600" y="220" width="170" height="70" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="220" width="170" height="70" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="685" y="252.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="685" dy="0">5V, 3,3V, GND, Vin</tspan><tspan x="685" dy="14.399999999999999">питание и земля</tspan></text>
+<line x1="179.26" y1="96" x2="291.75" y2="145.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 148.61L293.73 140.47L289.77 149.55Z" fill="currentColor" stroke="none"/>
+<line x1="200" y1="157.96" x2="291.12" y2="172.93" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 174.39L291.92 168.05L290.32 177.82Z" fill="currentColor" stroke="none"/>
+<line x1="200" y1="210.89" x2="291.05" y2="201.14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 200.18L290.52 196.22L291.58 206.06Z" fill="currentColor" stroke="none"/>
+<line x1="188.96" y1="268" x2="291.58" y2="229.15" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 225.96L289.83 224.52L293.34 233.78Z" fill="currentColor" stroke="none"/>
+<line x1="490" y1="152.33" x2="591.63" y2="112.02" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 108.71L589.81 107.42L593.46 116.63Z" fill="currentColor" stroke="none"/>
+<line x1="490" y1="181.81" x2="591.03" y2="173.1" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 172.33L590.61 168.17L591.46 178.03Z" fill="currentColor" stroke="none"/>
+<line x1="490" y1="211.29" x2="591.22" y2="233.98" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 235.95L592.3 229.15L590.14 238.81Z" fill="currentColor" stroke="none"/>
+</g></svg>

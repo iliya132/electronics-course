@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" role="img">
+<title>Порядок обновления по воздуху</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="80" width="130" height="60" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="80" width="130" height="60" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="85" y="107.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="85" dy="0">получить</tspan><tspan x="85" dy="14.399999999999999">образец .bin</tspan></text>
+<rect x="190" y="80" width="130" height="60" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="80" width="130" height="60" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="255" y="107.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="255" dy="0">записать</tspan><tspan x="255" dy="14.399999999999999">во второй слот</tspan></text>
+<rect x="360" y="80" width="130" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="360" y="80" width="130" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="425" y="107.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="425" dy="0">проверить</tspan><tspan x="425" dy="14.399999999999999">CRC / подпись</tspan></text>
+<rect x="530" y="80" width="110" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="530" y="80" width="110" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="585" y="107.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="585" dy="0">переключить</tspan><tspan x="585" dy="14.399999999999999">слот</tspan></text>
+<rect x="670" y="80" width="100" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="670" y="80" width="100" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="720" y="108.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="720" dy="0">перезагрузка,</tspan><tspan x="720" dy="13.2">откат при сбое</tspan></text>
+<line x1="150" y1="110" x2="181" y2="110" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 110L181 105.05L181 114.95Z" fill="currentColor" stroke="none"/>
+<line x1="320" y1="110" x2="351" y2="110" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M360 110L351 105.05L351 114.95Z" fill="currentColor" stroke="none"/>
+<line x1="490" y1="110" x2="521" y2="110" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M530 110L521 105.05L521 114.95Z" fill="currentColor" stroke="none"/>
+<line x1="640" y1="110" x2="661" y2="110" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M670 110L661 105.05L661 114.95Z" fill="currentColor" stroke="none"/>
+</g></svg>

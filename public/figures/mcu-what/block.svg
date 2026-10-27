@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img">
+<title>Блок-схема микроконтроллера</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="270" y="120" width="150" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="270" y="120" width="150" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="345" y="151.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="345" dy="0">Ядро (CPU)</tspan><tspan x="345" dy="16.8">выполняет команды</tspan></text>
+<rect x="40" y="40" width="150" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="40" width="150" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="115" y="66.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">Flash</tspan><tspan x="115" dy="16.8">программа</tspan></text>
+<rect x="40" y="210" width="150" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="210" width="150" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="115" y="236.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">RAM</tspan><tspan x="115" dy="16.8">переменные</tspan></text>
+<rect x="40" y="290" width="150" height="50" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="290" width="150" height="50" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="115" y="311.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">EEPROM</tspan><tspan x="115" dy="16.8">настройки</tspan></text>
+<rect x="270" y="20" width="150" height="54" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="270" y="20" width="150" height="54" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="345" y="43.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="345" dy="0">Генератор</tspan><tspan x="345" dy="16.8">тактов</tspan></text>
+<rect x="480" y="140" width="40" height="30" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="500" y="160" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="500" dy="0">шина</tspan></text>
+<rect x="560" y="40" width="160" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="40" width="160" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="640" y="64.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="640" dy="0">GPIO</tspan><tspan x="640" dy="16.8">входы и выходы</tspan></text>
+<rect x="560" y="116" width="160" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="116" width="160" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="640" y="140.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="640" dy="0">Таймеры</tspan><tspan x="640" dy="16.8">и ШИМ</tspan></text>
+<rect x="560" y="192" width="160" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="192" width="160" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="640" y="225" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="640" dy="0">АЦП</tspan></text>
+<rect x="560" y="268" width="160" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="268" width="160" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="640" y="301" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="640" dy="0">UART, SPI, I²C</tspan></text>
+<line x1="190" y1="97.72" x2="261.56" y2="124.16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M270 127.28L263.27 119.52L259.84 128.81Z" fill="currentColor" stroke="none"/>
+<line x1="190" y1="212.28" x2="261.56" y2="185.84" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M270 182.72L259.84 181.19L263.27 190.48Z" fill="currentColor" stroke="none"/>
+<line x1="270" y1="182.72" x2="198.44" y2="209.16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 212.28L200.16 213.81L196.73 204.52Z" fill="currentColor" stroke="none"/>
+<line x1="345" y1="74" x2="345" y2="111" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M345 120L349.95 111L340.05 111Z" fill="currentColor" stroke="none"/>
+<line x1="420" y1="155" x2="471" y2="155" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M480 155L471 150.05L471 159.95Z" fill="currentColor" stroke="none"/>
+<line x1="480" y1="155" x2="429" y2="155" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M420 155L429 159.95L429 150.05Z" fill="currentColor" stroke="none"/>
+<line x1="520" y1="142.57" x2="587.3" y2="100.75" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M594.94 96L584.69 96.55L589.91 104.95Z" fill="currentColor" stroke="none"/>
+<line x1="520" y1="153.43" x2="551.03" y2="150.99" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M560 150.29L550.64 146.06L551.42 155.93Z" fill="currentColor" stroke="none"/>
+<line x1="520" y1="164.29" x2="571.53" y2="188.21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M579.69 192L573.61 183.72L569.44 192.7Z" fill="currentColor" stroke="none"/>
+<line x1="514.89" y1="170" x2="605.86" y2="261.61" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M612.2 268L609.37 258.13L602.34 265.1Z" fill="currentColor" stroke="none"/>
+<text x="290" y="240" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="290" dy="0">всё в одном корпусе:</tspan><tspan x="290" dy="15.6">ядро + память + периферия</tspan></text>
+<text x="290" y="292" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="290" dy="0">питание и сброс — отдельно,</tspan><tspan x="290" dy="14.399999999999999">выводы идут наружу</tspan></text>
+</g></svg>

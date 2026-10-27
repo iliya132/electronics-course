@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 250" role="img">
+<title>Сравнение линейных стабилизаторов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Типичные значения (проверяй даташит)</tspan></text>
+<rect x="8" y="40" width="464" height="30" rx="6" fill="var(--surface, #f6f7f9)" stroke="var(--border, #e3e6ea)" stroke-width="1.2"/>
+<text x="12" y="60" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="12" dy="0">Тип</tspan></text>
+<text x="132" y="60" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="132" dy="0">Dropout</tspan></text>
+<text x="212" y="60" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="212" dy="0">Ток покоя</tspan></text>
+<text x="304" y="60" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="304" dy="0">Iвых</tspan></text>
+<text x="366" y="60" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="366" dy="0">Cвых</tspan></text>
+<line x1="8" y1="108" x2="472" y2="108" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="12" y="94" text-anchor="start" font-size="12.5" font-weight="700" fill="currentColor"><tspan x="12" dy="0">7805</tspan></text>
+<text x="132" y="94" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="132" dy="0">≈ 2 В</tspan></text>
+<text x="212" y="94" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="212" dy="0">≈ 5 мА</tspan></text>
+<text x="304" y="94" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="304" dy="0">1 А</tspan></text>
+<text x="366" y="94" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="366" dy="0">0,1 мкФ</tspan></text>
+<line x1="8" y1="146" x2="472" y2="146" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="12" y="132" text-anchor="start" font-size="12.5" font-weight="700" fill="currentColor"><tspan x="12" dy="0">AMS1117-3.3</tspan></text>
+<text x="132" y="132" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="132" dy="0">≈ 1,1 В</tspan></text>
+<text x="212" y="132" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="212" dy="0">5–10 мА</tspan></text>
+<text x="304" y="132" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="304" dy="0">0,8 А</tspan></text>
+<text x="366" y="132" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="366" dy="0">≥ 10 мкФ, ESR</tspan></text>
+<line x1="8" y1="184" x2="472" y2="184" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="12" y="170" text-anchor="start" font-size="12.5" font-weight="700" fill="currentColor"><tspan x="12" dy="0">AP2112K-3.3</tspan></text>
+<text x="132" y="170" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="132" dy="0">≈ 0,25 В</tspan></text>
+<text x="212" y="170" text-anchor="start" font-size="12.5" font-weight="400" fill="var(--ok, #1a7f4b)"><tspan x="212" dy="0">≈ 55 мкА</tspan></text>
+<text x="304" y="170" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="304" dy="0">0,6 А</tspan></text>
+<text x="366" y="170" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="366" dy="0">1 мкФ, керам.</tspan></text>
+<line x1="8" y1="222" x2="472" y2="222" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="12" y="208" text-anchor="start" font-size="12.5" font-weight="700" fill="currentColor"><tspan x="12" dy="0">MCP1700-3.3</tspan></text>
+<text x="132" y="208" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="132" dy="0">≈ 0,18 В</tspan></text>
+<text x="212" y="208" text-anchor="start" font-size="12.5" font-weight="400" fill="var(--ok, #1a7f4b)"><tspan x="212" dy="0">≈ 1,6 мкА</tspan></text>
+<text x="304" y="208" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="304" dy="0">0,25 А</tspan></text>
+<text x="366" y="208" text-anchor="start" font-size="12.5" font-weight="400" fill="currentColor"><tspan x="366" dy="0">1 мкФ, керам.</tspan></text>
+<text x="240" y="244" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Меньше dropout и ток покоя — лучше для батарейных устройств</tspan></text>
+</g></svg>

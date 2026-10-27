@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+<title>Повторитель напряжения между высокоомным делителем и АЦП</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M60 40L120 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="60" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="60" dy="0">+5 В</tspan></text>
+<path d="M120 40L120 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(120 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="94" y="148" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="94" dy="0">R1</tspan></text>
+<text x="94" y="166" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="94" dy="0">100 кОм</tspan></text>
+<path d="M120 200L120 222" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="120" cy="222" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(120 272) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="94" y="270" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="94" dy="0">R2</tspan></text>
+<text x="94" y="288" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="94" dy="0">100 кОм</tspan></text>
+<path d="M120 322L120 336" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(120 324)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M330 155L330 245L410 200Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="290" y1="178" x2="330" y2="178" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="222" x2="330" y2="222" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="410" y1="200" x2="450" y2="200" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="338" y="183" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="338" dy="0">−</tspan></text>
+<text x="338" y="227" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="338" dy="0">+</tspan></text>
+<path d="M120 222L290 222" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 200L500 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="470" cy="200" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M470 200L470 100L250 100L250 178L290 178" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="500" y="170" width="110" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="555" y="197" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="555" dy="0">вход</tspan><tspan x="555" dy="16.8">АЦП</tspan></text>
+<text x="150" y="205" text-anchor="start" font-size="12" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="150" dy="0">U = 2,5 В</tspan><tspan x="150" dy="14.399999999999999">Rист = 50 кОм</tspan></text>
+<text x="300" y="270" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="300" dy="0">Rвых ОУ ≈ единицы Ом</tspan></text>
+<text x="480" y="138" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="480" dy="0">вход АЦП берёт</tspan><tspan x="480" dy="14.399999999999999">микроампер утечки</tspan></text>
+</g></svg>

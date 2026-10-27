@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img">
+<title>Осциллограммы: такт и выходы Q0…Q3</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M80 58L155 58L155 30L230 30L230 58L305 58L305 30L380 30L380 58L455 58L455 30L530 30L530 58L605 58L605 30L680 30" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="50" text-anchor="end" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="68" dy="0">CLK</tspan></text>
+<path d="M80 118L155 118L155 90L305 90L305 118L680 118" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="110" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="68" dy="0">Q0</tspan></text>
+<path d="M80 170L305 170L305 142L455 142L455 170L680 170" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="162" text-anchor="end" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="68" dy="0">Q1</tspan></text>
+<path d="M80 222L455 222L455 194L605 194L605 222L680 222" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="214" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="68" dy="0">Q2</tspan></text>
+<path d="M80 274L605 274L605 246L680 246" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="266" text-anchor="end" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="68" dy="0">Q3</tspan></text>
+<text x="360" y="300" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">в каждый момент горит один выход; фронт такта переносит «огонь» на следующий</tspan></text>
+</g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img">
+<title>Энергия батарей в ватт-часах</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Энергия = напряжение × ёмкость</tspan></text>
+<text x="14" y="70" text-anchor="start" font-size="15" font-weight="600" fill="currentColor"><tspan x="14" dy="0">щелочная AA</tspan></text>
+<text x="14" y="90" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">1,5 В · 2500 мА·ч</tspan></text>
+<rect x="178" y="56" width="82.5" height="34" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="268.5" y="79" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="268.5" dy="0">3,75 Вт·ч</tspan></text>
+<text x="14" y="134" text-anchor="start" font-size="15" font-weight="600" fill="currentColor"><tspan x="14" dy="0">Li-ion 18650</tspan></text>
+<text x="14" y="154" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">3,7 В · 2500 мА·ч</tspan></text>
+<rect x="178" y="120" width="203.5" height="34" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="389.5" y="143" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="389.5" dy="0">9,25 Вт·ч</tspan></text>
+<text x="14" y="198" text-anchor="start" font-size="15" font-weight="600" fill="currentColor"><tspan x="14" dy="0">батарея «Крона»</tspan></text>
+<text x="14" y="218" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">9 В · 500 мА·ч</tspan></text>
+<rect x="178" y="184" width="99" height="34" rx="4" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="285" y="207" text-anchor="start" font-size="15" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="285" dy="0">4,5 Вт·ч</tspan></text>
+<text x="240" y="254" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Ёмкость AA и 18650 одинакова, а энергия — в 2,5 раза разная</tspan></text>
+</g></svg>

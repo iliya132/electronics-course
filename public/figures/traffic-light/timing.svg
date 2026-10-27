@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 270" role="img">
+<title>Цикл светофора: красный 5 с, зелёный 4 с, жёлтый 1,5 с</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M120 70L120 70L120 40L415.24 40L415.24 70L740 70" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108" y="61" text-anchor="end" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="108" dy="0">красный</tspan></text>
+<path d="M120 130L415.24 130L415.24 100L651.43 100L651.43 130L740 130" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108" y="121" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="108" dy="0">зелёный</tspan></text>
+<path d="M120 190L651.43 190L651.43 160L740 160L740 190L740 190" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108" y="181" text-anchor="end" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="108" dy="0">жёлтый</tspan></text>
+<line x1="120" y1="30" x2="120" y2="200" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="120" y="222" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="120" dy="0">0 с</tspan></text>
+<line x1="415.24" y1="30" x2="415.24" y2="200" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="415.24" y="222" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="415.24" dy="0">5 с</tspan></text>
+<line x1="651.43" y1="30" x2="651.43" y2="200" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="651.43" y="222" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="651.43" dy="0">9 с</tspan></text>
+<line x1="740" y1="30" x2="740" y2="200" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="740" y="222" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="740" dy="0">10,5 с</tspan></text>
+</g></svg>

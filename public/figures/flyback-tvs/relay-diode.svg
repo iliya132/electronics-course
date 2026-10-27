@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Обратный диод на катушке реле</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M40 50L330 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="50" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="36" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">+12 В</tspan></text>
+<circle cx="130" cy="50" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M130 50L130 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(130 120) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0H50"/></g>
+<text x="140" y="118" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="140" dy="0">катушка</tspan></text>
+<path d="M130 170L130 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="130" cy="190" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="250" cy="50" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M250 50L250 68" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 120) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-10M10 0H45M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="272" y="118" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="272" dy="0">VD</tspan></text>
+<path d="M250 172L250 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250" cy="190" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M130 190L250 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M190 190L190 208" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="160" y="208" width="60" height="34" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="190" y="230" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="190" dy="0">ключ</tspan></text>
+<path d="M190 242L190 258" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 258)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M 262 160 C 300 190 300 70 262 80" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="296" y="128" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="296" dy="0">ток катушки</tspan><tspan x="296" dy="14.399999999999999">после выключения</tspan></text>
+<text x="300" y="232" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="300" dy="0">в норме диод закрыт: катод</tspan><tspan x="300" dy="14.399999999999999">на плюсе, анод на ключе</tspan></text>
+</g></svg>

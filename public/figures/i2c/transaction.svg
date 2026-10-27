@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img">
+<title>Транзакция I²C: адрес 0x3C и запись</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M90 40L187.14 40L187.14 76L211.43 76L211.43 40L235.71 40L235.71 76L260 76L260 40L284.29 40L284.29 76L308.57 76L308.57 40L332.86 40L332.86 76L357.14 76L357.14 40L381.43 40L381.43 76L405.71 76L405.71 40L430 40L430 76L454.29 76L454.29 40L478.57 40L478.57 76L502.86 76L502.86 40L527.14 40L527.14 76L551.43 76L551.43 40L575.71 40L575.71 76L600 76L600 40L770 40" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="78" y="65.2" text-anchor="end" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="78" dy="0">SCL</tspan></text>
+<path d="M90 120L162.86 120L162.86 156L233.29 156L233.29 120L427.57 120L427.57 156L634 156L634 120L770 120" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="78" y="145.2" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="78" dy="0">SDA</tspan></text>
+<text x="199.29" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="199.29" dy="0">A6</tspan></text>
+<text x="247.86" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="247.86" dy="0">A5</tspan></text>
+<text x="296.43" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="296.43" dy="0">A4</tspan></text>
+<text x="345" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="345" dy="0">A3</tspan></text>
+<text x="393.57" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="393.57" dy="0">A2</tspan></text>
+<text x="442.14" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="442.14" dy="0">A1</tspan></text>
+<text x="490.71" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="490.71" dy="0">A0</tspan></text>
+<text x="539.29" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="539.29" dy="0">R/W</tspan></text>
+<text x="587.86" y="190" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="587.86" dy="0">ACK</tspan></text>
+<text x="199.29" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="199.29" dy="0">0</tspan></text>
+<text x="247.86" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="247.86" dy="0">1</tspan></text>
+<text x="296.43" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="296.43" dy="0">1</tspan></text>
+<text x="345" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="345" dy="0">1</tspan></text>
+<text x="393.57" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="393.57" dy="0">1</tspan></text>
+<text x="442.14" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="442.14" dy="0">0</tspan></text>
+<text x="490.71" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="490.71" dy="0">0</tspan></text>
+<text x="539.29" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="539.29" dy="0">0</tspan></text>
+<text x="587.86" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="587.86" dy="0">0</tspan></text>
+<text x="162.86" y="235" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="162.86" dy="0">START</tspan></text>
+<text x="643.71" y="235" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="643.71" dy="0">STOP</tspan></text>
+<text x="430" y="268" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="430" dy="0">адрес 0111100₂ = 0x3C; бит R/W = 0 — запись; ACK = 0 — устройство ответило</tspan></text>
+</g></svg>

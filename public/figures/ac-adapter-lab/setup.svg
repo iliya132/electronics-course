@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Схема измерений на низковольтном AC-адаптере</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="80" width="120" height="110" rx="8" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.5"/>
+<text x="80" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="80" dy="0">адаптер</tspan></text>
+<text x="80" y="140" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">AC 12 В</tspan><tspan x="80" dy="14.399999999999999">(заводской)</tspan></text>
+<path d="M140 105L190 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 105) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><rect x="-22" y="-8" width="44" height="16" rx="2"/><path d="M-22 0H22"/></g>
+<text x="230" y="75" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="230" dy="0">F 1 А</tspan></text>
+<path d="M270 105L360 105L360 135" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 175) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="384" y="173" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="384" dy="0">33 Ом</tspan></text>
+<path d="M360 215L360 250L160 250L160 165L140 165" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 105L300 140" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 175) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-18M18 0H30"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="300" y="181" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="300" dy="0">V~</tspan></text>
+<path d="M300 205L300 250" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="105" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="300" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="240" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">Режим мультиметра: V~ (переменное напряжение)</tspan></text>
+<text x="240" y="284" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Сначала измерь без нагрузки, потом с резистором</tspan></text>
+</g></svg>

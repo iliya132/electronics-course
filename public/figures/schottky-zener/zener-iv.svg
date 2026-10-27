@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Стабилитрон 5,1 В: обратная ветка</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Стабилитрон 5,1 В: обратная ветка</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="126.92" y1="62" x2="126.92" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="126.92" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="126.92" dy="0">1</tspan></text>
+<line x1="187.85" y1="62" x2="187.85" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="187.85" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="187.85" dy="0">2</tspan></text>
+<line x1="248.77" y1="62" x2="248.77" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="248.77" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="248.77" dy="0">3</tspan></text>
+<line x1="309.69" y1="62" x2="309.69" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="309.69" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="309.69" dy="0">4</tspan></text>
+<line x1="370.62" y1="62" x2="370.62" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="370.62" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="370.62" dy="0">5</tspan></text>
+<line x1="431.54" y1="62" x2="431.54" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="431.54" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="431.54" dy="0">6</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="245.33" x2="462" y2="245.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="250.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="208.67" x2="462" y2="208.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="213.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">20</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">30</tspan></text>
+<line x1="66" y1="135.33" x2="462" y2="135.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="140.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">40</tspan></text>
+<line x1="66" y1="98.67" x2="462" y2="98.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="103.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">50</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">60</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Обратное напряжение, В</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Обратный ток, мА</tspan></text>
+<path d="M66 282L67.65 282L69.3 282L70.95 282L72.6 282L74.25 282L75.9 282L77.55 282L79.2 282L80.85 282L82.5 282L84.15 282L85.8 282L87.45 282L89.1 282L90.75 282L92.4 282L94.05 282L95.7 282L97.35 282L99 282L100.65 282L102.3 282L103.95 282L105.6 282L107.25 282L108.9 282L110.55 282L112.2 282L113.85 282L115.5 282L117.15 282L118.8 282L120.45 282L122.1 282L123.75 282L125.4 282L127.05 282L128.7 282L130.35 282L132 282L133.65 282L135.3 282L136.95 282L138.6 282L140.25 282L141.9 282L143.55 282L145.2 282L146.85 282L148.5 282L150.15 282L151.8 282L153.45 282L155.1 282L156.75 282L158.4 282L160.05 282L161.7 282L163.35 282L165 282L166.65 282L168.3 282L169.95 282L171.6 282L173.25 282L174.9 282L176.55 282L178.2 282L179.85 282L181.5 282L183.15 282L184.8 282L186.45 282L188.1 282L189.75 282L191.4 282L193.05 282L194.7 282L196.35 282L198 282L199.65 282L201.3 282L202.95 282L204.6 282L206.25 282L207.9 282L209.55 282L211.2 282L212.85 282L214.5 282L216.15 282L217.8 282L219.45 282L221.1 282L222.75 282L224.4 282L226.05 282L227.7 282L229.35 282L231 282L232.65 282L234.3 282L235.95 282L237.6 282L239.25 282L240.9 282L242.55 282L244.2 282L245.85 282L247.5 282L249.15 282L250.8 282L252.45 282L254.1 282L255.75 282L257.4 282L259.05 282L260.7 282L262.35 282L264 282L265.65 282L267.3 282L268.95 282L270.6 282L272.25 282L273.9 282L275.55 282L277.2 282L278.85 282L280.5 282L282.15 282L283.8 282L285.45 282L287.1 282L288.75 282L290.4 282L292.05 282L293.7 282L295.35 282L297 282L298.65 282L300.3 282L301.95 282L303.6 282L305.25 282L306.9 282L308.55 282L310.2 282L311.85 282L313.5 282L315.15 282L316.8 281.99L318.45 281.99L320.1 281.99L321.75 281.99L323.4 281.99L325.05 281.98L326.7 281.98L328.35 281.98L330 281.97L331.65 281.96L333.3 281.95L334.95 281.94L336.6 281.92L338.25 281.9L339.9 281.88L341.55 281.85L343.2 281.81L344.85 281.77L346.5 281.71L348.15 281.63L349.8 281.54L351.45 281.42L353.1 281.27L354.75 281.09L356.4 280.86L358.05 280.57L359.7 280.21L361.35 279.76L363 279.19L364.65 278.48L366.3 277.58L367.95 276.47L369.6 275.07L371.25 273.31L372.9 271.11L374.55 268.35L376.2 264.9L377.85 260.57L379.5 255.14L381.15 248.34L382.8 239.82L384.45 229.13L386.1 215.75L387.75 198.98L389.4 177.95L391.05 151.61L392.7 118.6L394.35 77.22L396 62L397.65 62L399.3 62L400.95 62L402.6 62L404.25 62L405.9 62L407.55 62L409.2 62L410.85 62L412.5 62L414.15 62L415.8 62L417.45 62L419.1 62L420.75 62L422.4 62L424.05 62L425.7 62L427.35 62L429 62L430.65 62L432.3 62L433.95 62L435.6 62L437.25 62L438.9 62L440.55 62L442.2 62L443.85 62L445.5 62L447.15 62L448.8 62L450.45 62L452.1 62L453.75 62L455.4 62L457.05 62L458.7 62L460.35 62L462 62" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="376.71" cy="263.67" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="366.71" y="251.67" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="366.71" dy="0">5,1 В при 5 мА</tspan></text>
+<text x="84.28" y="98.67" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="84.28" dy="0">до ~4,5 В тока почти нет;</tspan><tspan x="84.28" dy="16.8">потом напряжение «держится» около Uz</tspan></text>
+</g></svg>

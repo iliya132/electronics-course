@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Правильное и неправильное подключение амперметра</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="6" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="6" dy="0">Правильно: в разрыв</tspan></text>
+<g transform="translate(34 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<g transform="translate(190 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<path d="M190 200L190 230L34 230L34 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M34 120L34 90L74 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(112 90) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-38 0H-18M18 0H38"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="112" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="112" dy="0">A</tspan></text>
+<path d="M150 90L190 90L190 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="112" y="262" text-anchor="middle" font-size="13" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="112" dy="0">ток идёт через прибор</tspan></text>
+<text x="246" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="246" dy="0">Неправильно: параллельно</tspan></text>
+<g transform="translate(274 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<g transform="translate(430 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<path d="M430 200L430 230L274 230L274 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M274 120L274 90L430 90L430 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(352 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-18M18 0H40"/><circle r="18" stroke="var(--bad, #b3261e)"/></g>
+<text x="352" y="166" text-anchor="middle" font-size="18" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="352" dy="0">A</tspan></text>
+<path d="M352 90L352 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M352 200L352 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="352" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="352" cy="230" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="352" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="352" dy="0">КЗ через прибор:</tspan><tspan x="352" dy="15.6">сгорит предохранитель</tspan></text>
+<line x1="240" y1="40" x2="240" y2="290" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+</g></svg>

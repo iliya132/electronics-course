@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" role="img">
+<title>Амперметр на шунте 0,1 Ом и неинвертирующем усилителе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M40 40L200 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">+5 В</tspan></text>
+<path d="M120 40L120 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="120" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(120 100) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="94" y="98" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="94" dy="0">нагрузка</tspan></text>
+<text x="94" y="116" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="94" dy="0">10 Ом 5 Вт</tspan></text>
+<path d="M120 140L120 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="120" cy="200" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(120 240) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="94" y="238" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="94" dy="0">Rш</tspan></text>
+<text x="94" y="256" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="94" dy="0">0,1 Ом 1 Вт</tspan></text>
+<path d="M120 280L120 300" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(120 300)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M340 155L340 245L420 200Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="300" y1="178" x2="340" y2="178" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="222" x2="340" y2="222" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="420" y1="200" x2="460" y2="200" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="348" y="183" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="348" dy="0">+</tspan></text>
+<text x="348" y="227" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="348" dy="0">−</tspan></text>
+<path d="M120 200L160 200L160 178L300 178" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="200" y="172" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="200" dy="0">Uш</tspan></text>
+<circle cx="480" cy="200" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M460 200L480 200L480 280L440 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(400 280) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="400" y="252" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="400" dy="0">Rf</tspan></text>
+<text x="400" y="318" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">9,1 кОм + 2 кОм</tspan></text>
+<path d="M360 280L300 280L300 222" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="280" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M300 280L300 320" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 350) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="274" y="348" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="274" dy="0">Rg</tspan></text>
+<text x="274" y="366" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="274" dy="0">1 кОм</tspan></text>
+<g transform="translate(300 380)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M480 200L560 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="560" cy="200" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="560" y="184" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="560" dy="0">Uвых</tspan></text>
+<text x="580" y="230" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="580" dy="0">Uвых = I·Rш·K = I · 0,1 · 11</tspan><tspan x="580" dy="15.6">= 1,1 В на каждый ампер</tspan></text>
+<text x="580" y="290" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="580" dy="0">питание ОУ 5 В (rail-to-rail),</tspan><tspan x="580" dy="14.399999999999999">полная шкала 3 А → 3,3 В</tspan></text>
+</g></svg>

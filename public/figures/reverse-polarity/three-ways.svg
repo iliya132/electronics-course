@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img">
+<title>Три способа защиты от переполюсовки</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="12" y="20" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="12" dy="0">1. Диод последовательно</tspan></text>
+<circle cx="22" cy="58" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="22" y="46" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="22" dy="0">+ вход</tspan></text>
+<path d="M26 58L150 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 58) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-10M10 0H40M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="190" y="36" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="190" dy="0">VD</tspan></text>
+<path d="M230 58L404 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="404" y="34" width="60" height="48" rx="6" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="434" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="434" dy="0">нагр.</tspan></text>
+<text x="240" y="100" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">теряем Vf на каждом ампере: 0,7 В (кремний) или 0,3–0,45 В (Шоттки)</tspan></text>
+<text x="12" y="134" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="12" dy="0">2. Диод параллельно + предохранитель</tspan></text>
+<circle cx="22" cy="172" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="22" y="160" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="22" dy="0">+ вход</tspan></text>
+<path d="M26 172L66 172" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 172) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-34 0H-22M22 0H34"/><rect x="-22" y="-8" width="44" height="16" rx="2"/><path d="M-22 0H22"/></g>
+<text x="100" y="150" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="100" dy="0">F</tspan></text>
+<path d="M134 172L404 172" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="230" cy="172" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M230 172L230 182" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 206) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-24 0H-10M10 0H24M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="250" y="204" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="250" dy="0">VD</tspan></text>
+<path d="M230 230L230 236" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(230 236)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="404" y="148" width="60" height="48" rx="6" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="434" y="177" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="434" dy="0">нагр.</tspan></text>
+<text x="300" y="224" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="300" dy="0">в норме потерь нет;</tspan><tspan x="300" dy="14.399999999999999">при переполюсовке диод</tspan><tspan x="300" dy="14.399999999999999">замыкает вход, F перегорает</tspan></text>
+<text x="12" y="268" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="12" dy="0">3. P-MOSFET в плюсовой шине</tspan></text>
+<circle cx="22" cy="306" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="22" y="294" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="22" dy="0">+ вход</tspan></text>
+<path d="M26 306L150 306" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="150" y="286" width="90" height="40" rx="6" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="195" y="311" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="195" dy="0">P-MOSFET</tspan></text>
+<text x="150" y="282" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="150" dy="0">D</tspan></text>
+<text x="240" y="282" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">S</tspan></text>
+<path d="M240 306L404 306" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M195 326L195 338" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(195 338)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="186" y="342" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="186" dy="0">затвор на землю</tspan></text>
+<rect x="404" y="282" width="60" height="48" rx="6" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="434" y="311" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="434" dy="0">нагр.</tspan></text>
+<text x="250" y="346" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">потеря I²·Rds(on): десятки мВт</tspan></text>
+</g></svg>

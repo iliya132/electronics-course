@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 302" role="img">
+<title>Ток заряда TP4056 и пороги защиты</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="430" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="430" dy="0">Ток заряда TP4056 и пороги защиты</tspan></text>
+<rect x="20" y="42" width="820" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Параметр</tspan></text>
+<text x="290.4" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="290.4" dy="0">Значение</tspan></text>
+<text x="487.2" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="487.2" dy="0">Комментарий</tspan></text>
+<line x1="20" y1="76" x2="840" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Rprog 1,2 кОм</tspan></text>
+<text x="290.4" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">≈ 1 А</tspan></text>
+<text x="487.2" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">I = 1200/R(кОм)</tspan></text>
+<line x1="20" y1="110" x2="840" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Rprog 2 кОм</tspan></text>
+<text x="290.4" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">≈ 600 мА</tspan></text>
+<text x="487.2" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">для ячейки 2000 мА·ч — 0,3 C</tspan></text>
+<line x1="20" y1="144" x2="840" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Rprog 10 кОм</tspan></text>
+<text x="290.4" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">≈ 120 мА</tspan></text>
+<text x="487.2" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">для маленьких ячеек</tspan></text>
+<line x1="20" y1="178" x2="840" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Перезаряд</tspan></text>
+<text x="290.4" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">≈ 4,25 В</tspan></text>
+<text x="487.2" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">DW01A отключает ячейку</tspan></text>
+<line x1="20" y1="212" x2="840" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Переразряд</tspan></text>
+<text x="290.4" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">≈ 2,4–2,5 В</tspan></text>
+<text x="487.2" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">защита от глубокого разряда</tspan></text>
+<line x1="20" y1="246" x2="840" y2="246" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="268" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Ток КЗ/перегрузка</tspan></text>
+<text x="290.4" y="268" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="290.4" dy="0">порядка 3 А</tspan></text>
+<text x="487.2" y="268" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="487.2" dy="0">по падению на MOSFET</tspan></text>
+</g></svg>

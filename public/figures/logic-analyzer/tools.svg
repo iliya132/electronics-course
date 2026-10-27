@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 234" role="img">
+<title>Что чем смотреть</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="410" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="410" dy="0">Что чем смотреть</tspan></text>
+<rect x="20" y="42" width="780" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Сигнал</tspan></text>
+<text x="320.5" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="320.5" dy="0">Инструмент</tspan></text>
+<text x="529.43" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="529.43" dy="0">Что видно</tspan></text>
+<line x1="20" y1="76" x2="800" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Цифровые шины (UART, I²C, SPI)</tspan></text>
+<text x="320.5" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="320.5" dy="0">логический анализатор</tspan></text>
+<text x="529.43" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="529.43" dy="0">биты, декодированные байты, адреса</tspan></text>
+<line x1="20" y1="110" x2="800" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Форма импульсов, пульсации, звон</tspan></text>
+<text x="320.5" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="320.5" dy="0">осциллограф</tspan></text>
+<text x="529.43" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="529.43" dy="0">напряжение во времени, амплитуда</tspan></text>
+<line x1="20" y1="144" x2="800" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Постоянное напряжение, ток</tspan></text>
+<text x="320.5" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="320.5" dy="0">мультиметр</tspan></text>
+<text x="529.43" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="529.43" dy="0">среднее значение</tspan></text>
+<line x1="20" y1="178" x2="800" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Питание МК при сбросах</tspan></text>
+<text x="320.5" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="320.5" dy="0">осциллограф</tspan></text>
+<text x="529.43" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="529.43" dy="0">просадки и выбросы</tspan></text>
+</g></svg>

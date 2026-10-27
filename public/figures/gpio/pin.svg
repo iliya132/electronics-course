@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img">
+<title>Упрощённая схема вывода GPIO</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="150" width="130" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="150" width="130" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="95" y="181.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="95" dy="0">регистры</tspan><tspan x="95" dy="16.8">PORT, DDR, PIN</tspan></text>
+<rect x="230" y="40" width="160" height="64" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="230" y="40" width="160" height="64" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="310" y="68.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="310" dy="0">выходной драйвер</tspan><tspan x="310" dy="16.8">верхний + нижний ключ</tspan></text>
+<rect x="230" y="135" width="160" height="50" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="230" y="135" width="160" height="50" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="310" y="156.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="310" dy="0">подтяжка pull-up</tspan><tspan x="310" dy="16.8">20–50 кОм</tspan></text>
+<rect x="230" y="230" width="160" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="230" y="230" width="160" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="310" y="254.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="310" dy="0">входной буфер</tspan><tspan x="310" dy="16.8">(пороги VIL / VIH)</tspan></text>
+<rect x="450" y="135" width="150" height="60" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="450" y="135" width="150" height="60" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="525" y="161.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="525" dy="0">защитные диоды</tspan><tspan x="525" dy="16.8">к питанию и земле</tspan></text>
+<rect x="650" y="150" width="90" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="695" y="171.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="695" dy="0">вывод</tspan><tspan x="695" dy="16.8">МК</tspan></text>
+<line x1="160" y1="150.84" x2="241.15" y2="108.19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M249.12 104L238.85 103.81L243.45 112.57Z" fill="currentColor" stroke="none"/>
+<line x1="160" y1="177.44" x2="221.06" y2="170.34" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M230 169.3L220.49 165.42L221.63 175.26Z" fill="currentColor" stroke="none"/>
+<line x1="230" y1="230.84" x2="168.52" y2="209.96" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 207.07L166.93 214.65L170.11 205.28Z" fill="currentColor" stroke="none"/>
+<line x1="383.98" y1="104" x2="447.38" y2="131.43" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M455.65 135L449.35 126.88L445.42 135.97Z" fill="currentColor" stroke="none"/>
+<line x1="390" y1="161.86" x2="441" y2="163.05" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M450 163.26L441.12 158.1L440.89 168Z" fill="currentColor" stroke="none"/>
+<line x1="374.73" y1="230" x2="447.38" y2="198.57" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M455.65 195L445.42 194.03L449.35 203.12Z" fill="currentColor" stroke="none"/>
+<line x1="600" y1="169.41" x2="641.02" y2="171.82" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M650 172.35L641.31 166.88L640.72 176.77Z" fill="currentColor" stroke="none"/>
+<line x1="650" y1="172.35" x2="608.98" y2="169.94" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 169.41L608.69 174.88L609.28 165Z" fill="currentColor" stroke="none"/>
+<text x="230" y="320" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="230" dy="0">push-pull: драйвер даёт и 0, и 1; open-drain: только 0 (нижний ключ);</tspan><tspan x="230" dy="14.399999999999999">вход: драйвер выключен, читается буфер</tspan></text>
+</g></svg>

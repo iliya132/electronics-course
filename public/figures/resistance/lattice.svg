@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Свободный электрон в металле сталкивается с ионами решётки</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="90" cy="80" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="90" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="90" dy="0">+</tspan></text>
+<circle cx="170" cy="80" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="170" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="170" dy="0">+</tspan></text>
+<circle cx="250" cy="80" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="250" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">+</tspan></text>
+<circle cx="330" cy="80" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="330" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">+</tspan></text>
+<circle cx="410" cy="80" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="410" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="410" dy="0">+</tspan></text>
+<circle cx="90" cy="150" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="90" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="90" dy="0">+</tspan></text>
+<circle cx="170" cy="150" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="170" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="170" dy="0">+</tspan></text>
+<circle cx="250" cy="150" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="250" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">+</tspan></text>
+<circle cx="330" cy="150" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="330" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">+</tspan></text>
+<circle cx="410" cy="150" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="410" y="155" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="410" dy="0">+</tspan></text>
+<circle cx="90" cy="220" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="90" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="90" dy="0">+</tspan></text>
+<circle cx="170" cy="220" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="170" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="170" dy="0">+</tspan></text>
+<circle cx="250" cy="220" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="250" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">+</tspan></text>
+<circle cx="330" cy="220" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="330" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">+</tspan></text>
+<circle cx="410" cy="220" r="15" fill="var(--surface, #f6f7f9)" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="410" y="225" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="410" dy="0">+</tspan></text>
+<path d="M30 115L130 115L150 185L210 185L230 115L290 115L310 185L370 185L390 115L452 115" fill="none" stroke="var(--warn, #9a6700)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="130" cy="115" r="4.5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<circle cx="210" cy="185" r="4.5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<circle cx="290" cy="115" r="4.5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<circle cx="370" cy="185" r="4.5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<circle cx="30" cy="115" r="7" fill="var(--warn, #9a6700)" stroke="var(--warn, #9a6700)" stroke-width="2"/>
+<text x="8" y="98" text-anchor="start" font-size="14" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="8" dy="0">электрон</tspan></text>
+<text x="244" y="264" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">Красные точки: столкновения. На каждом электрон отдаёт</tspan><tspan x="244" dy="16.8">часть энергии решётке, и провод нагревается.</tspan></text>
+<text x="244" y="24" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">Серые «+»: ионы кристаллической решётки (стоят на месте)</tspan></text>
+</g></svg>

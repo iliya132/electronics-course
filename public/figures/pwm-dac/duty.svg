@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img">
+<title>ШИМ 5 В с разным коэффициентом заполнения</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="70" y="26" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="70" dy="0">D = 25 %  →  Uср = 1,25 В</tspan></text>
+<line x1="70" y1="36" x2="70" y2="88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="70" y1="88" x2="450" y2="88" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M70 88L70 36L93.75 36L93.75 88L165 88L165 36L188.75 36L188.75 88L260 88L260 36L283.75 36L283.75 88L355 88L355 36L378.75 36L378.75 88L450 88" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70" y1="75" x2="450" y2="75" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="64" y="41" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">5</tspan></text>
+<text x="64" y="93" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">0</tspan></text>
+<text x="70" y="126" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="70" dy="0">D = 50 %  →  Uср = 2,50 В</tspan></text>
+<line x1="70" y1="136" x2="70" y2="188" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="70" y1="188" x2="450" y2="188" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M70 188L70 136L117.5 136L117.5 188L165 188L165 136L212.5 136L212.5 188L260 188L260 136L307.5 136L307.5 188L355 188L355 136L402.5 136L402.5 188L450 188" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70" y1="162" x2="450" y2="162" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="64" y="141" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">5</tspan></text>
+<text x="64" y="193" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">0</tspan></text>
+<text x="70" y="226" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="70" dy="0">D = 75 %  →  Uср = 3,75 В</tspan></text>
+<line x1="70" y1="236" x2="70" y2="288" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="70" y1="288" x2="450" y2="288" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M70 288L70 236L141.25 236L141.25 288L165 288L165 236L236.25 236L236.25 288L260 288L260 236L331.25 236L331.25 288L355 288L355 236L426.25 236L426.25 288L450 288" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="70" y1="249" x2="450" y2="249" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="64" y="241" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">5</tspan></text>
+<text x="64" y="293" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">0</tspan></text>
+<text x="470" y="322" text-anchor="end" font-size="12" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="470" dy="0">красный пунктир — среднее значение</tspan></text>
+</g></svg>

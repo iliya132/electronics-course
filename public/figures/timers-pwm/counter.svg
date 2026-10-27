@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img">
+<title>Таймер: счётчик, регистр сравнения OCR и выход ШИМ</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M90 150L283.13 40L283.33 150L283.33 150L476.47 40L476.67 150L476.67 150L669.8 40L670 150" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90" y1="122.39" x2="670" y2="122.39" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="80" y="127.39" text-anchor="end" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="80" dy="0">OCR = 64</tspan></text>
+<text x="80" y="45" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">255</tspan></text>
+<text x="80" y="155" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">0</tspan></text>
+<text x="96" y="24" text-anchor="start" font-size="13" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="96" dy="0">счётчик TCNT0 растёт до 255 и обнуляется</tspan></text>
+<path d="M90 220L138.33 220L138.33 260L283.33 260L283.33 220L331.67 220L331.67 260L476.67 260L476.67 220L525 220L525 260L670 260" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="78" y="248" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="78" dy="0">Выход</tspan></text>
+<line x1="90" y1="40" x2="90" y2="262" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="283.33" y1="40" x2="283.33" y2="262" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="476.67" y1="40" x2="476.67" y2="262" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="670" y1="40" x2="670" y2="262" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="380" y="300" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="380" dy="0">D = OCR/256 = 64/256 = 25 %; период = 256 тактов таймера</tspan></text>
+<text x="380" y="322" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="380" dy="0">выход 1 до момента совпадения TCNT0 = OCR, затем 0 до переполнения</tspan></text>
+</g></svg>

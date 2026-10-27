@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img">
+<title>D-триггер захватывает D по фронту тактового импульса</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M80 80L142 80L142 50L204 50L204 80L266 80L266 50L328 50L328 80L390 80L390 50L452 50L452 80L514 80L514 50L576 50L576 80L638 80L638 50L700 50L700 80L700 80" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="72" text-anchor="end" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="68" dy="0">CLK</tspan></text>
+<path d="M80 150L188.5 150L188.5 120L312.5 120L312.5 150L436.5 150L436.5 120L591.5 120L591.5 150L700 150" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="142" text-anchor="end" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="68" dy="0">D</tspan></text>
+<path d="M80 220L266 220L266 190L390 190L390 220L514 220L514 190L638 190L638 220L700 220" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="212" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="68" dy="0">Q</tspan></text>
+<line x1="142" y1="40" x2="142" y2="232" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<line x1="266" y1="40" x2="266" y2="232" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<line x1="390" y1="40" x2="390" y2="232" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<line x1="514" y1="40" x2="514" y2="232" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<line x1="638" y1="40" x2="638" y2="232" stroke="var(--muted, #5b6573)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<text x="148" y="262" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="148" dy="0">фронты тактов: D считывается только в эти моменты</tspan></text>
+</g></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img">
+<title>Шина RS-485: витая пара A и B, терминаторы на концах</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="110" width="110" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="110" width="110" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="75" y="137.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="75" dy="0">120 Ом</tspan><tspan x="75" dy="14.399999999999999">терминатор</tspan></text>
+<rect x="190" y="40" width="130" height="60" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="40" width="130" height="60" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="255" y="67.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="255" dy="0">узел 1</tspan><tspan x="255" dy="14.399999999999999">MAX485</tspan></text>
+<rect x="370" y="190" width="130" height="60" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="370" y="190" width="130" height="60" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="435" y="217.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="435" dy="0">узел 2</tspan><tspan x="435" dy="14.399999999999999">MAX485</tspan></text>
+<rect x="540" y="40" width="130" height="60" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="540" y="40" width="130" height="60" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="605" y="67.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="605" dy="0">узел 3</tspan><tspan x="605" dy="14.399999999999999">MAX485</tspan></text>
+<rect x="690" y="110" width="90" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="690" y="110" width="90" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="735" y="137.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="735" dy="0">120 Ом</tspan><tspan x="735" dy="14.399999999999999">терминатор</tspan></text>
+<line x1="130" y1="118.61" x2="181.61" y2="98.54" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 95.28L179.82 93.93L183.41 103.15Z" fill="currentColor" stroke="none"/>
+<line x1="291" y1="100" x2="392.09" y2="184.24" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M399 190L395.25 180.44L388.92 188.04Z" fill="currentColor" stroke="none"/>
+<line x1="469" y1="190" x2="564.25" y2="105.95" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M571 100L560.98 102.24L567.53 109.67Z" fill="currentColor" stroke="none"/>
+<line x1="660.71" y1="100" x2="682.08" y2="111.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M690 115.77L684.42 107.14L679.73 115.86Z" fill="currentColor" stroke="none"/>
+<text x="20" y="275" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">передача дифференциальная: по разности A − B; приёмник видит разность ±200 мВ</tspan></text>
+</g></svg>

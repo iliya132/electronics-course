@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img">
+<title>Полусумматор: сумма на XOR, перенос на AND</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="200" y="40" width="70" height="64" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="235" y="80" text-anchor="middle" font-size="22" font-weight="700" fill="currentColor"><tspan x="235" dy="0">=1</tspan></text>
+<line x1="176" y1="60" x2="200" y2="60" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="176" y1="84" x2="200" y2="84" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="270" y1="72" x2="300" y2="72" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="235" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="235" dy="0">XOR</tspan></text>
+<rect x="200" y="170" width="70" height="64" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="235" y="210" text-anchor="middle" font-size="22" font-weight="700" fill="currentColor"><tspan x="235" dy="0">&amp;</tspan></text>
+<line x1="176" y1="190" x2="200" y2="190" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="176" y1="214" x2="200" y2="214" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="270" y1="202" x2="300" y2="202" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="235" y="260" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="235" dy="0">AND</tspan></text>
+<text x="40" y="76" text-anchor="start" font-size="16" font-weight="700" fill="currentColor"><tspan x="40" dy="0">A</tspan></text>
+<text x="40" y="206" text-anchor="start" font-size="16" font-weight="700" fill="currentColor"><tspan x="40" dy="0">B</tspan></text>
+<line x1="70" y1="60" x2="176" y2="60" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="70" y1="84" x2="176" y2="84" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="70" y1="190" x2="176" y2="190" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="70" y1="214" x2="176" y2="214" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="70" cy="60" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+<line x1="70" y1="60" x2="70" y2="190" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="3 4"/>
+<line x1="70" y1="84" x2="70" y2="214" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="3 4"/>
+<text x="310" y="76" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="310" dy="0">S = A ⊕ B</tspan></text>
+<text x="310" y="206" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="310" dy="0">C = A · B</tspan></text>
+<text x="500" y="70" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="500" dy="0">A</tspan></text>
+<text x="550" y="70" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="550" dy="0">B</tspan></text>
+<text x="600" y="70" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="600" dy="0">S</tspan></text>
+<text x="650" y="70" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="650" dy="0">C</tspan></text>
+<text x="500" y="106" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="500" dy="0">0</tspan></text>
+<text x="550" y="106" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="550" dy="0">0</tspan></text>
+<text x="600" y="106" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="600" dy="0">0</tspan></text>
+<text x="650" y="106" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="650" dy="0">0</tspan></text>
+<text x="500" y="142" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="500" dy="0">0</tspan></text>
+<text x="550" y="142" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="550" dy="0">1</tspan></text>
+<text x="600" y="142" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="600" dy="0">1</tspan></text>
+<text x="650" y="142" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="650" dy="0">0</tspan></text>
+<text x="500" y="178" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="500" dy="0">1</tspan></text>
+<text x="550" y="178" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="550" dy="0">0</tspan></text>
+<text x="600" y="178" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="600" dy="0">1</tspan></text>
+<text x="650" y="178" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="650" dy="0">0</tspan></text>
+<text x="500" y="214" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="500" dy="0">1</tspan></text>
+<text x="550" y="214" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="550" dy="0">1</tspan></text>
+<text x="600" y="214" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="600" dy="0">0</tspan></text>
+<text x="650" y="214" text-anchor="middle" font-size="16" font-weight="400" fill="currentColor"><tspan x="650" dy="0">1</tspan></text>
+<line x1="480" y1="82" x2="680" y2="82" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="590" y="40" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="590" dy="0">таблица истинности</tspan></text>
+<text x="500" y="270" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="500" dy="0">1 + 1 = 10₂: сумма 0, перенос 1</tspan></text>
+</g></svg>

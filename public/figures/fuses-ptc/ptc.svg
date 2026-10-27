@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Самовосстанавливающийся предохранитель (PTC)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Самовосстанавливающийся предохранитель (PTC)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">20</tspan></text>
+<line x1="122.57" y1="62" x2="122.57" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="122.57" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="122.57" dy="0">40</tspan></text>
+<line x1="179.14" y1="62" x2="179.14" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="179.14" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="179.14" dy="0">60</tspan></text>
+<line x1="235.71" y1="62" x2="235.71" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="235.71" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="235.71" dy="0">80</tspan></text>
+<line x1="292.29" y1="62" x2="292.29" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="292.29" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="292.29" dy="0">100</tspan></text>
+<line x1="348.86" y1="62" x2="348.86" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="348.86" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="348.86" dy="0">120</tspan></text>
+<line x1="405.43" y1="62" x2="405.43" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="405.43" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="405.43" dy="0">140</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">160</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,1</tspan></text>
+<line x1="66" y1="238" x2="462" y2="238" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="243" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="194" x2="462" y2="194" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="199" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="150" x2="462" y2="150" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="155" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">100</tspan></text>
+<line x1="66" y1="106" x2="462" y2="106" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="111" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1000</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10000</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Температура элемента, °C</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Сопротивление, Ом (лог. шкала)</tspan></text>
+<path d="M66 268.8L67.65 268.8L69.3 268.8L70.95 268.8L72.6 268.8L74.25 268.8L75.9 268.8L77.55 268.8L79.2 268.8L80.85 268.8L82.5 268.8L84.15 268.8L85.8 268.8L87.45 268.8L89.1 268.8L90.75 268.8L92.4 268.8L94.05 268.8L95.7 268.8L97.35 268.8L99 268.8L100.65 268.8L102.3 268.8L103.95 268.8L105.6 268.8L107.25 268.8L108.9 268.8L110.55 268.8L112.2 268.8L113.85 268.8L115.5 268.8L117.15 268.8L118.8 268.8L120.45 268.8L122.1 268.8L123.75 268.8L125.4 268.8L127.05 268.8L128.7 268.8L130.35 268.8L132 268.8L133.65 268.8L135.3 268.8L136.95 268.8L138.6 268.8L140.25 268.8L141.9 268.8L143.55 268.8L145.2 268.8L146.85 268.8L148.5 268.8L150.15 268.8L151.8 268.8L153.45 268.8L155.1 268.8L156.75 268.8L158.4 268.8L160.05 268.8L161.7 268.8L163.35 268.8L165 268.79L166.65 268.79L168.3 268.79L169.95 268.79L171.6 268.79L173.25 268.79L174.9 268.79L176.55 268.79L178.2 268.79L179.85 268.79L181.5 268.79L183.15 268.79L184.8 268.78L186.45 268.78L188.1 268.78L189.75 268.78L191.4 268.78L193.05 268.77L194.7 268.77L196.35 268.77L198 268.76L199.65 268.76L201.3 268.76L202.95 268.75L204.6 268.75L206.25 268.74L207.9 268.74L209.55 268.73L211.2 268.72L212.85 268.71L214.5 268.71L216.15 268.7L217.8 268.69L219.45 268.67L221.1 268.66L222.75 268.65L224.4 268.63L226.05 268.61L227.7 268.6L229.35 268.57L231 268.55L232.65 268.53L234.3 268.5L235.95 268.47L237.6 268.43L239.25 268.4L240.9 268.36L242.55 268.31L244.2 268.26L245.85 268.21L247.5 268.15L249.15 268.08L250.8 268.01L252.45 267.92L254.1 267.84L255.75 267.74L257.4 267.63L259.05 267.51L260.7 267.38L262.35 267.24L264 267.08L265.65 266.9L267.3 266.71L268.95 266.5L270.6 266.27L272.25 266.02L273.9 265.74L275.55 265.43L277.2 265.09L278.85 264.72L280.5 264.32L282.15 263.87L283.8 263.38L285.45 262.85L287.1 262.26L288.75 261.62L290.4 260.92L292.05 260.15L293.7 259.31L295.35 258.4L297 257.4L298.65 256.32L300.3 255.14L301.95 253.85L303.6 252.46L305.25 250.96L306.9 249.33L308.55 247.57L310.2 245.67L311.85 243.63L313.5 241.44L315.15 239.1L316.8 236.59L318.45 233.92L320.1 231.09L321.75 228.09L323.4 224.92L325.05 221.58L326.7 218.08L328.35 214.43L330 210.63L331.65 206.68L333.3 202.61L334.95 198.43L336.6 194.14L338.25 189.78L339.9 185.36L341.55 180.89L343.2 176.4L344.85 171.91L346.5 167.44L348.15 163.02L349.8 158.66L351.45 154.37L353.1 150.19L354.75 146.12L356.4 142.17L358.05 138.37L359.7 134.72L361.35 131.22L363 127.88L364.65 124.71L366.3 121.71L367.95 118.88L369.6 116.21L371.25 113.7L372.9 111.36L374.55 109.17L376.2 107.13L377.85 105.23L379.5 103.47L381.15 101.84L382.8 100.34L384.45 98.95L386.1 97.66L387.75 96.48L389.4 95.4L391.05 94.4L392.7 93.49L394.35 92.65L396 91.88L397.65 91.18L399.3 90.54L400.95 89.95L402.6 89.42L404.25 88.93L405.9 88.48L407.55 88.08L409.2 87.71L410.85 87.37L412.5 87.06L414.15 86.78L415.8 86.53L417.45 86.3L419.1 86.09L420.75 85.9L422.4 85.72L424.05 85.56L425.7 85.42L427.35 85.29L429 85.17L430.65 85.06L432.3 84.96L433.95 84.88L435.6 84.79L437.25 84.72L438.9 84.65L440.55 84.59L442.2 84.54L443.85 84.49L445.5 84.44L447.15 84.4L448.8 84.37L450.45 84.33L452.1 84.3L453.75 84.27L455.4 84.25L457.05 84.23L458.7 84.2L460.35 84.19L462 84.17" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.14" cy="268.8" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="90.14" y="256.8" text-anchor="start" font-size="14" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="90.14" dy="0">в норме: 0,2 Ом</tspan></text>
+<circle cx="433.71" cy="84.89" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="423.71" y="106.89" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="423.71" dy="0">сработал: тысячи Ом</tspan></text>
+</g></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 200" role="img">
+<title>Звезда или плоскость?</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="560" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="560" dy="0">Звезда или плоскость?</tspan></text>
+<rect x="20" y="42" width="1080" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Подход</tspan></text>
+<text x="238.39" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="238.39" dy="0">Плюсы</tspan></text>
+<text x="490.86" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="490.86" dy="0">Минусы</tspan></text>
+<text x="799.43" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="799.43" dy="0">Когда</tspan></text>
+<line x1="20" y1="76" x2="1100" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Земляная плоскость</tspan></text>
+<text x="238.39" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="238.39" dy="0">низкая индуктивность, меньше помех</tspan></text>
+<text x="490.86" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="490.86" dy="0">нужен второй слой или заливка</tspan></text>
+<text x="799.43" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="799.43" dy="0">цифровые и смешанные платы</tspan></text>
+<line x1="20" y1="110" x2="1100" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">«Звезда»</tspan></text>
+<text x="238.39" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="238.39" dy="0">простая развязка токов</tspan></text>
+<text x="490.86" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="490.86" dy="0">длинные проводники, больше индуктивность</tspan></text>
+<text x="799.43" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="799.43" dy="0">низкочастотная аналоговая техника</tspan></text>
+<line x1="20" y1="144" x2="1100" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Разделение аналог/цифра</tspan></text>
+<text x="238.39" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="238.39" dy="0">меньше шума в аналоге</tspan></text>
+<text x="490.86" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="490.86" dy="0">нельзя разрывать возврат</tspan></text>
+<text x="799.43" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="799.43" dy="0">АЦП, датчики, аудио</tspan></text>
+</g></svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Срок службы электролита 2000 ч при 105 °C</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Срок службы электролита 2000 ч при 105 °C</tspan></text>
+<line x1="99" y1="62" x2="99" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="99" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="99" dy="0">50</tspan></text>
+<line x1="165" y1="62" x2="165" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="165" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="165" dy="0">60</tspan></text>
+<line x1="231" y1="62" x2="231" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="231" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="231" dy="0">70</tspan></text>
+<line x1="297" y1="62" x2="297" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="297" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="297" dy="0">80</tspan></text>
+<line x1="363" y1="62" x2="363" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="363" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="363" dy="0">90</tspan></text>
+<line x1="429" y1="62" x2="429" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="429" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="429" dy="0">100</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1000</tspan></text>
+<line x1="66" y1="227" x2="462" y2="227" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="232" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3200</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10000</tspan></text>
+<line x1="66" y1="117" x2="462" y2="117" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="122" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">32000</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">100000</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Температура корпуса, °C</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Срок службы, ч (лог.)</tspan></text>
+<path d="M66 57.6L67.65 57.6L69.3 57.6L70.95 57.6L72.6 57.6L74.25 57.6L75.9 57.6L77.55 57.6L79.2 57.6L80.85 57.66L82.5 58.49L84.15 59.31L85.8 60.14L87.45 60.97L89.1 61.8L90.75 62.62L92.4 63.45L94.05 64.28L95.7 65.11L97.35 65.94L99 66.76L100.65 67.59L102.3 68.42L103.95 69.25L105.6 70.07L107.25 70.9L108.9 71.73L110.55 72.56L112.2 73.39L113.85 74.21L115.5 75.04L117.15 75.87L118.8 76.7L120.45 77.53L122.1 78.35L123.75 79.18L125.4 80.01L127.05 80.84L128.7 81.66L130.35 82.49L132 83.32L133.65 84.15L135.3 84.98L136.95 85.8L138.6 86.63L140.25 87.46L141.9 88.29L143.55 89.12L145.2 89.94L146.85 90.77L148.5 91.6L150.15 92.43L151.8 93.25L153.45 94.08L155.1 94.91L156.75 95.74L158.4 96.57L160.05 97.39L161.7 98.22L163.35 99.05L165 99.88L166.65 100.7L168.3 101.53L169.95 102.36L171.6 103.19L173.25 104.02L174.9 104.84L176.55 105.67L178.2 106.5L179.85 107.33L181.5 108.16L183.15 108.98L184.8 109.81L186.45 110.64L188.1 111.47L189.75 112.29L191.4 113.12L193.05 113.95L194.7 114.78L196.35 115.61L198 116.43L199.65 117.26L201.3 118.09L202.95 118.92L204.6 119.74L206.25 120.57L207.9 121.4L209.55 122.23L211.2 123.06L212.85 123.88L214.5 124.71L216.15 125.54L217.8 126.37L219.45 127.2L221.1 128.02L222.75 128.85L224.4 129.68L226.05 130.51L227.7 131.33L229.35 132.16L231 132.99L232.65 133.82L234.3 134.65L235.95 135.47L237.6 136.3L239.25 137.13L240.9 137.96L242.55 138.78L244.2 139.61L245.85 140.44L247.5 141.27L249.15 142.1L250.8 142.92L252.45 143.75L254.1 144.58L255.75 145.41L257.4 146.24L259.05 147.06L260.7 147.89L262.35 148.72L264 149.55L265.65 150.37L267.3 151.2L268.95 152.03L270.6 152.86L272.25 153.69L273.9 154.51L275.55 155.34L277.2 156.17L278.85 157L280.5 157.83L282.15 158.65L283.8 159.48L285.45 160.31L287.1 161.14L288.75 161.96L290.4 162.79L292.05 163.62L293.7 164.45L295.35 165.28L297 166.1L298.65 166.93L300.3 167.76L301.95 168.59L303.6 169.41L305.25 170.24L306.9 171.07L308.55 171.9L310.2 172.73L311.85 173.55L313.5 174.38L315.15 175.21L316.8 176.04L318.45 176.87L320.1 177.69L321.75 178.52L323.4 179.35L325.05 180.18L326.7 181L328.35 181.83L330 182.66L331.65 183.49L333.3 184.32L334.95 185.14L336.6 185.97L338.25 186.8L339.9 187.63L341.55 188.45L343.2 189.28L344.85 190.11L346.5 190.94L348.15 191.77L349.8 192.59L351.45 193.42L353.1 194.25L354.75 195.08L356.4 195.91L358.05 196.73L359.7 197.56L361.35 198.39L363 199.22L364.65 200.04L366.3 200.87L367.95 201.7L369.6 202.53L371.25 203.36L372.9 204.18L374.55 205.01L376.2 205.84L377.85 206.67L379.5 207.5L381.15 208.32L382.8 209.15L384.45 209.98L386.1 210.81L387.75 211.63L389.4 212.46L391.05 213.29L392.7 214.12L394.35 214.95L396 215.77L397.65 216.6L399.3 217.43L400.95 218.26L402.6 219.08L404.25 219.91L405.9 220.74L407.55 221.57L409.2 222.4L410.85 223.22L412.5 224.05L414.15 224.88L415.8 225.71L417.45 226.54L419.1 227.36L420.75 228.19L422.4 229.02L424.05 229.85L425.7 230.67L427.35 231.5L429 232.33L430.65 233.16L432.3 233.99L433.95 234.81L435.6 235.64L437.25 236.47L438.9 237.3L440.55 238.12L442.2 238.95L443.85 239.78L445.5 240.61L447.15 241.44L448.8 242.26L450.45 243.09L452.1 243.92L453.75 244.75L455.4 245.58L457.05 246.4L458.7 247.23L460.35 248.06L462 248.89" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="462" cy="248.89" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="452" y="236.89" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="452" dy="0">105 °C: 2000 ч</tspan></text>
+<circle cx="330" cy="182.66" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="340" y="170.66" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="340" dy="0">85 °C: 8000 ч</tspan></text>
+<circle cx="198" cy="116.43" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="208" y="104.43" text-anchor="start" font-size="14" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="208" dy="0">65 °C: 32 000 ч</tspan></text>
+<text x="79.2" y="260" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="79.2" dy="0">каждые −10 °C — срок ×2</tspan></text>
+</g></svg>

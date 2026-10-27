@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Шунт 0,1 Ом: напряжение и мощность</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Шунт 0,1 Ом: напряжение и мощность</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="132" y1="62" x2="132" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="132" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="132" dy="0">0,5</tspan></text>
+<line x1="198" y1="62" x2="198" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="198" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="198" dy="0">1</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">1,5</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">2</tspan></text>
+<line x1="396" y1="62" x2="396" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="396" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="396" dy="0">2,5</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">3</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="227" x2="462" y2="227" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="232" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,25</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,5</tspan></text>
+<line x1="66" y1="117" x2="462" y2="117" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="122" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,75</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Ток, А</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Напряжение, В / мощность, Вт</tspan></text>
+<path d="M66 282L69.96 281.34L73.92 280.68L77.88 280.02L81.84 279.36L85.8 278.7L89.76 278.04L93.72 277.38L97.68 276.72L101.64 276.06L105.6 275.4L109.56 274.74L113.52 274.08L117.48 273.42L121.44 272.76L125.4 272.1L129.36 271.44L133.32 270.78L137.28 270.12L141.24 269.46L145.2 268.8L149.16 268.14L153.12 267.48L157.08 266.82L161.04 266.16L165 265.5L168.96 264.84L172.92 264.18L176.88 263.52L180.84 262.86L184.8 262.2L188.76 261.54L192.72 260.88L196.68 260.22L200.64 259.56L204.6 258.9L208.56 258.24L212.52 257.58L216.48 256.92L220.44 256.26L224.4 255.6L228.36 254.94L232.32 254.28L236.28 253.62L240.24 252.96L244.2 252.3L248.16 251.64L252.12 250.98L256.08 250.32L260.04 249.66L264 249L267.96 248.34L271.92 247.68L275.88 247.02L279.84 246.36L283.8 245.7L287.76 245.04L291.72 244.38L295.68 243.72L299.64 243.06L303.6 242.4L307.56 241.74L311.52 241.08L315.48 240.42L319.44 239.76L323.4 239.1L327.36 238.44L331.32 237.78L335.28 237.12L339.24 236.46L343.2 235.8L347.16 235.14L351.12 234.48L355.08 233.82L359.04 233.16L363 232.5L366.96 231.84L370.92 231.18L374.88 230.52L378.84 229.86L382.8 229.2L386.76 228.54L390.72 227.88L394.68 227.22L398.64 226.56L402.6 225.9L406.56 225.24L410.52 224.58L414.48 223.92L418.44 223.26L422.4 222.6L426.36 221.94L430.32 221.28L434.28 220.62L438.24 219.96L442.2 219.3L446.16 218.64L450.12 217.98L454.08 217.32L458.04 216.66L462 216" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 282L69.96 281.98L73.92 281.92L77.88 281.82L81.84 281.68L85.8 281.51L89.76 281.29L93.72 281.03L97.68 280.73L101.64 280.4L105.6 280.02L109.56 279.6L113.52 279.15L117.48 278.65L121.44 278.12L125.4 277.55L129.36 276.93L133.32 276.28L137.28 275.58L141.24 274.85L145.2 274.08L149.16 273.27L153.12 272.42L157.08 271.53L161.04 270.6L165 269.63L168.96 268.62L172.92 267.57L176.88 266.48L180.84 265.35L184.8 264.18L188.76 262.97L192.72 261.72L196.68 260.44L200.64 259.11L204.6 257.75L208.56 256.34L212.52 254.89L216.48 253.41L220.44 251.88L224.4 250.32L228.36 248.72L232.32 247.07L236.28 245.39L240.24 243.67L244.2 241.91L248.16 240.1L252.12 238.26L256.08 236.38L260.04 234.46L264 232.5L267.96 230.5L271.92 228.46L275.88 226.38L279.84 224.26L283.8 222.11L287.76 219.91L291.72 217.67L295.68 215.39L299.64 213.08L303.6 210.72L307.56 208.32L311.52 205.89L315.48 203.41L319.44 200.9L323.4 198.35L327.36 195.75L331.32 193.12L335.28 190.44L339.24 187.73L343.2 184.98L347.16 182.19L351.12 179.36L355.08 176.49L359.04 173.58L363 170.63L366.96 167.64L370.92 164.61L374.88 161.54L378.84 158.43L382.8 155.28L386.76 152.09L390.72 148.86L394.68 145.6L398.64 142.29L402.6 138.95L406.56 135.56L410.52 132.13L414.48 128.67L418.44 125.16L422.4 121.62L426.36 118.04L430.32 114.41L434.28 110.75L438.24 107.05L442.2 103.3L446.16 99.52L450.12 95.7L454.08 91.84L458.04 87.94L462 84" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="100" y1="85" x2="122" y2="85" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="90" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="128" dy="0">U = I·R, В</tspan></text>
+<line x1="100" y1="105" x2="122" y2="105" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="110" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="128" dy="0">P = I²·R, Вт</tspan></text>
+<circle cx="462" cy="84" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="452" y="104" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="452" dy="0">3 А: 0,9 Вт</tspan></text>
+</g></svg>

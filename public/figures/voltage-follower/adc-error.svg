@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Ошибка АЦП от сопротивления источника (модель)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Ошибка АЦП от сопротивления источника (модель)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="165" y1="62" x2="165" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="165" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="165" dy="0">25</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">50</tspan></text>
+<line x1="363" y1="62" x2="363" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="363" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="363" dy="0">75</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">100</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="232" x2="462" y2="232" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="237" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">5</tspan></text>
+<line x1="66" y1="182" x2="462" y2="182" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="187" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="132" x2="462" y2="132" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="137" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">15</tspan></text>
+<line x1="66" y1="82" x2="462" y2="82" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="87" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">20</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Сопротивление источника, кОм</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Ошибка, LSB (10 бит, 5 В)</tspan></text>
+<path d="M66 282L72.6 278.59L79.2 275.17L85.8 271.76L92.4 268.35L99 264.93L105.6 261.52L112.2 258.11L118.8 254.69L125.4 251.28L132 247.87L138.6 244.45L145.2 241.04L151.8 237.63L158.4 234.21L165 230.8L171.6 227.39L178.2 223.97L184.8 220.56L191.4 217.15L198 213.73L204.6 210.32L211.2 206.91L217.8 203.49L224.4 200.08L231 196.67L237.6 193.25L244.2 189.84L250.8 186.43L257.4 183.01L264 179.6L270.6 176.19L277.2 172.77L283.8 169.36L290.4 165.95L297 162.53L303.6 159.12L310.2 155.71L316.8 152.29L323.4 148.88L330 145.47L336.6 142.05L343.2 138.64L349.8 135.23L356.4 131.81L363 128.4L369.6 124.99L376.2 121.57L382.8 118.16L389.4 114.75L396 111.33L402.6 107.92L409.2 104.51L415.8 101.09L422.4 97.68L429 94.27L435.6 90.85L442.2 87.44L448.8 84.03L455.4 80.61L462 77.2" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 281.98L72.6 281.98L79.2 281.98L85.8 281.98L92.4 281.98L99 281.98L105.6 281.98L112.2 281.98L118.8 281.98L125.4 281.98L132 281.98L138.6 281.98L145.2 281.98L151.8 281.98L158.4 281.98L165 281.98L171.6 281.98L178.2 281.98L184.8 281.98L191.4 281.98L198 281.98L204.6 281.98L211.2 281.98L217.8 281.98L224.4 281.98L231 281.98L237.6 281.98L244.2 281.98L250.8 281.98L257.4 281.98L264 281.98L270.6 281.98L277.2 281.98L283.8 281.98L290.4 281.98L297 281.98L303.6 281.98L310.2 281.98L316.8 281.98L323.4 281.98L330 281.98L336.6 281.98L343.2 281.98L349.8 281.98L356.4 281.98L363 281.98L369.6 281.98L376.2 281.98L382.8 281.98L389.4 281.98L396 281.98L402.6 281.98L409.2 281.98L415.8 281.98L422.4 281.98L429 281.98L435.6 281.98L442.2 281.98L448.8 281.98L455.4 281.98L462 281.98" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="110" y1="95" x2="132" y2="95" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linecap="round"/>
+<text x="138" y="100" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="138" dy="0">без буфера, утечка 1 мкА</tspan></text>
+<line x1="110" y1="115" x2="132" y2="115" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<text x="138" y="120" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="138" dy="0">с буфером (Rвых ≈ 10 Ом)</tspan></text>
+<circle cx="264" cy="179.6" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="252" y="165.6" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="252" dy="0">делитель 100к/100к: 10 LSB</tspan></text>
+</g></svg>

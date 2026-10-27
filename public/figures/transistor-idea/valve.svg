@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" role="img">
+<title>Транзистор как кран, которым управляет слабый сигнал</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="260" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="var(--muted, #5b6573)"><tspan x="260" dy="0">источник энергии (шина питания)</tspan></text>
+<rect x="235" y="40" width="50" height="80" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.35"/>
+<line x1="260" y1="48" x2="260" y2="102" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M260 112L265.5 102L254.5 102Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<rect x="225" y="120" width="70" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2.6"/>
+<text x="260" y="156" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="260" dy="0">клапан</tspan></text>
+<rect x="235" y="180" width="50" height="70" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.35"/>
+<line x1="260" y1="184" x2="260" y2="234" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<path d="M260 244L265.5 234L254.5 234Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<rect x="205" y="250" width="110" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="260" y="278" text-anchor="middle" font-size="15" font-weight="600" fill="currentColor"><tspan x="260" dy="0">нагрузка</tspan></text>
+<line x1="120" y1="150" x2="225" y2="150" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="60" y1="150" x2="110" y2="150" stroke="var(--ok, #1a7f4b)" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M118 150L110 145.6L110 154.4Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<text x="20" y="128" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">слабое управление:</tspan></text>
+<text x="20" y="190" text-anchor="start" font-size="13" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">ток базы или</tspan><tspan x="20" dy="15.6">напряжение затвора</tspan></text>
+<text x="330" y="90" text-anchor="start" font-size="13" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="330" dy="0">большой поток:</tspan><tspan x="330" dy="15.6">коллектор → эмиттер</tspan><tspan x="330" dy="15.6">сток → исток</tspan></text>
+<text x="330" y="215" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">вход можно держать</tspan><tspan x="330" dy="15.6">слабым, выход — мощный</tspan></text>
+</g></svg>

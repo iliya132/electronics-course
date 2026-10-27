@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" role="img">
+<title>Предохранитель на входе питания платы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="70" width="84" height="62" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.5"/>
+<text x="52" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="52" dy="0">разъём</tspan><tspan x="52" dy="15.6">питания</tspan></text>
+<line x1="94" y1="101" x2="113" y2="101" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M122 101L113 96.05L113 105.95Z" fill="currentColor" stroke="none"/>
+<rect x="122" y="70" width="84" height="62" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.5"/>
+<text x="164" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="164" dy="0">предохранитель</tspan><tspan x="164" dy="15.6">F</tspan></text>
+<line x1="206" y1="101" x2="225" y2="101" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M234 101L225 96.05L225 105.95Z" fill="currentColor" stroke="none"/>
+<rect x="234" y="70" width="84" height="62" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.5"/>
+<text x="276" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="276" dy="0">защита:</tspan><tspan x="276" dy="15.6">диод, TVS</tspan></text>
+<line x1="318" y1="101" x2="337" y2="101" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M346 101L337 96.05L337 105.95Z" fill="currentColor" stroke="none"/>
+<rect x="346" y="70" width="84" height="62" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.5"/>
+<text x="388" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="388" dy="0">стабилизатор</tspan><tspan x="388" dy="15.6">и схема</tspan></text>
+<text x="240" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Предохранитель стоит первым после разъёма</tspan></text>
+<text x="240" y="172" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Он защищает от тока короткого замыкания всю плату после себя</tspan></text>
+<text x="240" y="196" text-anchor="middle" font-size="13" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="240" dy="0">Перегорел — искать причину КЗ, а не просто менять</tspan></text>
+</g></svg>

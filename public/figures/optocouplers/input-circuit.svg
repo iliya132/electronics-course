@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img">
+<title>Оптопара PC817: вход 12–24 В и выход 3,3 В с общей землёй только у МК</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M40 70L60 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="70" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="54" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">вход 12…24 В</tspan></text>
+<g transform="translate(100 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="100" y="42" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="100" dy="0">R</tspan></text>
+<text x="100" y="108" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="100" dy="0">4,7 кОм</tspan></text>
+<path d="M140 70L300 70L300 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 180) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-60 0H-10M10 0H60M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="272" y="178" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="272" dy="0">LED</tspan></text>
+<path d="M300 240L300 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 330L40 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="330" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="350" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">общий минус входа</tspan></text>
+<rect x="250" y="100" width="180" height="160" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="340" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="340" dy="0">PC817</tspan></text>
+<line x1="340" y1="104" x2="340" y2="256" stroke="var(--bad, #b3261e)" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="340" y="276" text-anchor="middle" font-size="11" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="340" dy="0">барьер изоляции</tspan></text>
+<line x1="318" y1="160" x2="345.19" y2="166.4" stroke="var(--warn, #9a6700)" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M352 168L346.07 162.65L344.3 170.14Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<line x1="318" y1="186" x2="345.19" y2="192.4" stroke="var(--warn, #9a6700)" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M352 194L346.07 188.65L344.3 196.14Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<line x1="330" y1="180" x2="370" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="370" y1="160" x2="370" y2="200" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M370 171L400 150L400 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M370 189L400 210L400 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="196" x2="390.63" y2="203.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M398 208.6L393.47 199.38L387.79 207.49Z" fill="currentColor" stroke="none"/>
+<line x1="330" y1="180" x2="330" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M400 130L400 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M400 70L560 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="560" cy="70" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="560" y="54" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="560" dy="0">+3,3 В</tspan></text>
+<circle cx="470" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M470 70L470 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(470 120) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="494" y="118" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="494" dy="0">Rпу</tspan></text>
+<text x="494" y="136" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="494" dy="0">10 кОм</tspan></text>
+<path d="M470 150L470 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="470" cy="180" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M400 230L400 330L620 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(620 330)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M470 180L620 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="620" cy="180" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="626" y="168" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="626" dy="0">вывод МК</tspan></text>
+<text x="470" y="380" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="470" dy="0">вход замкнут → LED светит → Q открыт → МК читает 0</tspan></text>
+</g></svg>

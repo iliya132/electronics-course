@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img">
+<title>Шина с открытым стоком и общей подтяжкой</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M100 40L220 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="100" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="100" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="100" dy="0">+3,3 В</tspan></text>
+<path d="M160 40L160 52" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(160 82) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="134" y="80" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="134" dy="0">Rп</tspan></text>
+<text x="134" y="98" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="134" dy="0">4,7 кОм</tspan></text>
+<path d="M160 112L160 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="160" cy="130" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M160 130L600 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="266" y1="180" x2="300" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="160" x2="300" y2="200" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="159" x2="309" y2="169" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="174" x2="309" y2="186" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="191" x2="309" y2="201" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M309 164L330 164L330 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M309 196L330 196L330 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="309" y1="180" x2="330" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="180" x2="330" y2="196" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="180" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="329" y1="180" x2="323" y2="180" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M315 180L323 184.4L323 175.6Z" fill="currentColor" stroke="none"/>
+<circle cx="330" cy="130" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 230L330 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 250)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M266 180L230 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="230" cy="180" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="230" y="164" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="230" dy="0">выход A</tspan></text>
+<line x1="416" y1="180" x2="450" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="450" y1="160" x2="450" y2="200" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="459" y1="159" x2="459" y2="169" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="459" y1="174" x2="459" y2="186" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="459" y1="191" x2="459" y2="201" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M459 164L480 164L480 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M459 196L480 196L480 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="459" y1="180" x2="480" y2="180" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="480" y1="180" x2="480" y2="196" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="480" cy="180" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="479" y1="180" x2="473" y2="180" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M465 180L473 184.4L473 175.6Z" fill="currentColor" stroke="none"/>
+<circle cx="480" cy="130" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M480 230L480 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(480 250)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M416 180L380 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="180" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="380" y="164" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="380" dy="0">выход B</tspan></text>
+<circle cx="600" cy="130" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="600" y="114" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="600" dy="0">шина</tspan></text>
+<text x="160" y="300" text-anchor="start" font-size="13" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="160" dy="0">шина = 1, только если оба ключа закрыты; любой ключ тянет её к нулю</tspan></text>
+</g></svg>

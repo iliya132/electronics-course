@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img">
+<title>C-rate для элемента 2000 мА·ч</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Элемент 2000 мА·ч (2 А·ч)</tspan></text>
+<rect x="20" y="44" width="90" height="28" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.18"/>
+<text x="65" y="64" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="65" dy="0">0,5C</tspan></text>
+<text x="130" y="64" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="130" dy="0">ток 1 А</tspan></text>
+<text x="250" y="64" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">разряд за около 2 часов</tspan></text>
+<rect x="20" y="80" width="90" height="28" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.38"/>
+<text x="65" y="100" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="65" dy="0">1C</tspan></text>
+<text x="130" y="100" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="130" dy="0">ток 2 А</tspan></text>
+<text x="250" y="100" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">разряд за около 1 часа</tspan></text>
+<rect x="20" y="116" width="90" height="28" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5800000000000001"/>
+<text x="65" y="136" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="65" dy="0">2C</tspan></text>
+<text x="130" y="136" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="130" dy="0">ток 4 А</tspan></text>
+<text x="250" y="136" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">разряд за около 30 минут</tspan></text>
+<rect x="20" y="152" width="90" height="28" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.78"/>
+<text x="65" y="172" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="65" dy="0">5C</tspan></text>
+<text x="130" y="172" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="130" dy="0">ток 10 А</tspan></text>
+<text x="250" y="172" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">разряд за около 12 минут</tspan></text>
+</g></svg>

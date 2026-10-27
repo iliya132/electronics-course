@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Срок работы от 18650 (2600 мА·ч): цикл 10 минут</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Срок работы от 18650 (2600 мА·ч): цикл 10 минут</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0,5</tspan></text>
+<line x1="126.41" y1="62" x2="126.41" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="126.41" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="126.41" dy="0">5</tspan></text>
+<line x1="193.53" y1="62" x2="193.53" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="193.53" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="193.53" dy="0">10</tspan></text>
+<line x1="327.76" y1="62" x2="327.76" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="327.76" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="327.76" dy="0">20</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">30</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="208.67" x2="462" y2="208.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="213.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">500</tspan></text>
+<line x1="66" y1="135.33" x2="462" y2="135.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="140.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1000</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1500</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Время активной фазы за цикл, с</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Срок работы, суток</tspan></text>
+<path d="M66 74.73L68.64 127.55L71.28 158.92L73.92 179.7L76.56 194.47L79.2 205.52L81.84 214.09L84.48 220.93L87.12 226.52L89.76 231.18L92.4 235.11L95.04 238.48L97.68 241.39L100.32 243.94L102.96 246.19L105.6 248.19L108.24 249.98L110.88 251.58L113.52 253.04L116.16 254.36L118.8 255.56L121.44 256.67L124.08 257.69L126.72 258.62L129.36 259.49L132 260.3L134.64 261.05L137.28 261.75L139.92 262.4L142.56 263.02L145.2 263.59L147.84 264.14L150.48 264.65L153.12 265.13L155.76 265.59L158.4 266.02L161.04 266.43L163.68 266.82L166.32 267.19L168.96 267.55L171.6 267.88L174.24 268.2L176.88 268.51L179.52 268.8L182.16 269.09L184.8 269.35L187.44 269.61L190.08 269.86L192.72 270.1L195.36 270.33L198 270.55L200.64 270.76L203.28 270.97L205.92 271.16L208.56 271.35L211.2 271.54L213.84 271.72L216.48 271.89L219.12 272.05L221.76 272.21L224.4 272.37L227.04 272.52L229.68 272.67L232.32 272.81L234.96 272.94L237.6 273.08L240.24 273.21L242.88 273.33L245.52 273.46L248.16 273.57L250.8 273.69L253.44 273.8L256.08 273.91L258.72 274.02L261.36 274.12L264 274.22L266.64 274.32L269.28 274.42L271.92 274.51L274.56 274.6L277.2 274.69L279.84 274.78L282.48 274.86L285.12 274.95L287.76 275.03L290.4 275.11L293.04 275.19L295.68 275.26L298.32 275.33L300.96 275.41L303.6 275.48L306.24 275.55L308.88 275.62L311.52 275.68L314.16 275.75L316.8 275.81L319.44 275.87L322.08 275.94L324.72 276L327.36 276.05L330 276.11L332.64 276.17L335.28 276.22L337.92 276.28L340.56 276.33L343.2 276.38L345.84 276.44L348.48 276.49L351.12 276.54L353.76 276.59L356.4 276.63L359.04 276.68L361.68 276.73L364.32 276.77L366.96 276.82L369.6 276.86L372.24 276.9L374.88 276.95L377.52 276.99L380.16 277.03L382.8 277.07L385.44 277.11L388.08 277.15L390.72 277.19L393.36 277.23L396 277.26L398.64 277.3L401.28 277.34L403.92 277.37L406.56 277.41L409.2 277.44L411.84 277.47L414.48 277.51L417.12 277.54L419.76 277.57L422.4 277.61L425.04 277.64L427.68 277.67L430.32 277.7L432.96 277.73L435.6 277.76L438.24 277.79L440.88 277.82L443.52 277.85L446.16 277.88L448.8 277.9L451.44 277.93L454.08 277.96L456.72 277.98L459.36 278.01L462 278.04" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="240" y1="85" x2="262" y2="85" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="268" y="90" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="268" dy="0">Iакт 80 мА, Iсон 10 мкА</tspan></text>
+<circle cx="99.56" cy="243.24" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="111.56" y="229.24" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="111.56" dy="0">3 с: 264 суток</tspan></text>
+<circle cx="72.71" cy="171.13" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="84.71" y="159.13" text-anchor="start" font-size="14" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="84.71" dy="0">1 с: 756 суток</tspan></text>
+</g></svg>

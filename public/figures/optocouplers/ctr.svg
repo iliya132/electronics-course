@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Ток выхода оптопары, CTR 50 % и 200 %</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Ток выхода оптопары, CTR 50 % и 200 %</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="145.2" y1="62" x2="145.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="145.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145.2" dy="0">2</tspan></text>
+<line x1="224.4" y1="62" x2="224.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="224.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224.4" dy="0">4</tspan></text>
+<line x1="303.6" y1="62" x2="303.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="303.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="303.6" dy="0">6</tspan></text>
+<line x1="382.8" y1="62" x2="382.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="382.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="382.8" dy="0">8</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">10</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="227" x2="462" y2="227" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="232" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">5</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="117" x2="462" y2="117" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="122" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">15</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">20</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Ток светодиода If, мА</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Ток транзистора Ic, мА</tspan></text>
+<line x1="66" y1="278.37" x2="462" y2="278.37" stroke="var(--warn, #9a6700)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="458" y="272.37" text-anchor="end" font-size="14" font-weight="400" fill="var(--warn, #9a6700)"><tspan x="458" dy="0">нужно 0,33 мА</tspan></text>
+<path d="M66 282L73.92 280.9L81.84 279.8L89.76 278.7L97.68 277.6L105.6 276.5L113.52 275.4L121.44 274.3L129.36 273.2L137.28 272.1L145.2 271L153.12 269.9L161.04 268.8L168.96 267.7L176.88 266.6L184.8 265.5L192.72 264.4L200.64 263.3L208.56 262.2L216.48 261.1L224.4 260L232.32 258.9L240.24 257.8L248.16 256.7L256.08 255.6L264 254.5L271.92 253.4L279.84 252.3L287.76 251.2L295.68 250.1L303.6 249L311.52 247.9L319.44 246.8L327.36 245.7L335.28 244.6L343.2 243.5L351.12 242.4L359.04 241.3L366.96 240.2L374.88 239.1L382.8 238L390.72 236.9L398.64 235.8L406.56 234.7L414.48 233.6L422.4 232.5L430.32 231.4L438.24 230.3L446.16 229.2L454.08 228.1L462 227" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 282L73.92 277.6L81.84 273.2L89.76 268.8L97.68 264.4L105.6 260L113.52 255.6L121.44 251.2L129.36 246.8L137.28 242.4L145.2 238L153.12 233.6L161.04 229.2L168.96 224.8L176.88 220.4L184.8 216L192.72 211.6L200.64 207.2L208.56 202.8L216.48 198.4L224.4 194L232.32 189.6L240.24 185.2L248.16 180.8L256.08 176.4L264 172L271.92 167.6L279.84 163.2L287.76 158.8L295.68 154.4L303.6 150L311.52 145.6L319.44 141.2L327.36 136.8L335.28 132.4L343.2 128L351.12 123.6L359.04 119.2L366.96 114.8L374.88 110.4L382.8 106L390.72 101.6L398.64 97.2L406.56 92.8L414.48 88.4L422.4 84L430.32 79.6L438.24 75.2L446.16 70.8L454.08 66.4L462 62" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="90" y1="95" x2="112" y2="95" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linecap="round"/>
+<text x="118" y="100" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">CTR = 50 %</tspan></text>
+<line x1="90" y1="115" x2="112" y2="115" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<text x="118" y="120" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">CTR = 200 %</tspan></text>
+<circle cx="264" cy="254.5" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="278" y="228.5" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="278" dy="0">5 мА: 2,5 мА ≫ 0,33 мА</tspan></text>
+</g></svg>

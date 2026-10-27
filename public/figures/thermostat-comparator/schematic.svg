@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" role="img">
+<title>Термостат на NTC и компараторе LM393 с гистерезисом и MOSFET</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M40 40L680 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">+12 В</tspan></text>
+<circle cx="100" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M100 40L100 55" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 85) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="74" y="83" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="74" dy="0">R3</tspan></text>
+<text x="74" y="101" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="74" dy="0">22 кОм</tspan></text>
+<path d="M100 115L100 125" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="74" y="153" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="74" dy="0">RV1</tspan></text>
+<text x="74" y="171" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="74" dy="0">50 кОм</tspan></text>
+<path d="M100 185L100 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 225) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="74" y="223" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="74" dy="0">R4</tspan></text>
+<text x="74" y="241" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="74" dy="0">22 кОм</tspan></text>
+<path d="M100 255L100 275" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 275)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M124 155L160 155" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="166" y="159" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="166" dy="0">движок</tspan></text>
+<circle cx="260" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M260 40L260 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 100) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="234" y="98" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="234" dy="0">NTC</tspan></text>
+<text x="234" y="116" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="234" dy="0">10 кОм</tspan></text>
+<path d="M260 140L260 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="260" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(260 220) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="234" y="218" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="234" dy="0">R5</tspan></text>
+<text x="234" y="236" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="234" dy="0">10 кОм</tspan></text>
+<path d="M260 270L260 290" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 290)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M420 155L420 245L500 200Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="380" y1="178" x2="420" y2="178" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="380" y1="222" x2="420" y2="222" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="500" y1="200" x2="540" y2="200" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="428" y="183" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="428" dy="0">−</tspan></text>
+<text x="428" y="227" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="428" dy="0">+</tspan></text>
+<path d="M260 170L330 170L330 178L380 178" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M160 155L160 330L330 330L330 222L380 222" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="330" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 330L330 380L410 380" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(450 380) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="450" y="352" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="450" dy="0">Rf 1,5 МОм</tspan></text>
+<path d="M490 380L580 380L580 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580" cy="200" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M540 200L580 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="580" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M580 40L580 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(580 100) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="606" y="98" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="606" dy="0">Rп</tspan></text>
+<text x="606" y="116" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="606" dy="0">10 кОм</tspan></text>
+<path d="M580 140L580 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M580 200L610 200L610 235L636 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="636" y1="235" x2="670" y2="235" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="215" x2="670" y2="255" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="679" y1="214" x2="679" y2="224" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="679" y1="229" x2="679" y2="241" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="679" y1="246" x2="679" y2="256" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M679 219L700 219L700 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M679 251L700 251L700 285" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="679" y1="235" x2="700" y2="235" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="700" y1="235" x2="700" y2="251" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="700" cy="235" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="699" y1="235" x2="693" y2="235" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M685 235L693 239.4L693 230.6Z" fill="currentColor" stroke="none"/>
+<circle cx="700" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M700 40L700 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(700 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<text x="726" y="108" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="726" dy="0">нагреватель</tspan></text>
+<text x="726" y="126" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="726" dy="0">лампа 12 В 5 Вт</tspan></text>
+<path d="M700 150L700 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M700 285L700 305" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(700 305)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="20" y="408" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">NTC прижат к нагреваемому телу; холодно → напряжение на «−» ниже опоры → выход высокий → нагрев включён</tspan></text>
+</g></svg>

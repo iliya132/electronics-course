@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Вольтметр подключён параллельно лампе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(120 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="92" y="138" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="92" dy="0">батарейка</tspan></text>
+<g transform="translate(270 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<text x="240" y="138" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="240" dy="0">лампа</tspan></text>
+<path d="M120 100L120 60L270 60L270 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M120 180L120 220L270 220L270 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M270 100L360 100" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M270 180L360 180" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 140) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-18M18 0H40"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="360" y="146" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="360" dy="0">V</tspan></text>
+<circle cx="270" cy="100" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="270" cy="180" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="388" y="100" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="388" dy="0">красный</tspan><tspan x="388" dy="16.8">щуп (+)</tspan></text>
+<text x="388" y="184" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="388" dy="0">чёрный</tspan><tspan x="388" dy="16.8">щуп (COM)</tspan></text>
+<text x="240" y="262" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Вольтметр «в параллель»: щупы на двух точках, цепь не рвём</tspan></text>
+</g></svg>

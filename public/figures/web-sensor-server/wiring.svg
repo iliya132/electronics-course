@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img">
+<title>Веб-датчик: BME280 → ESP32 → Wi-Fi → браузер</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="100" width="180" height="90" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="100" width="180" height="90" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="110" y="134.4" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="110" dy="0">BME280</tspan><tspan x="110" dy="15.6">I²C 0x76</tspan><tspan x="110" dy="15.6">VIN 3,3 В, GND</tspan></text>
+<rect x="280" y="90" width="200" height="110" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="280" y="90" width="200" height="110" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="380" y="126.6" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="380" dy="0">ESP32</tspan><tspan x="380" dy="15.6">SDA = GPIO21</tspan><tspan x="380" dy="15.6">SCL = GPIO22</tspan><tspan x="380" dy="15.6">WebServer</tspan></text>
+<rect x="570" y="100" width="200" height="90" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="100" width="200" height="90" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="670" y="142.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="670" dy="0">браузер</tspan><tspan x="670" dy="14.399999999999999">страница + /data (JSON)</tspan></text>
+<line x1="200" y1="145" x2="271" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M280 145L271 140.05L271 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="280" y1="145" x2="209" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 145L209 149.95L209 140.05Z" fill="currentColor" stroke="none"/>
+<text x="240" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">I²C</tspan></text>
+<line x1="480" y1="145" x2="561" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 145L561 140.05L561 149.95Z" fill="currentColor" stroke="none"/>
+<text x="525" y="137" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="525" dy="0">Wi-Fi, HTTP</tspan></text>
+<text x="20" y="250" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">страница каждые 2 с запрашивает /data и обновляет показания без перезагрузки</tspan></text>
+</g></svg>

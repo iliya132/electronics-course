@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img">
+<title>Управляющий импульс сервопривода: ширина задаёт угол</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M130 80L130 50L158 50L158 80L690 80" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118" y="72" text-anchor="end" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="118" dy="0">0°: 1 мс</tspan></text>
+<path d="M130 160L130 130L172 130L172 160L690 160" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118" y="152" text-anchor="end" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="118" dy="0">90°: 1,5 мс</tspan></text>
+<path d="M130 240L130 210L186 210L186 240L690 240" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="118" y="232" text-anchor="end" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="118" dy="0">180°: 2 мс</tspan></text>
+<line x1="690" y1="40" x2="690" y2="250" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="3 5"/>
+<text x="690" y="270" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="690" dy="0">кадр 20 мс (50 Гц)</tspan></text>
+<text x="130" y="285" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="130" dy="0">0</tspan></text>
+</g></svg>

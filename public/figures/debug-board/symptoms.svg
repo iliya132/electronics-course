@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 268" role="img">
+<title>Типичные неисправности новой платы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="580" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="580" dy="0">Типичные неисправности новой платы</tspan></text>
+<rect x="20" y="42" width="1120" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Симптом</tspan></text>
+<text x="324.47" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="324.47" dy="0">Вероятная причина</tspan></text>
+<text x="785.65" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="785.65" dy="0">Что проверить</tspan></text>
+<line x1="20" y1="76" x2="1140" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Источник уходит в ограничение</tspan></text>
+<text x="324.47" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="324.47" dy="0">КЗ между питанием и землёй, перевёрнутый конденсатор</tspan></text>
+<text x="785.65" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="785.65" dy="0">прозвонка, перекос в пайке</tspan></text>
+<line x1="20" y1="110" x2="1140" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">3,3 В нет или проседает</tspan></text>
+<text x="324.47" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="324.47" dy="0">не тот LDO или конденсатор, КЗ нагрузки</tspan></text>
+<text x="785.65" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="785.65" dy="0">напряжение на входе и выходе, нагрев</tspan></text>
+<line x1="20" y1="144" x2="1140" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">МК не прошивается</tspan></text>
+<text x="324.47" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="324.47" dy="0">перепутаны TX/RX, нет GPIO0 или EN</tspan></text>
+<text x="785.65" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="785.65" dy="0">схема загрузки, пайка выводов</tspan></text>
+<line x1="20" y1="178" x2="1140" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Плата греется</tspan></text>
+<text x="324.47" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="324.47" dy="0">КЗ, перевёрнутая микросхема, неверный футпринт</tspan></text>
+<text x="785.65" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="785.65" dy="0">тепловизор или палец на малом токе</tspan></text>
+<line x1="20" y1="212" x2="1140" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Нестабильная работа</tspan></text>
+<text x="324.47" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="324.47" dy="0">нет развязки, слабое питание, длинные провода</tspan></text>
+<text x="785.65" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="785.65" dy="0">осциллограф на питании</tspan></text>
+</g></svg>

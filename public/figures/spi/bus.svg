@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img">
+<title>Шина SPI: ведущий и два ведомых</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="80" width="170" height="180" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="80" width="170" height="180" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="141.4" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">Ведущий (МК)</tspan><tspan x="115" dy="16.8">SCK</tspan><tspan x="115" dy="16.8">MOSI</tspan><tspan x="115" dy="16.8">MISO</tspan><tspan x="115" dy="16.8">CS1, CS2</tspan></text>
+<rect x="520" y="40" width="220" height="100" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="520" y="40" width="220" height="100" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="630" y="87.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="630" dy="0">Ведомый 1: SD-карта</tspan><tspan x="630" dy="14.399999999999999">SCK, MOSI, MISO, CS1</tspan></text>
+<rect x="520" y="190" width="220" height="100" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="520" y="190" width="220" height="100" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="630" y="237.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="630" dy="0">Ведомый 2: дисплей</tspan><tspan x="630" dy="14.399999999999999">SCK, MOSI, MISO, CS2</tspan></text>
+<line x1="200" y1="156.8" x2="511.11" y2="108.47" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M520 107.09L510.35 103.58L511.87 113.36Z" fill="currentColor" stroke="none"/>
+<text x="360" y="123.94" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">SCK, MOSI, MISO общие</tspan></text>
+<line x1="200" y1="181.55" x2="511.08" y2="223.84" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M520 225.05L511.75 218.93L510.42 228.74Z" fill="currentColor" stroke="none"/>
+<text x="360" y="195.3" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">CS — отдельный</tspan></text>
+<text x="30" y="310" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">SCK, MOSI и MISO общие; у каждого ведомого свой CS: низкий уровень выбирает устройство</tspan></text>
+</g></svg>

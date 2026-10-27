@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>RC-цепь: заряд и разряд конденсатора через резистор</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(70 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="48" y="153" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="48" dy="0">E</tspan></text>
+<path d="M70 115L70 80L110 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(150 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="150" y="50" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="150" dy="0">переключатель</tspan></text>
+<path d="M190 80L220 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 80) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="260" y="52" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="260" dy="0">R</tspan></text>
+<path d="M300 80L380 80L380 115" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-5M-5 -18V18M5 -18V18M5 0H40"/></g>
+<text x="404" y="153" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="404" dy="0">C</tspan></text>
+<circle cx="380" cy="80" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M380 195L380 230L70 230L70 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M410 120Q426 155 410 190" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M410 190L418.29 183.89L409.19 179.74Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<text x="433.2" y="160" text-anchor="middle" font-size="16" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="433.2" dy="0">Uc</tspan></text>
+<line x1="323" y1="80" x2="347" y2="80" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M357 80L347 74.5L347 85.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="340" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="340" dy="0">I</tspan></text>
+<text x="240" y="270" text-anchor="middle" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">Заряд: Uc = E · (1 − e^(−t/τ)),   τ = R · C</tspan></text>
+<text x="240" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Ток максимален в начале и затухает вместе с разностью E − Uc</tspan></text>
+</g></svg>

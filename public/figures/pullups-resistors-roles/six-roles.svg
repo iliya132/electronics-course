@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img">
+<title>Шесть ролей резистора на плате</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="6" y="6" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="80" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="80" dy="0">Подтяжка</tspan></text>
+<text x="66" y="48" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="66" dy="0">+Vcc</tspan></text>
+<path d="M60 52L60 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(60 86) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-24M24 0H26"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="40" y="84" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="40" dy="0">R</tspan></text>
+<path d="M60 112L60 118" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60" cy="112" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M60 112L110 112" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="114" cy="112" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<rect x="166" y="6" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="240" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Токоограничение</tspan></text>
+<text x="226" y="48" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="226" dy="0">+Vcc</tspan></text>
+<path d="M220 52L220 56" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(220 72) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-24M24 0H20"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="202" y="70" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="202" dy="0">R</tspan></text>
+<g transform="translate(220 106) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-10M10 0H20M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<path d="M220 126L220 128" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(220 126)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="326" y="6" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="400" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="400" dy="0">Делитель</tspan></text>
+<text x="386" y="48" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="386" dy="0">Uвх</tspan></text>
+<path d="M380 52L380 56" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 72) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-24M24 0H20"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="362" y="70" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="362" dy="0">R1</tspan></text>
+<circle cx="380" cy="92" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M380 92L428 92" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="432" y="96" text-anchor="start" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="432" dy="0">Uвых</tspan></text>
+<g transform="translate(380 112) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-24M24 0H20"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="362" y="110" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="362" dy="0">R2</tspan></text>
+<path d="M380 132L380 134" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 132)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="6" y="171" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="80" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="80" dy="0">Шунт (датчик тока)</tspan></text>
+<text x="8" y="231" text-anchor="start" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="8" dy="0">ток I</tspan></text>
+<path d="M10 245L50 245" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(80 245) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="80" y="223" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="80" dy="0">0,01 Ом</tspan></text>
+<path d="M110 245L152 245" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="50" y1="283" x2="101" y2="283" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<path d="M110 283L101 278.05L101 287.95Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="80" y="303" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="80" dy="0">U = I · R</tspan></text>
+<rect x="166" y="171" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="240" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Демпфирование</tspan></text>
+<rect x="168" y="227" width="30" height="38" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="183" y="251" text-anchor="middle" font-size="11" font-weight="400" fill="currentColor"><tspan x="183" dy="0">МК</tspan></text>
+<path d="M198 245L212 245" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(240 245) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-28 0H-24M24 0H28"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="240" y="223" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="240" dy="0">33 Ом</tspan></text>
+<path d="M268 245L280 245" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="280" y="227" width="32" height="38" rx="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="296" y="251" text-anchor="middle" font-size="11" font-weight="400" fill="currentColor"><tspan x="296" dy="0">ИС</tspan></text>
+<text x="240" y="289" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">гасит «звон» сигнала</tspan></text>
+<rect x="326" y="171" width="148" height="154" rx="8" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.5"/>
+<text x="400" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="400" dy="0">Согласование</tspan></text>
+<line x1="330" y1="227" x2="430" y2="227" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="265" x2="430" y2="265" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="328" y="219" text-anchor="start" font-size="11" font-weight="700" fill="currentColor"><tspan x="328" dy="0">A</tspan></text>
+<text x="328" y="283" text-anchor="start" font-size="11" font-weight="700" fill="currentColor"><tspan x="328" dy="0">B</tspan></text>
+<path d="M430 227L440 227L440 233" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(440 246) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-13 0H-24M24 0H13"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="450" y="244" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="450" dy="0">120</tspan></text>
+<path d="M440 259L440 265L430 265" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400" y="299" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">в конце линии</tspan></text>
+</g></svg>

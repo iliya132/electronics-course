@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img">
+<title>Кадр UART 8N1 для символа A (0x41)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M70 60L123.33 60L123.33 100L176.67 100L176.67 60L230 60L230 100L496.67 100L496.67 60L550 60L550 100L603.33 100L603.33 60L710 60" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="58" y="88" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="58" dy="0">TX</tspan></text>
+<text x="96.67" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="96.67" dy="0">покой</tspan></text>
+<text x="96.67" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="96.67" dy="0">1</tspan></text>
+<line x1="70" y1="50" x2="70" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="150" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="150" dy="0">старт</tspan></text>
+<text x="150" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="150" dy="0">0</tspan></text>
+<line x1="123.33" y1="50" x2="123.33" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="203.33" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="203.33" dy="0">D0</tspan></text>
+<text x="203.33" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="203.33" dy="0">1</tspan></text>
+<line x1="176.67" y1="50" x2="176.67" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="256.67" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="256.67" dy="0">D1</tspan></text>
+<text x="256.67" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="256.67" dy="0">0</tspan></text>
+<line x1="230" y1="50" x2="230" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="310" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="310" dy="0">D2</tspan></text>
+<text x="310" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="310" dy="0">0</tspan></text>
+<line x1="283.33" y1="50" x2="283.33" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="363.33" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="363.33" dy="0">D3</tspan></text>
+<text x="363.33" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="363.33" dy="0">0</tspan></text>
+<line x1="336.67" y1="50" x2="336.67" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="416.67" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="416.67" dy="0">D4</tspan></text>
+<text x="416.67" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="416.67" dy="0">0</tspan></text>
+<line x1="390" y1="50" x2="390" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="470" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="470" dy="0">D5</tspan></text>
+<text x="470" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="470" dy="0">0</tspan></text>
+<line x1="443.33" y1="50" x2="443.33" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="523.33" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="523.33" dy="0">D6</tspan></text>
+<text x="523.33" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="523.33" dy="0">1</tspan></text>
+<line x1="496.67" y1="50" x2="496.67" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="576.67" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="576.67" dy="0">D7</tspan></text>
+<text x="576.67" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="576.67" dy="0">0</tspan></text>
+<line x1="550" y1="50" x2="550" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="630" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="630" dy="0">стоп</tspan></text>
+<text x="630" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="630" dy="0">1</tspan></text>
+<line x1="603.33" y1="50" x2="603.33" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="683.33" y="130" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="683.33" dy="0">покой</tspan></text>
+<text x="683.33" y="150" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="683.33" dy="0">1</tspan></text>
+<line x1="656.67" y1="50" x2="656.67" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="380" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="380" dy="0">0x41 = 01000001₂; младший бит D0 передаётся первым; 10 бит на байт</tspan></text>
+</g></svg>

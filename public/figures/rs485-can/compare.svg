@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 268" role="img">
+<title>Сравнение RS-232, RS-485 и CAN</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="450" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="450" dy="0">Сравнение RS-232, RS-485 и CAN</tspan></text>
+<rect x="20" y="42" width="860" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Параметр</tspan></text>
+<text x="179.76" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="179.76" dy="0">RS-232</tspan></text>
+<text x="382.12" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="382.12" dy="0">RS-485</tspan></text>
+<text x="609.76" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="609.76" dy="0">CAN</tspan></text>
+<line x1="20" y1="76" x2="880" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Сигнал</tspan></text>
+<text x="179.76" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="179.76" dy="0">несимметричный ±12 В</tspan></text>
+<text x="382.12" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="382.12" dy="0">дифференциальный A/B</tspan></text>
+<text x="609.76" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="609.76" dy="0">дифференциальный CAN_H/L</tspan></text>
+<line x1="20" y1="110" x2="880" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Устройств на шине</tspan></text>
+<text x="179.76" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="179.76" dy="0">2 (точка–точка)</tspan></text>
+<text x="382.12" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="382.12" dy="0">до 32 (и больше)</tspan></text>
+<text x="609.76" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="609.76" dy="0">до ~100, мультимастер</tspan></text>
+<line x1="20" y1="144" x2="880" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Длина</tspan></text>
+<text x="179.76" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="179.76" dy="0">до 15 м</tspan></text>
+<text x="382.12" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="382.12" dy="0">до 1200 м (100 кбит/с)</tspan></text>
+<text x="609.76" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="609.76" dy="0">40 м при 1 Мбит/с, 500 м при 125 кбит/с</tspan></text>
+<line x1="20" y1="178" x2="880" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Скорость</tspan></text>
+<text x="179.76" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="179.76" dy="0">до 115 кбит/с</tspan></text>
+<text x="382.12" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="382.12" dy="0">до 10 Мбит/с на 12 м</tspan></text>
+<text x="609.76" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="609.76" dy="0">до 1 Мбит/с</tspan></text>
+<line x1="20" y1="212" x2="880" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Применение</tspan></text>
+<text x="179.76" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="179.76" dy="0">старые порты ПК</tspan></text>
+<text x="382.12" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="382.12" dy="0">промавтоматика, Modbus</tspan></text>
+<text x="609.76" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="609.76" dy="0">автомобили, станки</tspan></text>
+</g></svg>

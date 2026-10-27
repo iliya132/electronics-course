@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img">
+<title>Дерево GATT: сервис окружающей среды</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="130" width="170" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="130" width="170" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="155.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="115" dy="0">устройство</tspan><tspan x="115" dy="14.399999999999999">(сервер GATT)</tspan><tspan x="115" dy="14.399999999999999">ESP32</tspan></text>
+<rect x="280" y="130" width="190" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="280" y="130" width="190" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="375" y="155.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="375" dy="0">сервис</tspan><tspan x="375" dy="14.399999999999999">Environmental Sensing</tspan><tspan x="375" dy="14.399999999999999">UUID 0x181A</tspan></text>
+<rect x="560" y="40" width="220" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="40" width="220" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="670" y="65.2" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="670" dy="0">характеристика</tspan><tspan x="670" dy="13.2">Temperature 0x2A6E</tspan><tspan x="670" dy="13.2">чтение + уведомление</tspan><tspan x="670" dy="13.2">sint16, 0,01 °C</tspan></text>
+<rect x="560" y="200" width="220" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="560" y="200" width="220" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="670" y="225.2" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="670" dy="0">характеристика</tspan><tspan x="670" dy="13.2">Humidity 0x2A6F</tspan><tspan x="670" dy="13.2">чтение + уведомление</tspan><tspan x="670" dy="13.2">uint16, 0,01 %</tspan></text>
+<line x1="200" y1="165" x2="271" y2="165" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M280 165L271 160.05L271 169.95Z" fill="currentColor" stroke="none"/>
+<line x1="470" y1="137.63" x2="551.35" y2="114.19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M560 111.69L549.98 109.43L552.72 118.94Z" fill="currentColor" stroke="none"/>
+<line x1="470" y1="189.15" x2="551.28" y2="209.82" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M560 212.03L552.5 205.02L550.06 214.61Z" fill="currentColor" stroke="none"/>
+<text x="30" y="310" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">телефон (клиент) подключается, читает значения или подписывается на уведомления (notify)</tspan></text>
+</g></svg>

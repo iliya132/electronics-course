@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" role="img">
+<title>Драйвер реле на NPN-транзисторе с обратным диодом</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M250 40L480 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="480" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="480" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="480" dy="0">+5 В</tspan></text>
+<circle cx="330" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="420" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 40L330 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0H50"/></g>
+<text x="304" y="108" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">катушка</tspan></text>
+<text x="304" y="126" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="304" dy="0">70 Ом, 71 мА</tspan></text>
+<path d="M330 160L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="188" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="420" cy="188" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M420 40L420 66" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(420 118) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-10M10 0H45M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<text x="442" y="116" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="442" dy="0">VD</tspan></text>
+<path d="M420 170L420 188L330 188" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="308" cy="250" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="260" y1="250" x2="300" y2="250" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="230" x2="300" y2="270" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M300 241L330 220L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 259L330 280L330 300" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="310" y1="266" x2="320.63" y2="273.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M328 278.6L323.47 269.38L317.79 277.49Z" fill="currentColor" stroke="none"/>
+<path d="M330 300L330 322" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 322)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M60 250L110 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(150 250) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="150" y="222" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="150" dy="0">Rб 330 Ом</tspan></text>
+<path d="M190 250L260 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="225" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M225 250L225 262" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(225 292) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="199" y="290" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="199" dy="0">Rбэ</tspan></text>
+<text x="199" y="308" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="199" dy="0">10 кОм</tspan></text>
+<g transform="translate(225 322)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="60" cy="250" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="14" y="282" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">вывод МК, 3,3 В</tspan></text>
+<text x="440" y="236" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="440" dy="0">контакты реле</tspan><tspan x="440" dy="14.399999999999999">работают в</tspan><tspan x="440" dy="14.399999999999999">своей цепи</tspan></text>
+</g></svg>

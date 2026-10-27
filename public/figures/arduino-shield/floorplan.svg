@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 737 600" role="img">
+<title>Шилд для Arduino Uno: контур 68,6 × 53,3 мм и расположение узлов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="60" y="50" width="617.4" height="479.7" rx="4" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.6"/>
+<rect x="96" y="86" width="540" height="36" rx="3" fill="var(--muted, #5b6573)" stroke="var(--muted, #5b6573)" stroke-width="2" opacity="0.18"/>
+<rect x="96" y="86" width="540" height="36" rx="3" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="366" y="109" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="366" dy="0">ряд гнёзд D0–D13 (шаг 2,54 мм)</tspan></text>
+<rect x="96" y="455" width="540" height="36" rx="3" fill="var(--muted, #5b6573)" stroke="var(--muted, #5b6573)" stroke-width="2" opacity="0.18"/>
+<rect x="96" y="455" width="540" height="36" rx="3" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="366" y="478" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="366" dy="0">ряд гнёзд питания и A0–A5</tspan></text>
+<rect x="132" y="176" width="126" height="72" rx="3" fill="var(--ok, #1a7f4b)" stroke="var(--ok, #1a7f4b)" stroke-width="2" opacity="0.18"/>
+<rect x="132" y="176" width="126" height="72" rx="3" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2"/>
+<text x="195" y="217" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="195" dy="0">3 светодиода</tspan></text>
+<rect x="294" y="176" width="90" height="72" rx="3" fill="var(--warn, #9a6700)" stroke="var(--warn, #9a6700)" stroke-width="2" opacity="0.18"/>
+<rect x="294" y="176" width="90" height="72" rx="3" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2"/>
+<text x="339" y="217" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="339" dy="0">кнопка</tspan></text>
+<rect x="420" y="176" width="180" height="72" rx="3" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="2" opacity="0.18"/>
+<rect x="420" y="176" width="180" height="72" rx="3" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2"/>
+<text x="510" y="217" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="510" dy="0">разъём I²C-датчика</tspan></text>
+<rect x="132" y="302" width="468" height="72" rx="3" fill="var(--muted, #5b6573)" stroke="var(--muted, #5b6573)" stroke-width="2" opacity="0.18"/>
+<rect x="132" y="302" width="468" height="72" rx="3" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<text x="366" y="343" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor"><tspan x="366" dy="0">шины питания 5 В и земля, резисторы</tspan></text>
+<text x="368.7" y="557.7" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="368.7" dy="0">68,6 мм</tspan></text>
+</g></svg>

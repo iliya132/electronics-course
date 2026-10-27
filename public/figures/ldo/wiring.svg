@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>Схема включения LDO</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="22" cy="80" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="22" y="64" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="22" dy="0">Uвх</tspan></text>
+<path d="M26 80L200 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="90" cy="80" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M90 80L90 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(90 128) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-5M-5 -18V18M5 -18V18M5 0H26"/></g>
+<text x="110" y="126" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="110" dy="0">Cвх</tspan></text>
+<path d="M90 154L90 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(90 200)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="200" y="52" width="90" height="56" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6"/>
+<text x="245" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="245" dy="0">LDO</tspan></text>
+<text x="245" y="96" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="245" dy="0">3,3 В</tspan></text>
+<text x="206" y="46" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="206" dy="0">IN</tspan></text>
+<text x="284" y="46" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="284" dy="0">OUT</tspan></text>
+<path d="M245 108L245 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="252" y="130" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="252" dy="0">GND</tspan></text>
+<g transform="translate(245 200)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M290 80L450 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="80" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M380 80L380 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 128) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-26 0H-5M-5 -18V18M5 -18V18M5 0H26"/></g>
+<text x="400" y="126" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="400" dy="0">Cвых</tspan></text>
+<path d="M380 154L380 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(380 200)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="454" cy="80" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="454" y="64" text-anchor="end" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="454" dy="0">Uвых</tspan></text>
+<text x="240" y="244" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Конденсаторы ставят вплотную к выводам: типично 1–10 мкФ, смотри даташит</tspan></text>
+</g></svg>

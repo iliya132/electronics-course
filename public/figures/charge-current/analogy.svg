@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 372" role="img">
+<title>Труба с водой и провод со свободными электронами</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="24" y="26" text-anchor="start" font-size="17" font-weight="700" fill="currentColor"><tspan x="24" dy="0">Вода в трубах</tspan></text>
+<path d="M50 116L50 136L430 136L430 56L50 56L50 76" fill="none" stroke="var(--muted, #5b6573)" stroke-width="18" stroke-linejoin="round" stroke-linecap="round" opacity="0.28"/>
+<circle cx="50" cy="122" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="63" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="90" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="117" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="144" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="171" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="198" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="225" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="252" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="279" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="306" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="333" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="360" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="387" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="414" cy="136" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="125" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="98" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="71" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="418" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="391" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="364" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="337" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="310" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="283" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="256" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="229" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="202" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="175" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="148" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="121" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="94" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="67" cy="56" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="50" cy="66" r="5" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<circle cx="50" cy="96" r="20" fill="var(--surface, #f6f7f9)" stroke="var(--accent, #2457d6)" stroke-width="2.5"/>
+<line x1="50" y1="87" x2="50" y2="98" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M50 107L54.95 98L45.05 98Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="84" y="101" text-anchor="start" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="84" dy="0">насос</tspan></text>
+<line x1="290" y1="36" x2="229" y2="36" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M220 36L229 40.95L229 31.05Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="300" y="41" text-anchor="start" font-size="15" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="300" dy="0">течёт вода</tspan></text>
+<text x="24" y="168" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">Труба уже полна воды. Насос не добавляет её,</tspan><tspan x="24" dy="16.8">а только заставляет всю воду двигаться.</tspan></text>
+<text x="24" y="206" text-anchor="start" font-size="17" font-weight="700" fill="currentColor"><tspan x="24" dy="0">Электроны в проводе</tspan></text>
+<path d="M50 296L50 316L430 316L430 236L50 236L50 256" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="50" cy="302" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="63" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="90" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="117" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="144" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="171" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="198" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="225" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="252" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="279" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="306" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="333" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="360" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="387" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="414" cy="316" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="305" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="278" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="430" cy="251" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="418" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="391" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="364" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="337" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="310" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="283" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="256" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="229" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="202" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="175" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="148" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="121" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="94" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="67" cy="236" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<circle cx="50" cy="246" r="4.5" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<g transform="translate(50 276) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-6M-6 -18V18M6 -9V9M6 0H20"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="80" y="274" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="80" dy="0">батарейка</tspan></text>
+<line x1="290" y1="216" x2="229" y2="216" stroke="var(--warn, #9a6700)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M220 216L229 220.95L229 211.05Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<text x="300" y="221" text-anchor="start" font-size="15" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="300" dy="0">идут электроны</tspan></text>
+<text x="24" y="348" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">Провод уже полон свободных электронов. Батарейка не</tspan><tspan x="24" dy="16.8">поставляет их, а только заставляет двигаться.</tspan></text>
+</g></svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" role="img">
+<title>Защита от переполюсовки P-MOSFET в плюсовом проводе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M100 160L100 60L330 60L330 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 200) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="70" y="198" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="70" dy="0">акб</tspan></text>
+<text x="70" y="216" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="70" dy="0">12 В</tspan></text>
+<path d="M100 240L100 330L330 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="266" y1="170" x2="300" y2="170" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="150" x2="300" y2="190" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="149" x2="309" y2="159" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="164" x2="309" y2="176" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="309" y1="181" x2="309" y2="191" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M309 154L330 154L330 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M309 186L330 186L330 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="309" y1="170" x2="330" y2="170" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="330" y1="170" x2="330" y2="186" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="330" cy="170" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="315" y1="170" x2="321" y2="170" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M329 170L321 165.6L321 174.4Z" fill="currentColor" stroke="none"/>
+<path d="M330 130L362 130L362 161" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M362 179L362 210L330 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M350 161L374 161L362 179Z M350 179H374" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="130" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="330" cy="210" r="3.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M330 220L330 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 270) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="304" y="268" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">нагрузка</tspan></text>
+<path d="M330 320L330 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M266 170L200 170L200 330" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="330" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="240" y="156" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">затвор</tspan><tspan x="240" dy="14.399999999999999">на земле</tspan></text>
+<text x="402" y="128" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="402" dy="0">сток к батарее</tspan></text>
+<text x="402" y="216" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="402" dy="0">исток к нагрузке</tspan></text>
+<text x="430" y="262" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="430" dy="0">Верно: диод открывается,</tspan><tspan x="430" dy="14.399999999999999">Uзи = −Uбат, канал открыт</tspan></text>
+<text x="430" y="316" text-anchor="start" font-size="12" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="430" dy="0">Перевёрнуто: Uзи = 0,</tspan><tspan x="430" dy="14.399999999999999">МОП и диод закрыты</tspan></text>
+</g></svg>

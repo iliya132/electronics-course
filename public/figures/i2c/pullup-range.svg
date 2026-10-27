@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 166" role="img">
+<title>Допустимое сопротивление подтяжки I²C при Vcc = 3,3 В</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="410" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="410" dy="0">Допустимое сопротивление подтяжки I²C при Vcc = 3,3 В</tspan></text>
+<rect x="20" y="42" width="780" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Режим</tspan></text>
+<text x="243.17" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="243.17" dy="0">Rmin (3 мА)</tspan></text>
+<text x="391.1" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="391.1" dy="0">Rmax при 100 пФ</tspan></text>
+<text x="579.38" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="579.38" dy="0">Rmax при 400 пФ</tspan></text>
+<line x1="20" y1="76" x2="800" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">100 кГц (tr ≤ 1000 нс)</tspan></text>
+<text x="243.17" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="243.17" dy="0">0,97 кОм</tspan></text>
+<text x="391.1" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="391.1" dy="0">11,8 кОм</tspan></text>
+<text x="579.38" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="579.38" dy="0">2,95 кОм</tspan></text>
+<line x1="20" y1="110" x2="800" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">400 кГц (tr ≤ 300 нс)</tspan></text>
+<text x="243.17" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="243.17" dy="0">0,97 кОм</tspan></text>
+<text x="391.1" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="391.1" dy="0">3,54 кОм</tspan></text>
+<text x="579.38" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="579.38" dy="0">0,89 кОм (не годится)</tspan></text>
+</g></svg>

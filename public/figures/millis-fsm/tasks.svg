@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img">
+<title>Две задачи одновременно без delay()</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M150 74L222.5 74L222.5 40L295 40L295 74L367.5 74L367.5 40L440 40L440 74L512.5 74L512.5 40L585 40L585 74L657.5 74L657.5 40L730 40" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="138" y="63.8" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="138" dy="0">мигалка 500 мс</tspan></text>
+<path d="M150 144L338.5 144L338.5 110L527 110L527 144L715.5 144L715.5 110L730 110" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="138" y="133.8" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="138" dy="0">опрос 1300 мс</tspan></text>
+<line x1="150" y1="30" x2="150" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="150" y="180" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="150" dy="0">0 с</tspan></text>
+<line x1="295" y1="30" x2="295" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="295" y="180" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="295" dy="0">1 с</tspan></text>
+<line x1="440" y1="30" x2="440" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="440" y="180" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="440" dy="0">2 с</tspan></text>
+<line x1="585" y1="30" x2="585" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="585" y="180" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="585" dy="0">3 с</tspan></text>
+<line x1="730" y1="30" x2="730" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="730" y="180" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="730" dy="0">4 с</tspan></text>
+<text x="420" y="215" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="420" dy="0">обе задачи идут независимо, потому что каждая сверяет своё время по millis()</tspan></text>
+</g></svg>

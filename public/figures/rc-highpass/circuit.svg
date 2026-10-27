@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+<title>RC-фильтр высоких частот</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="40" cy="100" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="40" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">вход</tspan></text>
+<path d="M45 100L70 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(130 100) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-60 0H-5M-5 -18V18M5 -18V18M5 0H60"/></g>
+<text x="130" y="72" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="130" dy="0">C 100 нФ</tspan></text>
+<path d="M190 100L300 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="260" cy="100" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M260 100L260 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-35 0H-24M24 0H35"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="286" y="153" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="286" dy="0">R 10 кОм</tspan></text>
+<path d="M260 190L260 205" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 205)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="304" cy="100" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="304" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="304" dy="0">выход</tspan></text>
+<text x="20" y="170" text-anchor="start" font-size="12" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="20" dy="0">постоянное и медленное:</tspan><tspan x="20" dy="14.399999999999999">Xc велико — блокируется</tspan></text>
+<text x="340" y="170" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="340" dy="0">быстрое: Xc мало —</tspan><tspan x="340" dy="14.399999999999999">проходит на выход</tspan></text>
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">fc = 1 / (2π·R·C) = 159 Гц</tspan></text>
+</g></svg>

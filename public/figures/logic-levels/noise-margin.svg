@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" role="img">
+<title>Запас по шуму при выходе 3,3 В на разные входы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="56" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="20" dy="0">вход 3,3 В CMOS (VIH 2,0 В)</tspan></text>
+<line x1="360" y1="70" x2="360" y2="106" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="360" y="74" width="156" height="24" rx="3" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="524" y="92" text-anchor="start" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="524" dy="0">запас 1,3 В: хорошо</tspan></text>
+<text x="20" y="136" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="20" dy="0">вход 74HC при 5 В (VIH 3,5 В)</tspan></text>
+<line x1="360" y1="150" x2="360" y2="186" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="336" y="154" width="24" height="24" rx="3" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="328" y="172" text-anchor="end" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="328" dy="0">запас −0,2 В: сигнал «1» не доходит</tspan></text>
+<text x="20" y="216" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="20" dy="0">вход 74HCT при 5 В (VIH 2,0 В)</tspan></text>
+<line x1="360" y1="230" x2="360" y2="266" stroke="var(--muted, #5b6573)" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="360" y="234" width="156" height="24" rx="3" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="524" y="252" text-anchor="start" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="524" dy="0">запас 1,3 В: хорошо</tspan></text>
+<text x="360" y="280" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">нулевая линия: VOH − VIH = 0; левее — «1» не распознаётся</tspan></text>
+</g></svg>

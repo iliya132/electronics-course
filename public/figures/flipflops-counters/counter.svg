@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img">
+<title>Трёхразрядный двоичный счётчик делит частоту на 2, 4 и 8</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M80 60L118.75 60L118.75 30L157.5 30L157.5 60L196.25 60L196.25 30L235 30L235 60L273.75 60L273.75 30L312.5 30L312.5 60L351.25 60L351.25 30L390 30L390 60L428.75 60L428.75 30L467.5 30L467.5 60L506.25 60L506.25 30L545 30L545 60L583.75 60L583.75 30L622.5 30L622.5 60L661.25 60L661.25 30L700 30L700 60L700 60" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="52" text-anchor="end" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="68" dy="0">CLK</tspan></text>
+<path d="M80 120L118.75 120L118.75 90L196.25 90L196.25 120L273.75 120L273.75 90L351.25 90L351.25 120L428.75 120L428.75 90L506.25 90L506.25 120L583.75 120L583.75 90L661.25 90L661.25 120L700 120" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="112" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="68" dy="0">Q0 (÷2)</tspan></text>
+<path d="M80 180L196.25 180L196.25 150L351.25 150L351.25 180L506.25 180L506.25 150L661.25 150L661.25 180L700 180" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="172" text-anchor="end" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="68" dy="0">Q1 (÷4)</tspan></text>
+<path d="M80 240L351.25 240L351.25 210L661.25 210L661.25 240L700 240" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="68" y="232" text-anchor="end" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="68" dy="0">Q2 (÷8)</tspan></text>
+<text x="124.75" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="124.75" dy="0">1</tspan></text>
+<text x="202.25" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="202.25" dy="0">2</tspan></text>
+<text x="279.75" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="279.75" dy="0">3</tspan></text>
+<text x="357.25" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="357.25" dy="0">4</tspan></text>
+<text x="434.75" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="434.75" dy="0">5</tspan></text>
+<text x="512.25" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="512.25" dy="0">6</tspan></text>
+<text x="589.75" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="589.75" dy="0">7</tspan></text>
+<text x="667.25" y="290" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="667.25" dy="0">8</tspan></text>
+<text x="80" y="318" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">номер фронта тактов = состояние счётчика Q2 Q1 Q0 (двоичное)</tspan></text>
+</g></svg>

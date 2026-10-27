@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img">
+<title>Профиль заряда Li-ion: постоянный ток, затем постоянное напряжение</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="64" y="32" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="64" dy="0">Напряжение на элементе</tspan></text>
+<line x1="64" y1="40" x2="64" y2="160" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="64" y1="160" x2="462" y2="160" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="64" y1="160" x2="462" y2="160" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="165" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">3</tspan></text>
+<line x1="64" y1="108.57" x2="462" y2="108.57" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="113.57" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">3,6</tspan></text>
+<line x1="64" y1="57.14" x2="462" y2="57.14" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="62.14" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">4,2</tspan></text>
+<path d="M64 134.29L68.97 131.23L73.95 128.22L78.93 125.28L83.9 122.38L88.88 119.55L93.85 116.77L98.82 114.04L103.8 111.38L108.78 108.77L113.75 106.22L118.73 103.72L123.7 101.28L128.68 98.91L133.65 96.59L138.63 94.32L143.6 92.12L148.57 89.98L153.55 87.9L158.52 85.88L163.5 83.92L168.48 82.03L173.45 80.19L178.43 78.42L183.4 76.71L188.38 75.06L193.35 73.48L198.33 71.97L203.3 70.52L208.28 69.14L213.25 67.82L218.23 66.57L223.2 65.4L228.18 64.29L233.15 63.25L238.13 62.29L243.1 61.4L248.08 60.59L253.05 59.85L258.02 59.19L263 58.62L267.98 58.13L272.95 57.73L277.92 57.43L282.9 57.22L287.88 57.14L292.85 57.14L297.83 57.14L302.8 57.14L307.77 57.14L312.75 57.14L317.73 57.14L322.7 57.14L327.68 57.14L332.65 57.14L337.63 57.14L342.6 57.14L347.58 57.14L352.55 57.14L357.53 57.14L362.5 57.14L367.48 57.14L372.45 57.14L377.43 57.14L382.4 57.14L387.38 57.14L392.35 57.14L397.33 57.14L402.3 57.14L407.28 57.14L412.25 57.14L417.23 57.14L422.2 57.14L427.18 57.14L432.15 57.14L437.13 57.14L442.1 57.14L447.08 57.14L452.05 57.14L457.03 57.14L462 57.14" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="56" y="32" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">В</tspan></text>
+<text x="64" y="222" text-anchor="start" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="64" dy="0">Ток заряда</tspan></text>
+<line x1="64" y1="230" x2="64" y2="350" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="64" y1="350" x2="462" y2="350" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="64" y1="350" x2="462" y2="350" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="355" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">0</tspan></text>
+<line x1="64" y1="300" x2="462" y2="300" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="305" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">0,5</tspan></text>
+<line x1="64" y1="250" x2="462" y2="250" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="56" y="255" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">1</tspan></text>
+<path d="M64 250L68.97 250L73.95 250L78.93 250L83.9 250L88.88 250L93.85 250L98.82 250L103.8 250L108.78 250L113.75 250L118.73 250L123.7 250L128.68 250L133.65 250L138.63 250L143.6 250L148.57 250L153.55 250L158.52 250L163.5 250L168.48 250L173.45 250L178.43 250L183.4 250L188.38 250L193.35 250L198.33 250L203.3 250L208.28 250L213.25 250L218.23 250L223.2 250L228.18 250L233.15 250L238.13 250L243.1 250L248.08 250L253.05 250L258.02 250L263 250L267.98 250L272.95 250L277.92 250L282.9 250L287.88 250L292.85 256.89L297.83 263.31L302.8 269.29L307.77 274.85L312.75 280.03L317.73 284.86L322.7 289.35L327.68 293.53L332.65 297.42L337.63 301.05L342.6 304.42L347.58 307.56L352.55 310.49L357.53 313.21L362.5 315.75L367.48 318.11L372.45 320.31L377.43 322.35L382.4 324.26L387.38 326.03L392.35 327.69L397.33 329.23L402.3 330.66L407.28 331.99L412.25 333.23L417.23 334.39L422.2 335.46L427.18 336.47L432.15 337.4L437.13 338.27L442.1 339.08L447.08 339.83L452.05 340L457.03 340L462 340" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="56" y="222" text-anchor="end" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="56" dy="0">А</tspan></text>
+<line x1="287.88" y1="40" x2="287.88" y2="350" stroke="var(--muted, #5b6573)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="175.94" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="175.94" dy="0">CC: постоянный ток 1 А</tspan></text>
+<text x="374.94" y="380" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="374.94" dy="0">CV: постоянное 4,2 В</tspan></text>
+<text x="374.94" y="304" text-anchor="middle" font-size="12" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="374.94" dy="0">заряд окончен при</tspan><tspan x="374.94" dy="14.399999999999999">I = 0,1 А (1/10)</tspan></text>
+<text x="64" y="408" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="64" dy="0">время заряда 0 … 160 мин</tspan></text>
+</g></svg>

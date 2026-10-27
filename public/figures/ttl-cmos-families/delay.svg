@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+<title>Типовая задержка вентиля при питании 5 В</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="60" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">74LS</tspan></text>
+<rect x="110" y="44" width="500" height="24" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5"/>
+<text x="618" y="62" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="618" dy="0">10 нс</tspan></text>
+<text x="20" y="106" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">74HC</tspan></text>
+<rect x="110" y="90" width="400" height="24" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5"/>
+<text x="518" y="108" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="518" dy="0">8 нс</tspan></text>
+<text x="20" y="152" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">74HCT</tspan></text>
+<rect x="110" y="136" width="400" height="24" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5"/>
+<text x="518" y="154" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="518" dy="0">8 нс</tspan></text>
+<text x="20" y="198" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">74AHC</tspan></text>
+<rect x="110" y="182" width="200" height="24" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5"/>
+<text x="318" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="318" dy="0">4 нс</tspan></text>
+<text x="20" y="244" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="20" dy="0">74LVC</tspan></text>
+<rect x="110" y="228" width="150" height="24" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.5"/>
+<text x="268" y="246" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="268" dy="0">3 нс</tspan></text>
+<text x="360" y="28" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">порядок величин: меньше — быстрее; значения типовые, проверяй даташит</tspan></text>
+</g></svg>

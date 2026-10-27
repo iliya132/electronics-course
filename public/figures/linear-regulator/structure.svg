@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 290" role="img">
+<title>Структура линейного стабилизатора</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="24" cy="80" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="24" y="62" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="24" dy="0">Uвх</tspan></text>
+<path d="M28 80L170 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="170" y="55" width="100" height="50" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.4"/>
+<text x="220" y="77" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="220" dy="0">проходной</tspan></text>
+<text x="220" y="94" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="220" dy="0">транзистор</tspan></text>
+<path d="M270 80L440 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="444" cy="80" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="444" y="62" text-anchor="end" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="444" dy="0">Uвых</tspan></text>
+<circle cx="360" cy="80" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M360 80L360 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 138) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 0H-24M24 0H25"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="378" y="136" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="378" dy="0">R1</tspan></text>
+<circle cx="360" cy="178" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(360 208) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 0H-24M24 0H25"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="378" y="206" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="378" dy="0">R2</tspan></text>
+<path d="M360 233L360 252" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 252)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="170" y="150" width="100" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="220" y="176" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor"><tspan x="220" dy="0">усилитель</tspan></text>
+<text x="220" y="193" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor"><tspan x="220" dy="0">ошибки</tspan></text>
+<line x1="220" y1="150" x2="220" y2="114" stroke="var(--accent, #2457d6)" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M220 105L215.05 114L224.95 114Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<rect x="30" y="150" width="90" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.4"/>
+<text x="75" y="176" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="75" dy="0">опорное</tspan></text>
+<text x="75" y="193" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="75" dy="0">1,25 В</tspan></text>
+<line x1="120" y1="168" x2="161" y2="168" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M170 168L161 163.05L161 172.95Z" fill="currentColor" stroke="none"/>
+<text x="150" y="160" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor"><tspan x="150" dy="0">+</tspan></text>
+<path d="M360 178L310 178L310 194L270 194" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="290" y="189" text-anchor="end" font-size="15" font-weight="700" fill="currentColor"><tspan x="290" dy="0">−</tspan></text>
+<text x="240" y="278" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Uвых упало — транзистор открывается шире, выросло — прикрывается</tspan></text>
+</g></svg>

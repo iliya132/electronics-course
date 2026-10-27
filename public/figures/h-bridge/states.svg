@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 620" role="img">
+<title>Состояния H-моста: вперёд, назад, торможение и сквозной ток</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="10" y="10" width="340" height="300" rx="10" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.4"/>
+<text x="24" y="34" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="24" dy="0">A + D: вперёд</tspan></text>
+<text x="24" y="54" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="24" dy="0">ток слева направо через мотор</tspan></text>
+<path d="M100 80L260 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="180" dy="0">+U</tspan></text>
+<path d="M100 80L100 95" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 80L260 95" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 125) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="66" y="130" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="66" dy="0">A</tspan></text>
+<g transform="translate(260 125) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="284" y="130" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="284" dy="0">B</tspan></text>
+<g transform="translate(100 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="66" y="215" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">C</tspan></text>
+<g transform="translate(260 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="284" y="215" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="284" dy="0">D</tspan></text>
+<path d="M100 155L100 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 155L260 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 180L100 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 180L138 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M222 180L260 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="180" cy="180" r="22" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="180" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="180" dy="0">M</tspan></text>
+<path d="M100 180L100 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 180L260 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 280L100 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 225L100 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 225L260 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 280L260 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180" y="296" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="180" dy="0">GND</tspan></text>
+<path d="M100 80L100 180L260 180L260 280" fill="none" stroke="var(--accent, #2457d6)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 7"/>
+<rect x="360" y="10" width="340" height="300" rx="10" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.4"/>
+<text x="374" y="34" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="374" dy="0">B + C: назад</tspan></text>
+<text x="374" y="54" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="374" dy="0">ток справа налево, мотор вращается обратно</tspan></text>
+<path d="M450 80L610 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="530" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="530" dy="0">+U</tspan></text>
+<path d="M450 80L450 95" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 80L610 95" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(450 125) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="416" y="130" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="416" dy="0">A</tspan></text>
+<g transform="translate(610 125) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="634" y="130" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="634" dy="0">B</tspan></text>
+<g transform="translate(450 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="416" y="215" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="416" dy="0">C</tspan></text>
+<g transform="translate(610 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="634" y="215" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="634" dy="0">D</tspan></text>
+<path d="M450 155L450 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 155L610 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 180L450 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 180L488 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M572 180L610 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="530" cy="180" r="22" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="530" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="530" dy="0">M</tspan></text>
+<path d="M450 180L450 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 180L610 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 280L450 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 225L450 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 225L610 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 280L610 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="530" y="296" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="530" dy="0">GND</tspan></text>
+<path d="M610 80L610 180L450 180L450 280" fill="none" stroke="var(--accent, #2457d6)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 7"/>
+<rect x="10" y="320" width="340" height="300" rx="10" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.4"/>
+<text x="24" y="344" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="24" dy="0">A + B: торможение</tspan></text>
+<text x="24" y="364" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="24" dy="0">оба вывода мотора на +U, мотор тормозит</tspan></text>
+<path d="M100 390L260 390" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180" y="382" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="180" dy="0">+U</tspan></text>
+<path d="M100 390L100 405" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 390L260 405" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 435) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="66" y="440" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="66" dy="0">A</tspan></text>
+<g transform="translate(260 435) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="284" y="440" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="284" dy="0">B</tspan></text>
+<g transform="translate(100 520) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="66" y="525" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">C</tspan></text>
+<g transform="translate(260 520) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="284" y="525" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="284" dy="0">D</tspan></text>
+<path d="M100 465L100 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 465L260 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 490L100 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 490L138 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M222 490L260 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="180" cy="490" r="22" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="180" y="496" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="180" dy="0">M</tspan></text>
+<path d="M100 490L100 505" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 490L260 505" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 590L100 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 535L100 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M260 535L260 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 590L260 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180" y="606" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="180" dy="0">GND</tspan></text>
+<rect x="360" y="320" width="340" height="300" rx="10" fill="none" stroke="var(--border, #e3e6ea)" stroke-width="1.4"/>
+<text x="374" y="344" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="374" dy="0">A + C: сквозной ток</tspan></text>
+<text x="374" y="364" text-anchor="start" font-size="12" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="374" dy="0">КОРОТКОЕ ЗАМЫКАНИЕ: никогда!</tspan></text>
+<path d="M450 390L610 390" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="530" y="382" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="530" dy="0">+U</tspan></text>
+<path d="M450 390L450 405" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 390L610 405" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(450 435) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="416" y="440" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="416" dy="0">A</tspan></text>
+<g transform="translate(610 435) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="634" y="440" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="634" dy="0">B</tspan></text>
+<g transform="translate(450 520) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="416" y="525" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="416" dy="0">C</tspan></text>
+<g transform="translate(610 520) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-22M22 0H30"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="634" y="525" text-anchor="start" font-size="14" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="634" dy="0">D</tspan></text>
+<path d="M450 465L450 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 465L610 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 490L450 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 490L488 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M572 490L610 490" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="530" cy="490" r="22" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="530" y="496" text-anchor="middle" font-size="17" font-weight="700" fill="currentColor"><tspan x="530" dy="0">M</tspan></text>
+<path d="M450 490L450 505" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 490L610 505" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 590L450 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 535L450 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 535L610 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M450 590L610 590" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="530" y="606" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="530" dy="0">GND</tspan></text>
+<path d="M450 390L450 590" fill="none" stroke="var(--bad, #b3261e)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 7"/>
+</g></svg>

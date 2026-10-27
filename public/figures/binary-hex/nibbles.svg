@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+<title>Соответствие шестнадцатеричных цифр и четырёх битов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="59" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="59" dy="0">0</tspan></text>
+<text x="59" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="59" dy="0">0000</tspan></text>
+<text x="59" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="59" dy="0">0</tspan></text>
+<rect x="106" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="145" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="145" dy="0">1</tspan></text>
+<text x="145" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="145" dy="0">0001</tspan></text>
+<text x="145" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145" dy="0">1</tspan></text>
+<rect x="192" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="231" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="231" dy="0">2</tspan></text>
+<text x="231" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="231" dy="0">0010</tspan></text>
+<text x="231" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="231" dy="0">2</tspan></text>
+<rect x="278" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="317" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="317" dy="0">3</tspan></text>
+<text x="317" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="317" dy="0">0011</tspan></text>
+<text x="317" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="317" dy="0">3</tspan></text>
+<rect x="364" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="403" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="403" dy="0">4</tspan></text>
+<text x="403" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="403" dy="0">0100</tspan></text>
+<text x="403" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="403" dy="0">4</tspan></text>
+<rect x="450" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="489" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="489" dy="0">5</tspan></text>
+<text x="489" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="489" dy="0">0101</tspan></text>
+<text x="489" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="489" dy="0">5</tspan></text>
+<rect x="536" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="575" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="575" dy="0">6</tspan></text>
+<text x="575" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="575" dy="0">0110</tspan></text>
+<text x="575" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="575" dy="0">6</tspan></text>
+<rect x="622" y="40" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="661" y="76" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="661" dy="0">7</tspan></text>
+<text x="661" y="100" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="661" dy="0">0111</tspan></text>
+<text x="661" y="120" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="661" dy="0">7</tspan></text>
+<rect x="20" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="59" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="59" dy="0">8</tspan></text>
+<text x="59" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="59" dy="0">1000</tspan></text>
+<text x="59" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="59" dy="0">8</tspan></text>
+<rect x="106" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="145" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="145" dy="0">9</tspan></text>
+<text x="145" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="145" dy="0">1001</tspan></text>
+<text x="145" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145" dy="0">9</tspan></text>
+<rect x="192" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="231" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="231" dy="0">A</tspan></text>
+<text x="231" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="231" dy="0">1010</tspan></text>
+<text x="231" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="231" dy="0">10</tspan></text>
+<rect x="278" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="317" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="317" dy="0">B</tspan></text>
+<text x="317" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="317" dy="0">1011</tspan></text>
+<text x="317" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="317" dy="0">11</tspan></text>
+<rect x="364" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="403" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="403" dy="0">C</tspan></text>
+<text x="403" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="403" dy="0">1100</tspan></text>
+<text x="403" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="403" dy="0">12</tspan></text>
+<rect x="450" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="489" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="489" dy="0">D</tspan></text>
+<text x="489" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="489" dy="0">1101</tspan></text>
+<text x="489" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="489" dy="0">13</tspan></text>
+<rect x="536" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="575" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="575" dy="0">E</tspan></text>
+<text x="575" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="575" dy="0">1110</tspan></text>
+<text x="575" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="575" dy="0">14</tspan></text>
+<rect x="622" y="152" width="78" height="92" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="661" y="188" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="661" dy="0">F</tspan></text>
+<text x="661" y="212" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="661" dy="0">1111</tspan></text>
+<text x="661" y="232" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="661" dy="0">15</tspan></text>
+<text x="360" y="26" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="360" dy="0">одна шестнадцатеричная цифра = ровно четыре бита</tspan></text>
+</g></svg>

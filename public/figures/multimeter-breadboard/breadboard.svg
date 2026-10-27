@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 350" role="img">
+<title>Внутренние соединения макетной платы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="36" y="18" width="280" height="16" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.2"/>
+<circle cx="50" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="26" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="326" y="31" text-anchor="start" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="326" dy="0">+ шина</tspan></text>
+<rect x="36" y="42" width="280" height="16" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<circle cx="50" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="50" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="326" y="55" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="326" dy="0">− шина</tspan></text>
+<rect x="36" y="314" width="280" height="16" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<circle cx="50" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="322" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="326" y="327" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="326" dy="0">− шина</tspan></text>
+<rect x="36" y="330" width="280" height="16" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.2"/>
+<circle cx="50" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="338" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<text x="326" y="343" text-anchor="start" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="326" dy="0">+ шина</tspan></text>
+<rect x="42" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="42" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="50" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="50" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="70" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="70" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="78" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="78" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="98" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="98" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="106" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="106" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="126" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.35"/>
+<rect x="126" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.35"/>
+<circle cx="134" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="134" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="154" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="154" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="162" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="162" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="182" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="182" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="190" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="190" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="210" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="210" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="218" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="218" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="238" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="238" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="246" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="246" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="266" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="266" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="274" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="274" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<rect x="294" y="84" width="16" height="98" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.1"/>
+<rect x="294" y="206" width="16" height="98" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.1"/>
+<circle cx="302" cy="92" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="112" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="132" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="152" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="172" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="214" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="234" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="254" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="274" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<circle cx="302" cy="294" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+<line x1="36" y1="194" x2="316" y2="194" stroke="var(--muted, #5b6573)" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 5"/>
+<text x="326" y="198" text-anchor="start" font-size="13" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="326" dy="0">канавка</tspan></text>
+<text x="326" y="132" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="326" dy="0">a–e: пять</tspan><tspan x="326" dy="14.399999999999999">контактов</tspan><tspan x="326" dy="14.399999999999999">соединены</tspan><tspan x="326" dy="14.399999999999999">вертикально</tspan></text>
+<text x="326" y="254" text-anchor="start" font-size="12" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="326" dy="0">f–j: другая</tspan><tspan x="326" dy="14.399999999999999">пятёрка,</tspan><tspan x="326" dy="14.399999999999999">с верхней</tspan><tspan x="326" dy="14.399999999999999">не связана</tspan></text>
+</g></svg>

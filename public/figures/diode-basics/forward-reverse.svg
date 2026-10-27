@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Диод в прямом и обратном включении</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="6" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="6" dy="0">Прямое включение</tspan></text>
+<g transform="translate(36 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<path d="M36 120L36 90L70 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(110 90) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-10M10 0H40M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<path d="M150 90L196 90L196 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(196 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<path d="M196 200L196 230L36 230L36 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="80" y1="230" x2="50" y2="230" stroke="var(--ok, #1a7f4b)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M40 230L50 235.5L50 224.5Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<text x="6" y="268" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="6" dy="0">анод к «+»: диод открыт,</tspan><tspan x="6" dy="14.399999999999999">ток идёт, на диоде ≈ 0,7 В</tspan></text>
+<text x="246" y="28" text-anchor="start" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="246" dy="0">Обратное включение</tspan></text>
+<g transform="translate(276 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<path d="M276 120L276 90L310 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(350 90) rotate(180)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-10M10 0H40M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/></g>
+<path d="M390 90L436 90L436 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(436 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<path d="M436 200L436 230L276 230L276 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="246" y="268" text-anchor="start" font-size="12" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="246" dy="0">катод к «+»: диод закрыт,</tspan><tspan x="246" dy="14.399999999999999">ток почти нулевой</tspan></text>
+<line x1="240" y1="40" x2="240" y2="300" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+</g></svg>

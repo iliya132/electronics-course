@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Схема измерения ёмкости по времени разряда через резистор</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(60 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="36" y="148" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="36" dy="0">3 В</tspan></text>
+<path d="M60 110L60 60L110 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(150 60) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="150" y="30" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="150" dy="0">заряд</tspan></text>
+<path d="M190 60L250 60L250 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 135) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-35 0H-5M-5 -18V18M5 -18V18M5 0H35"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="274" y="133" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="274" dy="0">C</tspan></text>
+<path d="M250 170L250 240L60 240L60 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250" cy="60" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="250" cy="240" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M250 60L320 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(360 60) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="360" y="30" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="360" dy="0">разряд</tspan></text>
+<path d="M400 60L430 60L430 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(430 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="404" y="148" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="404" dy="0">R 100 кОм</tspan></text>
+<path d="M430 200L430 240L250 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M250 100L300 100L300 130" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-18M18 0H30"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="300" y="166" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="300" dy="0">V</tspan></text>
+<path d="M300 190L300 240" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="300" cy="240" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="240" y="278" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Зарядить C до 3 В, потом замкнуть «разряд» и включить секундомер</tspan></text>
+</g></svg>

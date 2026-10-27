@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" role="img">
+<title>Усилительный каскад с общим эмиттером</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M140 40L480 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="480" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="480" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="480" dy="0">+12 В</tspan></text>
+<circle cx="200" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="330" cy="40" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M200 40L200 55" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 105) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="174" y="103" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="174" dy="0">R1</tspan></text>
+<text x="174" y="121" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="174" dy="0">180 кОм</tspan></text>
+<path d="M200 155L200 270" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(200 320) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="174" y="318" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="174" dy="0">R2</tspan></text>
+<text x="174" y="336" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="174" dy="0">33 кОм</tspan></text>
+<path d="M200 370L200 400" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330 40L330 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="304" y="108" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">Rк</tspan></text>
+<text x="304" y="126" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="304" dy="0">5,6 кОм</tspan></text>
+<path d="M330 160L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="200" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<circle cx="308" cy="250" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="260" y1="250" x2="300" y2="250" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="230" x2="300" y2="270" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M300 241L330 220L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 259L330 280L330 300" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="310" y1="266" x2="320.63" y2="273.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M328 278.6L323.47 269.38L317.79 277.49Z" fill="currentColor" stroke="none"/>
+<path d="M200 250L260 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330 300L330 310" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="305" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(330 350) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="304" y="348" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">Rэ</tspan></text>
+<text x="304" y="366" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="304" dy="0">1 кОм</tspan></text>
+<path d="M330 390L330 400" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330 305L400 305L400 310" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(400 350) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-5M-5 -18V18M5 -18V18M5 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="426" y="348" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="426" dy="0">Cэ</tspan></text>
+<text x="426" y="366" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="426" dy="0">100 мкФ</tspan></text>
+<path d="M400 390L400 400" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M200 400L400 400" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(300 400)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M30 250L70 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(100 250) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-5M-5 -18V18M5 -18V18M5 0H30"/></g>
+<text x="100" y="224" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="100" dy="0">C1</tspan></text>
+<text x="100" y="286" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="100" dy="0">1 мкФ</tspan></text>
+<path d="M130 250L200 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="30" cy="250" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="14" y="232" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="14" dy="0">вход</tspan></text>
+<path d="M330 200L440 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(470 200) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-5M-5 -18V18M5 -18V18M5 0H30"/></g>
+<text x="470" y="174" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="470" dy="0">C2</tspan></text>
+<text x="470" y="236" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="470" dy="0">1 мкФ</tspan></text>
+<path d="M500 200L600 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="600" cy="200" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="600" y="182" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="600" dy="0">выход</tspan></text>
+<text x="430" y="270" text-anchor="start" font-size="12" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="430" dy="0">Uк ≈ 6,3 В</tspan><tspan x="430" dy="14.399999999999999">Iк ≈ 1 мА</tspan><tspan x="430" dy="14.399999999999999">Uэ ≈ 1 В</tspan></text>
+</g></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" role="img">
+<title>Защита порта USB: порядок элементов от разъёма к микросхеме</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="90" width="130" height="80" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="90" width="130" height="80" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="121.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">разъём USB</tspan><tspan x="85" dy="13.2">(рука, кабель,</tspan><tspan x="85" dy="13.2">ESD)</tspan></text>
+<rect x="190" y="90" width="120" height="80" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="90" width="120" height="80" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="250" y="121.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="250" dy="0">предохранитель</tspan><tspan x="250" dy="13.2">PTC 500 мА</tspan><tspan x="250" dy="13.2">+ ферритовая бусина</tspan></text>
+<rect x="350" y="90" width="130" height="80" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="350" y="90" width="130" height="80" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="415" y="121.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="415" dy="0">TVS / ESD-диод</tspan><tspan x="415" dy="13.2">USBLC6-2</tspan><tspan x="415" dy="13.2">(рядом с разъёмом)</tspan></text>
+<rect x="520" y="90" width="130" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="520" y="90" width="130" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="585" y="128.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="585" dy="0">резисторы 22 Ом</tspan><tspan x="585" dy="13.2">на D+ и D−</tspan></text>
+<rect x="690" y="90" width="130" height="80" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="690" y="90" width="130" height="80" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="755" y="128.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="755" dy="0">микросхема</tspan><tspan x="755" dy="13.2">USB / МК</tspan></text>
+<line x1="150" y1="130" x2="181" y2="130" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 130L181 125.05L181 134.95Z" fill="currentColor" stroke="none"/>
+<line x1="310" y1="130" x2="341" y2="130" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M350 130L341 125.05L341 134.95Z" fill="currentColor" stroke="none"/>
+<line x1="480" y1="130" x2="511" y2="130" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M520 130L511 125.05L511 134.95Z" fill="currentColor" stroke="none"/>
+<line x1="650" y1="130" x2="681" y2="130" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M690 130L681 125.05L681 134.95Z" fill="currentColor" stroke="none"/>
+<text x="20" y="230" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">защита ставится как можно ближе к разъёму: короткий путь к земле для импульса</tspan></text>
+</g></svg>

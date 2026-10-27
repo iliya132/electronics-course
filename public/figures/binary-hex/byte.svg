@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img">
+<title>Байт 0xA5: веса разрядов и сумма</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="74" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="74" dy="0">2⁷</tspan></text>
+<text x="74" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="74" dy="0">128</tspan></text>
+<rect x="40" y="74" width="68" height="56" rx="8" fill="var(--accent, #2457d6)" stroke="currentColor" stroke-width="2.4" opacity="0.28"/>
+<text x="74" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="74" dy="0">1</tspan></text>
+<text x="154" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="154" dy="0">2⁶</tspan></text>
+<text x="154" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="154" dy="0">64</tspan></text>
+<rect x="120" y="74" width="68" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="154" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="154" dy="0">0</tspan></text>
+<text x="234" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="234" dy="0">2⁵</tspan></text>
+<text x="234" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="234" dy="0">32</tspan></text>
+<rect x="200" y="74" width="68" height="56" rx="8" fill="var(--accent, #2457d6)" stroke="currentColor" stroke-width="2.4" opacity="0.28"/>
+<text x="234" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="234" dy="0">1</tspan></text>
+<text x="314" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="314" dy="0">2⁴</tspan></text>
+<text x="314" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="314" dy="0">16</tspan></text>
+<rect x="280" y="74" width="68" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="314" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="314" dy="0">0</tspan></text>
+<text x="394" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="394" dy="0">2³</tspan></text>
+<text x="394" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="394" dy="0">8</tspan></text>
+<rect x="360" y="74" width="68" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="394" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="394" dy="0">0</tspan></text>
+<text x="474" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="474" dy="0">2²</tspan></text>
+<text x="474" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="474" dy="0">4</tspan></text>
+<rect x="440" y="74" width="68" height="56" rx="8" fill="var(--accent, #2457d6)" stroke="currentColor" stroke-width="2.4" opacity="0.28"/>
+<text x="474" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="474" dy="0">1</tspan></text>
+<text x="554" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="554" dy="0">2¹</tspan></text>
+<text x="554" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="554" dy="0">2</tspan></text>
+<rect x="520" y="74" width="68" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="2.4"/>
+<text x="554" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="554" dy="0">0</tspan></text>
+<text x="634" y="40" text-anchor="middle" font-size="15" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="634" dy="0">2⁰</tspan></text>
+<text x="634" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="634" dy="0">1</tspan></text>
+<rect x="600" y="74" width="68" height="56" rx="8" fill="var(--accent, #2457d6)" stroke="currentColor" stroke-width="2.4" opacity="0.28"/>
+<text x="634" y="112" text-anchor="middle" font-size="26" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="634" dy="0">1</tspan></text>
+<rect x="36" y="148" width="304" height="4" rx="2" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2"/>
+<rect x="380" y="148" width="304" height="4" rx="2" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="188" y="176" text-anchor="middle" font-size="15" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="188" dy="0">1010₂ = A₁₆</tspan></text>
+<text x="532" y="176" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="532" dy="0">0101₂ = 5₁₆</tspan></text>
+<text x="360" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor"><tspan x="360" dy="0">128 + 32 + 4 + 1 = 165₁₀ = 0xA5</tspan></text>
+</g></svg>

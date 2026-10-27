@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 320" role="img">
+<title>Профиль тока ESP32 при подключении к Wi-Fi и передаче (иллюстрация)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M80 245L124 245L124 200L256 200L256 185L322 185L322 100L333 100L333 215L399 215L399 90L410 90L410 215L498 215L498 135L513.4 135L513.4 230L630 230L630 245L740 245" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="80" y1="260" x2="740" y2="260" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="80" y1="260" x2="80" y2="60" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="76" y1="260" x2="80" y2="260" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="72" y="264" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="72" dy="0">0</tspan></text>
+<line x1="76" y1="210" x2="80" y2="210" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="72" y="214" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="72" dy="0">100</tspan></text>
+<line x1="76" y1="160" x2="80" y2="160" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="72" y="164" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="72" dy="0">200</tspan></text>
+<line x1="76" y1="110" x2="80" y2="110" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="72" y="114" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="72" dy="0">300</tspan></text>
+<line x1="76" y1="60" x2="80" y2="60" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+<text x="72" y="64" text-anchor="end" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="72" dy="0">400</tspan></text>
+<line x1="80" y1="60" x2="740" y2="60" stroke="var(--border, #e3e6ea)" stroke-width="1.2" stroke-linecap="round"/>
+<text x="84" y="40" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="84" dy="0">ток, мА</tspan></text>
+<text x="326.4" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="326.4" dy="0">пик передачи ≈ 320–340 мА</tspan></text>
+<text x="190" y="192" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="190" dy="0">запуск радио</tspan></text>
+<text x="652" y="237" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="652" dy="0">простой</tspan></text>
+<text x="410" y="295" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="410" dy="0">время, с (0–3 с): источник питания должен отдавать пики до 500 мА без просадки</tspan></text>
+</g></svg>

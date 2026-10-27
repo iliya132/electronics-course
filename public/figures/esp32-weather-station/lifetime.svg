@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Срок работы метеостанции (цикл 10 мин)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Срок работы метеостанции (цикл 10 мин)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">1</tspan></text>
+<line x1="150.86" y1="62" x2="150.86" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="150.86" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="150.86" dy="0">4</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">8</tspan></text>
+<line x1="377.14" y1="62" x2="377.14" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="377.14" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="377.14" dy="0">12</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">15</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="227" x2="462" y2="227" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="232" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">100</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">200</tspan></text>
+<line x1="66" y1="117" x2="462" y2="117" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="122" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">300</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">400</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Время активной фазы, с</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Срок работы, суток</tspan></text>
+<path d="M66 104.33L69.96 119.4L73.92 132.12L77.88 142.99L81.84 152.39L85.8 160.6L89.76 167.83L93.72 174.25L97.68 179.98L101.64 185.14L105.6 189.8L109.56 194.03L113.52 197.89L117.48 201.42L121.44 204.67L125.4 207.67L129.36 210.45L133.32 213.02L137.28 215.42L141.24 217.65L145.2 219.74L149.16 221.7L153.12 223.54L157.08 225.27L161.04 226.9L165 228.44L168.96 229.9L172.92 231.28L176.88 232.58L180.84 233.83L184.8 235.01L188.76 236.13L192.72 237.2L196.68 238.23L200.64 239.2L204.6 240.14L208.56 241.03L212.52 241.89L216.48 242.71L220.44 243.5L224.4 244.26L228.36 244.99L232.32 245.69L236.28 246.36L240.24 247.01L244.2 247.64L248.16 248.25L252.12 248.83L256.08 249.4L260.04 249.94L264 250.47L267.96 250.98L271.92 251.47L275.88 251.95L279.84 252.41L283.8 252.86L287.76 253.3L291.72 253.72L295.68 254.13L299.64 254.53L303.6 254.92L307.56 255.3L311.52 255.67L315.48 256.02L319.44 256.37L323.4 256.71L327.36 257.04L331.32 257.36L335.28 257.67L339.24 257.98L343.2 258.27L347.16 258.56L351.12 258.85L355.08 259.12L359.04 259.39L363 259.66L366.96 259.91L370.92 260.17L374.88 260.41L378.84 260.65L382.8 260.89L386.76 261.12L390.72 261.34L394.68 261.56L398.64 261.78L402.6 261.99L406.56 262.2L410.52 262.4L414.48 262.6L418.44 262.79L422.4 262.98L426.36 263.17L430.32 263.35L434.28 263.53L438.24 263.71L442.2 263.88L446.16 264.05L450.12 264.22L454.08 264.38L458.04 264.54L462 264.7" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="200" y1="95" x2="222" y2="95" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="228" y="100" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="228" dy="0">Iакт 100 мА, сон 85 мкА</tspan></text>
+<circle cx="150.86" cy="222.5" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="162.86" y="210.5" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="162.86" dy="0">4 с: 108 суток</tspan></text>
+</g></svg>

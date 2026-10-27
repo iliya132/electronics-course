@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Условные обозначения основных элементов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(88 42) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-6M-6 -18V18M6 -9V9M6 0H32"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="88" y="82" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="88" dy="0">батарея</tspan></text>
+<g transform="translate(244 42) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-24M24 0H32"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="244" y="82" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">резистор</tspan></text>
+<g transform="translate(400 42) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-16M16 0H32"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<text x="400" y="82" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">лампа</tspan></text>
+<g transform="translate(88 122) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-22M22 0H32"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="88" y="162" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="88" dy="0">выключатель (разомкнут)</tspan></text>
+<g transform="translate(244 122) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-22M22 0H32"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="244" y="162" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">выключатель (замкнут)</tspan></text>
+<line x1="368" y1="122" x2="432" y2="122" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="400" y="162" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">провод</tspan></text>
+<line x1="56" y1="202" x2="120" y2="202" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="88" y1="180" x2="88" y2="224" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<circle cx="88" cy="202" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="88" y="242" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="88" dy="0">соединение проводов</tspan></text>
+<line x1="212" y1="202" x2="237" y2="202" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M237 202a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="251" y1="202" x2="276" y2="202" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="244" y1="180" x2="244" y2="224" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="244" y="242" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">пересечение без точки</tspan></text>
+<g transform="translate(400 184)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="400" y="242" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">земля (GND)</tspan></text>
+<g transform="translate(88 282) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-18M18 0H32"/><circle r="18" /></g>
+<text x="88" y="288" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor"><tspan x="88" dy="0">V</tspan></text>
+<text x="88" y="322" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="88" dy="0">вольтметр</tspan></text>
+<g transform="translate(244 282) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-18M18 0H32"/><circle r="18" /></g>
+<text x="244" y="288" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor"><tspan x="244" dy="0">A</tspan></text>
+<text x="244" y="322" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="244" dy="0">амперметр</tspan></text>
+<circle cx="400" cy="282" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="400" y="288" text-anchor="middle" font-size="20" font-weight="700" fill="currentColor"><tspan x="400" dy="0">+</tspan></text>
+<line x1="368" y1="282" x2="382" y2="282" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="418" y1="282" x2="432" y2="282" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="400" y="322" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="400" dy="0">источник напряжения</tspan></text>
+</g></svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img">
+<title>Прерывание: основная программа приостанавливается на время ISR</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="30" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">время →</tspan></text>
+<rect x="40" y="120" width="230" height="50" rx="6" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="2" opacity="0.2"/>
+<text x="155" y="151" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="155" dy="0">main(): основная программа</tspan></text>
+<rect x="270" y="120" width="90" height="50" rx="6" fill="var(--bad, #b3261e)" stroke="var(--bad, #b3261e)" stroke-width="2" opacity="0.3"/>
+<text x="315" y="151" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="315" dy="0">ISR</tspan></text>
+<rect x="360" y="120" width="330" height="50" rx="6" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="2" opacity="0.2"/>
+<text x="525" y="151" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="525" dy="0">main() продолжается с того же места</tspan></text>
+<line x1="270" y1="70" x2="270" y2="108" stroke="var(--warn, #9a6700)" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M270 118L275.5 108L264.5 108Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<text x="270" y="60" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="270" dy="0">событие: фронт на выводе, таймер, UART</tspan></text>
+<text x="315" y="200" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="315" dy="0">вход в ISR: 4–10 тактов</tspan><tspan x="315" dy="14.399999999999999">(0,3–0,6 мкс при 16 МГц)</tspan></text>
+<text x="40" y="250" text-anchor="start" font-size="13" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="40" dy="0">правила ISR: короткая, без delay() и Serial.print(), общие переменные объявлять как volatile</tspan></text>
+</g></svg>

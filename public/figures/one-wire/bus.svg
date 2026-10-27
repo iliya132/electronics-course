@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 320" role="img">
+<title>Шина 1-Wire: три DS18B20 на одном проводе данных</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="90" width="170" height="120" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="90" width="170" height="120" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="129.8" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">Arduino</tspan><tspan x="115" dy="16.8">D2 ← DQ</tspan><tspan x="115" dy="16.8">+5 В</tspan><tspan x="115" dy="16.8">GND</tspan></text>
+<rect x="260" y="20" width="130" height="50" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="260" y="20" width="130" height="50" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="325" y="42.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="325" dy="0">подтяжка</tspan><tspan x="325" dy="14.399999999999999">4,7 кОм к +5 В</tspan></text>
+<rect x="460" y="40" width="180" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="460" y="40" width="180" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="550" y="65.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="550" dy="0">DS18B20 №1</tspan><tspan x="550" dy="14.399999999999999">ROM 28-xx-…</tspan></text>
+<rect x="460" y="120" width="180" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="460" y="120" width="180" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="550" y="145.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="550" dy="0">DS18B20 №2</tspan><tspan x="550" dy="14.399999999999999">ROM 28-yy-…</tspan></text>
+<rect x="460" y="200" width="180" height="56" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="460" y="200" width="180" height="56" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="550" y="225.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="550" dy="0">DS18B20 №3</tspan><tspan x="550" dy="14.399999999999999">ROM 28-zz-…</tspan></text>
+<line x1="200" y1="133.98" x2="451.16" y2="86.63" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 84.97L450.24 81.77L452.07 91.5Z" fill="currentColor" stroke="none"/>
+<line x1="460" y1="84.97" x2="208.84" y2="132.31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 133.98L209.76 137.17L207.93 127.45Z" fill="currentColor" stroke="none"/>
+<text x="330" y="101.47" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">DQ</tspan></text>
+<line x1="200" y1="149.61" x2="451" y2="148.46" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 148.41L450.98 143.51L451.02 153.41Z" fill="currentColor" stroke="none"/>
+<line x1="460" y1="148.41" x2="209" y2="149.57" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 149.61L209.02 154.52L208.98 144.62Z" fill="currentColor" stroke="none"/>
+<line x1="200" y1="165.24" x2="451.14" y2="210.27" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 211.86L452.01 205.4L450.27 215.15Z" fill="currentColor" stroke="none"/>
+<line x1="460" y1="211.86" x2="208.86" y2="166.83" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 165.24L207.99 171.7L209.73 161.96Z" fill="currentColor" stroke="none"/>
+<line x1="275" y1="70" x2="208.05" y2="103.48" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 107.5L210.26 107.9L205.84 99.05Z" fill="currentColor" stroke="none"/>
+<text x="30" y="290" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">у каждого датчика уникальный 64-битный адрес ROM; питание VDD и GND общие</tspan></text>
+</g></svg>

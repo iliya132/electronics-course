@@ -115,9 +115,9 @@ export async function attempt(root, id) {
     const q = data.questions[index];
     root.innerHTML = '<p class="eyebrow">Экзамен · вопрос ' + (index + 1) + ' из ' + data.questions.length + '</p>' +
       progressBar((index + 1) / data.questions.length * 100);
-    const form = el('form');
+    const form = el('form', { class: 'panel exam-question' });
     const fieldset = el('fieldset', {
-      class: 'panel'
+      class: 'exam-fieldset'
     }, [el('legend', {
       text: q.question
     })]);

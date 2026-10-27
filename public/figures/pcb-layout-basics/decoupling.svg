@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" role="img">
+<title>Развязка: рядом с выводом питания, а не «где-то на плате»</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="40" y="80" width="160" height="80" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="80" width="160" height="80" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="120" y="117.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="120" dy="0">МК</tspan><tspan x="120" dy="15.6">вывод VDD</tspan></text>
+<rect x="40" y="190" width="160" height="40" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="190" width="160" height="40" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="120" y="215" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="120" dy="0">100 нФ рядом: 2 мм</tspan></text>
+<rect x="440" y="80" width="160" height="80" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="440" y="80" width="160" height="80" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="520" y="117.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="520" dy="0">МК</tspan><tspan x="520" dy="15.6">вывод VDD</tspan></text>
+<rect x="640" y="190" width="160" height="40" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="190" width="160" height="40" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="720" y="215" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="720" dy="0">100 нФ далеко: 30 мм</tspan></text>
+<line x1="120" y1="160" x2="120" y2="181" stroke="var(--ok, #1a7f4b)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M120 190L124.95 181L115.05 181Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<line x1="120" y1="190" x2="120" y2="169" stroke="var(--ok, #1a7f4b)" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M120 160L115.05 169L124.95 169Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<line x1="600" y1="156" x2="667.35" y2="186.31" stroke="var(--bad, #b3261e)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<path d="M675.56 190L669.38 181.79L665.32 190.82Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<line x1="675.56" y1="190" x2="608.21" y2="159.69" stroke="var(--bad, #b3261e)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<path d="M600 156L606.18 164.21L610.24 155.18Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="40" y="60" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="40" dy="0">правильно: малая петля</tspan></text>
+<text x="440" y="60" text-anchor="start" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="440" dy="0">неправильно: большая петля</tspan></text>
+<text x="40" y="270" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">импульс тока замыкается в петле «МК — конденсатор»: чем она меньше, тем меньше индуктивность и помехи</tspan></text>
+</g></svg>

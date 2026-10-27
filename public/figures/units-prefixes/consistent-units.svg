@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Наборы единиц, в которых не нужно ничего переводить</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Если брать эти единицы вместе, перевод не нужен</tspan></text>
+<rect x="20" y="44" width="440" height="54" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5"/>
+<text x="40" y="72" text-anchor="start" font-size="22" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="40" dy="0">В  /  кОм  =  мА</tspan></text>
+<text x="40" y="90" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">напряжение, сопротивление → ток</tspan></text>
+<rect x="20" y="106" width="440" height="54" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.5"/>
+<text x="40" y="134" text-anchor="start" font-size="22" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="40" dy="0">мА  ×  кОм  =  В</tspan></text>
+<text x="40" y="152" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">ток, сопротивление → напряжение</tspan></text>
+<rect x="20" y="168" width="440" height="54" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.5"/>
+<text x="40" y="196" text-anchor="start" font-size="22" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="40" dy="0">В  ×  мА  =  мВт</tspan></text>
+<text x="40" y="214" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">напряжение, ток → мощность</tspan></text>
+<rect x="20" y="230" width="440" height="54" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.5"/>
+<text x="40" y="258" text-anchor="start" font-size="22" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="40" dy="0">В  /  МОм  =  мкА</tspan></text>
+<text x="40" y="276" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">для очень больших сопротивлений</tspan></text>
+</g></svg>

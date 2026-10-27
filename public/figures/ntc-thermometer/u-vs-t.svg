@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Ожидаемое напряжение Uвых при температуре</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Ожидаемое напряжение Uвых при температуре</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="132" y1="62" x2="132" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="132" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="132" dy="0">10</tspan></text>
+<line x1="198" y1="62" x2="198" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="198" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="198" dy="0">20</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">30</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">40</tspan></text>
+<line x1="396" y1="62" x2="396" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="396" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="396" dy="0">50</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">60</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="239.69" x2="462" y2="239.69" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="244.69" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0,5</tspan></text>
+<line x1="66" y1="197.38" x2="462" y2="197.38" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="202.38" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="155.08" x2="462" y2="155.08" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="160.08" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1,5</tspan></text>
+<line x1="66" y1="112.77" x2="462" y2="112.77" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="117.77" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="70.46" x2="462" y2="70.46" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="75.46" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2,5</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Температура, °C</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Uвых на резисторе 10 кОм, В</tspan></text>
+<path d="M66 223.81L67.65 223.21L69.3 222.61L70.95 222.01L72.6 221.41L74.25 220.8L75.9 220.19L77.55 219.57L79.2 218.96L80.85 218.34L82.5 217.72L84.15 217.09L85.8 216.46L87.45 215.83L89.1 215.2L90.75 214.56L92.4 213.92L94.05 213.28L95.7 212.64L97.35 211.99L99 211.34L100.65 210.69L102.3 210.03L103.95 209.38L105.6 208.72L107.25 208.05L108.9 207.39L110.55 206.72L112.2 206.06L113.85 205.38L115.5 204.71L117.15 204.04L118.8 203.36L120.45 202.68L122.1 202L123.75 201.32L125.4 200.63L127.05 199.94L128.7 199.26L130.35 198.57L132 197.87L133.65 197.18L135.3 196.49L136.95 195.79L138.6 195.09L140.25 194.39L141.9 193.69L143.55 192.99L145.2 192.28L146.85 191.58L148.5 190.87L150.15 190.16L151.8 189.46L153.45 188.75L155.1 188.03L156.75 187.32L158.4 186.61L160.05 185.9L161.7 185.18L163.35 184.47L165 183.75L166.65 183.03L168.3 182.32L169.95 181.6L171.6 180.88L173.25 180.16L174.9 179.44L176.55 178.72L178.2 178L179.85 177.28L181.5 176.56L183.15 175.84L184.8 175.12L186.45 174.4L188.1 173.68L189.75 172.96L191.4 172.24L193.05 171.52L194.7 170.8L196.35 170.08L198 169.36L199.65 168.64L201.3 167.92L202.95 167.2L204.6 166.48L206.25 165.76L207.9 165.04L209.55 164.33L211.2 163.61L212.85 162.89L214.5 162.18L216.15 161.46L217.8 160.75L219.45 160.04L221.1 159.33L222.75 158.62L224.4 157.91L226.05 157.2L227.7 156.49L229.35 155.78L231 155.08L232.65 154.37L234.3 153.67L235.95 152.97L237.6 152.27L239.25 151.57L240.9 150.87L242.55 150.17L244.2 149.48L245.85 148.78L247.5 148.09L249.15 147.4L250.8 146.71L252.45 146.03L254.1 145.34L255.75 144.66L257.4 143.97L259.05 143.29L260.7 142.62L262.35 141.94L264 141.26L265.65 140.59L267.3 139.92L268.95 139.25L270.6 138.58L272.25 137.92L273.9 137.26L275.55 136.6L277.2 135.94L278.85 135.28L280.5 134.63L282.15 133.97L283.8 133.32L285.45 132.68L287.1 132.03L288.75 131.39L290.4 130.75L292.05 130.11L293.7 129.47L295.35 128.84L297 128.21L298.65 127.58L300.3 126.95L301.95 126.33L303.6 125.7L305.25 125.08L306.9 124.47L308.55 123.85L310.2 123.24L311.85 122.63L313.5 122.03L315.15 121.42L316.8 120.82L318.45 120.22L320.1 119.62L321.75 119.03L323.4 118.44L325.05 117.85L326.7 117.27L328.35 116.68L330 116.1L331.65 115.53L333.3 114.95L334.95 114.38L336.6 113.81L338.25 113.24L339.9 112.68L341.55 112.12L343.2 111.56L344.85 111.01L346.5 110.45L348.15 109.9L349.8 109.36L351.45 108.81L353.1 108.27L354.75 107.73L356.4 107.2L358.05 106.66L359.7 106.13L361.35 105.61L363 105.08L364.65 104.56L366.3 104.04L367.95 103.52L369.6 103.01L371.25 102.5L372.9 101.99L374.55 101.49L376.2 100.99L377.85 100.49L379.5 99.99L381.15 99.5L382.8 99.01L384.45 98.52L386.1 98.04L387.75 97.55L389.4 97.07L391.05 96.6L392.7 96.12L394.35 95.65L396 95.19L397.65 94.72L399.3 94.26L400.95 93.8L402.6 93.34L404.25 92.89L405.9 92.44L407.55 91.99L409.2 91.54L410.85 91.1L412.5 90.66L414.15 90.22L415.8 89.79L417.45 89.36L419.1 88.93L420.75 88.5L422.4 88.08L424.05 87.66L425.7 87.24L427.35 86.82L429 86.41L430.65 86L432.3 85.59L433.95 85.19L435.6 84.78L437.25 84.38L438.9 83.99L440.55 83.59L442.2 83.2L443.85 82.81L445.5 82.42L447.15 82.04L448.8 81.66L450.45 81.28L452.1 80.9L453.75 80.53L455.4 80.16L457.05 79.79L458.7 79.42L460.35 79.06L462 78.7" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="132" cy="197.87" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="142" y="219.87" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="142" dy="0">10 °C: 0,99 В</tspan></text>
+<circle cx="231" cy="155.08" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="241" y="177.08" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="241" dy="0">25 °C: 1,50 В</tspan></text>
+<circle cx="330" cy="116.1" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="340" y="138.1" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="340" dy="0">40 °C: 1,96 В</tspan></text>
+<circle cx="396" cy="95.19" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="386" y="83.19" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="386" dy="0">50 °C: 2,21 В</tspan></text>
+</g></svg>

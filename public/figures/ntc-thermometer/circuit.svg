@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Делитель с NTC и резистором 10 кОм, вольтметр на нижнем резисторе</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(60 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="36" y="158" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="36" dy="0">3 В</tspan></text>
+<path d="M60 120L60 50L200 50L200 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="226" y="108" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="226" dy="0">NTC 10 кОм</tspan></text>
+<path d="M200 150L200 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(200 230) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="226" y="228" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="226" dy="0">R 10 кОм</tspan></text>
+<path d="M200 270L200 296L60 296L60 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="296" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M200 170L330 170L330 200" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 220) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-18M18 0H20"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="330" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="330" dy="0">V</tspan></text>
+<path d="M330 240L330 296L200 296" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="296" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="232" y="40" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="232" dy="0">Uвых = Uвх · R / (R_NTC + R)</tspan></text>
+<text x="364" y="214" text-anchor="start" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="364" dy="0">Uвых</tspan></text>
+</g></svg>

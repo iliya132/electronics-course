@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Параметрический стабилизатор на стабилитроне</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<circle cx="24" cy="70" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="24" y="94" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="24" dy="0">Uвх 12 В</tspan></text>
+<path d="M28 70L50 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(110 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-60 0H-24M24 0H60"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="110" y="44" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="110" dy="0">R 330 Ом</tspan></text>
+<path d="M170 70L300 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="250" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M250 70L250 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 150) rotate(270)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-10M10 0H45M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/><path d="M10 -14h-5M10 14h5"/></g>
+<text x="276" y="148" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="276" dy="0">VD 5,1 В</tspan></text>
+<path d="M250 195L250 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 230)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M250 70L340 70L340 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(340 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-45 0H-24M24 0H45"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="358" y="148" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="358" dy="0">Rн</tspan></text>
+<path d="M340 195L340 230" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(340 230)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="304" cy="70" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="300" y="54" text-anchor="end" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="300" dy="0">Uвых 5,1 В</tspan></text>
+<text x="240" y="284" text-anchor="middle" font-size="11.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Через R идёт ток нагрузки и ток стабилитрона: R = (Uвх − Uz)/(Iz + Iн)</tspan></text>
+</g></svg>

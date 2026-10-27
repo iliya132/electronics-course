@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 166" role="img">
+<title>Раскладка экрана LCD1602</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="360" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="360" dy="0">Раскладка экрана LCD1602</tspan></text>
+<rect x="20" y="42" width="680" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Строка</tspan></text>
+<text x="141.33" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="141.33" dy="0">Содержимое</tspan></text>
+<text x="424.67" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="424.67" dy="0">Пример</tspan></text>
+<line x1="20" y1="76" x2="700" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">1</tspan></text>
+<text x="141.33" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="141.33" dy="0">текущая температура</tspan></text>
+<text x="424.67" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="424.67" dy="0">T = 23.4 C</tspan></text>
+<line x1="20" y1="110" x2="700" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">2</tspan></text>
+<text x="141.33" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="141.33" dy="0">минимум и максимум</tspan></text>
+<text x="424.67" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="424.67" dy="0">min 21.8 max 25.1</tspan></text>
+</g></svg>

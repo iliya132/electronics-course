@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 360" role="img">
+<title>Блоки мини-платы ESP32</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="130" width="130" height="80" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="130" width="130" height="80" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="85" y="161.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">USB-C</tspan><tspan x="85" dy="13.2">CC1/CC2 5,1 кОм</tspan><tspan x="85" dy="13.2">TVS, F1 0,5 А</tspan></text>
+<rect x="190" y="130" width="140" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="130" width="140" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="260" y="161.8" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="260" dy="0">LDO 3,3 В 600 мА</tspan><tspan x="260" dy="13.2">Cin 10 мкФ,</tspan><tspan x="260" dy="13.2">Cout 10 мкФ</tspan></text>
+<rect x="380" y="100" width="190" height="140" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="380" y="100" width="190" height="140" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="475" y="153.4" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="475" dy="0">модуль ESP32</tspan><tspan x="475" dy="14.399999999999999">развязка 100 нФ + 10 мкФ</tspan><tspan x="475" dy="14.399999999999999">EN: 10 кОм + 1 мкФ</tspan><tspan x="475" dy="14.399999999999999">антенна на краю</tspan></text>
+<rect x="190" y="250" width="140" height="60" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="190" y="250" width="140" height="60" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="260" y="285" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="260" dy="0">кнопки EN и BOOT</tspan></text>
+<rect x="20" y="250" width="130" height="60" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="250" width="130" height="60" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="85" y="278.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="85" dy="0">USB-UART</tspan><tspan x="85" dy="13.2">CH340 / CP2102</tspan></text>
+<rect x="640" y="80" width="180" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="80" width="180" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="730" y="113.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="730" dy="0">разъём датчика</tspan><tspan x="730" dy="13.2">I²C: 3V3, GND, SDA, SCL</tspan></text>
+<rect x="640" y="180" width="180" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="180" width="180" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="730" y="213.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="730" dy="0">светодиод пользователя</tspan><tspan x="730" dy="13.2">GPIO + 150 Ом</tspan></text>
+<rect x="640" y="280" width="180" height="50" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="640" y="280" width="180" height="50" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="730" y="303.4" text-anchor="middle" font-size="11" font-weight="600" fill="currentColor"><tspan x="730" dy="0">контрольные точки</tspan><tspan x="730" dy="13.2">3V3, GND, TX, RX</tspan></text>
+<line x1="150" y1="170" x2="181" y2="170" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M190 170L181 165.05L181 174.95Z" fill="currentColor" stroke="none"/>
+<line x1="330" y1="170" x2="371" y2="170" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M380 170L371 165.05L371 174.95Z" fill="currentColor" stroke="none"/>
+<line x1="150" y1="261.67" x2="371.34" y2="199.24" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M380 196.79L369.99 194.47L372.68 204Z" fill="currentColor" stroke="none"/>
+<line x1="380" y1="196.79" x2="158.66" y2="259.22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M150 261.67L160.01 263.99L157.32 254.46Z" fill="currentColor" stroke="none"/>
+<line x1="318.64" y1="250" x2="371.99" y2="222.7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M380 218.6L369.73 218.3L374.24 227.11Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="149.51" x2="631.2" y2="136.31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640 134.41L630.16 131.47L632.25 141.15Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="186.76" x2="631.14" y2="197.55" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640 199.12L632 192.68L630.28 202.43Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="220.29" x2="674.82" y2="275.79" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M682.78 280L677.14 271.41L672.51 280.16Z" fill="currentColor" stroke="none"/>
+</g></svg>

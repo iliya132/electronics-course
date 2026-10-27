@@ -2,9 +2,9 @@ import { el } from '../dom.js';
 import { api,act } from '../api.js';
 let sequence=0;
 export function answerControls(q,value){
- const type=q.question_type||q.type,group='answer-'+(++sequence),box=el('div');
+ const type=q.question_type||q.type,group='answer-'+(++sequence),box=el('div',{class:'answer-controls'});
  if(type==='numeric'){
-  const label=el('label',{text:'Ответ ('+q.unit+')'});
+  const label=el('label',{class:'answer-field',text:'Ответ ('+q.unit+')'});
   const input=el('input',{type:'text',inputmode:'decimal',autocomplete:'off','aria-label':'Ответ ('+q.unit+')',value:value??'',required:true});
   label.append(input);box.append(label);
   return {box,read:()=>input.value.trim()?input.value.trim():undefined};
@@ -46,23 +46,26 @@ export function mountQuiz(container, q, {
     'aria-live': 'polite'
   });
   const actions = el('div', {
-    class: 'row wrap'
+    class: 'row wrap quiz-actions'
   }, [submit]);
+  let hint;
   if (q.hint) {
-    const hint = el('p', {
+    hint = el('p', {
+      class: 'quiz-hint',
       text: q.hint,
       hidden: true
     });
     const btn = el('button', {
       type: 'button',
-      text: 'Подсказка'
+      text: 'Подсказка',
+      'aria-expanded': 'false'
     });
     btn.onclick = () => {
       hint.hidden = !hint.hidden;
+      btn.setAttribute('aria-expanded', String(!hint.hidden));
       btn.textContent = hint.hidden ? 'Подсказка' : 'Скрыть подсказку';
     };
     actions.append(btn);
-    fieldset.append(hint);
   }
   const show = data => {
     feedback.className = 'feedback ' + (data.is_correct ? 'correct' : 'incorrect');
@@ -79,8 +82,13 @@ export function mountQuiz(container, q, {
     }));
   }
   fieldset.prepend(legend, controls.box);
-  fieldset.append(actions, feedback);
-  form.append(fieldset);
+  fieldset.append(actions);
+  if (hint) fieldset.append(hint);
+  fieldset.append(feedback);
+  form.append(el('p', {
+    class: 'eyebrow quiz-kind',
+    text: recall ? 'Вспомни пройденное' : q.type === 'predict' ? 'Твой прогноз' : 'Проверь себя'
+  }), fieldset);
   container.append(form);
   form.addEventListener('submit', act(async e => {
     e.preventDefault();

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img">
+<title>Термометр: NTC → Arduino → LCD1602</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="60" width="190" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="60" width="190" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="125" y="85.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="125" dy="0">делитель</tspan><tspan x="125" dy="14.399999999999999">10 кОм + NTC 10 кОм</tspan><tspan x="125" dy="14.399999999999999">нижнее плечо — NTC</tspan></text>
+<rect x="300" y="60" width="180" height="140" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="300" y="60" width="180" height="140" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="390" y="111.6" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="390" dy="0">Arduino Uno</tspan><tspan x="390" dy="15.6">A0 ← делитель</tspan><tspan x="390" dy="15.6">A4, A5 → LCD (I²C)</tspan><tspan x="390" dy="15.6">D2 ← кнопка сброса</tspan></text>
+<rect x="570" y="60" width="180" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="570" y="60" width="180" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="660" y="92.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="660" dy="0">LCD1602 I²C</tspan><tspan x="660" dy="15.6">адрес 0x27</tspan></text>
+<rect x="30" y="180" width="190" height="56" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="180" width="190" height="56" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="125" y="205.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="125" dy="0">кнопка D2–GND</tspan><tspan x="125" dy="14.399999999999999">сбрасывает мин/макс</tspan></text>
+<line x1="220" y1="107.55" x2="291.08" y2="116.93" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 118.11L291.73 112.03L290.43 121.84Z" fill="currentColor" stroke="none"/>
+<line x1="480" y1="118.33" x2="561.07" y2="107.82" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M570 106.67L560.44 102.91L561.71 112.73Z" fill="currentColor" stroke="none"/>
+<line x1="220" y1="180.04" x2="291.37" y2="159.03" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 156.49L289.97 154.28L292.76 163.78Z" fill="currentColor" stroke="none"/>
+<text x="30" y="290" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">разрешение около 0,13 °C на отсчёт АЦП при 25 °C; усреднение 16 отсчётов уменьшает шум в 4 раза</tspan></text>
+</g></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Цепь из батарейки, выключателя и лампы: направление тока и движение электронов</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(130 145) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="100" y="143" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="100" dy="0">батарейка</tspan></text>
+<g transform="translate(275 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><path d="M-22 0L22 0"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<text x="275" y="40" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="275" dy="0">выключатель</tspan></text>
+<g transform="translate(420 145) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<text x="390" y="143" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="390" dy="0">лампа</tspan></text>
+<path d="M130 105L130 70L235 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M315 70L420 70L420 105" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M420 185L420 220L130 220L130 185" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="165" y1="70" x2="195" y2="70" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M205 70L195 64.5L195 75.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<line x1="390" y1="220" x2="360" y2="220" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M350 220L360 225.5L360 214.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<line x1="260" y1="254" x2="331" y2="254" stroke="var(--warn, #9a6700)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 5"/>
+<path d="M340 254L331 249.05L331 258.95Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<line x1="180" y1="254" x2="211" y2="254" stroke="var(--warn, #9a6700)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 5"/>
+<path d="M220 254L211 249.05L211 258.95Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<line x1="360" y1="254" x2="391" y2="254" stroke="var(--warn, #9a6700)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 5"/>
+<path d="M400 254L391 249.05L391 258.95Z" fill="var(--warn, #9a6700)" stroke="none"/>
+<text x="240" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">Ток I</tspan><tspan x="240" dy="18">(условно: от «+» к «−»)</tspan></text>
+<text x="275" y="286" text-anchor="middle" font-size="14" font-weight="600" fill="var(--warn, #9a6700)"><tspan x="275" dy="0">Электроны идут от «−» к «+», навстречу току</tspan></text>
+</g></svg>

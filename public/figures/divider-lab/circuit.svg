@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Схема опыта: делитель 9 В, вольтметр и пробная нагрузка</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(60 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="36" y="158" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="36" dy="0">9 В</tspan></text>
+<path d="M60 120L60 50L200 50L200 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(200 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="224" y="108" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="224" dy="0">R1</tspan></text>
+<path d="M200 150L200 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="170" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(200 230) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="224" y="228" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="224" dy="0">R2</tspan></text>
+<path d="M200 270L200 296L60 296L60 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="200" cy="296" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M200 170L310 170" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M310 170L310 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(310 220) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-18M18 0H20"/><circle r="18" stroke="var(--accent, #2457d6)"/></g>
+<text x="310" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="310" dy="0">V</tspan></text>
+<path d="M310 240L310 296" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="310" cy="296" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M310 170L400 170L400 200" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<g transform="translate(400 240) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="424" y="238" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="424" dy="0">Rн</tspan></text>
+<path d="M400 280L400 296L310 296" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="24" y="22" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">R1 = 10 кОм, Rн = 10 кОм</tspan></text>
+<text x="24" y="38" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="24" dy="0">R2 = 10 кОм (опыт A) или 4,7 кОм (опыт B)</tspan></text>
+<text x="290" y="80" text-anchor="start" font-size="13" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="290" dy="0">пунктир: нагрузка</tspan><tspan x="290" dy="15.6">во втором опыте</tspan></text>
+</g></svg>

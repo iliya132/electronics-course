@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Расчётное напряжение на выходе обоих делителей</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Ожидаемое Uвых при питании 9 В</tspan></text>
+<line x1="30" y1="232" x2="460" y2="232" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="50" y="70" width="70" height="162" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="85" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="85" dy="0">4,5 В</tspan></text>
+<text x="85" y="252" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="85" dy="0">A: 10к/10к</tspan><tspan x="85" dy="14.399999999999999">без нагрузки</tspan></text>
+<rect x="154" y="124" width="70" height="108" rx="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="189" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="189" dy="0">3 В</tspan></text>
+<text x="189" y="252" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="189" dy="0">A: 10к/10к</tspan><tspan x="189" dy="14.399999999999999">нагрузка 10к</tspan></text>
+<rect x="258" y="128.39" width="70" height="103.61" rx="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="293" y="120.39" text-anchor="middle" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="293" dy="0">2,878 В</tspan></text>
+<text x="293" y="252" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="293" dy="0">B: 10к/4,7к</tspan><tspan x="293" dy="14.399999999999999">без нагрузки</tspan></text>
+<rect x="362" y="153.52" width="70" height="78.48" rx="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.85"/>
+<text x="397" y="145.52" text-anchor="middle" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="397" dy="0">2,18 В</tspan></text>
+<text x="397" y="252" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="397" dy="0">B: 10к/4,7к</tspan><tspan x="397" dy="14.399999999999999">нагрузка 10к</tspan></text>
+</g></svg>

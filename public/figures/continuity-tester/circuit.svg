@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Схема прозвонки: батарейки, резистор, светодиод и два щупа</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(60 155) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<text x="36" y="153" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="36" dy="0">3 В</tspan></text>
+<path d="M60 115L60 70L90 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(130 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="130" y="40" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="130" dy="0">R = 100 Ом</tspan></text>
+<path d="M170 70L210 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(250 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-10M10 0H40M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/><path d="M-4 -20L6 -32M4 -18L14 -30" /><path d="M2.5 -32h3.5v3.5" stroke-width="1.5"/></g>
+<text x="250" y="34" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="250" dy="0">светодиод</tspan></text>
+<path d="M290 70L400 70L400 118" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="124" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="412" y="128" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="412" dy="0">щуп A</tspan></text>
+<circle cx="400" cy="186" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="412" y="192" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="412" dy="0">щуп B</tspan></text>
+<path d="M400 192L400 240L60 240L60 195" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="372" y="134" width="100" height="42" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="1.8" stroke-dasharray="6 5"/>
+<text x="422" y="152" text-anchor="middle" font-size="12" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="422" dy="0">проверяемая</tspan></text>
+<text x="422" y="167" text-anchor="middle" font-size="12" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="422" dy="0">цепь</tspan></text>
+<line x1="313" y1="70" x2="337" y2="70" stroke="var(--ok, #1a7f4b)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M347 70L337 64.5L337 75.5Z" fill="var(--ok, #1a7f4b)" stroke="none"/>
+<text x="330" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="330" dy="0">I ≈ 10 мА</tspan></text>
+<text x="240" y="282" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Цепь замкнута щупами или целым проводом: светодиод светится</tspan></text>
+</g></svg>

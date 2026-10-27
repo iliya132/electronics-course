@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 380" role="img">
+<title>Три варианта входа 12 В для микроконтроллера 3,3 В</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="20" dy="0">А. Делитель и стабилитрон</tspan></text>
+<path d="M20 90L40 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="20" cy="90" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="20" y="74" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="20" dy="0">вход 12 В</tspan></text>
+<g transform="translate(80 90) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="80" y="62" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="80" dy="0">R1</tspan></text>
+<text x="80" y="128" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="80" dy="0">22 кОм</tspan></text>
+<path d="M120 90L250 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150" cy="90" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M150 90L150 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(150 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="124" y="158" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="124" dy="0">R2</tspan></text>
+<text x="124" y="176" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="124" dy="0">8,2 кОм</tspan></text>
+<path d="M150 190L150 220" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="150" cy="210" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(150 222)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M150 130L190 130" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(190 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-10M10 0H30M10 -14V14"/><path d="M-10 -14L10 0L-10 14Z"/><path d="M10 -14h-5M10 14h5"/></g>
+<text x="216" y="158" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="216" dy="0">VD</tspan></text>
+<text x="216" y="176" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="216" dy="0">3,6 В</tspan></text>
+<path d="M190 190L190 210L150 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M190 130L190 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="250" y="94" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="250" dy="0">→ Rс 1 кОм → вывод МК</tspan></text>
+<text x="20" y="310" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">12 В → 3,26 В;</tspan><tspan x="20" dy="14.399999999999999">24 В → стабилитрон держит ≈ 3,6 В</tspan></text>
+<text x="360" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="360" dy="0">Б. Оптопара PC817</tspan></text>
+<path d="M360 90L380 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="360" cy="90" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="360" y="74" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">вход 12 В</tspan></text>
+<g transform="translate(420 90) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="420" y="62" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="420" dy="0">R</tspan></text>
+<text x="420" y="128" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="420" dy="0">2,2 кОм</tspan></text>
+<path d="M460 90L490 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="490" y="60" width="100" height="90" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="540" y="110" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="540" dy="0">PC817</tspan></text>
+<text x="540" y="172" text-anchor="middle" font-size="11" font-weight="400" fill="var(--bad, #b3261e)"><tspan x="540" dy="0">гальваническая</tspan><tspan x="540" dy="13.2">развязка</tspan></text>
+<path d="M590 90L650 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="490" y="232" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="490" dy="0">выход: Rпу 10 кОм к 3,3 В</tspan><tspan x="490" dy="13.2">и вывод МК</tspan></text>
+<text x="360" y="310" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="360" dy="0">4,9 мА в светодиод;</tspan><tspan x="360" dy="14.399999999999999">МК не связан с входной землёй</tspan></text>
+<text x="720" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="720" dy="0">В. Компаратор LM393</tspan></text>
+<path d="M720 90L740 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="720" cy="90" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="720" y="74" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="720" dy="0">вход 12 В</tspan></text>
+<rect x="740" y="60" width="90" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="785" y="87" text-anchor="middle" font-size="11" font-weight="400" fill="currentColor"><tspan x="785" dy="0">делитель</tspan><tspan x="785" dy="13.2">30 кОм / 10 кОм</tspan></text>
+<path d="M830 90L860 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="860" y="50" width="100" height="90" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="910" y="92" text-anchor="middle" font-size="12" font-weight="400" fill="currentColor"><tspan x="910" dy="0">LM393</tspan><tspan x="910" dy="14.399999999999999">питание 3,3 В</tspan></text>
+<text x="910" y="160" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="910" dy="0">опора 1,5 В</tspan><tspan x="910" dy="13.2">(12 кОм / 10 кОм)</tspan></text>
+<text x="720" y="310" text-anchor="start" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="720" dy="0">порог ≈ 6 В на входе;</tspan><tspan x="720" dy="14.399999999999999">гистерезис добавляется Rf</tspan></text>
+</g></svg>

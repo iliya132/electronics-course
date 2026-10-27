@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 268" role="img">
+<title>Семейство ESP32: основные отличия</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="470" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="470" dy="0">Семейство ESP32: основные отличия</tspan></text>
+<rect x="20" y="42" width="900" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Чип</tspan></text>
+<text x="139.11" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="139.11" dy="0">Ядро</tspan></text>
+<text x="350.22" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="350.22" dy="0">Радио</tspan></text>
+<text x="561.33" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="561.33" dy="0">USB</tspan></text>
+<text x="716.89" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="716.89" dy="0">Особенность</tspan></text>
+<line x1="20" y1="76" x2="920" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ESP32</tspan></text>
+<text x="139.11" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="139.11" dy="0">2 × Xtensa LX6, 240 МГц</tspan></text>
+<text x="350.22" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="350.22" dy="0">Wi-Fi 4 + BT + BLE</tspan></text>
+<text x="561.33" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="561.33" dy="0">нет (мост)</tspan></text>
+<text x="716.89" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="716.89" dy="0">классика, много выводов</tspan></text>
+<line x1="20" y1="110" x2="920" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ESP32-S2</tspan></text>
+<text x="139.11" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="139.11" dy="0">1 × Xtensa LX7, 240 МГц</tspan></text>
+<text x="350.22" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="350.22" dy="0">Wi-Fi 4</tspan></text>
+<text x="561.33" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="561.33" dy="0">нативный USB</tspan></text>
+<text x="716.89" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="716.89" dy="0">без Bluetooth</tspan></text>
+<line x1="20" y1="144" x2="920" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ESP32-S3</tspan></text>
+<text x="139.11" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="139.11" dy="0">2 × Xtensa LX7, 240 МГц</tspan></text>
+<text x="350.22" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="350.22" dy="0">Wi-Fi 4 + BLE 5</tspan></text>
+<text x="561.33" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="561.33" dy="0">нативный USB</tspan></text>
+<text x="716.89" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="716.89" dy="0">ИИ-инструкции</tspan></text>
+<line x1="20" y1="178" x2="920" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ESP32-C3</tspan></text>
+<text x="139.11" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="139.11" dy="0">1 × RISC-V, 160 МГц</tspan></text>
+<text x="350.22" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="350.22" dy="0">Wi-Fi 4 + BLE 5</tspan></text>
+<text x="561.33" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="561.33" dy="0">USB Serial/JTAG</tspan></text>
+<text x="716.89" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="716.89" dy="0">дёшев, малое число выводов</tspan></text>
+<line x1="20" y1="212" x2="920" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">ESP32-C6</tspan></text>
+<text x="139.11" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="139.11" dy="0">1 × RISC-V, 160 МГц</tspan></text>
+<text x="350.22" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="350.22" dy="0">Wi-Fi 6 + BLE 5 + 802.15.4</tspan></text>
+<text x="561.33" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="561.33" dy="0">USB Serial/JTAG</tspan></text>
+<text x="716.89" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="716.89" dy="0">Zigbee/Thread</tspan></text>
+</g></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img">
+<title>Как подключается библиотека</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="20" y="110" width="170" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="20" y="110" width="170" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="105" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="105" dy="0">Менеджер библиотек</tspan><tspan x="105" dy="15.6">Sketch → Include Library</tspan></text>
+<rect x="250" y="110" width="150" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="250" y="110" width="150" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="325" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="325" dy="0">библиотека</tspan><tspan x="325" dy="15.6">.h + .cpp + примеры</tspan></text>
+<rect x="460" y="110" width="130" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="460" y="110" width="130" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="525" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="525" dy="0">#include</tspan><tspan x="525" dy="15.6">&lt;Name.h&gt;</tspan></text>
+<rect x="630" y="110" width="110" height="70" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="630" y="110" width="110" height="70" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="685" y="142.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="685" dy="0">объект</tspan><tspan x="685" dy="15.6">и методы</tspan></text>
+<line x1="190" y1="145" x2="241" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M250 145L241 140.05L241 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="400" y1="145" x2="451" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M460 145L451 140.05L451 149.95Z" fill="currentColor" stroke="none"/>
+<line x1="590" y1="145" x2="621" y2="145" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M630 145L621 140.05L621 149.95Z" fill="currentColor" stroke="none"/>
+<text x="20" y="240" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="20" dy="0">сначала читаем File → Examples → имя библиотеки: готовый рабочий пример</tspan></text>
+</g></svg>

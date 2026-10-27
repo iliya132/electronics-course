@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Нагрузочная характеристика: E = 5 В, r = 0,3 Ом</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Нагрузочная характеристика: E = 5 В, r = 0,3 Ом</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="145.2" y1="62" x2="145.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="145.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145.2" dy="0">1</tspan></text>
+<line x1="224.4" y1="62" x2="224.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="224.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224.4" dy="0">2</tspan></text>
+<line x1="303.6" y1="62" x2="303.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="303.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="303.6" dy="0">3</tspan></text>
+<line x1="382.8" y1="62" x2="382.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="382.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="382.8" dy="0">4</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">5</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3</tspan></text>
+<line x1="66" y1="232" x2="462" y2="232" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="237" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3,5</tspan></text>
+<line x1="66" y1="182" x2="462" y2="182" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="187" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">4</tspan></text>
+<line x1="66" y1="132" x2="462" y2="132" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="137" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">4,5</tspan></text>
+<line x1="66" y1="82" x2="462" y2="82" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="87" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">5</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Ток нагрузки I, А</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Напряжение на клеммах U, В</tspan></text>
+<path d="M66 82L67.65 82.62L69.3 83.25L70.95 83.88L72.6 84.5L74.25 85.13L75.9 85.75L77.55 86.38L79.2 87L80.85 87.63L82.5 88.25L84.15 88.87L85.8 89.5L87.45 90.13L89.1 90.75L90.75 91.38L92.4 92L94.05 92.63L95.7 93.25L97.35 93.88L99 94.5L100.65 95.13L102.3 95.75L103.95 96.38L105.6 97L107.25 97.63L108.9 98.25L110.55 98.88L112.2 99.5L113.85 100.13L115.5 100.75L117.15 101.37L118.8 102L120.45 102.63L122.1 103.25L123.75 103.88L125.4 104.5L127.05 105.13L128.7 105.75L130.35 106.38L132 107L133.65 107.62L135.3 108.25L136.95 108.88L138.6 109.5L140.25 110.13L141.9 110.75L143.55 111.38L145.2 112L146.85 112.63L148.5 113.25L150.15 113.87L151.8 114.5L153.45 115.13L155.1 115.75L156.75 116.38L158.4 117L160.05 117.63L161.7 118.25L163.35 118.88L165 119.5L166.65 120.12L168.3 120.75L169.95 121.38L171.6 122L173.25 122.63L174.9 123.25L176.55 123.88L178.2 124.5L179.85 125.13L181.5 125.75L183.15 126.37L184.8 127L186.45 127.62L188.1 128.25L189.75 128.88L191.4 129.5L193.05 130.13L194.7 130.75L196.35 131.38L198 132L199.65 132.62L201.3 133.25L202.95 133.88L204.6 134.5L206.25 135.13L207.9 135.75L209.55 136.38L211.2 137L212.85 137.63L214.5 138.25L216.15 138.88L217.8 139.5L219.45 140.13L221.1 140.75L222.75 141.38L224.4 142L226.05 142.63L227.7 143.25L229.35 143.88L231 144.5L232.65 145.12L234.3 145.75L235.95 146.38L237.6 147L239.25 147.63L240.9 148.25L242.55 148.88L244.2 149.5L245.85 150.13L247.5 150.75L249.15 151.37L250.8 152L252.45 152.63L254.1 153.25L255.75 153.88L257.4 154.5L259.05 155.13L260.7 155.75L262.35 156.38L264 157L265.65 157.63L267.3 158.25L268.95 158.88L270.6 159.5L272.25 160.13L273.9 160.75L275.55 161.38L277.2 162L278.85 162.63L280.5 163.25L282.15 163.87L283.8 164.5L285.45 165.13L287.1 165.75L288.75 166.38L290.4 167L292.05 167.63L293.7 168.25L295.35 168.88L297 169.5L298.65 170.12L300.3 170.75L301.95 171.38L303.6 172L305.25 172.63L306.9 173.25L308.55 173.88L310.2 174.5L311.85 175.13L313.5 175.75L315.15 176.37L316.8 177L318.45 177.63L320.1 178.25L321.75 178.88L323.4 179.5L325.05 180.13L326.7 180.75L328.35 181.38L330 182L331.65 182.62L333.3 183.25L334.95 183.88L336.6 184.5L338.25 185.13L339.9 185.75L341.55 186.38L343.2 187L344.85 187.63L346.5 188.25L348.15 188.87L349.8 189.5L351.45 190.13L353.1 190.75L354.75 191.38L356.4 192L358.05 192.63L359.7 193.25L361.35 193.88L363 194.5L364.65 195.13L366.3 195.75L367.95 196.38L369.6 197L371.25 197.63L372.9 198.25L374.55 198.88L376.2 199.5L377.85 200.13L379.5 200.75L381.15 201.37L382.8 202L384.45 202.63L386.1 203.25L387.75 203.88L389.4 204.5L391.05 205.13L392.7 205.75L394.35 206.38L396 207L397.65 207.62L399.3 208.25L400.95 208.88L402.6 209.5L404.25 210.13L405.9 210.75L407.55 211.38L409.2 212L410.85 212.63L412.5 213.25L414.15 213.87L415.8 214.5L417.45 215.13L419.1 215.75L420.75 216.38L422.4 217L424.05 217.63L425.7 218.25L427.35 218.88L429 219.5L430.65 220.13L432.3 220.75L433.95 221.38L435.6 222L437.25 222.63L438.9 223.25L440.55 223.88L442.2 224.5L443.85 225.13L445.5 225.75L447.15 226.37L448.8 227L450.45 227.63L452.1 228.25L453.75 228.88L455.4 229.5L457.05 230.13L458.7 230.75L460.35 231.38L462 232" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="66" cy="82" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="76" y="72" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="76" dy="0">без нагрузки: 5 В</tspan></text>
+<circle cx="145.2" cy="112" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="155.2" y="100" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="155.2" dy="0">1 А → 4,7 В</tspan></text>
+<circle cx="303.6" cy="172" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="313.6" y="160" text-anchor="start" font-size="14" font-weight="600" fill="currentColor"><tspan x="313.6" dy="0">3 А → 4,1 В</tspan></text>
+</g></svg>

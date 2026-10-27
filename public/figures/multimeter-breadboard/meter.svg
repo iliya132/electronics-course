@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Мультиметр: гнёзда и режимы</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="24" y="14" width="200" height="296" rx="18" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.5"/>
+<rect x="44" y="34" width="160" height="50" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="124" y="70" text-anchor="middle" font-size="30" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="124" dy="0">1.50</tspan></text>
+<circle cx="124" cy="160" r="48" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<circle cx="124" cy="160" r="6" fill="currentColor" stroke="currentColor" stroke-width="2"/>
+<line x1="124" y1="160" x2="124" y2="120" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+<text x="65.11" y="131" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="65.11" dy="0">V⎓</tspan></text>
+<text x="124" y="97" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="124" dy="0">V~</tspan></text>
+<text x="179.7" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="179.7" dy="0">Ω ·))</tspan></text>
+<text x="182.89" y="199" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="182.89" dy="0">A</tspan></text>
+<text x="124" y="233" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="124" dy="0">mA</tspan></text>
+<text x="65.11" y="199" text-anchor="middle" font-size="12" font-weight="700" fill="var(--muted, #5b6573)"><tspan x="65.11" dy="0">OFF</tspan></text>
+<circle cx="58" cy="262" r="12" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3"/>
+<circle cx="58" cy="262" r="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="58" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="58" dy="0">10A</tspan></text>
+<circle cx="96" cy="262" r="12" fill="none" stroke="var(--bad, #b3261e)" stroke-width="3"/>
+<circle cx="96" cy="262" r="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="96" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="96" dy="0">mA</tspan></text>
+<circle cx="134" cy="262" r="12" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3"/>
+<circle cx="134" cy="262" r="4" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2"/>
+<text x="134" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="134" dy="0">VΩ</tspan></text>
+<circle cx="172" cy="262" r="12" fill="none" stroke="currentColor" stroke-width="3"/>
+<circle cx="172" cy="262" r="4" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="172" y="292" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="172" dy="0">COM</tspan></text>
+<text x="240" y="44" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Куда вставлять красный щуп:</tspan></text>
+<text x="244" y="76" text-anchor="start" font-size="13" font-weight="600" fill="currentColor"><tspan x="244" dy="0">COM: всегда чёрный щуп</tspan></text>
+<text x="244" y="110" text-anchor="start" font-size="13" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="244" dy="0">VΩ: красный (U, R, прозвонка)</tspan></text>
+<text x="244" y="144" text-anchor="start" font-size="13" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="244" dy="0">mA: красный для малых токов</tspan></text>
+<text x="244" y="178" text-anchor="start" font-size="13" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="244" dy="0">10A: красный для больших токов</tspan></text>
+<text x="240" y="262" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Токовые гнёзда (mA и 10A)</tspan><tspan x="240" dy="15.6">защищены предохранителем и</tspan><tspan x="240" dy="15.6">имеют почти нулевое</tspan><tspan x="240" dy="15.6">сопротивление.</tspan></text>
+</g></svg>

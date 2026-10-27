@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Энергия и ёмкость повербанка</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Откуда берётся «потерянная» ёмкость (расчёт)</tspan></text>
+<line x1="60" y1="228" x2="450" y2="228" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="80" y="65.2" width="80" height="162.8" rx="3" fill="var(--warn, #9a6700)" stroke="var(--warn, #9a6700)" stroke-width="2"/>
+<text x="120" y="57.2" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="120" dy="0">7,4 Вт·ч</tspan></text>
+<text x="120" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor"><tspan x="120" dy="0">на ячейке</tspan></text>
+<text x="120" y="264" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="120" dy="0">2000 мА·ч · 3,7 В</tspan></text>
+<rect x="205" y="89.62" width="80" height="138.38" rx="3" fill="var(--accent, #2457d6)" stroke="var(--accent, #2457d6)" stroke-width="2"/>
+<text x="245" y="81.62" text-anchor="middle" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="245" dy="0">6,29 Вт·ч</tspan></text>
+<text x="245" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor"><tspan x="245" dy="0">после boost</tspan></text>
+<text x="245" y="264" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="245" dy="0">КПД 85 %</tspan></text>
+<rect x="330" y="89.62" width="80" height="138.38" rx="3" fill="var(--ok, #1a7f4b)" stroke="var(--ok, #1a7f4b)" stroke-width="2"/>
+<text x="370" y="81.62" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="370" dy="0">1258 мА·ч</tspan></text>
+<text x="370" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor"><tspan x="370" dy="0">в пересчёте</tspan></text>
+<text x="370" y="264" text-anchor="middle" font-size="10.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="370" dy="0">= 1258 мА·ч при 5 В</tspan></text>
+<text x="240" y="292" text-anchor="middle" font-size="11.5" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">7,4 Вт·ч × 0,85 = 6,29 Вт·ч; 6,29 / 5 В = 1,258 А·ч</tspan></text>
+</g></svg>

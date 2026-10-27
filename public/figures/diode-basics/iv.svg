@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>ВАХ кремниевого диода (модель)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">ВАХ кремниевого диода (модель)</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="145.2" y1="62" x2="145.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="145.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="145.2" dy="0">0,2</tspan></text>
+<line x1="224.4" y1="62" x2="224.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="224.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="224.4" dy="0">0,4</tspan></text>
+<line x1="303.6" y1="62" x2="303.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="303.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="303.6" dy="0">0,6</tspan></text>
+<line x1="382.8" y1="62" x2="382.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="382.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="382.8" dy="0">0,8</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">1</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="245.33" x2="462" y2="245.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="250.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">10</tspan></text>
+<line x1="66" y1="208.67" x2="462" y2="208.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="213.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">20</tspan></text>
+<line x1="66" y1="172" x2="462" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">30</tspan></text>
+<line x1="66" y1="135.33" x2="462" y2="135.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="140.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">40</tspan></text>
+<line x1="66" y1="98.67" x2="462" y2="98.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="103.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">50</tspan></text>
+<line x1="66" y1="62" x2="462" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">60</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Напряжение на диоде, В</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Ток, мА</tspan></text>
+<path d="M66 282L67.65 282L69.3 282L70.95 282L72.6 282L74.25 282L75.9 282L77.55 282L79.2 282L80.85 282L82.5 282L84.15 282L85.8 282L87.45 282L89.1 282L90.75 282L92.4 282L94.05 282L95.7 282L97.35 282L99 282L100.65 282L102.3 282L103.95 282L105.6 282L107.25 282L108.9 282L110.55 282L112.2 282L113.85 282L115.5 282L117.15 282L118.8 282L120.45 282L122.1 282L123.75 282L125.4 282L127.05 282L128.7 282L130.35 282L132 282L133.65 282L135.3 282L136.95 282L138.6 282L140.25 282L141.9 282L143.55 282L145.2 282L146.85 282L148.5 282L150.15 282L151.8 282L153.45 282L155.1 282L156.75 282L158.4 282L160.05 282L161.7 282L163.35 282L165 282L166.65 282L168.3 282L169.95 282L171.6 282L173.25 282L174.9 282L176.55 282L178.2 282L179.85 281.99L181.5 281.99L183.15 281.99L184.8 281.99L186.45 281.99L188.1 281.99L189.75 281.99L191.4 281.99L193.05 281.99L194.7 281.99L196.35 281.99L198 281.99L199.65 281.99L201.3 281.98L202.95 281.98L204.6 281.98L206.25 281.98L207.9 281.98L209.55 281.98L211.2 281.97L212.85 281.97L214.5 281.97L216.15 281.97L217.8 281.96L219.45 281.96L221.1 281.96L222.75 281.95L224.4 281.95L226.05 281.94L227.7 281.94L229.35 281.93L231 281.93L232.65 281.92L234.3 281.91L235.95 281.9L237.6 281.9L239.25 281.89L240.9 281.88L242.55 281.87L244.2 281.85L245.85 281.84L247.5 281.83L249.15 281.81L250.8 281.79L252.45 281.78L254.1 281.76L255.75 281.73L257.4 281.71L259.05 281.69L260.7 281.66L262.35 281.63L264 281.59L265.65 281.56L267.3 281.52L268.95 281.48L270.6 281.43L272.25 281.38L273.9 281.32L275.55 281.26L277.2 281.2L278.85 281.13L280.5 281.05L282.15 280.97L283.8 280.87L285.45 280.77L287.1 280.66L288.75 280.55L290.4 280.42L292.05 280.28L293.7 280.12L295.35 279.96L297 279.78L298.65 279.58L300.3 279.36L301.95 279.13L303.6 278.87L305.25 278.6L306.9 278.29L308.55 277.97L310.2 277.61L311.85 277.22L313.5 276.79L315.15 276.33L316.8 275.83L318.45 275.28L320.1 274.68L321.75 274.04L323.4 273.33L325.05 272.56L326.7 271.72L328.35 270.81L330 269.82L331.65 268.73L333.3 267.56L334.95 266.27L336.6 264.88L338.25 263.36L339.9 261.7L341.55 259.9L343.2 257.94L344.85 255.81L346.5 253.48L348.15 250.95L349.8 248.19L351.45 245.19L353.1 241.93L354.75 238.37L356.4 234.5L358.05 230.28L359.7 225.69L361.35 220.7L363 215.25L364.65 209.33L366.3 202.88L367.95 195.86L369.6 188.21L371.25 179.89L372.9 170.83L374.55 160.96L376.2 150.22L377.85 138.52L379.5 125.79L381.15 111.92L382.8 96.83L384.45 80.39L386.1 62.5L387.75 57.6L389.4 57.6L391.05 57.6L392.7 57.6L394.35 57.6L396 57.6L397.65 57.6L399.3 57.6L400.95 57.6L402.6 57.6L404.25 57.6L405.9 57.6L407.55 57.6L409.2 57.6L410.85 57.6L412.5 57.6L414.15 57.6L415.8 57.6L417.45 57.6L419.1 57.6L420.75 57.6L422.4 57.6L424.05 57.6L425.7 57.6L427.35 57.6L429 57.6L430.65 57.6L432.3 57.6L433.95 57.6L435.6 57.6L437.25 57.6L438.9 57.6L440.55 57.6L442.2 57.6L443.85 57.6L445.5 57.6L447.15 57.6L448.8 57.6L450.45 57.6L452.1 57.6L453.75 57.6L455.4 57.6L457.05 57.6L458.7 57.6L460.35 57.6L462 57.6" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="306.77" cy="278.33" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="298.77" y="266.33" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="298.77" dy="0">1 мА: 0,61 В</tspan></text>
+<circle cx="351.12" cy="245.33" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="343.12" y="233.33" text-anchor="end" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="343.12" dy="0">10 мА: 0,72 В</tspan></text>
+<circle cx="382.8" cy="96.83" r="5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="374.8" y="118.83" text-anchor="end" font-size="14" font-weight="600" fill="currentColor"><tspan x="374.8" dy="0">50 мА: 0,80 В</tspan></text>
+<text x="85.8" y="84" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="85.8" dy="0">ниже 0,5 В ток почти ноль</tspan></text>
+</g></svg>

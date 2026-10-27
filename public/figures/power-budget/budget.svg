@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Бюджет тока: средний и пиковый</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Ток узлов на шине 3,3 В, мА</tspan></text>
+<text x="24" y="62" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="24" dy="0">Средний: 80 + 20 + 1 + 10 = 111 мА</tspan></text>
+<rect x="24" y="70" width="70.4" height="34" rx="0" fill="var(--accent, #2457d6)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<text x="59.2" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff"><tspan x="59.2" dy="0">80</tspan></text>
+<rect x="94.4" y="70" width="17.6" height="34" rx="0" fill="var(--ok, #1a7f4b)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<rect x="112" y="70" width="0.88" height="34" rx="0" fill="var(--warn, #9a6700)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<rect x="112.88" y="70" width="8.8" height="34" rx="0" fill="var(--bad, #b3261e)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<text x="24" y="142" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="24" dy="0">Пиковый: 350 + 20 + 1 + 10 = 381 мА</tspan></text>
+<rect x="24" y="150" width="308" height="34" rx="0" fill="var(--accent, #2457d6)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<text x="178" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff"><tspan x="178" dy="0">350</tspan></text>
+<rect x="332" y="150" width="17.6" height="34" rx="0" fill="var(--ok, #1a7f4b)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<rect x="349.6" y="150" width="0.88" height="34" rx="0" fill="var(--warn, #9a6700)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<rect x="350.48" y="150" width="8.8" height="34" rx="0" fill="var(--bad, #b3261e)" stroke="var(--surface, #f6f7f9)" stroke-width="1" opacity="0.85"/>
+<text x="24" y="214" text-anchor="start" font-size="13" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="24" dy="0">ESP32</tspan></text>
+<text x="94" y="214" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="94" dy="0">OLED</tspan></text>
+<text x="164" y="214" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="164" dy="0">BME280</tspan></text>
+<text x="248" y="214" text-anchor="start" font-size="13" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="248" dy="0">светодиод</tspan></text>
+<text x="240" y="254" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">С запасом 30 % на пик: 381 × 1,3 ≈ 495 мА</tspan></text>
+<text x="240" y="280" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Источник и стабилизатор выбирают по пику, батарею — по среднему</tspan></text>
+</g></svg>

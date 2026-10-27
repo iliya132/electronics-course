@@ -1,3 +1,33 @@
-import {data} from '../course/topic-17.js';
-import {makeFigures} from '../course/figures.js';
-export function generate(){makeFigures('emc-esd-basics',data['emc-esd-basics']);}
+import { diagram, tableFig } from '../lib/diag.js';
+import { out, fresh } from '../lib/fig.js';
+
+export function generate() {
+  fresh('emc-esd-basics');
+
+  diagram({
+    title: 'Защита порта USB: порядок элементов от разъёма к микросхеме',
+    w: 840, h: 280,
+    boxes: [
+      { id: 'j', x: 20, y: 90, w: 130, h: 80, text: 'разъём USB\n(рука, кабель,\nESD)', tone: 'warn', size: 11 },
+      { id: 'f', x: 190, y: 90, w: 120, h: 80, text: 'предохранитель\nPTC 500 мА\n+ ферритовая бусина', tone: 'accent', size: 11 },
+      { id: 't', x: 350, y: 90, w: 130, h: 80, text: 'TVS / ESD-диод\nUSBLC6-2\n(рядом с разъёмом)', tone: 'bad', size: 11 },
+      { id: 'r', x: 520, y: 90, w: 130, h: 80, text: 'резисторы 22 Ом\nна D+ и D−', tone: 'ok', size: 11 },
+      { id: 'm', x: 690, y: 90, w: 130, h: 80, text: 'микросхема\nUSB / МК', tone: 'accent', size: 11 },
+    ],
+    arrows: [['j', 'f'], ['f', 't'], ['t', 'r'], ['r', 'm']],
+    notes: [{ x: 20, y: 230, text: 'защита ставится как можно ближе к разъёму: короткий путь к земле для импульса', size: 12 }],
+  }).save(out('emc-esd-basics', 'usb-protection'));
+
+  tableFig({
+    title: 'Типовые меры защиты и помехоустойчивости',
+    cols: ['Проблема', 'Мера', 'Пример'],
+    rows: [
+      ['Разряд статики на разъём', 'TVS/ESD-диод к земле у разъёма', 'USBLC6-2SC6'],
+      ['Выбросы по питанию', 'TVS на шину + PTC', 'SMAJ5.0A + 500 мА'],
+      ['ВЧ-помехи по питанию', 'ферритовая бусина + конденсаторы', '600 Ом при 100 МГц'],
+      ['Звон и излучение быстрых линий', 'последовательный резистор 22–100 Ом', '22 Ом на тактовой линии'],
+      ['Большие петли тока', 'короткие связи, сплошная земля', 'плоскость GND под всей платой'],
+    ],
+    widths: [1.8, 2.2, 1.8], w: 900,
+  }).save(out('emc-esd-basics', 'measures'));
+}

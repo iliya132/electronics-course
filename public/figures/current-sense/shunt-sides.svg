@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img">
+<title>Нижний и верхний шунт для измерения тока</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="10" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="10" dy="0">Нижний шунт (в «минусе»)</tspan></text>
+<path d="M70 50L230 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="70" cy="50" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="70" y="36" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="70" dy="0">+12 В</tspan></text>
+<path d="M170 50L170 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(170 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="144" y="108" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="144" dy="0">нагрузка</tspan></text>
+<path d="M170 150L170 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="170" cy="180" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(170 220) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="196" y="218" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="196" dy="0">Rшунт</tspan></text>
+<text x="196" y="236" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="196" dy="0">0,1 Ом</tspan></text>
+<path d="M170 260L170 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(170 280)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M170 180L90 180" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="86" y="176" text-anchor="end" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="86" dy="0">к усилителю</tspan></text>
+<text x="230" y="300" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="230" dy="0">земля нагрузки приподнята</tspan><tspan x="230" dy="14.399999999999999">на I·R (0,1 В при 1 А)</tspan></text>
+<text x="380" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="380" dy="0">Верхний шунт (в «плюсе»)</tspan></text>
+<path d="M440 50L600 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="440" cy="50" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="440" y="36" text-anchor="middle" font-size="12" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="440" dy="0">+12 В</tspan></text>
+<path d="M540 50L540 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="540" cy="50" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(540 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="566" y="108" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="566" dy="0">Rшунт</tspan></text>
+<text x="566" y="126" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="566" dy="0">0,1 Ом</tspan></text>
+<path d="M540 150L540 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="540" cy="150" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(540 210) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="566" y="208" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="566" dy="0">нагрузка</tspan></text>
+<path d="M540 250L540 280" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(540 280)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M540 50L460 50" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M540 150L460 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="456" y="100" text-anchor="end" font-size="12" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="456" dy="0">к усилителю</tspan><tspan x="456" dy="14.399999999999999">с высоким</tspan><tspan x="456" dy="14.399999999999999">синфазным</tspan></text>
+<text x="600" y="300" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="600" dy="0">земля общая; усилитель</tspan><tspan x="600" dy="14.399999999999999">выдерживать напряжение шины</tspan></text>
+</g></svg>

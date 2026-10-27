@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img">
+<title>Приёмник питания USB-C: резисторы Rd на линиях CC</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="24" y="46" width="116" height="214" rx="10" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.5"/>
+<text x="82" y="70" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="82" dy="0">USB-C</tspan></text>
+<text x="130" y="101" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="130" dy="0">VBUS</tspan></text>
+<circle cx="140" cy="96" r="4" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="130" y="141" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="130" dy="0">CC1</tspan></text>
+<circle cx="140" cy="136" r="4" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="130" y="181" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="130" dy="0">CC2</tspan></text>
+<circle cx="140" cy="176" r="4" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="130" y="231" text-anchor="end" font-size="13" font-weight="700" fill="currentColor"><tspan x="130" dy="0">GND</tspan></text>
+<circle cx="140" cy="226" r="4" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M140 96L430 96" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="434" cy="96" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="300" y="86" text-anchor="start" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="300" dy="0">5 В на плату</tspan></text>
+<path d="M140 136L330 136L330 172" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 204) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-24M24 0H32"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="352" y="202" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="352" dy="0">Rd 5,1 кОм</tspan></text>
+<path d="M140 176L240 176" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(240 204) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-32 0H-24M24 0H32"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="222" y="202" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="222" dy="0">Rd</tspan></text>
+<path d="M240 236L240 262" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330 236L330 262L240 262" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M140 226L170 226L170 262L240 262" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="240" cy="262" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<g transform="translate(240 262)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="240" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="240" dy="0">Без двух Rd зарядка USB-C питание не включит</tspan></text>
+</g></svg>

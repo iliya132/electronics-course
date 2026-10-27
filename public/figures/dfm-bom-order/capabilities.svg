@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 302" role="img">
+<title>Типичные возможности недорогого производства (ориентиры, проверяй актуальные)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="400" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="400" dy="0">Типичные возможности недорогого производства (ориентиры, проверяй актуальные)</tspan></text>
+<rect x="20" y="42" width="760" height="34" rx="6" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.2"/>
+<text x="28" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Параметр</tspan></text>
+<text x="332" y="64" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="332" dy="0">Типичное значение</tspan></text>
+<line x1="20" y1="76" x2="780" y2="76" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="98" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Слои</tspan></text>
+<text x="332" y="98" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">2 (дёшево), 4 и более (дороже)</tspan></text>
+<line x1="20" y1="110" x2="780" y2="110" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="132" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Толщина платы</tspan></text>
+<text x="332" y="132" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">1,6 мм</tspan></text>
+<line x1="20" y1="144" x2="780" y2="144" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="166" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Мин. ширина дорожки / зазор</tspan></text>
+<text x="332" y="166" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">0,127–0,15 мм (безопасно 0,2 мм)</tspan></text>
+<line x1="20" y1="178" x2="780" y2="178" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="200" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Мин. сверло переходного</tspan></text>
+<text x="332" y="200" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">0,3 мм (безопасно 0,4 мм)</tspan></text>
+<line x1="20" y1="212" x2="780" y2="212" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="234" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Мин. кольцо площадки</tspan></text>
+<text x="332" y="234" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">0,13 мм</tspan></text>
+<line x1="20" y1="246" x2="780" y2="246" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="28" y="268" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="28" dy="0">Расстояние до края</tspan></text>
+<text x="332" y="268" text-anchor="start" font-size="13" font-weight="400" fill="currentColor"><tspan x="332" dy="0">0,3 мм и больше</tspan></text>
+</g></svg>

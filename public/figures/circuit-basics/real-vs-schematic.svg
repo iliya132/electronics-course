@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Реальные детали и их схема</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="12" y="26" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="12" dy="0">Как выглядят детали</tspan></text>
+<text x="262" y="26" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="262" dy="0">Как рисуют на схеме</tspan></text>
+<line x1="246" y1="40" x2="246" y2="290" stroke="var(--border, #e3e6ea)" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="30" y="70" width="108" height="44" rx="8" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.2"/>
+<rect x="138" y="84" width="10" height="16" rx="2" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2"/>
+<text x="44" y="98" text-anchor="start" font-size="22" font-weight="700" fill="currentColor"><tspan x="44" dy="0">−</tspan></text>
+<text x="112" y="98" text-anchor="start" font-size="22" font-weight="700" fill="currentColor"><tspan x="112" dy="0">+</tspan></text>
+<text x="84" y="130" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="84" dy="0">батарейка</tspan></text>
+<circle cx="196" cy="196" r="24" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<path d="M184 202l4-12 8 12 8-12 4 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="184" y="220" width="24" height="14" rx="2" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2"/>
+<text x="196" y="258" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="196" dy="0">лампа</tspan></text>
+<rect x="40" y="196" width="70" height="14" rx="3" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2"/>
+<circle cx="50" cy="196" r="4" fill="currentColor" stroke="currentColor" stroke-width="2"/>
+<circle cx="100" cy="196" r="4" fill="currentColor" stroke="currentColor" stroke-width="2"/>
+<line x1="50" y1="196" x2="94" y2="170" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<text x="75" y="236" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="75" dy="0">выключатель</tspan></text>
+<path d="M148 92H196V172" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M196 220V268H100V204" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50 202H14V92H30" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(296 166) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<g transform="translate(368 82) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-22M22 0H40"/><path d="M-22 0L18 -20"/><circle cx="-22" r="3" fill="currentColor"/><circle cx="22" r="3" fill="currentColor"/></g>
+<g transform="translate(440 166) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-16M16 0H40"/><circle r="16"/><path d="M-11 -11L11 11M-11 11L11 -11"/></g>
+<path d="M296 126L296 82L328 82" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M408 82L440 82L440 126" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M440 206L440 250L296 250L296 206" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</g></svg>

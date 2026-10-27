@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" role="img">
+<title>Серво и мотор: отдельное питание и общая земля</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="120" width="150" height="110" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="120" width="150" height="110" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="105" y="164.4" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="105" dy="0">Arduino</tspan><tspan x="105" dy="15.6">D9 → серво</tspan><tspan x="105" dy="15.6">D5 → затвор MOSFET</tspan></text>
+<rect x="330" y="30" width="150" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="330" y="30" width="150" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="405" y="57.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="405" dy="0">серво SG90</tspan><tspan x="405" dy="15.6">3 провода</tspan></text>
+<rect x="330" y="200" width="150" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="330" y="200" width="150" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="405" y="227.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="405" dy="0">MOSFET IRLZ44N</tspan><tspan x="405" dy="15.6">+ диод на мотор</tspan></text>
+<rect x="600" y="200" width="150" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="200" width="150" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="675" y="235" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="675" dy="0">мотор 6–12 В</tspan></text>
+<rect x="600" y="30" width="160" height="80" rx="8" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="600" y="30" width="160" height="80" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="680" y="60.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="680" dy="0">внешний БП 5 В 2 А</tspan><tspan x="680" dy="14.399999999999999">+ 470 мкФ</tspan><tspan x="680" dy="14.399999999999999">по питанию серво</tspan></text>
+<rect x="330" y="310" width="150" height="40" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="330" y="310" width="150" height="40" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="405" y="335" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="405" dy="0">общая земля GND</tspan></text>
+<line x1="180" y1="146.25" x2="321.6" y2="91.97" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M330 88.75L319.82 87.35L323.37 96.59Z" fill="currentColor" stroke="none"/>
+<text x="255" y="109.5" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="255" dy="0">сигнал</tspan></text>
+<line x1="180" y1="188.75" x2="321.15" y2="214.63" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M330 216.25L322.04 209.76L320.25 219.5Z" fill="currentColor" stroke="none"/>
+<text x="255" y="194.5" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="255" dy="0">ШИМ</tspan></text>
+<line x1="600" y1="67.09" x2="488.99" y2="63.05" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M480 62.73L488.81 68L489.17 58.11Z" fill="currentColor" stroke="none"/>
+<text x="540" y="56.91" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="540" dy="0">+5 В</tspan></text>
+<line x1="480" y1="230" x2="591" y2="230" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M600 230L591 225.05L591 234.95Z" fill="currentColor" stroke="none"/>
+<line x1="180" y1="213.75" x2="358.29" y2="305.87" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M366.29 310L360.57 301.47L356.02 310.27Z" fill="currentColor" stroke="none"/>
+<line x1="637.69" y1="110" x2="432.69" y2="303.82" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<path d="M426.15 310L436.09 307.41L429.29 300.22Z" fill="currentColor" stroke="none"/>
+</g></svg>

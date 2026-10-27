@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img">
+<title>OLED SSD1306 и логический анализатор на шине I²C</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="90" width="180" height="120" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="90" width="180" height="120" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="120" y="138.2" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="120" dy="0">Arduino Uno</tspan><tspan x="120" dy="16.8">A4 = SDA</tspan><tspan x="120" dy="16.8">A5 = SCL</tspan></text>
+<rect x="500" y="40" width="200" height="80" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="500" y="40" width="200" height="80" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="600" y="76.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="600" dy="0">OLED 128×64</tspan><tspan x="600" dy="16.8">SSD1306, 0x3C</tspan></text>
+<rect x="500" y="180" width="200" height="80" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="500" y="180" width="200" height="80" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="600" y="210.6" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="600" dy="0">логический анализатор</tspan><tspan x="600" dy="14.399999999999999">каналы CH0 (SDA),</tspan><tspan x="600" dy="14.399999999999999">CH1 (SCL), GND</tspan></text>
+<line x1="210" y1="136.88" x2="491.09" y2="95.88" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M500 94.58L490.38 90.98L491.81 100.78Z" fill="currentColor" stroke="none"/>
+<line x1="500" y1="94.58" x2="218.91" y2="135.58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 136.88L219.62 140.47L218.19 130.68Z" fill="currentColor" stroke="none"/>
+<text x="355" y="107.73" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="355" dy="0">SDA, SCL</tspan></text>
+<line x1="210" y1="163.13" x2="491.09" y2="204.12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M500 205.42L491.81 199.22L490.38 209.02Z" fill="currentColor" stroke="none"/>
+<text x="355" y="176.27" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="355" dy="0">щупы</tspan></text>
+<text x="30" y="280" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="30" dy="0">анализатор — параллельно шине, общая земля обязательна</tspan></text>
+</g></svg>

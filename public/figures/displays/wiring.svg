@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" role="img">
+<title>Подключение I²C-дисплея к Arduino Uno</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="40" y="80" width="170" height="140" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="40" y="80" width="170" height="140" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="125" y="129.8" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="125" dy="0">Arduino Uno</tspan><tspan x="125" dy="16.8">A4 = SDA</tspan><tspan x="125" dy="16.8">A5 = SCL</tspan><tspan x="125" dy="16.8">5 V, GND</tspan></text>
+<rect x="420" y="40" width="170" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="420" y="40" width="170" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="505" y="66.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="505" dy="0">OLED 128×64</tspan><tspan x="505" dy="16.8">адрес 0x3C</tspan></text>
+<rect x="420" y="170" width="170" height="60" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="420" y="170" width="170" height="60" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="505" y="196.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="505" dy="0">LCD1602</tspan><tspan x="505" dy="16.8">адрес 0x27</tspan></text>
+<rect x="620" y="100" width="100" height="60" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="620" y="100" width="100" height="60" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="670" y="127.8" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="670" dy="0">подтяжки</tspan><tspan x="670" dy="14.399999999999999">4,7 кОм</tspan></text>
+<line x1="210" y1="132.11" x2="411.19" y2="89.75" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M420 87.89L410.17 84.91L412.21 94.59Z" fill="currentColor" stroke="none"/>
+<line x1="420" y1="87.89" x2="218.81" y2="130.25" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 132.11L219.83 135.09L217.79 125.41Z" fill="currentColor" stroke="none"/>
+<text x="315" y="102" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="315" dy="0">SDA, SCL</tspan></text>
+<line x1="210" y1="161.18" x2="411.08" y2="187.64" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M420 188.82L411.72 182.73L410.43 192.55Z" fill="currentColor" stroke="none"/>
+<line x1="420" y1="188.82" x2="218.92" y2="162.36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M210 161.18L218.28 167.27L219.57 157.45Z" fill="currentColor" stroke="none"/>
+<text x="315" y="167" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="315" dy="0">SDA, SCL</tspan></text>
+<line x1="620" y1="111.82" x2="595.96" y2="103.08" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M587.5 100L594.27 107.73L597.65 98.42Z" fill="currentColor" stroke="none"/>
+<line x1="620" y1="151.21" x2="584" y2="166.49" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M575.71 170L585.93 171.04L582.07 161.93Z" fill="currentColor" stroke="none"/>
+<text x="40" y="270" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="40" dy="0">два устройства на одной шине: адреса разные; подтяжки обычно уже стоят на модулях</tspan></text>
+</g></svg>

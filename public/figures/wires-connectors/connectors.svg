@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Типичные разъёмы электроники</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(0 0)">
+<rect x="16" y="36" width="12" height="12" rx="1" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="22" y1="48" x2="22" y2="70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<rect x="34" y="36" width="12" height="12" rx="1" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="40" y1="48" x2="40" y2="70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<rect x="52" y="36" width="12" height="12" rx="1" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="58" y1="48" x2="58" y2="70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<rect x="70" y="36" width="12" height="12" rx="1" fill="currentColor" stroke="none" stroke-width="2"/>
+<line x1="76" y1="48" x2="76" y2="70" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</g>
+<text x="108" y="50" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="108" dy="0">Dupont 2,54 мм</tspan></text>
+<text x="108" y="70" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="108" dy="0">около 1 А на контакт</tspan></text>
+<g transform="translate(240 0)">
+<rect x="14" y="32" width="80" height="34" rx="4" fill="#e8e4d8" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<circle cx="32" cy="49" r="5" fill="#caa12a" stroke="none" stroke-width="2"/>
+<circle cx="56" cy="49" r="5" fill="#caa12a" stroke="none" stroke-width="2"/>
+<circle cx="80" cy="49" r="5" fill="#caa12a" stroke="none" stroke-width="2"/>
+<rect x="52" y="28" width="14" height="5" rx="1" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+</g>
+<text x="348" y="50" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="348" dy="0">JST-XH 2,5 мм</tspan></text>
+<text x="348" y="70" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="348" dy="0">до 3 А, есть ключ</tspan></text>
+<g transform="translate(0 108)">
+<rect x="14" y="28" width="80" height="44" rx="4" fill="#2b8b45" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<circle cx="36" cy="44" r="11" fill="#cfcfcf" stroke="var(--muted, #5b6573)" stroke-width="1.5"/>
+<line x1="30" y1="44" x2="42" y2="44" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+<circle cx="72" cy="44" r="11" fill="#cfcfcf" stroke="var(--muted, #5b6573)" stroke-width="1.5"/>
+<line x1="66" y1="44" x2="78" y2="44" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+</g>
+<text x="108" y="158" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="108" dy="0">Винтовая клемма</tspan></text>
+<text x="108" y="178" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="108" dy="0">до 10 А, шаг 5,08 мм</tspan></text>
+<g transform="translate(240 108)">
+<rect x="18" y="30" width="70" height="38" rx="8" fill="#f2c200" stroke="var(--muted, #5b6573)" stroke-width="2"/>
+<rect x="30" y="40" width="18" height="18" rx="3" fill="#222" stroke="none" stroke-width="2"/>
+<rect x="60" y="40" width="18" height="18" rx="3" fill="#222" stroke="none" stroke-width="2"/>
+</g>
+<text x="348" y="158" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="348" dy="0">XT60 (батареи)</tspan></text>
+<text x="348" y="178" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="348" dy="0">до 60 А</tspan></text>
+<g transform="translate(0 216)">
+<rect x="14" y="38" width="84" height="24" rx="12" fill="none" stroke="currentColor" stroke-width="3"/>
+<rect x="22" y="46" width="68" height="8" rx="4" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+</g>
+<text x="108" y="266" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="108" dy="0">USB-C</tspan></text>
+<text x="108" y="286" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="108" dy="0">до 3 А (5 А с чипом)</tspan></text>
+<g transform="translate(240 216)">
+<path d="M16 40h84l-8 22h-68z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="30" y="50" width="54" height="6" rx="2" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2"/>
+</g>
+<text x="348" y="266" text-anchor="start" font-size="12" font-weight="700" fill="currentColor"><tspan x="348" dy="0">USB Micro-B</tspan></text>
+<text x="348" y="286" text-anchor="start" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="348" dy="0">до 1,8 А, хрупкий</tspan></text>
+</g></svg>

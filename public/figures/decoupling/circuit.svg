@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img">
+<title>Питание микросхемы через дорожку с индуктивностью и развязывающий конденсатор</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<g transform="translate(56 150) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-6M-6 -18V18M6 -9V9M6 0H40"/><path d="M-20 -22h8M-16 -26v8" stroke-width="1.5"/></g>
+<path d="M56 110L56 70L100 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(140 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0c0 -16 12 -16 12 0H40"/></g>
+<text x="140" y="42" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="140" dy="0">L дорожки</tspan></text>
+<path d="M180 70L310 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M56 190L56 240L420 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="270" cy="70" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M270 70L270 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(270 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-5M-5 -18V18M5 -18V18M5 0H40"/></g>
+<text x="244" y="158" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="244" dy="0">C 100 нФ</tspan></text>
+<path d="M270 200L270 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="270" cy="240" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<rect x="330" y="90" width="100" height="120" rx="8" fill="var(--surface, #f6f7f9)" stroke="currentColor" stroke-width="2.5"/>
+<text x="380" y="145" text-anchor="middle" font-size="20" font-weight="700" fill="currentColor"><tspan x="380" dy="0">МК</tspan></text>
+<text x="380" y="166" text-anchor="middle" font-size="11" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="380" dy="0">ключи</tspan><tspan x="380" dy="13.2">переключаются</tspan></text>
+<path d="M310 70L380 70L380 90" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M380 210L380 240" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="380" cy="240" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<text x="240" y="24" text-anchor="middle" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240" dy="0">Конденсатор рядом с выводом отдаёт ток быстрее дорожки</tspan></text>
+<text x="240" y="274" text-anchor="middle" font-size="13" font-weight="600" fill="var(--accent, #2457d6)"><tspan x="240" dy="0">Чем короче путь до вывода, тем меньше индуктивность</tspan></text>
+</g></svg>

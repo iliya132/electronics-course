@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" role="img">
+<title>Кварцевый резонатор с нагрузочными конденсаторами</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="30" y="90" width="170" height="120" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="30" y="90" width="170" height="120" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="115" y="138.2" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="115" dy="0">МК</tspan><tspan x="115" dy="16.8">XTAL1 ... XTAL2</tspan><tspan x="115" dy="16.8">генератор внутри</tspan></text>
+<rect x="300" y="120" width="140" height="60" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="300" y="120" width="140" height="60" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="370" y="147.2" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="370" dy="0">кварц Y1</tspan><tspan x="370" dy="15.6">16 МГц, CL = 12 пФ</tspan></text>
+<rect x="270" y="240" width="100" height="44" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="270" y="240" width="100" height="44" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="320" y="267" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="320" dy="0">C1 = 18 пФ</tspan></text>
+<rect x="380" y="240" width="100" height="44" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="380" y="240" width="100" height="44" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="430" y="267" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor"><tspan x="430" dy="0">C2 = 18 пФ</tspan></text>
+<rect x="290" y="305" width="170" height="26" rx="8" fill="var(--muted, #5b6573)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="290" y="305" width="170" height="26" rx="8" fill="none" stroke="var(--muted, #5b6573)" stroke-width="2.2"/>
+<text x="375" y="323" text-anchor="middle" font-size="12" font-weight="600" fill="currentColor"><tspan x="375" dy="0">земля</tspan></text>
+<line x1="200" y1="150" x2="291" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M300 150L291 145.05L291 154.95Z" fill="currentColor" stroke="none"/>
+<line x1="300" y1="150" x2="209" y2="150" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M200 150L209 154.95L209 145.05Z" fill="currentColor" stroke="none"/>
+<line x1="356.61" y1="180" x2="333.49" y2="231.78" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M329.82 240L338.01 233.8L328.97 229.76Z" fill="currentColor" stroke="none"/>
+<line x1="386.07" y1="180" x2="413.96" y2="232.07" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M418.21 240L418.33 229.73L409.6 234.4Z" fill="currentColor" stroke="none"/>
+<line x1="341.61" y1="284" x2="355.93" y2="298.58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M362.23 305L359.46 295.11L352.39 302.05Z" fill="currentColor" stroke="none"/>
+<line x1="408.39" y1="284" x2="394.07" y2="298.58" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M387.77 305L397.61 302.05L390.54 295.11Z" fill="currentColor" stroke="none"/>
+<text x="500" y="130" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="500" dy="0">CL = C1·C2/(C1 + C2) + Cпар</tspan><tspan x="500" dy="15.6">= 18·18/36 + 3 = 12 пФ</tspan></text>
+<text x="500" y="190" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="500" dy="0">Cпар — паразитная ёмкость</tspan><tspan x="500" dy="14.399999999999999">дорожек и выводов, 2–5 пФ</tspan></text>
+</g></svg>

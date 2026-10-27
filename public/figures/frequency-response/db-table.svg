@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img">
+<title>Соответствие отношения напряжений и децибел</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Усиление по напряжению: раз ↔ дБ</tspan></text>
+<text x="120" y="64" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×100</tspan></text>
+<text x="160" y="64" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="64" text-anchor="start" font-size="17" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="190" dy="0">+40 дБ</tspan></text>
+<rect x="260" y="47" width="128" height="20" rx="3" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="97" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×10</tspan></text>
+<text x="160" y="97" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="97" text-anchor="start" font-size="17" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="190" dy="0">+20 дБ</tspan></text>
+<rect x="260" y="80" width="64" height="20" rx="3" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="130" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×2</tspan></text>
+<text x="160" y="130" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="130" text-anchor="start" font-size="17" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="190" dy="0">+6 дБ</tspan></text>
+<rect x="260" y="113" width="19.2" height="20" rx="3" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="163" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×1</tspan></text>
+<text x="160" y="163" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="163" text-anchor="start" font-size="17" font-weight="700" fill="currentColor"><tspan x="190" dy="0">0 дБ</tspan></text>
+<rect x="260" y="146" width="2" height="20" rx="3" fill="currentColor" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="196" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×0,707</tspan></text>
+<text x="160" y="196" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="196" text-anchor="start" font-size="17" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="190" dy="0">−3 дБ</tspan></text>
+<rect x="260" y="179" width="9.6" height="20" rx="3" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="229" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×0,5</tspan></text>
+<text x="160" y="229" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="229" text-anchor="start" font-size="17" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="190" dy="0">−6 дБ</tspan></text>
+<rect x="260" y="212" width="19.2" height="20" rx="3" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="262" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×0,1</tspan></text>
+<text x="160" y="262" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="262" text-anchor="start" font-size="17" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="190" dy="0">−20 дБ</tspan></text>
+<rect x="260" y="245" width="64" height="20" rx="3" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.6"/>
+<text x="120" y="295" text-anchor="end" font-size="17" font-weight="700" fill="currentColor"><tspan x="120" dy="0">×0,01</tspan></text>
+<text x="160" y="295" text-anchor="start" font-size="17" font-weight="400" fill="currentColor"><tspan x="160" dy="0">=</tspan></text>
+<text x="190" y="295" text-anchor="start" font-size="17" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="190" dy="0">−40 дБ</tspan></text>
+<rect x="260" y="278" width="128" height="20" rx="3" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.6"/>
+</g></svg>

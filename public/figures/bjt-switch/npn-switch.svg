@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 370" role="img">
+<title>NPN-транзистор как ключ для нагрузки 100 мА</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M330 40L470 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="470" cy="40" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="470" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="470" dy="0">+5 В</tspan></text>
+<path d="M330 40L330 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 110) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-50 0H-24M24 0H50"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="304" y="108" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="304" dy="0">нагрузка</tspan></text>
+<text x="304" y="126" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="304" dy="0">48 Ом</tspan></text>
+<path d="M330 160L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="308" cy="250" r="40" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+<line x1="260" y1="250" x2="300" y2="250" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="300" y1="230" x2="300" y2="270" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M300 241L330 220L330 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 259L330 280L330 300" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="310" y1="266" x2="320.63" y2="273.44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<path d="M328 278.6L323.47 269.38L317.79 277.49Z" fill="currentColor" stroke="none"/>
+<path d="M330 300L330 322" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(330 322)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<path d="M60 250L130 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(170 250) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="170" y="222" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="170" dy="0">Rб 270 Ом</tspan></text>
+<path d="M210 250L260 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="235" cy="250" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M235 250L235 262" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(235 292) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="209" y="290" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="209" dy="0">Rбэ</tspan></text>
+<text x="209" y="308" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="209" dy="0">10 кОм</tspan></text>
+<path d="M235 322L235 322" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(235 322)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="60" cy="250" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="14" y="282" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="14" dy="0">вывод МК, 3,3 В</tspan></text>
+<line x1="82" y1="250" x2="108" y2="250" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M118 250L108 244.5L108 255.5Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="100" y="236" text-anchor="middle" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="100" dy="0">Iб = 9,6 мА</tspan></text>
+<line x1="330" y1="167" x2="330" y2="187" stroke="var(--accent, #2457d6)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M330 197L335.5 187L324.5 187Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="344" y="187" text-anchor="start" font-size="16" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="344" dy="0">Iк = 100 мА</tspan></text>
+<text x="392" y="236" text-anchor="start" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="392" dy="0">Uкэ ≈ 0,2 В</tspan></text>
+<text x="392" y="258" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="392" dy="0">(насыщение)</tspan></text>
+<text x="392" y="292" text-anchor="start" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="392" dy="0">Uбэ ≈ 0,7 В</tspan></text>
+<text x="392" y="168" text-anchor="start" font-size="14" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="392" dy="0">Uнагр = 4,8 В</tspan></text>
+</g></svg>

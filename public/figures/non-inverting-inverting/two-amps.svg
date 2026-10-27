@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img">
+<title>Неинвертирующий и инвертирующий усилители на ОУ</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="20" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="20" dy="0">Неинвертирующий: K = 1 + Rf/Rg</tspan></text>
+<path d="M40 128L110 128" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40" cy="128" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="30" y="112" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="30" dy="0">Vвх</tspan></text>
+<path d="M150 105L150 195L230 150Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="110" y1="128" x2="150" y2="128" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="110" y1="172" x2="150" y2="172" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="230" y1="150" x2="270" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="158" y="133" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="158" dy="0">+</tspan></text>
+<text x="158" y="177" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="158" dy="0">−</tspan></text>
+<circle cx="290" cy="150" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M270 150L330 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="330" cy="150" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="330" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="330" dy="0">Vвых</tspan></text>
+<path d="M290 150L290 235L250 235" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(210 235) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="210" y="207" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="210" dy="0">Rf</tspan></text>
+<path d="M170 235L110 235L110 172" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110" cy="235" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M110 235L110 250" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(110 280) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="84" y="278" text-anchor="end" font-size="16" font-weight="600" fill="currentColor"><tspan x="84" dy="0">Rg</tspan></text>
+<g transform="translate(110 310)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<text x="410" y="24" text-anchor="start" font-size="15" font-weight="700" fill="currentColor"><tspan x="410" dy="0">Инвертирующий: K = −Rf/Rin</tspan></text>
+<path d="M420 128L440 128" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="420" cy="128" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="410" y="112" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="410" dy="0">Vвх</tspan></text>
+<g transform="translate(470 128) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 0H-24M24 0H30"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="470" y="102" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="470" dy="0">Rin</tspan></text>
+<path d="M500 128L520 128" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M560 105L560 195L640 150Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="520" y1="128" x2="560" y2="128" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="520" y1="172" x2="560" y2="172" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<line x1="640" y1="150" x2="680" y2="150" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+<text x="568" y="133" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="568" dy="0">−</tspan></text>
+<text x="568" y="177" text-anchor="start" font-size="18" font-weight="700" fill="currentColor"><tspan x="568" dy="0">+</tspan></text>
+<path d="M520 172L500 172L500 190" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(500 190)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<circle cx="510" cy="128" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M510 128L510 70L560 70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(600 70) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="600" y="42" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="600" dy="0">Rf</tspan></text>
+<path d="M640 70L700 70L700 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="700" cy="150" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M680 150L740 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="740" cy="150" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="740" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="740" dy="0">Vвых</tspan></text>
+<text x="410" y="250" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="410" dy="0">Rin = 10 кОм, Rf = 22 кОм:</tspan><tspan x="410" dy="14.399999999999999">K = −2,2; вход «+» на землю —</tspan><tspan x="410" dy="14.399999999999999">сигнал инвертируется</tspan></text>
+</g></svg>

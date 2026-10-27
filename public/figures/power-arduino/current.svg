@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 216" role="img">
+<title>Типичное потребление плат Arduino без нагрузки (порядок величин)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="400" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor"><tspan x="400" dy="0">Типичное потребление плат Arduino без нагрузки (порядок величин)</tspan></text>
+<text x="260" y="65" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="260" dy="0">Uno (USB, регулятор, светодиоды)</tspan></text>
+<rect x="270" y="48" width="342" height="24" rx="4" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="620" y="65" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="620" dy="0">≈ 45 мА</tspan></text>
+<text x="260" y="105" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="260" dy="0">Nano (CH340)</tspan></text>
+<rect x="270" y="88" width="152" height="24" rx="4" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="430" y="105" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="430" dy="0">≈ 20 мА</tspan></text>
+<text x="260" y="145" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="260" dy="0">Pro Mini 5 В, без LED</tspan></text>
+<rect x="270" y="128" width="38" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="316" y="145" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="316" dy="0">≈ 5 мА</tspan></text>
+<text x="260" y="185" text-anchor="end" font-size="13" font-weight="600" fill="currentColor"><tspan x="260" dy="0">ATmega328P (чип, 16 МГц)</tspan></text>
+<rect x="270" y="168" width="76" height="24" rx="4" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.55"/>
+<text x="354" y="185" text-anchor="start" font-size="13" font-weight="700" fill="currentColor"><tspan x="354" dy="0">≈ 10 мА</tspan></text>
+</g></svg>

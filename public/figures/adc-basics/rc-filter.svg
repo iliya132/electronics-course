@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img">
+<title>RC-фильтр перед входом АЦП</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M30 110L90 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="30" cy="110" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="30" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="30" dy="0">сигнал</tspan></text>
+<g transform="translate(130 110) rotate(0)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-40 0H-24M24 0H40"/><rect x="-24" y="-9" width="48" height="18" rx="2"/></g>
+<text x="130" y="82" text-anchor="middle" font-size="16" font-weight="600" fill="currentColor"><tspan x="130" dy="0">R</tspan></text>
+<text x="130" y="148" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="130" dy="0">1 кОм</tspan></text>
+<path d="M170 110L400 110" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="260" cy="110" r="4.5" fill="currentColor" stroke="none" stroke-width="2"/>
+<path d="M260 110L260 140" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 160) rotate(90)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20 0H-5M-5 -18V18M5 -18V18M5 0H20"/></g>
+<text x="286" y="158" text-anchor="start" font-size="16" font-weight="600" fill="currentColor"><tspan x="286" dy="0">C</tspan></text>
+<text x="286" y="176" text-anchor="start" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="286" dy="0">100 нФ</tspan></text>
+<path d="M260 180L260 200" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<g transform="translate(260 200)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M0 0V10M-16 10H16M-10 17H10M-4 24H4"/></g>
+<rect x="400" y="80" width="110" height="60" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="455" y="107" text-anchor="middle" font-size="14" font-weight="400" fill="currentColor"><tspan x="455" dy="0">вход</tspan><tspan x="455" dy="16.8">АЦП</tspan></text>
+<text x="540" y="98" text-anchor="start" font-size="13" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="540" dy="0">fср = 1/(2π·R·C)</tspan><tspan x="540" dy="15.6">= 1,6 кГц</tspan></text>
+<text x="540" y="150" text-anchor="start" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="540" dy="0">выше 1,6 кГц шум</tspan><tspan x="540" dy="14.399999999999999">ослабляется</tspan></text>
+</g></svg>

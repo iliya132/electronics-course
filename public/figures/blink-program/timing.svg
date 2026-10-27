@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img">
+<title>Выход D13 при delay(250) и delay(750)</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<path d="M120 70L166.67 70L166.67 110L306.67 110L306.67 70L353.33 70L353.33 110L493.33 110L493.33 70L540 70L540 110L680 110" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="108" y="98" text-anchor="end" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="108" dy="0">D13</tspan></text>
+<line x1="120" y1="50" x2="120" y2="130" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="120" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="120" dy="0">0 мс</tspan></text>
+<line x1="306.67" y1="50" x2="306.67" y2="130" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="306.67" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="306.67" dy="0">1000 мс</tspan></text>
+<line x1="493.33" y1="50" x2="493.33" y2="130" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="493.33" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="493.33" dy="0">2000 мс</tspan></text>
+<line x1="680" y1="50" x2="680" y2="130" stroke="var(--border, #e3e6ea)" stroke-width="1.4" stroke-linecap="round"/>
+<text x="680" y="150" text-anchor="middle" font-size="12" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="680" dy="0">3000 мс</tspan></text>
+<text x="360" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor"><tspan x="360" dy="0">период 1000 мс, частота 1 Гц, скважность 25 %</tspan></text>
+</g></svg>

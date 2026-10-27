@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img">
+<title>Выход амперметра: идеал и смещение ОУ 2 мВ</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="240" dy="0">Выход амперметра: идеал и смещение ОУ 2 мВ</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="132" y1="62" x2="132" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="132" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="132" dy="0">0,5</tspan></text>
+<line x1="198" y1="62" x2="198" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="198" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="198" dy="0">1</tspan></text>
+<line x1="264" y1="62" x2="264" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="264" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="264" dy="0">1,5</tspan></text>
+<line x1="330" y1="62" x2="330" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="330" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="330" dy="0">2</tspan></text>
+<line x1="396" y1="62" x2="396" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="396" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="396" dy="0">2,5</tspan></text>
+<line x1="462" y1="62" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="462" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="462" dy="0">3</tspan></text>
+<line x1="66" y1="282" x2="462" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="219.14" x2="462" y2="219.14" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="224.14" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="156.29" x2="462" y2="156.29" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="161.29" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="93.43" x2="462" y2="93.43" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="98.43" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="462" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="264" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="264" dy="0">Ток, А</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Uвых, В</tspan></text>
+<line x1="66" y1="74.57" x2="462" y2="74.57" stroke="var(--warn, #9a6700)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 5"/>
+<text x="458" y="68.57" text-anchor="end" font-size="14" font-weight="400" fill="var(--warn, #9a6700)"><tspan x="458" dy="0">предел 3,3 В</tspan></text>
+<path d="M66 282L69.96 279.93L73.92 277.85L77.88 275.78L81.84 273.7L85.8 271.63L89.76 269.55L93.72 267.48L97.68 265.41L101.64 263.33L105.6 261.26L109.56 259.18L113.52 257.11L117.48 255.03L121.44 252.96L125.4 250.89L129.36 248.81L133.32 246.74L137.28 244.66L141.24 242.59L145.2 240.51L149.16 238.44L153.12 236.37L157.08 234.29L161.04 232.22L165 230.14L168.96 228.07L172.92 225.99L176.88 223.92L180.84 221.85L184.8 219.77L188.76 217.7L192.72 215.62L196.68 213.55L200.64 211.47L204.6 209.4L208.56 207.33L212.52 205.25L216.48 203.18L220.44 201.1L224.4 199.03L228.36 196.95L232.32 194.88L236.28 192.81L240.24 190.73L244.2 188.66L248.16 186.58L252.12 184.51L256.08 182.43L260.04 180.36L264 178.29L267.96 176.21L271.92 174.14L275.88 172.06L279.84 169.99L283.8 167.91L287.76 165.84L291.72 163.77L295.68 161.69L299.64 159.62L303.6 157.54L307.56 155.47L311.52 153.39L315.48 151.32L319.44 149.25L323.4 147.17L327.36 145.1L331.32 143.02L335.28 140.95L339.24 138.87L343.2 136.8L347.16 134.73L351.12 132.65L355.08 130.58L359.04 128.5L363 126.43L366.96 124.35L370.92 122.28L374.88 120.21L378.84 118.13L382.8 116.06L386.76 113.98L390.72 111.91L394.68 109.83L398.64 107.76L402.6 105.69L406.56 103.61L410.52 101.54L414.48 99.46L418.44 97.39L422.4 95.31L426.36 93.24L430.32 91.17L434.28 89.09L438.24 87.02L442.2 84.94L446.16 82.87L450.12 80.79L454.08 78.72L458.04 76.65L462 74.57" fill="none" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 280.62L69.96 278.54L73.92 276.47L77.88 274.39L81.84 272.32L85.8 270.25L89.76 268.17L93.72 266.1L97.68 264.02L101.64 261.95L105.6 259.87L109.56 257.8L113.52 255.73L117.48 253.65L121.44 251.58L125.4 249.5L129.36 247.43L133.32 245.35L137.28 243.28L141.24 241.21L145.2 239.13L149.16 237.06L153.12 234.98L157.08 232.91L161.04 230.83L165 228.76L168.96 226.69L172.92 224.61L176.88 222.54L180.84 220.46L184.8 218.39L188.76 216.31L192.72 214.24L196.68 212.17L200.64 210.09L204.6 208.02L208.56 205.94L212.52 203.87L216.48 201.79L220.44 199.72L224.4 197.65L228.36 195.57L232.32 193.5L236.28 191.42L240.24 189.35L244.2 187.27L248.16 185.2L252.12 183.13L256.08 181.05L260.04 178.98L264 176.9L267.96 174.83L271.92 172.75L275.88 170.68L279.84 168.61L283.8 166.53L287.76 164.46L291.72 162.38L295.68 160.31L299.64 158.23L303.6 156.16L307.56 154.09L311.52 152.01L315.48 149.94L319.44 147.86L323.4 145.79L327.36 143.71L331.32 141.64L335.28 139.57L339.24 137.49L343.2 135.42L347.16 133.34L351.12 131.27L355.08 129.19L359.04 127.12L363 125.05L366.96 122.97L370.92 120.9L374.88 118.82L378.84 116.75L382.8 114.67L386.76 112.6L390.72 110.53L394.68 108.45L398.64 106.38L402.6 104.3L406.56 102.23L410.52 100.15L414.48 98.08L418.44 96.01L422.4 93.93L426.36 91.86L430.32 89.78L434.28 87.71L438.24 85.63L442.2 83.56L446.16 81.49L450.12 79.41L454.08 77.34L458.04 75.26L462 73.19" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 5"/>
+<line x1="90" y1="95" x2="112" y2="95" stroke="var(--accent, #2457d6)" stroke-width="3" stroke-linecap="round"/>
+<text x="118" y="100" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">идеал: 1,1 В/А</tspan></text>
+<line x1="90" y1="115" x2="112" y2="115" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 5"/>
+<text x="118" y="120" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="118" dy="0">со смещением +2 мВ (×11 = 22 мВ)</tspan></text>
+</g></svg>

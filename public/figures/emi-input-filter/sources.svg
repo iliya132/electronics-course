@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img">
+<title>Источники помех на входе питания</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="240" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="currentColor"><tspan x="240" dy="0">Что фильтруем на входе платы</tspan></text>
+<rect x="16" y="50" width="448" height="46" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="32" y="70" text-anchor="start" font-size="15" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="32" dy="0">Импульсные блоки питания</tspan></text>
+<text x="32" y="88" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="32" dy="0">ВЧ-рябь 20 кГц – 5 МГц</tspan></text>
+<rect x="16" y="106" width="448" height="46" rx="8" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.2"/>
+<text x="32" y="126" text-anchor="start" font-size="15" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="32" dy="0">Моторы и реле</tspan></text>
+<text x="32" y="144" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="32" dy="0">выбросы при коммутации</tspan></text>
+<rect x="16" y="162" width="448" height="46" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="32" y="182" text-anchor="start" font-size="15" font-weight="700" fill="var(--warn, #9a6700)"><tspan x="32" dy="0">Длинные провода</tspan></text>
+<text x="32" y="200" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="32" dy="0">наводки (синфазные)</tspan></text>
+<rect x="16" y="218" width="448" height="46" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="32" y="238" text-anchor="start" font-size="15" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="32" dy="0">Подключение/отключение</tspan></text>
+<text x="32" y="256" text-anchor="start" font-size="13" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="32" dy="0">броски, разряды (ESD)</tspan></text>
+</g></svg>
