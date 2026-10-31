@@ -8,6 +8,20 @@ export function progress(db,id) {
  return db.prepare('SELECT * FROM lesson_progress WHERE lesson_id=?').get(id)||
  {lesson_id:id,status:'not_started',scroll_pos:0,time_spent_sec:0};
 }
+// Открыты: пройденные, дополнительные до текущей позиции и один новый обязательный урок.
+export function unlockedLessons(c, all) {
+  const open = new Set();
+  let gated = false;
+  for (const l of c.lessons) {
+    if (all.get(l.id)?.status === 'completed' || !gated) {
+      open.add(l.id);
+      if (!l.optional && all.get(l.id)?.status !== 'completed') {
+        gated = true;
+      }
+    }
+  }
+  return open;
+}
 export function examState(db, c, id, all) {
   if (id === 'final') {
     const remaining =

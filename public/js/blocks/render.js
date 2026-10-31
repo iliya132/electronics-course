@@ -1,6 +1,7 @@
 import { el,esc } from '../dom.js';
 import { mountQuiz } from './quiz.js';
 const calloutNames={tip:'Совет',warning:'Внимание',mistake:'Типичная ошибка',safety:'Безопасность',fact:'Факт',board:'Где это на плате'};
+const benchGear=[['psu','Блок питания WANPTEK TPS3010'],['scope','Осциллограф Rigol DHO804'],['dmm','Мультиметр Rigol DM858E'],['awg','Генератор OWON DGE2070'],['lcr','Тестер LCR-P1']];
 const format=text=>esc(text).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>');
 export async function renderBlock(root, b, context) {
   if (b.type === 'html') {
@@ -28,6 +29,19 @@ export async function renderBlock(root, b, context) {
     root.append(el('section', {
       class: 'checkpoint',
       html: '<h3>Если запомнишь одно…</h3><ul>' + b.items.map(i => '<li>' + esc(i) + '</li>').join('') + '</ul>'
+    }));
+    return;
+  }
+  if (b.type === 'bench') {
+    const gear = benchGear.filter(([key]) => b[key]);
+    const rows = gear.map(([key, name]) => '<div class="bench-device ' + key + '"><span>' + name + '</span><p>' + format(b[key]) + '</p></div>').join('');
+    const list = items => items.map(i => '<li>' + format(i) + '</li>').join('');
+    root.append(el('section', {
+      class: 'bench',
+      html: '<h3>' + esc(b.title) + '</h3><div class="bench-devices">' + rows + '</div>' +
+        (b.warn ? '<p class="bench-warn">' + format(b.warn) + '</p>' : '') +
+        '<ol>' + list(b.steps) + '</ol>' +
+        '<details class="bench-expect"><summary>Что должно получиться</summary><ul>' + list(b.expect) + '</ul></details>'
     }));
     return;
   }

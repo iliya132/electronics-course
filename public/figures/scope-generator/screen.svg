@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 430" role="img">
+<title>Экран осциллографа: сетка, масштабы, амплитуда и период</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="50" y="30" width="440" height="352" rx="4" fill="none" stroke="var(--muted, #5b6573)" stroke-width="1.5"/>
+<line x1="94" y1="30" x2="94" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="138" y1="30" x2="138" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="182" y1="30" x2="182" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="226" y1="30" x2="226" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="270" y1="30" x2="270" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="314" y1="30" x2="314" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="358" y1="30" x2="358" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="402" y1="30" x2="402" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="446" y1="30" x2="446" y2="382" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="74" x2="490" y2="74" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="118" x2="490" y2="118" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="162" x2="490" y2="162" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="206" x2="490" y2="206" stroke="var(--muted, #5b6573)" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="50" y1="250" x2="490" y2="250" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="294" x2="490" y2="294" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<line x1="50" y1="338" x2="490" y2="338" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<path d="M50 206L52.2 200.47L54.4 194.97L56.6 189.51L58.8 184.12L61 178.81L63.2 173.61L65.4 168.53L67.6 163.61L69.8 158.85L72 154.27L74.2 149.91L76.4 145.76L78.6 141.85L80.8 138.19L83 134.81L85.2 131.7L87.4 128.89L89.6 126.38L91.8 124.18L94 122.31L96.2 120.76L98.4 119.56L100.6 118.69L102.8 118.17L105 118L107.2 118.17L109.4 118.69L111.6 119.56L113.8 120.76L116 122.31L118.2 124.18L120.4 126.38L122.6 128.89L124.8 131.7L127 134.81L129.2 138.19L131.4 141.85L133.6 145.76L135.8 149.91L138 154.27L140.2 158.85L142.4 163.61L144.6 168.53L146.8 173.61L149 178.81L151.2 184.12L153.4 189.51L155.6 194.97L157.8 200.47L160 206L162.2 211.53L164.4 217.03L166.6 222.49L168.8 227.88L171 233.19L173.2 238.39L175.4 243.47L177.6 248.39L179.8 253.15L182 257.73L184.2 262.09L186.4 266.24L188.6 270.15L190.8 273.81L193 277.19L195.2 280.3L197.4 283.11L199.6 285.62L201.8 287.82L204 289.69L206.2 291.24L208.4 292.44L210.6 293.31L212.8 293.83L215 294L217.2 293.83L219.4 293.31L221.6 292.44L223.8 291.24L226 289.69L228.2 287.82L230.4 285.62L232.6 283.11L234.8 280.3L237 277.19L239.2 273.81L241.4 270.15L243.6 266.24L245.8 262.09L248 257.73L250.2 253.15L252.4 248.39L254.6 243.47L256.8 238.39L259 233.19L261.2 227.88L263.4 222.49L265.6 217.03L267.8 211.53L270 206L272.2 200.47L274.4 194.97L276.6 189.51L278.8 184.12L281 178.81L283.2 173.61L285.4 168.53L287.6 163.61L289.8 158.85L292 154.27L294.2 149.91L296.4 145.76L298.6 141.85L300.8 138.19L303 134.81L305.2 131.7L307.4 128.89L309.6 126.38L311.8 124.18L314 122.31L316.2 120.76L318.4 119.56L320.6 118.69L322.8 118.17L325 118L327.2 118.17L329.4 118.69L331.6 119.56L333.8 120.76L336 122.31L338.2 124.18L340.4 126.38L342.6 128.89L344.8 131.7L347 134.81L349.2 138.19L351.4 141.85L353.6 145.76L355.8 149.91L358 154.27L360.2 158.85L362.4 163.61L364.6 168.53L366.8 173.61L369 178.81L371.2 184.12L373.4 189.51L375.6 194.97L377.8 200.47L380 206L382.2 211.53L384.4 217.03L386.6 222.49L388.8 227.88L391 233.19L393.2 238.39L395.4 243.47L397.6 248.39L399.8 253.15L402 257.73L404.2 262.09L406.4 266.24L408.6 270.15L410.8 273.81L413 277.19L415.2 280.3L417.4 283.11L419.6 285.62L421.8 287.82L424 289.69L426.2 291.24L428.4 292.44L430.6 293.31L432.8 293.83L435 294L437.2 293.83L439.4 293.31L441.6 292.44L443.8 291.24L446 289.69L448.2 287.82L450.4 285.62L452.6 283.11L454.8 280.3L457 277.19L459.2 273.81L461.4 270.15L463.6 266.24L465.8 262.09L468 257.73L470.2 253.15L472.4 248.39L474.6 243.47L476.8 238.39L479 233.19L481.2 227.88L483.4 222.49L485.6 217.03L487.8 211.53L490 206" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="127" y1="118" x2="127" y2="286" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round"/>
+<path d="M127 294L131.4 286L122.6 286Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<line x1="127" y1="294" x2="127" y2="126" stroke="var(--bad, #b3261e)" stroke-width="2" stroke-linecap="round"/>
+<path d="M127 118L122.6 126L131.4 126Z" fill="var(--bad, #b3261e)" stroke="none"/>
+<text x="135" y="202" text-anchor="start" font-size="14" font-weight="700" fill="var(--bad, #b3261e)"><tspan x="135" dy="0">4 дел.</tspan></text>
+<line x1="50" y1="358" x2="262" y2="358" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<path d="M270 358L262 353.6L262 362.4Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<line x1="270" y1="358" x2="58" y2="358" stroke="var(--accent, #2457d6)" stroke-width="2" stroke-linecap="round"/>
+<path d="M50 358L58 362.4L58 353.6Z" fill="var(--accent, #2457d6)" stroke="none"/>
+<text x="160" y="350" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent, #2457d6)"><tspan x="160" dy="0">5 дел.</tspan></text>
+<text x="50" y="20" text-anchor="start" font-size="14" font-weight="700" fill="var(--ok, #1a7f4b)"><tspan x="50" dy="0">CH1  2 В/дел   1 мс/дел</tspan></text>
+<text x="502" y="52" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="502" dy="0">Размах:</tspan></text>
+<text x="502" y="72" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="502" dy="0">4 × 2 В = 8 В</tspan></text>
+<text x="502" y="102" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="502" dy="0">Период:</tspan></text>
+<text x="502" y="122" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="502" dy="0">5 × 1 мс = 5 мс</tspan></text>
+<text x="502" y="152" text-anchor="start" font-size="14" font-weight="700" fill="currentColor"><tspan x="502" dy="0">Частота:</tspan></text>
+<text x="502" y="172" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="502" dy="0">1 / 5 мс = 200 Гц</tspan></text>
+<text x="270" y="406" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="270" dy="0">горизонталь — время, вертикаль — напряжение</tspan></text>
+</g></svg>

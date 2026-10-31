@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import yaml from 'js-yaml';
 import MarkdownIt from 'markdown-it';
 export const markdown = new MarkdownIt({ html: false, linkify: false, typographer: true });
-export const blockTypes = ['quiz','predict','example','figure','widget','callout','recall','checkpoint'];
+export const blockTypes = ['quiz','predict','example','figure','widget','callout','recall','checkpoint','bench'];
 export function parseLesson(source, file = '') {
   const { data, content } = matter(source);
   const tokens = markdown.parse(content, {});

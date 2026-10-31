@@ -18,6 +18,8 @@ questions:
     lesson: "esp32-intro"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "отношение = A / B"
     question: "Flash модуля 4 МБ, Flash Uno 32 КБ. Во сколько раз больше?"
     answer: 128
     unit: "раз"
@@ -38,6 +40,8 @@ questions:
     lesson: "esp32-power"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (I_пик + I_пер) · (1 + запас)"
     question: "Пик ESP32 400 мА, периферия 60 мА, запас 30 %. Ток стабилизатора, мА?"
     answer: 598
     unit: "мА"
@@ -47,6 +51,8 @@ questions:
     lesson: "esp32-power"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = Uвх − dropout"
     question: "AMS1117 с dropout 1,2 В питается от 3,8 В. Выход, В?"
     answer: 2.6
     unit: "В"
@@ -67,6 +73,8 @@ questions:
     lesson: "esp32-power"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · I"
     question: "Вход 5 В, ток 150 мА, выход 3,3 В (линейный регулятор). Потери, Вт?"
     answer: 0.255
     unit: "Вт"
@@ -98,6 +106,8 @@ questions:
     lesson: "esp32-gpio"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "N = I_предел / I_светодиода (целая часть)"
     question: "Рекомендуемый ток вывода 12 мА. Сколько светодиодов по 3 мА можно подключить?"
     answer: 4
     unit: "шт"
@@ -107,6 +117,8 @@ questions:
     lesson: "esp32-adc-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "шаг = диапазон / 2ⁿ"
     question: "Диапазон 0,15–2,45 В на 12 бит. Шаг, мВ?"
     answer: 0.56
     unit: "мВ"
@@ -127,6 +139,8 @@ questions:
     lesson: "esp32-adc-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f_max = 80 МГц / 2^бит"
     question: "LEDC 12 бит. Предельная частота f = 80 МГц/2^12, кГц?"
     answer: 19.5
     unit: "кГц"
@@ -147,6 +161,8 @@ questions:
     lesson: "esp32-wifi"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "данные = размер ответа · число запросов"
     question: "Ответ 250 байт, запрос раз в 10 с. Килобайт в сутки (1 КБ = 1000 байт)?"
     answer: 2160
     unit: "КБ"
@@ -178,6 +194,8 @@ questions:
     lesson: "mqtt"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "байт в сутки = размер · публикаций в сутки"
     question: "Сообщение 30 байт раз в 20 с. Байт в сутки?"
     answer: 129600
     unit: "байт"
@@ -209,6 +227,8 @@ questions:
     lesson: "ble"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "значение = T (°C) · 100"
     question: "Температура 19,20 °C. Целое значение характеристики (сотые доли)?"
     answer: 1920
     unit: "ед."
@@ -229,6 +249,8 @@ questions:
     lesson: "deep-sleep"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_ср = (I_акт · t_акт + I_сон · t_сон) / T"
     question: "Цикл 120 с: 2 с при 100 мА, 118 с при 0,01 мА. Средний ток, мА?"
     answer: 1.68
     unit: "мА"
@@ -238,6 +260,9 @@ questions:
     lesson: "deep-sleep"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = C / I_ср"
+      - "1 сутки = 24 ч"
     question: "Средний ток 0,2 мА, аккумулятор 2000 мА·ч. Срок, суток (идеально)?"
     answer: 417
     unit: "сут"
@@ -269,6 +294,8 @@ questions:
     lesson: "esp32-ota"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Flash ≥ 2 · размер приложения"
     question: "Приложение 1,2 МБ, два слота. Сколько МБ минимум (без служебных)?"
     answer: 2.4
     unit: "МБ"
@@ -300,6 +327,8 @@ questions:
     lesson: "esp32-dev-board"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "τ = R · C"
     question: "EN: R = 47 кОм, C = 1 мкФ. τ, мс?"
     answer: 47
     unit: "мс"
@@ -320,6 +349,8 @@ questions:
     lesson: "web-sensor-server"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "данные = размер ответа · число запросов"
     question: "JSON-ответ 180 байт, запрос раз в 3 с. Килобайт в час?"
     answer: 216
     unit: "КБ"
@@ -340,6 +371,8 @@ questions:
     lesson: "web-sensor-server"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "1 гПа = 100 Па"
     question: "Давление 99 800 Па. Сколько гПа?"
     answer: 998
     unit: "гПа"
@@ -349,6 +382,8 @@ questions:
     lesson: "mqtt-weather"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "объём = размер · публикаций в сутки"
     question: "Два топика по 20 байт раз в 15 с. КБ в сутки (1 КБ = 1000)?"
     answer: 230.4
     unit: "КБ"
@@ -380,6 +415,8 @@ questions:
     lesson: "ble-beacon"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "значение = T (°C) · 100"
     question: "Температура 20,00 °C. Целое значение характеристики?"
     answer: 2000
     unit: "ед."
@@ -389,6 +426,9 @@ questions:
     lesson: "ble-beacon"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "little-endian: младший байт первым"
+      - "значение = старший байт · 256 + младший"
     question: "Байты 0x00 0x0B (little-endian). Целое значение в десятичной записи?"
     answer: 2816
     unit: "ед."
@@ -409,6 +449,8 @@ questions:
     lesson: "sleepy-sensor"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_ср = (I_акт · t_акт + I_сон · t_сон) / T"
     question: "Сон 4 мА, цикл 600 с, активность 3 с при 100 мА. Средний ток, мА?"
     answer: 4.78
     unit: "мА"
@@ -429,6 +471,9 @@ questions:
     lesson: "sleepy-sensor"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = C / I_ср"
+      - "1 сутки = 24 ч"
     question: "Средний ток 6 мА, аккумулятор 3000 мА·ч. Срок в сутках (идеально)?"
     answer: 20.8
     unit: "сут"

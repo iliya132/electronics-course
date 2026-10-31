@@ -4,12 +4,10 @@ import { required,check } from '../helpers.js';
 import { recordActivity } from '../db.js';
 export function cardContent(c,card){
  const l=c.lessonById.get(card.lesson_id);if(!l)return null;
- if(card.source==='flashcard')return l.flashcards[Number(card.card_id.split(':').at(-1))];
- const q=card.source==='exam'?c.exams.flatMap(e=>e.questions).find(q=>'q:'+q.id===card.card_id)
-  :l.blocks.find(b=>'quiz:'+l.id+':'+b.id===card.card_id);
- if(!q)return null;
- const a=q.options?(Array.isArray(q.answer)?q.answer.map(i=>q.options[i]).join('; '):q.options[q.answer]):Number(q.answer.toPrecision(6)).toLocaleString('ru-RU')+' '+q.unit;
- return {q:q.question,a:a.replace(/[.。]$/,'')+'. '+(q.explanation||q.reveal)};
+ // В повторении только карточки уроков: вопросы тестов и экзаменов без вариантов ответа и расчёты карточками быть не могут.
+ const f=card.source==='flashcard'?l.flashcards[Number(card.card_id.split(':').at(-1))]:null;
+ // more — короткая справка (1–2 абзаца), которую показываем после «Не помню»
+ return f&&{q:f.q,a:f.a,more:[].concat(f.more||[]),lesson_title:l.title};
 }
 export function reviewRoutes(db,c){
  const r=Router();

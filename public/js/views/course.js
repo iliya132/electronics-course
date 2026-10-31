@@ -16,8 +16,8 @@ export async function home(root) {
     "<section class=\"continue\"><h3>Все уроки завершены</h3><a class=\"button prima" +
     "ry\" href=\"#/exam/final\">Итоговый экзамен →</a></section>") +
     ("<div class=\"course-grid\"><section><h2>Программа курса</h2><p class=\"muted\">О" +
-    "т простого к сложному. Любой урок можно открыть сразу.</p>") + c.topics.map((t,
-    i) => '<details class="topic-item" style="--hue:' + topicHues[i % topicHues.length] + '"><summary><span class="topic-number">' + String(i + 1).padStart(2, '0') +
+    "т простого к сложному. Следующий урок открывается, когда завершён предыдущий.</p>") + c.topics.map((t,
+    i) => '<details class="topic-item' + (t.locked ? ' locked' : '') + '" style="--hue:' + topicHues[i % topicHues.length] + '"><summary><span class="topic-number">' + String(i + 1).padStart(2, '0') +
     '</span><span><strong>' + esc(t.title) + '</strong><small>' + esc(t.summary) + '</small><span class="topic-meter"><i><b style="width:' + Math.round(100 * t.completed / (t.lessons.length || 1)) +
     '%"></b></i>' + t.completed + ' из ' + t.lessons.length + '</span></span></summary><div class="topic-lessons">' + t.lessons.map(lessonRow).join('') +
     '<a href="#/topic/' + t.id + '">О теме и экзамене →</a></div></details>').join('') +
@@ -29,12 +29,16 @@ export async function home(root) {
     (' ' + cardWord + "</h3><p>Короткое повторение помогает сохранить знания надолго.</p><" +
     "a class=\"button\" href=\"#/review\">Повторить →</a><hr><p>Серия: ") + stats.streak + ' дн.<br>За неделю: ' +
     stats.minutes_week + ' мин.</p><a href="#/glossary">Словарь терминов →</a></aside></div>';
+  root.querySelectorAll('.topic-item.locked summary').forEach(s => s.addEventListener('click', e => e.preventDefault()));
 }
 export async function topic(root, id) {
   const c = await api('/course');
   const t = c.topics.find(t => t.id === id);
   if (!t) {
     throw Error('Тема не найдена');
+  }
+  if (t.locked) {
+    throw Error('Тема пока закрыта: сначала заверши предыдущие уроки');
   }
   root.innerHTML = '<a href="#/">← Программа курса</a><h1>' + esc(t.title) + '</h1><p class="muted">' +
     esc(t.summary) + '</p>' + progressBar(t.percent) + '<p class="muted">' + t.completed + ' из ' + t.lessons.length +

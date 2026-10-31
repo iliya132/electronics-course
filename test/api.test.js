@@ -31,7 +31,7 @@ test('Экзамен: блокировка, отсутствие ответов,
  for(const q of first.questions){assert.equal(q.answer,undefined);assert.equal(q.explanation,undefined);}
  const result=(await api.post('/api/exams/attempts/'+first.attemptId+'/finish').expect(200)).body;
  assert.equal(result.score_percent,0);assert.equal(result.detail.length,10);
- assert.ok((await api.get('/api/review/queue')).body.length>=10);
+ assert.equal((await api.get('/api/review/queue')).body.length,0);
  const second=(await api.post('/api/exams/exam-basics/start')).body;
  assert.ok(second.questions.every(q=>!first.questions.some(old=>old.id===q.id)));
  await api.put('/api/exams/attempts/'+first.attemptId+'/answer').send({question_id:first.questions[0].id,answer:0}).expect(400);
@@ -78,12 +78,13 @@ test('Неверные настройки резервной копии не з�
 
 test('Пустое или не JSON тело и чрезмерная прокрутка отклоняются', async t => {
   const {api} = fixture(t);
-  for (const path of ['/api/reset', '/api/lessons/ohm-law/progress']) {
+  const first = loadContent().lessons[0].id;
+  for (const path of ['/api/reset', '/api/lessons/' + first + '/progress']) {
     const response = await api.post(path).expect(400);
     assert.match(response.body.error, /[а-яА-Я]/);
     await api.post(path).type('text').send('invalid').expect(400);
   }
-  await api.post('/api/lessons/ohm-law/progress')
+  await api.post('/api/lessons/' + first + '/progress')
     .send({scroll_pos: 1e7 + 1, time_delta_sec: 0}).expect(400);
 });
 
@@ -113,7 +114,7 @@ test('Вспомним сохраняет исходные ответы и со�
   const response = await api.post('/api/recall/answer').send(payload).expect(200);
   assert.equal(response.body.is_correct, false);
   assert.deepEqual(db.prepare('SELECT * FROM block_answers WHERE lesson_id=? AND block_id=?').get(l.id, q.id), before);
-  assert.ok(db.prepare('SELECT * FROM cards WHERE card_id=?').get('quiz:' + l.id + ':' + q.id));
+  assert.equal(db.prepare("SELECT COUNT(*) n FROM cards WHERE source!='flashcard'").get().n, 0);
   const later = (await api.get('/api/lessons/' + c.lessons[1].id)).body;
   for (const b of later.blocks.filter(b => b.type === 'recall')) {
     for (const question of b.questions) {
@@ -146,10 +147,14 @@ test('Продолжение предпочитает обязательный �
   const api = request(createApp(db, c));
   c.lessons[0].optional = true;
   assert.equal((await api.get('/api/course').expect(200)).body.next.id, c.lessons[1].id);
-  await api.post('/api/lessons/' + c.lessons[0].id + '/open').expect(200);
+  const q = c.lessons[0].blocks.find(b => ['quiz', 'predict'].includes(b.type));
+  await api.post('/api/lessons/' + c.lessons[0].id + '/answer').send({block_id: q.id, answer: q.answer}).expect(200);
   assert.equal((await api.get('/api/course').expect(200)).body.next.id, c.lessons[0].id);
   const topic = c.topics[0];
   const last = topic.lessons.filter(l => !l.optional).at(-1);
+  for (const l of c.lessons.slice(0, last.index)) {
+    db.prepare("INSERT OR REPLACE INTO lesson_progress(lesson_id,status) VALUES (?,'completed')").run(l.id);
+  }
   const info = (await api.get('/api/lessons/' + last.id)).body;
   assert.deepEqual(info.topic_exam, {id: topic.exam, passed: false});
   assert.equal(info.position, topic.lessons.indexOf(last) + 1);
@@ -158,7 +163,7 @@ test('Продолжение предпочитает обязательный �
   assert.equal((await api.get('/api/lessons/' + c.lessons[0].id)).body.topic_exam, null);
 });
 
-test('Новые карточки ждут сутки, ошибки доступны сразу', async t => {
+test('Новые карточки ждут сутки, ошибки в вопросах теста карточек не создают', async t => {
   const {api, db, c} = fixture(t);
   const l = c.lessons[0];
   const start = Date.now();
@@ -173,7 +178,7 @@ test('Новые карточки ждут сутки, ошибки доступ
   const q = l.blocks.find(b => b.type === 'quiz' && b.question_type === 'single');
   await api.post('/api/recall/answer')
     .send({lesson_id: l.id, block_id: q.id, answer: (q.answer + 1) % q.options.length}).expect(200);
-  assert.equal((await api.get('/api/review/queue')).body.length, 1);
+  assert.equal((await api.get('/api/review/queue')).body.length, 0);
 });
 
 test('Курс собирает прогресс за ограниченное число SQL-запросов', async t => {
@@ -184,7 +189,7 @@ test('Курс собирает прогресс за ограниченное �
   const prepare = db.prepare.bind(db);
   db.prepare = (...args) => { count++; return prepare(...args); };
   const response = await api.get('/api/course').expect(200);
-  assert.equal(response.body.total, 183);
+  assert.equal(response.body.total, 185);
   assert.equal(response.body.final_exam.remaining, 17);
   assert.ok(count <= 20, 'SQL queries: ' + count);
 });
@@ -207,4 +212,30 @@ test('Импорт отклоняет неизвестный блок, отве�
     await api.post('/api/import').send(backup).expect(400);
     assert.deepEqual((await api.get('/api/export')).body.tables, original.tables);
   }
+});
+test('Уроки открываются по очереди, дополнительные не задерживают', async t => {
+  const {db} = fixture(t);
+  const c = loadContent();
+  const api = request(createApp(db, c));
+  const [a, b, d] = c.lessons;
+  const course = async () => (await api.get('/api/course').expect(200)).body.topics.flatMap(x => x.lessons);
+  assert.deepEqual((await course()).filter(l => !l.locked).map(l => l.id), [a.id]);
+  await api.get('/api/lessons/' + b.id).expect(403);
+  await api.post('/api/lessons/' + b.id + '/progress').send({scroll_pos: 1, time_delta_sec: 1}).expect(403);
+  await api.post('/api/lessons/' + b.id + '/complete').expect(403);
+  assert.equal((await api.get('/api/lessons/' + a.id).expect(200)).body.next_open, false);
+  await api.post('/api/lessons/' + a.id + '/progress').send({scroll_pos: 10, time_delta_sec: 5}).expect(200);
+  assert.equal((await api.get('/api/lessons/' + a.id)).body.progress.status, 'not_started');
+  for (const q of a.blocks.filter(x => ['quiz', 'predict'].includes(x.type))) {
+    await api.post('/api/lessons/' + a.id + '/answer').send({block_id: q.id, answer: q.answer}).expect(200);
+  }
+  assert.equal((await api.get('/api/lessons/' + a.id)).body.progress.status, 'in_progress');
+  await api.post('/api/lessons/' + a.id + '/complete').expect(200);
+  assert.deepEqual((await course()).filter(l => !l.locked).map(l => l.id), [a.id, b.id]);
+  assert.equal((await api.get('/api/lessons/' + b.id).expect(200)).body.previous, a.id);
+  await api.get('/api/lessons/' + d.id).expect(403);
+  c.lessons[2].optional = true;
+  assert.ok((await course()).find(l => l.id === d.id).locked);
+  db.prepare("INSERT OR REPLACE INTO lesson_progress(lesson_id,status) VALUES (?,'completed')").run(b.id);
+  assert.ok(!(await course()).find(l => l.id === d.id).locked);
 });

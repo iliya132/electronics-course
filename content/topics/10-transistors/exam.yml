@@ -40,6 +40,8 @@ questions:
     lesson: "transistor-idea"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "K = I_нагр / I_МК"
     question: "Нагрузке нужно 240 мА, вывод МК отдаёт не более 8 мА. Во сколько раз ток нагрузки больше? Ответ числом."
     answer: 30
     unit: "раз"
@@ -60,6 +62,8 @@ questions:
     lesson: "bjt-switch"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "Iб = Iк / 10"
     question: "Ток нагрузки NPN-ключа 150 мА. Какой ток базы по правилу Iк/10? Ответ в миллиамперах."
     answer: 15
     unit: "мА"
@@ -69,6 +73,9 @@ questions:
     lesson: "bjt-switch"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Rб = (Uупр − Uбэ) / Iб"
+      - "Uбэ ≈ 0,7 В, Iб = Iк / 10"
     question: "Ключ управляется от 5 В, ток базы нужен 4 мА. Найди Rб (Uбэ = 0,7 В). Ответ в омах."
     answer: 1075
     unit: "Ом"
@@ -100,6 +107,8 @@ questions:
     lesson: "bjt-switch"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = Uкэ · Iк"
     question: "Насыщенный NPN-ключ: Uкэ = 0,25 В, ток 0,4 А. Какая мощность в транзисторе? Ответ в милливаттах."
     answer: 100
     unit: "мВт"
@@ -120,6 +129,8 @@ questions:
     lesson: "mosfet-switch"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "P = I² · Rds(on)"
     question: "Rds(on) = 0,06 Ом, ток 2,5 А. Какая мощность выделяется на ключе? Ответ в ваттах."
     answer: 0.375
     unit: "Вт"
@@ -129,6 +140,8 @@ questions:
     lesson: "mosfet-switch"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = U / R"
     question: "Подтяжка затвора 47 кОм, на затворе 5 В. Какой ток идёт через неё? Ответ в микроамперах."
     answer: 106
     unit: "мкА"
@@ -171,6 +184,8 @@ questions:
     lesson: "low-high-side"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uзи = Uзатвора − Uистока"
     question: "P-MOSFET в плюсе 24 В, затвор подключён к земле. Чему равно Uзи? Ответ в вольтах."
     answer: -24
     unit: "В"
@@ -191,6 +206,8 @@ questions:
     lesson: "low-high-side"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "τ = Rпу · Cз"
     question: "Rпу = 22 кОм, ёмкость затвора 2 нФ. Постоянная времени закрытия, мкс."
     answer: 44
     unit: "мкс"
@@ -200,6 +217,8 @@ questions:
     lesson: "inductive-loads"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "I = U / R"
     question: "Катушка реле 12 В, 240 Ом. Какой ток она потребляет? Ответ в миллиамперах."
     answer: 50
     unit: "мА"
@@ -220,6 +239,9 @@ questions:
     lesson: "inductive-loads"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_ключа = k · I_раб"
+      - "k — кратность пускового тока"
     question: "Мотор работает при 0,4 А, пусковой ток в 5 раз больше. Какой ток должен выдерживать ключ? Ответ в амперах."
     answer: 2
     unit: "А"
@@ -229,6 +251,8 @@ questions:
     lesson: "inductive-loads"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uср = D · Uпит"
     question: "ШИМ на 12 В, скважность 25 %. Среднее напряжение, В."
     answer: 3
     unit: "В"
@@ -249,6 +273,8 @@ questions:
     lesson: "h-bridge"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = U / (R₁ + R₂)"
     question: "Мост из двух MOSFET по 0,2 Ом, питание 12 В. Сквозной ток без учёта источника, А."
     answer: 30
     unit: "А"
@@ -258,6 +284,8 @@ questions:
     lesson: "h-bridge"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "ΔU = I · R"
     question: "Мотор 3 А, драйвер с общим сопротивлением 0,09 Ом. Падение на драйвере, В."
     answer: 0.27
     unit: "В"
@@ -289,6 +317,8 @@ questions:
     lesson: "pmos-ideal-diode"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "ΔU = I · Rds(on)"
     question: "Rds(on) = 20 мОм, ток 4 А. Падение на защите, мВ."
     answer: 80
     unit: "мВ"
@@ -298,6 +328,8 @@ questions:
     lesson: "pmos-ideal-diode"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = U · I"
     question: "Диод Шоттки 0,4 В при 3 А. Какая мощность в нём? Ответ в ваттах."
     answer: 1.2
     unit: "Вт"
@@ -318,6 +350,8 @@ questions:
     lesson: "amplifier-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "rэ ≈ 25 мВ / Iэ"
     question: "Iэ = 0,5 мА. Чему равно rэ ≈ 25 мВ / Iэ? Ответ в омах."
     answer: 50
     unit: "Ом"
@@ -327,6 +361,8 @@ questions:
     lesson: "amplifier-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "|Av| = Rк / Rэ"
     question: "Rк = 10 кОм, Rэ = 1 кОм без шунта. Каково усиление по модулю?"
     answer: 10
     unit: "раз"
@@ -347,6 +383,8 @@ questions:
     lesson: "night-light"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uз = Uпит · Rldr / (Rверх + Rldr)"
     question: "В ночнике Rверх = 40 кОм, Rldr = 20 кОм, питание 12 В. Uз, В."
     answer: 4
     unit: "В"
@@ -378,6 +416,8 @@ questions:
     lesson: "motor-relay-driver"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U_мотора = U_пит − ΔU"
     question: "Падение на L298N 1,6 В, питание 12 В. Напряжение на моторе, В."
     answer: 10.4
     unit: "В"
@@ -398,6 +438,8 @@ questions:
     lesson: "motor-relay-driver"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = I² · Rds(on)"
     question: "Rds(on) = 30 мОм, ток вентилятора 0,3 А. Потери на ключе, мВт."
     answer: 2.7
     unit: "мВт"

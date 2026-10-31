@@ -8,6 +8,11 @@ questions:
     lesson: resistor-marking
     difficulty: 1
     type: numeric
+    formula:
+      - "0 чёрный · 1 коричневый · 2 красный · 3 оранжевый · 4 жёлтый"
+      - "5 зелёный · 6 синий · 7 фиолетовый · 8 серый · 9 белый"
+      - "Номинал = (цифра 1, цифра 2) × 10^множитель"
+      - "Допуск: золотая ±5 %, серебряная ±10 %"
     question: "Полосы резистора: оранжевая, оранжевая, красная, золотая. Найди номинал в килоомах."
     answer: 3.3
     unit: "кОм"
@@ -39,6 +44,9 @@ questions:
     lesson: resistor-marking
     difficulty: 2
     type: numeric
+    formula:
+      - "R_max = R · (1 + δ)"
+      - "δ — допуск (0,01 для ±1 %)"
     question: "Резистор 4,7 кОм с допуском ±1 %. Какое наибольшее сопротивление он может иметь? Ответ в омах."
     answer: 4747
     unit: "Ом"
@@ -71,6 +79,8 @@ questions:
     lesson: resistor-power-types
     difficulty: 2
     type: numeric
+    formula:
+      - "P = U² / R"
     question: "Резистор 330 Ом подключён к 12 В. Какая мощность на нём выделяется? Ответ в милливаттах."
     answer: 436
     unit: "мВт"
@@ -80,6 +90,9 @@ questions:
     lesson: resistor-power-types
     difficulty: 2
     type: numeric
+    formula:
+      - "P_доп = P_ном · (155 − T) / 85"
+      - "до 70 °C — полный номинал, при 155 °C — ноль"
     question: "Резистор на 0,5 Вт работает при 105 °C. Какую мощность допускает кривая снижения? (до 70 °C — номинал, при 155 °C — ноль)"
     answer: 0.294
     unit: "Вт"
@@ -100,6 +113,9 @@ questions:
     lesson: resistor-power-types
     difficulty: 3
     type: numeric
+    formula:
+      - "ΔR = R · TCR · ΔT"
+      - "100 ppm/°C = 100·10⁻⁶ 1/°C"
     question: "Резистор 1 кОм имеет TCR 100 ppm/°C. На сколько ом изменится его сопротивление при нагреве на 60 °C?"
     answer: 6
     unit: "Ом"
@@ -121,6 +137,8 @@ questions:
     lesson: potentiometer
     difficulty: 2
     type: numeric
+    formula:
+      - "Uвых = Uвх · доля пути"
     question: "Потенциометр 10 кОм (линейный) подключён к 3,3 В. Движок на 80 % пути от земли. Какое напряжение на движке без нагрузки?"
     answer: 2.64
     unit: "В"
@@ -141,6 +159,9 @@ questions:
     lesson: potentiometer
     difficulty: 3
     type: numeric
+    formula:
+      - "I = U / (R + R_реостата)"
+      - "Ток минимален при максимальном сопротивлении реостата"
     question: "Реостат 0–470 Ом включён последовательно с резистором 100 Ом на 12 В. Каков наименьший ток в цепи?"
     answer: 21.05
     unit: "мА"
@@ -162,6 +183,9 @@ questions:
     lesson: pullups-resistors-roles
     difficulty: 2
     type: numeric
+    formula:
+      - "I = Vcc / R"
+      - "В / кОм = мА; мА → мкА: × 1000"
     question: "Pull-up 22 кОм подключён к 3,3 В. Кнопка замыкает вход на землю. Какой ток течёт при нажатии? Ответ в микроамперах."
     answer: 150
     unit: "мкА"
@@ -205,6 +229,8 @@ questions:
     lesson: fuses-ptc
     difficulty: 2
     type: numeric
+    formula:
+      - "I_предохранителя ≥ 1,25 · I_рабочий"
     question: "Нагрузка потребляет 1,6 А. Каков минимальный номинал плавкого предохранителя с запасом 1,25?"
     answer: 2
     unit: "А"
@@ -248,6 +274,10 @@ questions:
     lesson: thermistors-varistors
     difficulty: 2
     type: numeric
+    formula:
+      - "R = R₀ · exp[β · (1/T − 1/T₀)]"
+      - "R₀ = 10 кОм при T₀ = 298,15 K (25 °C), β = 3950 K"
+      - "T (K) = t (°C) + 273,15"
     question: "Найди сопротивление NTC 10 кОм (β = 3950 K) при 75 °C. Ответ в килоомах."
     answer: 1.49
     unit: "кОм"
@@ -268,6 +298,9 @@ questions:
     lesson: thermistors-varistors
     difficulty: 3
     type: numeric
+    formula:
+      - "R = R_цепи + R_NTC"
+      - "I = U / R"
     question: "Блок питания 24 В, сопротивление цепи при включении 0,4 Ом. Последовательно включили холодный NTC 6 Ом. Каков начальный ток?"
     answer: 3.75
     unit: "А"
@@ -289,6 +322,10 @@ questions:
     lesson: wires-connectors
     difficulty: 2
     type: numeric
+    formula:
+      - "R = ρ · 2L / S"
+      - "ΔU = I · R"
+      - "ρ меди = 0,0175 Ом·мм²/м"
     question: "Двухжильный кабель длиной 5 м, сечение жилы 1 мм², ток 5 А. Какое падение напряжения на кабеле (туда и обратно)?"
     answer: 0.875
     unit: "В"
@@ -309,6 +346,8 @@ questions:
     lesson: wires-connectors
     difficulty: 3
     type: numeric
+    formula:
+      - "P = I² · R"
     question: "Кабель имеет сопротивление 0,2 Ом, ток через него 3 А. Какая мощность выделяется в кабеле?"
     answer: 1.8
     unit: "Вт"
@@ -330,6 +369,9 @@ questions:
     lesson: ntc-thermometer
     difficulty: 2
     type: numeric
+    formula:
+      - "R_ntc = R · (Uвх / Uвых − 1)"
+      - "R — нижний резистор"
     question: "Uвх = 3,00 В, нижний резистор 10 кОм, Uвых = 1,50 В. Найди R_ntc."
     answer: 10
     unit: "кОм"
@@ -339,6 +381,10 @@ questions:
     lesson: ntc-thermometer
     difficulty: 2
     type: numeric
+    formula:
+      - "1/T = 1/T₀ + ln(R / R₀) / β"
+      - "R₀ = 10 кОм при T₀ = 298,15 K (25 °C), β = 3950 K"
+      - "T (K) = t (°C) + 273,15"
     question: "Сопротивление NTC 10 кОм (β = 3950 K) равно 3,59 кОм. Найди температуру в градусах Цельсия. Подсказка: ln 0,359 = −1,0244."
     answer: 50
     unit: "°C"

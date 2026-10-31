@@ -18,6 +18,8 @@ questions:
     lesson: "mcu-what"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "байты = КБ · 1024"
     question: "Во Flash 16 КБ. Сколько это байт (1 КБ = 1024)?"
     answer: 16384
     unit: "байт"
@@ -38,6 +40,8 @@ questions:
     lesson: "mcu-what"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "байты = (ширина · высота) / 8"
     question: "Экранный буфер 128×32 при 1 бите на пиксель. Сколько байт?"
     answer: 512
     unit: "байт"
@@ -47,6 +51,8 @@ questions:
     lesson: "gpio"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "N = I_предел / I_светодиода (целая часть)"
     question: "Светодиод 8 мА, предел вывода 20 мА. Сколько светодиодов (целое число) можно подключить к одному выводу?"
     answer: 2
     unit: "шт"
@@ -78,6 +84,8 @@ questions:
     lesson: "gpio"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (Uпит − Vf) / R"
     question: "Резистор 470 Ом, питание 5 В, Vf = 2 В. Ток светодиода, мА?"
     answer: 6.4
     unit: "мА"
@@ -98,6 +106,8 @@ questions:
     lesson: "power-pins"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "fc = 1 / (2π · √(L · C))"
     question: "LC-фильтр AVCC: L = 10 мкГн, C = 1 мкФ. Частота среза f = 1/(2π√(LC)), кГц?"
     answer: 50.3
     unit: "кГц"
@@ -129,6 +139,8 @@ questions:
     lesson: "clock-crystal"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "C = 2 · (CL − Cпар)"
     question: "Кварц CL = 14 пФ, Cпар = 4 пФ. Каков номинал C1 = C2, пФ?"
     answer: 20
     unit: "пФ"
@@ -138,6 +150,8 @@ questions:
     lesson: "clock-crystal"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "уход = 86 400 с · ppm · 10⁻⁶"
     question: "Точность 20 ppm. На сколько секунд уйдут часы за сутки (86 400 с)?"
     answer: 1.73
     unit: "с"
@@ -169,6 +183,8 @@ questions:
     lesson: "reset-boot"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "τ = R · C"
     question: "R = 47 кОм, C = 100 нФ. Постоянная времени τ, мс?"
     answer: 4.7
     unit: "мс"
@@ -211,6 +227,8 @@ questions:
     lesson: "timers-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f_PWM = f_CPU / (предделитель · 256)"
     question: "16 МГц, предделитель 256, 8 бит. Частота ШИМ, Гц?"
     answer: 244
     unit: "Гц"
@@ -220,6 +238,8 @@ questions:
     lesson: "timers-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "D = OCR / 256"
     question: "OCR = 192 при 8 битах. Коэффициент заполнения, %?"
     answer: 75
     unit: "%"
@@ -240,6 +260,8 @@ questions:
     lesson: "timers-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uср = D · U"
     question: "ШИМ 3,3 В, D = 30 %. Среднее напряжение, В?"
     answer: 0.99
     unit: "В"
@@ -260,6 +282,8 @@ questions:
     lesson: "interrupts"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = число тактов / f_CPU"
     question: "Вход в ISR 4 такта, частота 16 МГц. Задержка, нс?"
     answer: 250
     unit: "нс"
@@ -280,6 +304,8 @@ questions:
     lesson: "interrupts"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "вероятность = t_импульса / T_цикла"
     question: "Цикл 400 мкс, импульс 20 мкс. Вероятность поймать опросом, %?"
     answer: 5
     unit: "%"
@@ -289,6 +315,8 @@ questions:
     lesson: "adc-dac-mcu"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U = код · Uref / 1024"
     question: "Код АЦП Uno 256, Uref 5 В. Напряжение, В?"
     answer: 1.25
     unit: "В"
@@ -320,6 +348,8 @@ questions:
     lesson: "adc-dac-mcu"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U = код · Uref / 4096"
     question: "12 бит, 3,3 В, код 2048. Напряжение, В?"
     answer: 1.65
     unit: "В"
@@ -329,6 +359,8 @@ questions:
     lesson: "low-power-modes"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_ср = (I_акт · t_акт + I_сон · t_сон) / T"
     question: "Активность 0,5 с при 100 мА и сон 59,5 с при 0,01 мА (T = 60 с). Средний ток, мА?"
     answer: 0.84
     unit: "мА"
@@ -338,6 +370,8 @@ questions:
     lesson: "low-power-modes"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = C / I_ср"
     question: "Батарея 3000 мА·ч, средний ток 1,5 мА. Срок, ч?"
     answer: 2000
     unit: "ч"
@@ -358,6 +392,8 @@ questions:
     lesson: "minimal-atmega"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (Uпит − Vf) / R"
     question: "Светодиод Vf = 2,1 В, резистор 330 Ом, 5 В. Ток, мА?"
     answer: 8.8
     unit: "мА"

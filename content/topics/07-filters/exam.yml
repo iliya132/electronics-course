@@ -8,6 +8,9 @@ questions:
     lesson: frequency-response
     difficulty: 1
     type: numeric
+    formula:
+      - "дБ = 20 · lg(Uвых / Uвх)"
+      - "×10 = 20 дБ, ×2 ≈ 6 дБ, ×0,707 = −3 дБ"
     question: "Напряжение на выходе в 1000 раз больше, чем на входе. Сколько это децибел?"
     answer: 60
     unit: "дБ"
@@ -28,6 +31,9 @@ questions:
     lesson: frequency-response
     difficulty: 2
     type: numeric
+    formula:
+      - "дБ = 20 · lg(Uвых / Uвх)"
+      - "×10 = 20 дБ, ×2 ≈ 6 дБ, ×0,707 = −3 дБ"
     question: "Напряжение уменьшилось в 100 раз. Сколько это децибел? Ответ со знаком."
     answer: -40
     unit: "дБ"
@@ -37,6 +43,8 @@ questions:
     lesson: frequency-response
     difficulty: 2
     type: numeric
+    formula:
+      - "ФНЧ первого порядка выше fc: −20 дБ на каждую декаду (рост частоты в 10 раз)"
     question: "ФНЧ первого порядка имеет fc = 2 кГц. Каково ослабление на 20 кГц (в 10 раз выше fc)? Ответ в децибелах со знаком."
     answer: -20
     unit: "дБ"
@@ -46,6 +54,9 @@ questions:
     lesson: frequency-response
     difficulty: 3
     type: numeric
+    formula:
+      - "|H| = 1 / √(1 + (f / fc)²)"
+      - "дБ = 20 · lg|H|"
     question: "ФНЧ с fc = 1 кГц. Каково ослабление на частоте 3 кГц? Ответ в децибелах со знаком."
     answer: -10
     unit: "дБ"
@@ -56,6 +67,8 @@ questions:
     lesson: rc-lowpass
     difficulty: 1
     type: numeric
+    formula:
+      - "fc = 1 / (2π · R · C)"
     question: "Найди частоту среза RC-фильтра с R = 2,2 кОм и C = 33 нФ. Ответ в герцах."
     answer: 2192
     unit: "Гц"
@@ -65,6 +78,8 @@ questions:
     lesson: rc-lowpass
     difficulty: 2
     type: numeric
+    formula:
+      - "R = 1 / (2π · fc · C)"
     question: "Нужна fc = 5 кГц при C = 10 нФ. Какое сопротивление R нужно? Ответ в омах."
     answer: 3183
     unit: "Ом"
@@ -85,6 +100,9 @@ questions:
     lesson: rc-lowpass
     difficulty: 2
     type: numeric
+    formula:
+      - "τ = R · C"
+      - "кОм · мкФ = мс"
     question: "R = 47 кОм, C = 0,22 мкФ. Найди постоянную времени τ в миллисекундах."
     answer: 10.34
     unit: "мс"
@@ -94,6 +112,8 @@ questions:
     lesson: rc-lowpass
     difficulty: 3
     type: numeric
+    formula:
+      - "ФНЧ первого порядка выше fc: −20 дБ на каждую декаду (рост частоты в 10 раз)"
     question: "ФНЧ с fc = 1 кГц. Каково ослабление на 20 кГц? Ответ в децибелах со знаком."
     answer: -26
     unit: "дБ"
@@ -115,6 +135,8 @@ questions:
     lesson: rc-highpass
     difficulty: 2
     type: numeric
+    formula:
+      - "fc = 1 / (2π · R · C)"
     question: "ФВЧ: R = 100 кОм, C = 10 нФ. Найди частоту среза в герцах."
     answer: 159.2
     unit: "Гц"
@@ -124,6 +146,9 @@ questions:
     lesson: rc-highpass
     difficulty: 2
     type: numeric
+    formula:
+      - "U = U₀ · e^(−t/τ)"
+      - "τ = R · C"
     question: "ФВЧ с τ = 5 мс. На вход подан импульс 3 В длительностью 5 мс. Каково напряжение на выходе в конце импульса? Ответ в вольтах."
     answer: 1.1
     unit: "В"
@@ -133,6 +158,8 @@ questions:
     lesson: rc-highpass
     difficulty: 2
     type: numeric
+    formula:
+      - "ФВЧ первого порядка ниже fc: −20 дБ на каждую декаду (падение частоты в 10 раз)"
     question: "ФВЧ с fc = 1 кГц. Каково ослабление на частоте 10 Гц (в 100 раз ниже fc)? Ответ в децибелах со знаком."
     answer: -40
     unit: "дБ"
@@ -154,6 +181,8 @@ questions:
     lesson: pwm-dac
     difficulty: 1
     type: numeric
+    formula:
+      - "Uср = D · U"
     question: "ШИМ 3,3 В с коэффициентом заполнения 60 %. Каково среднее напряжение? Ответ в вольтах."
     answer: 1.98
     unit: "В"
@@ -163,6 +192,8 @@ questions:
     lesson: pwm-dac
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU ≈ U · D · (1 − D) / (f · R · C)"
     question: "ШИМ 3,3 В, f = 2 кГц, D = 50 %, RC = 20 мс. Каков размах пульсаций? Ответ в милливольтах."
     answer: 20.6
     unit: "мВ"
@@ -172,6 +203,8 @@ questions:
     lesson: pwm-dac
     difficulty: 2
     type: numeric
+    formula:
+      - "R · C = U · D · (1 − D) / (f · ΔU)"
     question: "ШИМ 5 В, частота 980 Гц, D = 50 %. Какое RC нужно, чтобы пульсации не превышали 10 мВ? Ответ в миллисекундах."
     answer: 127.6
     unit: "мс"
@@ -204,6 +237,8 @@ questions:
     lesson: lc-pi-filter
     difficulty: 1
     type: numeric
+    formula:
+      - "fc = 1 / (2π · √(L · C))"
     question: "Найди частоту среза LC-фильтра с L = 47 мкГн и C = 10 мкФ. Ответ в килогерцах."
     answer: 7.34
     unit: "кГц"
@@ -213,6 +248,8 @@ questions:
     lesson: lc-pi-filter
     difficulty: 2
     type: numeric
+    formula:
+      - "LC-фильтр выше fc: −40 дБ на каждую декаду"
     question: "Идеальный LC-фильтр. Каково ослабление на частоте в 10 раз выше fc? Ответ в децибелах со знаком."
     answer: -40
     unit: "дБ"
@@ -222,6 +259,8 @@ questions:
     lesson: lc-pi-filter
     difficulty: 2
     type: numeric
+    formula:
+      - "Z₀ = √(L / C)"
     question: "Найди характеристическое сопротивление Z₀ = √(L/C) для L = 4,7 мкГн и C = 10 мкФ. Ответ в омах."
     answer: 0.69
     unit: "Ом"
@@ -242,6 +281,9 @@ questions:
     lesson: lc-pi-filter
     difficulty: 3
     type: numeric
+    formula:
+      - "−40 дБ на декаду: fc = f / 10^(A / 40)"
+      - "A — нужное ослабление в дБ"
     question: "Нужно ослабить шум 200 кГц минимум на 40 дБ LC-фильтром второго порядка (40 дБ на декаду). Какая максимальная fc допустима? Ответ в килогерцах."
     answer: 20
     unit: "кГц"
@@ -263,6 +305,8 @@ questions:
     lesson: emi-input-filter
     difficulty: 2
     type: numeric
+    formula:
+      - "P = I² · DCR"
     question: "Через бусину с DCR 0,12 Ом течёт ток 1,2 А. Какая мощность теряется в ней? Ответ в милливаттах."
     answer: 173
     unit: "мВт"
@@ -284,6 +328,8 @@ questions:
     lesson: phone-bode
     difficulty: 1
     type: numeric
+    formula:
+      - "K = 20 · lg(Uвых / Uвх)"
     question: "Uвх = 1,0 В, Uвых = 0,5 В. Каково усиление в децибелах (со знаком)?"
     answer: -6.02
     unit: "дБ"
@@ -304,6 +350,8 @@ questions:
     lesson: phone-bode
     difficulty: 2
     type: numeric
+    formula:
+      - "отклонение = |измерено − расчёт| / расчёт · 100 %"
     question: "По измерениям усиление −3 дБ получилось на 150 Гц, расчётная fc = 159 Гц. На сколько процентов результат отличается от расчёта?"
     answer: 5.7
     unit: "%"

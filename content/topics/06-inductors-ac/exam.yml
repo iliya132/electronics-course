@@ -19,6 +19,9 @@ questions:
     lesson: inductor-basics
     difficulty: 1
     type: numeric
+    formula:
+      - "U = L · ΔI / Δt"
+      - "L — в генри, Δt — в секундах"
     question: "Ток через катушку 2 мГн растёт на 0,1 А за 0,5 мс. Каково напряжение на катушке? Ответ в вольтах."
     answer: 0.4
     unit: "В"
@@ -28,6 +31,8 @@ questions:
     lesson: inductor-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "E = L · I² / 2"
     question: "Какую энергию хранит катушка 47 мГн при токе 0,5 А? Ответ в миллиджоулях."
     answer: 5.88
     unit: "мДж"
@@ -48,6 +53,9 @@ questions:
     lesson: inductor-basics
     difficulty: 3
     type: numeric
+    formula:
+      - "U = L · ΔI / Δt"
+      - "L — в генри, Δt — в секундах"
     question: "Катушка 20 мГн, ток 0,1 А размыкается за 20 мкс. Какой выброс напряжения возникает? Ответ в вольтах."
     answer: 100
     unit: "В"
@@ -58,6 +66,9 @@ questions:
     lesson: rl-circuit
     difficulty: 1
     type: numeric
+    formula:
+      - "τ = L / R"
+      - "мГн / Ом = мс"
     question: "Найди постоянную времени RL-цепи при L = 10 мГн и R = 2 Ом. Ответ в миллисекундах."
     answer: 5
     unit: "мс"
@@ -67,6 +78,9 @@ questions:
     lesson: rl-circuit
     difficulty: 2
     type: numeric
+    formula:
+      - "I = E / R"
+      - "в установившемся режиме катушка — просто провод"
     question: "Катушка реле имеет сопротивление 25 Ом и подключена к 12 В. Каков установившийся ток? Ответ в амперах."
     answer: 0.48
     unit: "А"
@@ -76,6 +90,8 @@ questions:
     lesson: rl-circuit
     difficulty: 2
     type: numeric
+    formula:
+      - "ток достигает 63 % за τ, 95 % за 3τ"
     question: "τ RL-цепи равна 3 мс. Через какое время ток достигнет примерно 95 % установившегося значения? Ответ в миллисекундах."
     answer: 9
     unit: "мс"
@@ -97,6 +113,8 @@ questions:
     lesson: ac-basics
     difficulty: 1
     type: numeric
+    formula:
+      - "f = 1 / T"
     question: "Период колебаний 10 мс. Какова частота? Ответ в герцах."
     answer: 100
     unit: "Гц"
@@ -117,6 +135,9 @@ questions:
     lesson: ac-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "u = Um · sin(2π · f · t)"
+      - "аргумент синуса в радианах: 2π рад = 360°"
     question: "Сигнал u = 3·sin(2π·500·t) В. Какое напряжение при t = 0,5 мс? Ответ в вольтах."
     answer: 3
     unit: "В"
@@ -126,6 +147,9 @@ questions:
     lesson: ac-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "Δt = (φ / 360°) · T"
+      - "T = 1 / f"
     question: "Два сигнала частотой 1 кГц сдвинуты по фазе на 45°. Какова разница по времени? Ответ в микросекундах."
     answer: 125
     unit: "мкс"
@@ -135,6 +159,9 @@ questions:
     lesson: ac-basics
     difficulty: 3
     type: numeric
+    formula:
+      - "u = Um · sin(2π · f · t)"
+      - "аргумент синуса в радианах: 2π рад = 360°"
     question: "Сигнал u = 8·sin(2π·100·t) В. Какое напряжение при t = 1,25 мс? Ответ в вольтах."
     answer: 5.66
     unit: "В"
@@ -145,6 +172,8 @@ questions:
     lesson: rms-power
     difficulty: 1
     type: numeric
+    formula:
+      - "Uрмс = Um / √2 ≈ 0,707 · Um"
     question: "Амплитуда синусоиды 30 В. Каково её действующее значение? Ответ в вольтах."
     answer: 21.2
     unit: "В"
@@ -165,6 +194,8 @@ questions:
     lesson: rms-power
     difficulty: 2
     type: numeric
+    formula:
+      - "P = Uрмс² / R"
     question: "На резистор 18 Ом подано 9 В RMS. Какая средняя мощность? Ответ в ваттах."
     answer: 4.5
     unit: "Вт"
@@ -174,6 +205,9 @@ questions:
     lesson: rms-power
     difficulty: 2
     type: numeric
+    formula:
+      - "Uпп = 2 · Um"
+      - "Uрмс = Um / √2"
     question: "Осциллограф показывает размах синусоиды 24 В. Каково действующее значение? Ответ в вольтах."
     answer: 8.49
     unit: "В"
@@ -206,6 +240,8 @@ questions:
     lesson: transformer
     difficulty: 2
     type: numeric
+    formula:
+      - "U₂ = U₁ · N₂ / N₁"
     question: "N1 = 1200 витков, N2 = 60 витков, U1 = 120 В. Найди U2. Ответ в вольтах."
     answer: 6
     unit: "В"
@@ -215,6 +251,8 @@ questions:
     lesson: transformer
     difficulty: 2
     type: numeric
+    formula:
+      - "S = U · I (в ВА)"
     question: "Вторичная обмотка отдаёт 9 В при токе 1,5 А. Какова мощность в вольт-амперах?"
     answer: 13.5
     unit: "ВА"
@@ -224,6 +262,9 @@ questions:
     lesson: transformer
     difficulty: 2
     type: numeric
+    formula:
+      - "P = U₁ · I₁"
+      - "I₁ = P / U₁"
     question: "Идеальный трансформатор отдаёт 13,5 Вт. Первичная обмотка питается от 100 В. Каков ток первичной обмотки? Ответ в амперах."
     answer: 0.135
     unit: "А"
@@ -233,6 +274,8 @@ questions:
     lesson: transformer
     difficulty: 3
     type: numeric
+    formula:
+      - "r = (U₀ − U) / I"
     question: "Адаптер на холостом ходу даёт 17 В, а при токе 1 А — 12 В. Каково эквивалентное сопротивление его обмоток? Ответ в омах."
     answer: 5
     unit: "Ом"
@@ -254,6 +297,8 @@ questions:
     lesson: ferrite-beads
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU = I · DCR"
     question: "Через бусину с DCR 0,25 Ом течёт 0,3 А. Какое падение напряжения на ней? Ответ в милливольтах."
     answer: 75
     unit: "мВ"
@@ -263,6 +308,8 @@ questions:
     lesson: ferrite-beads
     difficulty: 2
     type: numeric
+    formula:
+      - "P = I² · DCR"
     question: "Сколько мощности теряется в бусине с DCR 0,1 Ом при токе 0,6 А? Ответ в милливаттах."
     answer: 36
     unit: "мВт"
@@ -295,6 +342,9 @@ questions:
     lesson: lc-resonance
     difficulty: 2
     type: numeric
+    formula:
+      - "f₀ = 1 / (2π · √(L · C))"
+      - "L — в генри, C — в фарадах"
     question: "L = 100 мкГн, C = 1 нФ. Найди резонансную частоту в килогерцах."
     answer: 503
     unit: "кГц"
@@ -304,6 +354,8 @@ questions:
     lesson: lc-resonance
     difficulty: 2
     type: numeric
+    formula:
+      - "Δf = f₀ / Q"
     question: "Резонансная частота контура 1 МГц, добротность 50. Какова ширина полосы? Ответ в килогерцах."
     answer: 20
     unit: "кГц"
@@ -325,6 +377,8 @@ questions:
     lesson: ac-adapter-lab
     difficulty: 1
     type: numeric
+    formula:
+      - "Um = √2 · Uрмс ≈ 1,414 · Uрмс"
     question: "Мультиметр в режиме V~ показал 11,5 В. Каково пиковое напряжение? Ответ в вольтах."
     answer: 16.3
     unit: "В"
@@ -334,6 +388,9 @@ questions:
     lesson: ac-adapter-lab
     difficulty: 2
     type: numeric
+    formula:
+      - "r = R · (U₀ − U) / U"
+      - "все напряжения в RMS"
     question: "Адаптер без нагрузки даёт 14,8 В, а с резистором 22 Ом — 12,6 В. Найди его внутреннее сопротивление. Ответ в омах."
     answer: 3.84
     unit: "Ом"

@@ -2,7 +2,6 @@ import { Router } from 'express';
 import { required,check,examState,httpError } from '../helpers.js';
 import { examDefinition,selectQuestions,hydrateQuestions,examPublic,result } from '../exam-engine.js';
 import { grade,validAnswer } from '../grading.js';
-import { mistakeCard } from '../srs.js';
 export function examRoutes(db,c) {
  const r=Router(),attempt=id=>required(db.prepare('SELECT * FROM exam_attempts WHERE id=?').get(id),'Попытка не найдена');
  r.post('/exams/:examId/start', (req, res) => {
@@ -56,7 +55,6 @@ export function examRoutes(db,c) {
     const ok=!!saved&&grade(q,JSON.parse(saved.answer_json));if(ok)correct++;
     db.prepare('INSERT INTO exam_answers(attempt_id,question_id,answer_json,is_correct) VALUES (?,?,?,?) ON CONFLICT(attempt_id,question_id) DO UPDATE SET is_correct=excluded.is_correct')
       .run(a.id,q.id,saved?.answer_json||null,Number(ok));
-    if(!ok)mistakeCard(db,'q:'+q.id,'exam',q.lesson);
    }
    const score=correct/questions.length*100;
    db.prepare('UPDATE exam_attempts SET finished_at=?,score_percent=?,passed=? WHERE id=?')

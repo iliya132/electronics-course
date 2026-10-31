@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" role="img">
+<title>Выход блока питания: режимы CV и CC</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<text x="260" y="26" text-anchor="middle" font-size="17" font-weight="600" fill="currentColor"><tspan x="260" dy="0">Выход блока питания: режимы CV и CC</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="66" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="66" dy="0">0</tspan></text>
+<line x1="153.2" y1="62" x2="153.2" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="153.2" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="153.2" dy="0">0,1</tspan></text>
+<line x1="240.4" y1="62" x2="240.4" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="240.4" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="240.4" dy="0">0,2</tspan></text>
+<line x1="327.6" y1="62" x2="327.6" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="327.6" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="327.6" dy="0">0,3</tspan></text>
+<line x1="414.8" y1="62" x2="414.8" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="414.8" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="414.8" dy="0">0,4</tspan></text>
+<line x1="502" y1="62" x2="502" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="502" y="302" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="502" dy="0">0,5</tspan></text>
+<line x1="66" y1="282" x2="502" y2="282" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="287" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">0</tspan></text>
+<line x1="66" y1="245.33" x2="502" y2="245.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="250.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">1</tspan></text>
+<line x1="66" y1="208.67" x2="502" y2="208.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="213.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">2</tspan></text>
+<line x1="66" y1="172" x2="502" y2="172" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="177" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">3</tspan></text>
+<line x1="66" y1="135.33" x2="502" y2="135.33" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="140.33" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">4</tspan></text>
+<line x1="66" y1="98.67" x2="502" y2="98.67" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="103.67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">5</tspan></text>
+<line x1="66" y1="62" x2="502" y2="62" stroke="var(--border, #e3e6ea)" stroke-width="1" stroke-linecap="round"/>
+<text x="58" y="67" text-anchor="end" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="58" dy="0">6</tspan></text>
+<line x1="66" y1="62" x2="66" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="66" y1="282" x2="502" y2="282" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+<text x="284" y="328" text-anchor="middle" font-size="15" font-weight="400" fill="currentColor"><tspan x="284" dy="0">Ток нагрузки, А</tspan></text>
+<text x="66" y="50" text-anchor="start" font-size="15" font-weight="400" fill="currentColor"><tspan x="66" dy="0">Напряжение на выходе, В</tspan></text>
+<path d="M66 98.67L327.6 98.67" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M327.6 98.67L327.6 282" fill="none" stroke="var(--bad, #b3261e)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="100" y1="225" x2="122" y2="225" stroke="var(--ok, #1a7f4b)" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="230" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="128" dy="0">CV: держит 5 В</tspan></text>
+<line x1="100" y1="245" x2="122" y2="245" stroke="var(--bad, #b3261e)" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="250" text-anchor="start" font-size="14" font-weight="400" fill="currentColor"><tspan x="128" dy="0">CC: держит 0,3 А</tspan></text>
+<circle cx="327.6" cy="98.67" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="337.6" y="90.67" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="337.6" dy="0">предел 0,3 А</tspan></text>
+<circle cx="85.79" cy="98.67" r="5" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2"/>
+<text x="91.79" y="122.67" text-anchor="start" font-size="14" font-weight="600" fill="var(--ok, #1a7f4b)"><tspan x="91.79" dy="0">220 Ом: 22,7 мА</tspan></text>
+<circle cx="327.6" cy="172" r="5" fill="var(--bad, #b3261e)" stroke="none" stroke-width="2"/>
+<text x="337.6" y="177" text-anchor="start" font-size="14" font-weight="600" fill="var(--bad, #b3261e)"><tspan x="337.6" dy="0">10 Ом: 0,3 А, 3 В</tspan></text>
+</g></svg>

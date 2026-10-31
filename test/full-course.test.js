@@ -10,10 +10,10 @@ import {createApp} from '../server/app.js';
 import {examDefinition,hydrateQuestions} from '../server/exam-engine.js';
 import {calculation} from '../scripts/course/calculations.js';
 const content=loadContent();
-test('Полная программа: 183 занятия, все связи, изображения, скетчи, числовые модели',async()=>{
+test('Полная программа: 185 занятий, все связи, изображения, скетчи, числовые модели',async()=>{
  const plan=JSON.parse(readFileSync('scripts/course/plan.json','utf8'));
  assert.deepEqual(content.lessons.map(l=>l.id),plan.flatMap(t=>t.lessons.map(l=>l.id)));
- assert.equal(content.lessons.length,183);assert.equal(content.exams.length,17);
+ assert.equal(content.lessons.length,185);assert.equal(content.exams.length,17);
  const usedModels=new Set();
  for(const t of plan){
   const {data}=await import('../scripts/course/topic-'+String(t.number).padStart(2,'0')+'.js');

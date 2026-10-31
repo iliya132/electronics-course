@@ -34,6 +34,9 @@ export function openDb(path = 'data/app.sqlite') {
       cards_reviewed INTEGER DEFAULT 0, minutes REAL DEFAULT 0);
     CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL);
   `);
+  // Раньше статус «в процессе» ставился при открытии урока; теперь — только после первого ответа.
+  db.exec(`UPDATE lesson_progress SET status='not_started' WHERE status='in_progress'
+    AND NOT EXISTS (SELECT 1 FROM block_answers b WHERE b.lesson_id=lesson_progress.lesson_id)`);
   return db;
 }
 export function recordActivity(db, field, amount = 1, date = new Date()) {

@@ -4,7 +4,6 @@ import { renderBlock } from '../blocks/render.js';
 import { applyTerms } from '../blocks/glossary.js';
 export async function lesson(root, id) {
   const [l, terms] = await Promise.all([api('/lessons/' + id), api('/glossary')]);
-  await api('/lessons/' + id + '/open', 'POST', {});
   document.title = l.title + ' — Электроника';
   root.className = 'reading';
   root.innerHTML = '<a href="#/topic/' + l.topic + '">← Тема «' + esc(l.topic_title) +
@@ -90,6 +89,7 @@ export async function lesson(root, id) {
   complete.onclick = act(async () => {
     await api('/lessons/' + id + '/complete', 'POST', {});
     complete.textContent = '✓ Урок завершён';
+    nextLink.hidden = false;
     toast('Урок завершён. Карточки добавлены в повторение.');
     document.dispatchEvent(new Event('course:update'));
   });
@@ -105,12 +105,14 @@ export async function lesson(root, id) {
       text: 'Экзамен темы →'
     }));
   }
+  const nextLink = el('a', {
+    class: 'button',
+    href: '#/lesson/' + l.next,
+    text: 'Следующий урок →',
+    hidden: !l.next_open
+  });
   if (l.next) {
-    actions.lastChild.append(el('a', {
-      class: 'button',
-      href: '#/lesson/' + l.next,
-      text: 'Следующий урок →'
-    }));
+    actions.lastChild.append(nextLink);
   }
   if (l.previous) {
     actions.append(el('p', {}, [el('a', {

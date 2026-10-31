@@ -7,6 +7,8 @@ questions:
     lesson: "binary-hex"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "Складывай веса разрядов с единицами: 128, 64, 32, 16, 8, 4, 2, 1"
     question: "Переведи 0b10110010 в десятичное число."
     answer: 178
     unit: "ед."
@@ -16,6 +18,9 @@ questions:
     lesson: "binary-hex"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "0xXY = X · 16 + Y"
+      - "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15"
     question: "Чему равно 0xC8 в десятичной записи?"
     answer: 200
     unit: "ед."
@@ -36,6 +41,8 @@ questions:
     lesson: "binary-hex"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "число значений = 2ⁿ"
     question: "Сколько значений можно закодировать в 14 битах?"
     answer: 16384
     unit: "знач."
@@ -66,6 +73,8 @@ questions:
     lesson: "logic-gates"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Число строк = 2ⁿ (n — число входов)"
     question: "Сколько комбинаций входов в таблице истинности вентиля с четырьмя входами?"
     answer: 16
     unit: "ком."
@@ -86,6 +95,8 @@ questions:
     lesson: "logic-levels"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "VIH = 0,7 · Vcc"
     question: "74HC при питании 3,3 В: VIH = 0,7·Vcc. Чему равно VIH в вольтах?"
     answer: 2.31
     unit: "В"
@@ -106,6 +117,8 @@ questions:
     lesson: "logic-levels"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "NMH = VOH − VIH"
     question: "VOH = 4,4 В, VIH = 3,5 В. Запас по шуму для единицы, В."
     answer: 0.9
     unit: "В"
@@ -126,6 +139,8 @@ questions:
     lesson: "pullup-opendrain"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "I = U / R"
     question: "Подтяжка 22 кОм к питанию 3,3 В, кнопка нажата. Ток, мкА?"
     answer: 150
     unit: "мкА"
@@ -135,6 +150,8 @@ questions:
     lesson: "pullup-opendrain"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t_r = 0,8473 · R · C"
     question: "Ёмкость шины 150 пФ, Rп = 2,2 кОм. Время нарастания t = 0,8473·R·C, нс?"
     answer: 280
     unit: "нс"
@@ -166,6 +183,8 @@ questions:
     lesson: "level-shifting"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = Uвх · R2 / (R1 + R2)"
     question: "Делитель 3,3 кОм (сверху) и 6,8 кОм (снизу) на 5 В. Выход, В?"
     answer: 3.36
     unit: "В"
@@ -197,6 +216,9 @@ questions:
     lesson: "level-shifting"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = Uвх · R2 / (R1 + R2)"
+      - "Uвх макс = Uвых макс · (R1 + R2) / R2"
     question: "Предел входа МК 3,6 В. Какое наибольшее входное напряжение допустимо для делителя 1,8 кОм/3,3 кОм? Ответ в вольтах."
     answer: 5.6
     unit: "В"
@@ -206,6 +228,9 @@ questions:
     lesson: "flipflops-counters"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "f_вых = f_вх / 2ⁿ"
+      - "n — число триггеров"
     question: "Делитель частоты на трёх триггерах: тактовая частота 800 Гц. Частота на выходе, Гц?"
     answer: 100
     unit: "Гц"
@@ -226,6 +251,8 @@ questions:
     lesson: "flipflops-counters"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "число бит = 8 · число регистров"
     question: "Сколько битов нужно записать в цепочку из четырёх 74HC595?"
     answer: 32
     unit: "бит"
@@ -246,6 +273,8 @@ questions:
     lesson: "schmitt-buffers"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "τ = R · C"
     question: "R = 100 кОм, C = 100 нФ. Постоянная времени τ, мс?"
     answer: 10
     unit: "мс"
@@ -266,6 +295,8 @@ questions:
     lesson: "schmitt-buffers"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "гистерезис = VT+ − VT−"
     question: "VT+ = 3,1 В, VT− = 1,6 В. Гистерезис, В?"
     answer: 1.5
     unit: "В"
@@ -286,6 +317,8 @@ questions:
     lesson: "optocouplers"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R = (Uвх − Vf) / If"
     question: "Вход 5 В, If = 4 мА, Vf = 1,2 В. Резистор, Ом?"
     answer: 950
     unit: "Ом"
@@ -295,6 +328,8 @@ questions:
     lesson: "optocouplers"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Ic = CTR · If"
     question: "If = 10 мА, CTR = 100 %. Максимальный ток коллектора, мА?"
     answer: 10
     unit: "мА"
@@ -348,6 +383,8 @@ questions:
     lesson: "ttl-cmos-families"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f_макс ≈ 1 / (2 · t_pd)"
     question: "74LVC с задержкой 3 нс. Оценка 1/(2·tpd), МГц?"
     answer: 167
     unit: "МГц"
@@ -357,6 +394,8 @@ questions:
     lesson: "running-lights"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f = 1,44 / ((R1 + 2 · R2) · C)"
     question: "R1 = 1 кОм, R2 = 10 кОм, C = 22 мкФ. Частота 555, Гц?"
     answer: 3.1
     unit: "Гц"
@@ -377,6 +416,8 @@ questions:
     lesson: "running-lights"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (U_вых − Vf) / R"
     question: "Светодиод Vf = 2,0 В, выход HC 4,5 В, резистор 1,5 кОм. Ток, мА?"
     answer: 1.67
     unit: "мА"
@@ -386,6 +427,8 @@ questions:
     lesson: "input-protection"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "k = R2 / (R1 + R2)"
     question: "Делитель 47 кОм и 15 кОм: коэффициент деления? Ответ числом."
     answer: 0.242
     unit: "ед."

@@ -19,6 +19,11 @@ export function answerControls(q,value){
   return checked.length?(type==='multi'?checked:checked[0]):undefined;
  }};
 }
+export function formulaBox(q,open=false){
+ const lines=[].concat(q.formula??[]);if(!lines.length)return null;
+ const box=el('details',{class:'formula'},[el('summary',{text:open?'Формула':'Напомнить формулу'}),...lines.map(line=>el('p',{text:line}))]);
+ box.open=open;return box;
+}
 export function mountQuiz(container, q, {
   lessonId,
   saved,
@@ -81,7 +86,7 @@ export function mountQuiz(container, q, {
       text: 'Можно выбрать несколько вариантов.'
     }));
   }
-  fieldset.prepend(legend, controls.box);
+  fieldset.prepend(legend, ...[formulaBox(q, q.formula_open)].filter(Boolean), controls.box);
   fieldset.append(actions);
   if (hint) fieldset.append(hint);
   fieldset.append(feedback);

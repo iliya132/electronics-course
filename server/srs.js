@@ -10,8 +10,4 @@ export function addCard(db, id, source, lesson, now = new Date()) {
   db.prepare('INSERT OR IGNORE INTO cards(card_id,source,lesson_id,due_at) VALUES (?,?,?,?)').run(id, source, lesson,
     due.toISOString());
 }
-export function mistakeCard(db,id,source,lesson) {
- addCard(db,id,source,lesson);
- db.prepare('UPDATE cards SET box=1,due_at=? WHERE card_id=?').run(new Date().toISOString(),id);
-}
 

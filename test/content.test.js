@@ -15,3 +15,9 @@ test('Markdown HTML не исполняется, неизвестный блок
  assert.throws(()=>parseLesson('```unknown\nx: 1\n```'),/неизвестный/);
 });
 
+test('formula: строка или список строк, formula_open только вместе с ней',()=>{
+ const c=loadContent(); const q=c.lessons[0].blocks.find(b=>b.type==='quiz');
+ q.formula=['U = I · R']; q.formula_open=true; assert.deepEqual(validateContent(c),[]);
+ q.formula=[''];assert.ok(validateContent(c).some(e=>e.includes('formula')));
+ delete q.formula;assert.ok(validateContent(c).some(e=>e.includes('formula_open')));
+});

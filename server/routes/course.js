@@ -1,11 +1,12 @@
 import { Router } from 'express';
-import { lessonSummary, examState, progressMap } from '../helpers.js';
+import { lessonSummary, examState, progressMap, unlockedLessons } from '../helpers.js';
 export function courseRoutes(db, c) {
   const r = Router();
   r.get('/course', (_, res) => {
     const all = progressMap(db);
+    const open = unlockedLessons(c, all);
     const topics = c.topics.map(t => {
-      const lessons = t.lessons.map(l => lessonSummary(db, l, all));
+      const lessons = t.lessons.map(l => ({ ...lessonSummary(db, l, all), locked: !open.has(l.id) }));
       const done = lessons.filter(l => l.status === 'completed').length;
       const attempts = t.exam ?
         db.prepare("SELECT score_percent,passed FROM exam_attempts WHERE exam_id=? AND finished_" +
@@ -13,6 +14,7 @@ export function courseRoutes(db, c) {
       return {
         ...t,
         lessons,
+        locked: lessons.every(l => l.locked),
         completed: done,
         percent: Math.round(done / lessons.length * 100),
         exam: t.exam ? {
@@ -33,8 +35,9 @@ export function courseRoutes(db, c) {
       available: remaining === 0 && questionCount >= c.course.final_exam.questions_per_attempt,
       remaining
     };
-    const next = lessons.find(l => l.status === 'in_progress') || lessons.find(l => l.status !== 'completed' &&
-      !l.optional) || lessons.find(l => l.status !== 'completed');
+    const available = lessons.filter(l => !l.locked);
+    const next = available.find(l => l.status === 'in_progress') || available.find(l => l.status !== 'completed' &&
+      !l.optional) || available.find(l => l.status !== 'completed');
     res.json({
       title: c.course.title,
       topics,

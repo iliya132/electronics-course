@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img">
+<title>Порядок включения стенда</title>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="currentColor">
+<rect x="15" y="50" width="120" height="70" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="75" y="81.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="75" dy="0">1. Выход</tspan><tspan x="75" dy="16.8">выключен</tspan></text>
+<rect x="160" y="50" width="120" height="70" rx="8" fill="var(--accent, #2457d6)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="160" y="50" width="120" height="70" rx="8" fill="none" stroke="var(--accent, #2457d6)" stroke-width="2.2"/>
+<text x="220" y="81.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="220" dy="0">2. Задать</tspan><tspan x="220" dy="16.8">напряжение</tspan></text>
+<rect x="305" y="50" width="120" height="70" rx="8" fill="var(--warn, #9a6700)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="305" y="50" width="120" height="70" rx="8" fill="none" stroke="var(--warn, #9a6700)" stroke-width="2.2"/>
+<text x="365" y="81.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="365" dy="0">3. Задать</tspan><tspan x="365" dy="16.8">предел тока</tspan></text>
+<rect x="450" y="50" width="120" height="70" rx="8" fill="none" stroke="currentColor" stroke-width="2.2"/>
+<text x="510" y="81.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="510" dy="0">4. Собрать,</tspan><tspan x="510" dy="16.8">проверить</tspan></text>
+<rect x="595" y="50" width="110" height="70" rx="8" fill="var(--ok, #1a7f4b)" stroke="none" stroke-width="2" opacity="0.16"/>
+<rect x="595" y="50" width="110" height="70" rx="8" fill="none" stroke="var(--ok, #1a7f4b)" stroke-width="2.2"/>
+<text x="650" y="81.6" text-anchor="middle" font-size="14" font-weight="600" fill="currentColor"><tspan x="650" dy="0">5. Включить</tspan><tspan x="650" dy="16.8">выход</tspan></text>
+<line x1="135" y1="85" x2="151" y2="85" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M160 85L151 80.05L151 89.95Z" fill="currentColor" stroke="none"/>
+<line x1="280" y1="85" x2="296" y2="85" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M305 85L296 80.05L296 89.95Z" fill="currentColor" stroke="none"/>
+<line x1="425" y1="85" x2="441" y2="85" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M450 85L441 80.05L441 89.95Z" fill="currentColor" stroke="none"/>
+<line x1="570" y1="85" x2="586" y2="85" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M595 85L586 80.05L586 89.95Z" fill="currentColor" stroke="none"/>
+<text x="360" y="160" text-anchor="middle" font-size="14" font-weight="400" fill="var(--muted, #5b6573)"><tspan x="360" dy="0">Менять схему нужно только при выключенном выходе.</tspan></text>
+</g></svg>

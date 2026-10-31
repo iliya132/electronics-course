@@ -19,6 +19,8 @@ questions:
     lesson: battery-types
     difficulty: 1
     type: numeric
+    formula:
+      - "Последовательно: U = n · U₁"
     question: "Три Li-ion элемента по 3,7 В соединены последовательно. Каково номинальное напряжение батареи?"
     answer: 11.1
     unit: "В"
@@ -28,6 +30,9 @@ questions:
     lesson: battery-types
     difficulty: 2
     type: numeric
+    formula:
+      - "Последовательно (S): U = n · U₁, ёмкость не меняется"
+      - "Параллельно (P): C = m · C₁, напряжение не меняется"
     question: "Батарея 2S3P из элементов 3,7 В и 3000 мА·ч. Какова её ёмкость?"
     answer: 9000
     unit: "мА·ч"
@@ -48,6 +53,11 @@ questions:
     lesson: battery-types
     difficulty: 3
     type: numeric
+    formula:
+      - "Последовательно (S): U = n · U₁, ёмкость не меняется"
+      - "Параллельно (P): C = m · C₁, напряжение не меняется"
+      - "E = U · C"
+      - "U — напряжение (В), C — ёмкость (А·ч), E — энергия (Вт·ч)"
     question: "Батарея 4S2P собрана из элементов 3,7 В и 2500 мА·ч. Сколько энергии она хранит?"
     answer: 74
     unit: "Вт·ч"
@@ -58,6 +68,9 @@ questions:
     lesson: capacity-crate
     difficulty: 1
     type: numeric
+    formula:
+      - "C-rate = I / C"
+      - "ток при x·C: I = x · C (C — ёмкость в А·ч, I — ток в А)"
     question: "Элемент 2400 мА·ч разряжают током 1,2 А. Каков C-rate?"
     answer: 0.5
     unit: "C"
@@ -67,6 +80,9 @@ questions:
     lesson: capacity-crate
     difficulty: 2
     type: numeric
+    formula:
+      - "C-rate = I / C"
+      - "ток при x·C: I = x · C (C — ёмкость в А·ч, I — ток в А)"
     question: "Какой ток соответствует 3C для элемента 2000 мА·ч?"
     answer: 6
     unit: "А"
@@ -76,6 +92,9 @@ questions:
     lesson: capacity-crate
     difficulty: 2
     type: numeric
+    formula:
+      - "t = (C · доля доступной) / I"
+      - "C в мА·ч, I в мА — время получится в часах"
     question: "Устройство потребляет 50 мА. Батарея 1500 мА·ч, но реально доступно 80 % ёмкости. На сколько часов хватит?"
     answer: 24
     unit: "ч"
@@ -85,6 +104,10 @@ questions:
     lesson: capacity-crate
     difficulty: 3
     type: numeric
+    formula:
+      - "P_нагр = U · I"
+      - "I_бат = P_нагр / (η · U_бат)"
+      - "t = C / I_бат"
     question: "Нагрузка 5 В и 100 мА питается через повышающий преобразователь с КПД 90 % от аккумулятора 3,7 В. Какой ток отдаёт аккумулятор? Ответ в миллиамперах."
     answer: 150
     unit: "мА"
@@ -117,6 +140,9 @@ questions:
     lesson: li-ion-safety
     difficulty: 2
     type: numeric
+    formula:
+      - "U_заряда = n · 4,2 В"
+      - "n — число звеньев S"
     question: "До какого напряжения заряжают батарею 2S из Li-ion?"
     answer: 8.4
     unit: "В"
@@ -160,6 +186,9 @@ questions:
     lesson: tp4056
     difficulty: 2
     type: numeric
+    formula:
+      - "Rprog = 1200 / I"
+      - "Rprog — в омах, I — в амперах"
     question: "Подбери Rprog для TP4056 на ток заряда 0,4 А. Ответ в килоомах."
     answer: 3
     unit: "кОм"
@@ -169,6 +198,9 @@ questions:
     lesson: tp4056
     difficulty: 2
     type: numeric
+    formula:
+      - "I = 1200 / Rprog"
+      - "Rprog — в омах, I — в амперах"
     question: "Rprog у модуля TP4056 равен 3 кОм. Каков ток заряда на этапе CC? Ответ в миллиамперах."
     answer: 400
     unit: "мА"
@@ -178,6 +210,8 @@ questions:
     lesson: tp4056
     difficulty: 3
     type: numeric
+    formula:
+      - "P = (Uвх − Uбат) · I"
     question: "TP4056 питается от 5 В, аккумулятор имеет 3,4 В, ток заряда 0,5 А. Сколько тепла выделяется в микросхеме?"
     answer: 0.8
     unit: "Вт"
@@ -210,6 +244,9 @@ questions:
     lesson: usb-power
     difficulty: 2
     type: numeric
+    formula:
+      - "U = I · R"
+      - "I — ток источника в линии CC (А), R = 5,1 кОм"
     question: "Источник USB-C пропускает через линию CC ток 80 мкА. Какое напряжение получится на резисторе Rd = 5,1 кОм?"
     answer: 0.41
     unit: "В"
@@ -230,6 +267,10 @@ questions:
     lesson: usb-power
     difficulty: 3
     type: numeric
+    formula:
+      - "R = ρ · 2L / S"
+      - "ΔU = I · R"
+      - "ρ меди = 0,0175 Ом·мм²/м"
     question: "Кабель USB длиной 1,5 м имеет жилы питания 28 AWG (0,08 мм²). Ток 0,8 А. Какое падение напряжения на кабеле (туда и обратно)?"
     answer: 0.53
     unit: "В"
@@ -262,6 +303,9 @@ questions:
     lesson: power-budget
     difficulty: 2
     type: numeric
+    formula:
+      - "I_источника = I_пик · 1,3"
+      - "запас 30 %"
     question: "Суммарный пиковый ток устройства 0,45 А. Какой ток должен выдерживать источник с запасом 30 %?"
     answer: 0.585
     unit: "А"
@@ -271,6 +315,9 @@ questions:
     lesson: power-budget
     difficulty: 2
     type: numeric
+    formula:
+      - "I_ср = (I_акт · t_акт + I_сон · t_сон) / T"
+      - "T = t_акт + t_сон"
     question: "Устройство каждые 5 с просыпается на 0,5 с с током 200 мА, остальные 4,5 с спит с током 0,2 мА. Каков средний ток?"
     answer: 20.18
     unit: "мА"
@@ -280,6 +327,9 @@ questions:
     lesson: power-budget
     difficulty: 3
     type: numeric
+    formula:
+      - "t = (C · доля доступной) / I_ср"
+      - "1 сутки = 24 ч"
     question: "Батарея 1000 мА·ч, доступно 80 %. Средний ток устройства 4 мА. Сколько суток оно проработает?"
     answer: 8.33
     unit: "сут"
@@ -301,6 +351,9 @@ questions:
     lesson: liion-charger-module
     difficulty: 2
     type: numeric
+    formula:
+      - "I = 1200 / Rprog (А, Ом)"
+      - "I_стоп = I / 10"
     question: "Rprog модуля равен 2,4 кОм. При каком токе CV заряд будет считаться оконченным? Ответ в миллиамперах."
     answer: 50
     unit: "мА"

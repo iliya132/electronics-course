@@ -5,6 +5,6 @@ export function el(tag,attrs={},children=[]){
 }
 export function progressBar(percent){return '<div class="progress" role="progressbar" aria-label="Прогресс" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+percent+'"><span style="width:'+percent+'%"></span></div>';}
 export const icon=name=>'<img class="lesson-icon" src="/icons/'+esc(name)+'.svg" alt="">';
-export const statusName={not_started:'Не начат',in_progress:'В процессе',completed:'Завершён'};
-export function lessonRow(l){return '<a class="lesson-row" href="#/lesson/'+esc(l.id)+'">'+icon(l.icon)+'<span class="details"><strong>'+esc(l.title)+'</strong> '+(l.optional?'<span class="badge">Дополнительно</span>':'')+'<small>'+esc(l.summary)+'</small></span><span class="time">'+l.minutes+' мин<br><span class="st '+(l.status==='completed'?'complete':l.status)+'">'+statusName[l.status]+'</span></span></a>';}
+export const statusName={not_started:'Не начат',in_progress:'В процессе',completed:'Завершён',locked:'Закрыт'};
+export function lessonRow(l){const st=l.locked?'locked':l.status;return '<'+(l.locked?'div class="lesson-row locked" aria-disabled="true"':'a class="lesson-row" href="#/lesson/'+esc(l.id)+'"')+'>'+icon(l.icon)+'<span class="details"><strong>'+esc(l.title)+'</strong> '+(l.optional?'<span class="badge">Дополнительно</span>':'')+'<small>'+esc(l.summary)+'</small></span><span class="time">'+l.minutes+' мин<br><span class="st '+(st==='completed'?'complete':st)+'">'+statusName[st]+'</span></span></'+(l.locked?'div':'a')+'>';}
 

@@ -1,6 +1,6 @@
 import { api, act, toast } from '../api.js';
 import { el, esc, progressBar } from '../dom.js';
-import { answerControls } from '../blocks/quiz.js';
+import { answerControls, formulaBox } from '../blocks/quiz.js';
 const num = a => typeof a === 'number' ? Number(a.toPrecision(6)).toLocaleString('ru-RU') : a;
 const format = (q, a) => a == null || Array.isArray(a) && !a.length ? 'Пропущен' : q.options ? Array.isArray(a) ?
   a.map(i => q.options[i]).join('; ') : q.options[a] : num(a) + ' ' + q.unit;
@@ -140,6 +140,10 @@ export async function attempt(root, id) {
       }
     };
     controls = answerControls(q, answers.get(q.id));
+    const formula = formulaBox(q);
+    if (formula) {
+      fieldset.append(formula);
+    }
     fieldset.append(controls.box);
     form.append(fieldset);
     form.onsubmit = e => e.preventDefault();

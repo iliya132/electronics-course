@@ -8,6 +8,9 @@ questions:
     lesson: capacitor-basics
     difficulty: 1
     type: numeric
+    formula:
+      - "Q = C · U"
+      - "C в фарадах, U в вольтах, Q в кулонах"
     question: "Конденсатор 470 мкФ заряжен до 10 В. Какой заряд на нём? Ответ в милликулонах."
     answer: 4.7
     unit: "мКл"
@@ -28,6 +31,9 @@ questions:
     lesson: capacitor-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "E = C · U² / 2"
+      - "C в фарадах, U в вольтах, E в джоулях"
     question: "Какую энергию хранит конденсатор 100 мкФ при напряжении 24 В? Ответ в миллиджоулях."
     answer: 28.8
     unit: "мДж"
@@ -37,6 +43,9 @@ questions:
     lesson: capacitor-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "1 мкФ = 1000 нФ"
+      - "нано → микро: ÷ 1000"
     question: "Переведи 220 нФ в микрофарады."
     answer: 0.22
     unit: "мкФ"
@@ -46,6 +55,10 @@ questions:
     lesson: capacitor-basics
     difficulty: 3
     type: numeric
+    formula:
+      - "E = C · U² / 2"
+      - "C в фарадах, U в вольтах, E в джоулях"
+      - "P = E / t"
     question: "Конденсатор 2200 мкФ заряжен до 5 В и разряжается в нагрузку за 10 мс. Какова средняя мощность? Ответ в ваттах."
     answer: 2.75
     unit: "Вт"
@@ -56,6 +69,9 @@ questions:
     lesson: rc-charge
     difficulty: 1
     type: numeric
+    formula:
+      - "τ = R · C"
+      - "кОм · мкФ = мс; МОм · мкФ = с"
     question: "Найди постоянную времени RC-цепи при R = 22 кОм и C = 47 мкФ. Ответ в секундах."
     answer: 1.034
     unit: "с"
@@ -76,6 +92,9 @@ questions:
     lesson: rc-charge
     difficulty: 2
     type: numeric
+    formula:
+      - "Разряд: U = U₀ · e^(−t/τ)"
+      - "за τ остаётся 37 %, за 2τ — 14 %, за 3τ — 5 %"
     question: "Конденсатор заряжен до 9 В и разряжается через резистор. Какое напряжение будет на нём через 3τ? Ответ в вольтах."
     answer: 0.45
     unit: "В"
@@ -85,6 +104,9 @@ questions:
     lesson: rc-charge
     difficulty: 2
     type: numeric
+    formula:
+      - "t = τ · ln(E / (E − Uпорог))"
+      - "для 50 %: t ≈ 0,693 · τ"
     question: "τ = 20 мс. Через какое время напряжение на заряжающемся конденсаторе достигнет 50 % от E? Ответ в миллисекундах."
     answer: 13.9
     unit: "мс"
@@ -94,6 +116,9 @@ questions:
     lesson: rc-charge
     difficulty: 3
     type: numeric
+    formula:
+      - "R = τ / C"
+      - "τ — в секундах, C — в фарадах, R — в омах"
     question: "Нужна постоянная времени 0,5 с при конденсаторе 47 мкФ. Какое сопротивление нужно? Ответ в килоомах."
     answer: 10.6
     unit: "кОм"
@@ -115,6 +140,8 @@ questions:
     lesson: capacitor-types
     difficulty: 2
     type: numeric
+    formula:
+      - "C_эфф = C_ном · (доля сохранённой ёмкости)"
     question: "Керамический X5R 22 мкФ при рабочем напряжении сохраняет 55 % номинала. Какова эффективная ёмкость? Ответ в мкФ."
     answer: 12.1
     unit: "мкФ"
@@ -158,6 +185,9 @@ questions:
     lesson: decoupling
     difficulty: 2
     type: numeric
+    formula:
+      - "U = L · ΔI / Δt"
+      - "L — в генри, Δt — в секундах"
     question: "Дорожка питания имеет индуктивность 30 нГн. Ток нарастает на 20 мА за 4 нс. Найди выброс напряжения. Ответ в вольтах."
     answer: 0.15
     unit: "В"
@@ -167,6 +197,8 @@ questions:
     lesson: decoupling
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU = I · Δt / C"
     question: "Импульс тока 30 мА длится 3 нс, у вывода конденсатор 100 нФ. Какова просадка от разряда конденсатора? Ответ в милливольтах."
     answer: 0.9
     unit: "мВ"
@@ -176,6 +208,9 @@ questions:
     lesson: decoupling
     difficulty: 2
     type: numeric
+    formula:
+      - "f₀ = 1 / (2π · √(L · C))"
+      - "L — в генри, C — в фарадах"
     question: "Найди резонансную частоту конденсатора 100 нФ с ESL 1,5 нГн. Ответ в мегагерцах."
     answer: 13
     unit: "МГц"
@@ -208,6 +243,8 @@ questions:
     lesson: bulk-caps
     difficulty: 2
     type: numeric
+    formula:
+      - "C = I · Δt / ΔU"
     question: "Импульс тока 0,4 А длится 100 мкс, допустимая просадка 0,2 В. Какая минимальная ёмкость нужна? Ответ в микрофарадах."
     answer: 200
     unit: "мкФ"
@@ -217,6 +254,9 @@ questions:
     lesson: bulk-caps
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU = I · T / C"
+      - "T — время между подзарядами"
     question: "Выпрямитель питает ток 0,3 А, интервал между подзарядами 10 мс, конденсатор 1000 мкФ. Каковы пульсации? Ответ в вольтах."
     answer: 3
     unit: "В"
@@ -249,6 +289,8 @@ questions:
     lesson: ac-coupling
     difficulty: 2
     type: numeric
+    formula:
+      - "fc = 1 / (2π · R · C)"
     question: "Вход с сопротивлением 47 кОм, разделительный конденсатор 100 нФ. Найди частоту среза в герцах."
     answer: 33.9
     unit: "Гц"
@@ -269,6 +311,8 @@ questions:
     lesson: ac-coupling
     difficulty: 3
     type: numeric
+    formula:
+      - "U_смещ = U_пит · R2 / (R1 + R2)"
     question: "Делитель смещения: верхний резистор 10 кОм до 3,3 В, нижний 22 кОм до земли. Какое напряжение смещения на входе? Ответ в вольтах."
     answer: 2.27
     unit: "В"
@@ -290,6 +334,8 @@ questions:
     lesson: capacitor-ratings-esr
     difficulty: 2
     type: numeric
+    formula:
+      - "P = I² · ESR"
     question: "Ток пульсаций 1 А (действующий), ESR конденсатора 0,08 Ом. Какая мощность выделяется в конденсаторе? Ответ в ваттах."
     answer: 0.08
     unit: "Вт"
@@ -299,6 +345,9 @@ questions:
     lesson: capacitor-ratings-esr
     difficulty: 2
     type: numeric
+    formula:
+      - "L = L₀ · 2^((T₀ − T) / 10)"
+      - "L₀ — срок службы при T₀, T — рабочая температура"
     question: "Электролит с паспортным сроком 1000 ч при 105 °C работает при 75 °C. Каков примерный срок службы? Ответ в часах."
     answer: 8000
     unit: "ч"
@@ -320,6 +369,9 @@ questions:
     lesson: measure-capacitance
     difficulty: 1
     type: numeric
+    formula:
+      - "τ = t (время падения до 37 %)"
+      - "C = τ / R"
     question: "При разряде через R = 100 кОм напряжение упало до 37 % за 4,7 с. Какова ёмкость? Ответ в микрофарадах."
     answer: 47
     unit: "мкФ"
@@ -340,6 +392,8 @@ questions:
     lesson: measure-capacitance
     difficulty: 2
     type: numeric
+    formula:
+      - "C_мин = C · (1 − допуск)"
     question: "Электролит 47 мкФ имеет допуск ±20 %. Какова наименьшая допустимая ёмкость? Ответ в микрофарадах."
     answer: 37.6
     unit: "мкФ"

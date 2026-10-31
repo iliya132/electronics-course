@@ -19,6 +19,9 @@ questions:
     lesson: charge-current
     difficulty: 1
     type: numeric
+    formula:
+      - "I = Q / t"
+      - "Q — заряд (Кл), t — время (с)"
     question: "За 8 секунд через сечение провода прошёл заряд 12 Кл. Найди силу тока."
     answer: 1.5
     unit: "А"
@@ -28,6 +31,9 @@ questions:
     lesson: charge-current
     difficulty: 2
     type: numeric
+    formula:
+      - "t = C / I"
+      - "C — ёмкость (мА·ч), I — ток (мА)"
     question: "Фонарик потребляет ток 400 мА. Ёмкость батарейки 3200 мА·ч. На сколько часов её хватит в идеальном случае?"
     answer: 8
     unit: "ч"
@@ -48,6 +54,9 @@ questions:
     lesson: charge-current
     difficulty: 3
     type: numeric
+    formula:
+      - "I = C / t"
+      - "время переведи в часы (1 сутки = 24 ч)"
     question: "Датчик, питаемый аккумулятором на 1800 мА·ч, проработал ровно 25 суток подряд. Каков его средний ток?"
     answer: 3
     unit: "мА"
@@ -69,6 +78,8 @@ questions:
     lesson: voltage
     difficulty: 1
     type: numeric
+    formula:
+      - "U_AB = φ_A − φ_B"
     question: "Потенциал точки A равен 9 В, потенциал точки B равен 2,5 В (оба относительно земли). Найди U_AB."
     answer: 6.5
     unit: "В"
@@ -101,6 +112,9 @@ questions:
     lesson: voltage
     difficulty: 3
     type: numeric
+    formula:
+      - "U = A / Q"
+      - "A — энергия (Дж), Q — заряд (Кл)"
     question: "Заряд 0,5 Кл прошёл через участок цепи, и при этом выделилось 6 Дж энергии. Каково напряжение на этом участке?"
     answer: 12
     unit: "В"
@@ -133,6 +147,9 @@ questions:
     lesson: resistance
     difficulty: 1
     type: numeric
+    formula:
+      - "R = ρ · L / S"
+      - "ρ — удельное сопротивление (Ом·мм²/м), L — длина (м), S — сечение (мм²)"
     question: "Найди сопротивление медного провода длиной 20 м и сечением 1 мм² (ρ = 0,0175 Ом·мм²/м)."
     answer: 0.35
     unit: "Ом"
@@ -153,6 +170,9 @@ questions:
     lesson: resistance
     difficulty: 2
     type: numeric
+    formula:
+      - "R = ρ · L / S"
+      - "ρ — удельное сопротивление (Ом·мм²/м), L — длина (м), S — сечение (мм²)"
     question: "Нагревательная спираль из нихрома: ρ = 1,1 Ом·мм²/м, длина 2 м, сечение 0,2 мм². Найди сопротивление."
     answer: 11
     unit: "Ом"
@@ -174,6 +194,9 @@ questions:
     lesson: ohm-law
     difficulty: 1
     type: numeric
+    formula:
+      - "U = I · R"
+      - "мА × кОм = В"
     question: "Через резистор 1 кОм течёт ток 5 мА. Какое напряжение на резисторе?"
     answer: 5
     unit: "В"
@@ -183,6 +206,9 @@ questions:
     lesson: ohm-law
     difficulty: 1
     type: numeric
+    formula:
+      - "R = U / I"
+      - "ток в амперах"
     question: "При напряжении 6 В через резистор течёт ток 20 мА. Каково его сопротивление?"
     answer: 300
     unit: "Ом"
@@ -203,6 +229,9 @@ questions:
     lesson: ohm-law
     difficulty: 2
     type: numeric
+    formula:
+      - "R = U / I, затем I = U / R"
+      - "Или пропорция: ток растёт во столько же раз, во сколько напряжение"
     question: "К резистору приложили 3 В, и по нему пошёл ток 15 мА. Какой ток пойдёт при 7,5 В?"
     answer: 37.5
     unit: "мА"
@@ -225,6 +254,8 @@ questions:
     lesson: power-energy
     difficulty: 1
     type: numeric
+    formula:
+      - "P = U · I"
     question: "Электромотор работает от 12 В и потребляет ток 2 А. Какова его мощность?"
     answer: 24
     unit: "Вт"
@@ -234,6 +265,8 @@ questions:
     lesson: power-energy
     difficulty: 2
     type: numeric
+    formula:
+      - "P = U² / R"
     question: "На резистор 150 Ом подано 3 В. Сколько мощности на нём выделяется? Ответ в милливаттах."
     answer: 60
     unit: "мВт"
@@ -254,6 +287,9 @@ questions:
     lesson: power-energy
     difficulty: 2
     type: numeric
+    formula:
+      - "E = U · C"
+      - "C — ёмкость (А·ч), E — энергия (Вт·ч)"
     question: "Повербанк 3,7 В с ёмкостью 10 А·ч (10 000 мА·ч). Сколько энергии он хранит?"
     answer: 37
     unit: "Вт·ч"
@@ -263,6 +299,8 @@ questions:
     lesson: power-energy
     difficulty: 3
     type: numeric
+    formula:
+      - "R = U² / P"
     question: "Резистор 0,5 Вт подключают к 24 В. Какое сопротивление нужно взять, чтобы выделялось не больше 0,25 Вт (запас вдвое)? Ответ в килоомах."
     answer: 2.304
     unit: "кОм"
@@ -273,6 +311,9 @@ questions:
     lesson: units-prefixes
     difficulty: 1
     type: numeric
+    formula:
+      - "милли (м) = 10⁻³ · микро (мк) = 10⁻⁶ · кило (к) = 10³"
+      - "Ступень вверх (мкА → мА → А): ÷ 1000. Ступень вниз: × 1000"
     question: "Переведи 47 мкА в миллиамперы."
     answer: 0.047
     unit: "мА"
@@ -293,6 +334,10 @@ questions:
     lesson: units-prefixes
     difficulty: 2
     type: numeric
+    formula:
+      - "I = U / R"
+      - "В / кОм = мА"
+      - "мА → мкА: × 1000"
     question: "Резистор 22 кОм подключён к 3,3 В. Найди ток в микроамперах."
     answer: 150
     unit: "мкА"
@@ -313,6 +358,9 @@ questions:
     lesson: units-prefixes
     difficulty: 3
     type: numeric
+    formula:
+      - "P = I² · R"
+      - "мА² · кОм = мВт"
     question: "Через резистор 4,7 кОм течёт ток 2 мА. Какая мощность выделяется на нём? Ответ в милливаттах."
     answer: 18.8
     unit: "мВт"
@@ -334,6 +382,9 @@ questions:
     lesson: battery-internal-r
     difficulty: 2
     type: numeric
+    formula:
+      - "r = R · (E − U) / U"
+      - "E — без нагрузки, U — под нагрузкой, R — сопротивление нагрузки"
     question: "У батарейки E = 1,50 В без нагрузки. С резистором 10 Ом напряжение на клеммах 1,41 В. Найди внутреннее сопротивление."
     answer: 0.64
     unit: "Ом"
@@ -365,8 +416,56 @@ questions:
     lesson: battery-internal-r
     difficulty: 3
     type: numeric
+    formula:
+      - "I = E / (R + r)"
     question: "Батарейка с E = 1,6 В и внутренним сопротивлением 0,5 Ом нагружена резистором 3,5 Ом. Найди ток в цепи в миллиамперах."
     answer: 400
     unit: "мА"
     tolerance_percent: 2
     explanation: "Ток течёт через оба сопротивления подряд: I = E / (R + r) = 1,6 / (3,5 + 0,5) = 0,4 А = 400 мА. Если забыть про r, получится 457 мА."
+  # ───── Лабораторный стенд ─────
+  - id: b-037
+    lesson: lab-bench
+    difficulty: 1
+    type: single
+    question: "Блок питания настроен на 6 В с пределом тока 1 А. К нему подключён резистор 100 Ом. В каком режиме работает блок?"
+    options:
+      - "CV: ток 60 мА меньше предела, напряжение держится на 6 В"
+      - "CC: блок держит 1 А"
+      - "Блок отключился"
+    answer: 0
+    explanation: "I = 6 / 100 = 0,06 А, это намного меньше предела 1 А. Блок остаётся в режиме CV и держит заданные 6 В."
+  - id: b-038
+    lesson: lab-bench
+    difficulty: 2
+    type: numeric
+    formula:
+      - "Если U / R больше предела, то I = предел, U = I · R"
+    question: "БП выставлен на 10 В с пределом 0,2 А. Нагрузка 100 Ом. Какое напряжение будет на нагрузке?"
+    answer: 10
+    unit: "В"
+    tolerance_percent: 2
+    explanation: "I = 10 / 100 = 0,1 А, это меньше предела 0,2 А. Блок в режиме CV, напряжение равно заданным 10 В."
+  - id: b-039
+    lesson: lab-bench
+    difficulty: 2
+    type: numeric
+    formula:
+      - "Если U / R больше предела, то I = предел, U = I · R"
+    question: "БП выставлен на 10 В с пределом 0,1 А. Нагрузка 47 Ом. Какое напряжение будет на нагрузке?"
+    answer: 4.7
+    unit: "В"
+    tolerance_percent: 2
+    explanation: "При 10 В ток был бы 10 / 47 ≈ 0,21 А, больше предела 0,1 А. Блок работает в CC: U = 0,1 × 47 = 4,7 В."
+  - id: b-040
+    lesson: lab-bench
+    difficulty: 3
+    type: multi
+    question: "Какие из утверждений о подготовке стенда верны?"
+    options:
+      - "Предел тока можно задать, закоротив выход и повернув ручку тока до нужного значения"
+      - "Схему меняют при включённом выходе, чтобы увидеть результат сразу"
+      - "Амперметр включают в разрыв цепи"
+      - "Перед включением выхода проверяют полярность подключения"
+    answer: [0, 2, 3]
+    explanation: "Верны первое, третье и четвёртое утверждения. Менять схему при включённом выходе нельзя: случайное касание проводов вызовет замыкание."

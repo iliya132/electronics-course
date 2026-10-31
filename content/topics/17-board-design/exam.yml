@@ -18,6 +18,8 @@ questions:
     lesson: "datasheet-reading"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвх мин = Uвых + dropout"
     question: "Dropout максимум 1,2 В, выход 5 В. Минимальный вход для работы, В?"
     answer: 6.2
     unit: "В"
@@ -49,6 +51,8 @@ questions:
     lesson: "schematic-style"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R = (Uпит − Vf) / I"
     question: "Светодиод 2 В, питание 5 В, ток 12 мА. Резистор, Ом?"
     answer: 250
     unit: "Ом"
@@ -80,6 +84,8 @@ questions:
     lesson: "kicad-start"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f = 1,44 / ((R1 + 2 · R2) · C)"
     question: "Мигалка 555: R1 = 1 кОм, R2 = 10 кОм, C = 10 мкФ. Частота, Гц?"
     answer: 6.86
     unit: "Гц"
@@ -100,6 +106,8 @@ questions:
     lesson: "packages-footprints"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "S = длина · ширина"
     question: "Размер 1206: 3,2×1,6 мм. Площадь, мм²?"
     answer: 5.12
     unit: "мм²"
@@ -142,6 +150,8 @@ questions:
     lesson: "pcb-layout-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "L ≈ 1 нГн/мм · длина"
     question: "Индуктивность дорожки ≈ 1 нГн/мм. Какая у дорожки 25 мм, нГн?"
     answer: 25
     unit: "нГн"
@@ -173,6 +183,8 @@ questions:
     lesson: "ground-plane"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "S = длина · ширина"
     question: "Петля 30 мм × 0,4 мм. Площадь, мм²?"
     answer: 12
     unit: "мм²"
@@ -193,6 +205,8 @@ questions:
     lesson: "mcu-board-schematic"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_LDO = I_пик · (1 + запас)"
     question: "Пик 300 мА, запас 40 %. Ток LDO, мА?"
     answer: 420
     unit: "мА"
@@ -224,6 +238,8 @@ questions:
     lesson: "emc-esd-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = U_ESD / R"
     question: "ESD 6 кВ через 330 Ом. Ток, А (округли)?"
     answer: 18
     unit: "А"
@@ -266,6 +282,8 @@ questions:
     lesson: "dfm-bom-order"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "запас = в проекте − минимум производителя"
     question: "Минимум производителя 0,127 мм, в проекте 0,15 мм. Запас, мм?"
     answer: 0.023
     unit: "мм"
@@ -297,6 +315,8 @@ questions:
     lesson: "debug-board"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "отношение = измерено / расчёт"
     question: "Ток холостого хода по расчёту 15 мА, измерено 90 мА. Во сколько раз больше?"
     answer: 6
     unit: "раз"
@@ -317,6 +337,8 @@ questions:
     lesson: "arduino-shield"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (Uпит − Vf) / R"
     question: "Светодиод 2 В, 5 В, резистор 470 Ом. Ток, мА?"
     answer: 6.4
     unit: "мА"
@@ -348,6 +370,8 @@ questions:
     lesson: "esp32-mini-schematic"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · I"
     question: "Вход 5 В, ток 0,15 А, выход 3,3 В. Потери LDO, мВт?"
     answer: 255
     unit: "мВт"

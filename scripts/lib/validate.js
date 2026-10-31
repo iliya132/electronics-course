@@ -9,6 +9,11 @@ export function validateContent(c) {
     const type = questionType(q);
     if (!['single','multi','numeric'].includes(type)) fail(file,'тип вопроса single/multi/numeric',i);
     if (!q.question || !q.explanation) fail(file,'нужны question и explanation',i);
+    if (q.formula !== undefined) {
+      const lines = [].concat(q.formula);
+      if (!lines.length || lines.some(x => typeof x !== 'string' || !x.trim())) fail(file,'formula: строка или список непустых строк',i);
+    }
+    if (q.formula_open !== undefined && (typeof q.formula_open !== 'boolean' || q.formula === undefined)) fail(file,'formula_open: boolean и только вместе с formula',i);
     if (type === 'numeric') {
       if (!Number.isFinite(q.answer) || !q.unit || (q.tolerance_percent !== undefined &&
           (!Number.isFinite(q.tolerance_percent) || q.tolerance_percent < 0))) fail(file,'числовой ответ, единица и неотрицательный допуск',i);
@@ -39,6 +44,12 @@ export function validateContent(c) {
     if (!Array.isArray(l.objectives) || l.objectives.length < 2 || l.objectives.length > 4) fail(f,'нужно 2–4 цели');
     if (!Array.isArray(l.flashcards) || l.flashcards.length < 2 || l.flashcards.length > 5 ||
         l.flashcards.some(card => !card.q || !card.a)) fail(f,'нужно 2–5 карточек q/a');
+    for (const [n,card] of (Array.isArray(l.flashcards)?l.flashcards:[]).entries()) {
+      if (card.more === undefined) continue;
+      const paragraphs = [].concat(card.more);
+      if (paragraphs.length > 2 || paragraphs.some(p => typeof p !== 'string' || !p.trim()) ||
+          paragraphs.join('').length > 900) fail(f,`карточка ${n+1}: more — 1–2 абзаца, не больше 900 символов`);
+    }
     if (!Array.isArray(l.glossary) || l.glossary.some(id=>!termIds.has(id))) fail(f,'неизвестный термин');
     if (!existsSync(join(c.root,'node_modules/lucide-static/icons',l.icon+'.svg'))) fail(f,'иконка не существует: '+l.icon);
     const blockIds = new Set();
@@ -56,6 +67,14 @@ export function validateContent(c) {
       if (b.type==='example' && (!b.title || !Array.isArray(b.steps) || b.steps.length<2 || !b.result)) fail(f,'example: title/steps/result',i);
       if (b.type==='callout' && (!['tip','warning','mistake','safety','fact','board'].includes(b.kind) || !b.text)) fail(f,'callout: kind/text',i);
       if (b.type==='checkpoint' && (!Array.isArray(b.items) || !b.items.length)) fail(f,'checkpoint: items',i);
+      if (b.type==='bench') {
+        const gear=['psu','scope','dmm','awg','lcr'].filter(k=>b[k]!==undefined);
+        if (!b.title || !gear.length || gear.some(k=>typeof b[k]!=='string' || !b[k].trim())) fail(f,'bench: title и хотя бы один прибор psu/scope/dmm/awg/lcr (строки)',i);
+        for (const key of ['steps','expect'])
+          if (!Array.isArray(b[key]) || !b[key].length || b[key].some(x=>typeof x!=='string' || !x.trim())) fail(f,'bench: '+key+' — список строк',i);
+        if (b.steps?.length<2) fail(f,'bench: минимум два шага',i);
+        if (b.warn!==undefined && typeof b.warn!=='string') fail(f,'bench: warn — строка',i);
+      }
       if (['checkpoint','example','quiz','predict'].includes(b.type)) {
         const lists=[b.items,b.steps,b.options].filter(Array.isArray);
         if (lists.some(a=>a.some(x=>typeof x!=='string')) || (Array.isArray(l.objectives) && l.objectives.some(x=>typeof x!=='string'))) fail(f,b.type+': элемент списка не строка (кавычки вокруг «: »)',i);
@@ -71,7 +90,7 @@ export function validateContent(c) {
       if (!quizzes.some(q=>q.question_type==='numeric')) fail(f,'нет numeric');
       if (l.index>0 && !types.includes('recall')) fail(f,'нет recall');
       const sections=l.body.split(/^## /m).slice(1);
-      const theory=sections.filter(s=>!s.startsWith('Практика') && !s.startsWith('Попробуй дома'));
+      const theory=sections.filter(s=>!s.startsWith('Практика') && !s.startsWith('Попробуй дома') && !s.startsWith('Опыт на стенде'));
       if (theory.length<3 || theory.length>5) fail(f,'нужно 3–5 разделов объяснения');
       for (const section of theory) {
         if (!section.includes('```quiz')) fail(f,'раздел без проверки: '+section.split('\n')[0]);

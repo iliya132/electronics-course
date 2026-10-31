@@ -18,6 +18,9 @@ questions:
     lesson: "why-regulators"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "PSRR (дБ) = 20 · lg(Uпульс_вх / Uпульс_вых)"
+      - "40 дБ — ослабление в 100 раз, 60 дБ — в 1000 раз"
     question: "Пульсации на входе стабилизатора 2 В размахом, PSRR на этой частоте 60 дБ. Какой размах пульсаций на выходе? Ответ в милливольтах."
     answer: 2
     unit: "мВ"
@@ -27,11 +30,15 @@ questions:
     lesson: "why-regulators"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R2экв = R2 · Rн / (R2 + Rн)"
+      - "Uвых = Uвх · R2экв / (R1 + R2экв)"
+      - "Нагрузка Rн включена параллельно R2"
     question: "Делитель из двух резисторов по 2 кОм питается от 12 В (без нагрузки на выходе 6 В). К нижнему резистору подключили нагрузку 2 кОм. Какое напряжение стало на выходе? Ответ в вольтах."
     answer: 4
     unit: "В"
     tolerance_percent: 2
-    explanation: "R2 ∥ Rн = 1 кОм. U = 12 × 1 / (2 + 1) = 4 В."
+    explanation: "R2 ‖ Rн = 1 кОм. U = 12 × 1 / (2 + 1) = 4 В."
   - id: "pw-004"
     lesson: "why-regulators"
     difficulty: 1
@@ -47,6 +54,8 @@ questions:
     lesson: "linear-regulator"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · Iвых"
     question: "7805 питается от 10 В и отдаёт 0,25 А при 5 В. Сколько ватт он рассеивает?"
     answer: 1.25
     unit: "Вт"
@@ -56,6 +65,8 @@ questions:
     lesson: "linear-regulator"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "η ≈ Uвых / Uвх"
     question: "Линейный стабилизатор снижает 8 В до 5 В. Каков примерный КПД? Ответ в процентах."
     answer: 62.5
     unit: "%"
@@ -87,6 +98,8 @@ questions:
     lesson: "ldo"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · Iвых"
     question: "LDO 3,3 В питается от 5 В и отдаёт 0,3 А. Сколько ватт он рассеивает?"
     answer: 0.51
     unit: "Вт"
@@ -107,6 +120,10 @@ questions:
     lesson: "ldo"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "I_полн = I_сна + Iq"
+      - "t = C / I_полн"
+      - "1 сутки = 24 ч"
     question: "Батарея 500 мА·ч, LDO имеет ток покоя 0,02 мА, схема в сне потребляет 0,03 мА. На сколько суток хватит батареи? Ответ округли до целого."
     answer: 417
     unit: "сут"
@@ -127,6 +144,9 @@ questions:
     lesson: "thermal-design"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "Tj = Ta + P · θJA"
+      - "θJA — в °C/Вт"
     question: "LDO в корпусе с θJA = 90 °C/Вт рассеивает 0,8 Вт при температуре воздуха 25 °C. Какова температура кристалла? Ответ в градусах Цельсия."
     answer: 97
     unit: "°C"
@@ -136,6 +156,8 @@ questions:
     lesson: "thermal-design"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Pmax = (Tj max − Ta) / θJA"
     question: "Какова допустимая мощность корпуса с θJA = 85 °C/Вт при Tj max = 125 °C и Ta = 40 °C? Ответ в ваттах."
     answer: 1
     unit: "Вт"
@@ -145,6 +167,8 @@ questions:
     lesson: "thermal-design"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "θSA = (Tj max − Ta) / P − θJC − θCS"
     question: "TO-220: P = 2 Вт, Ta = 25 °C, Tj max = 125 °C, θJC = 5, θCS = 1 °C/Вт. Каким должно быть максимальное θSA радиатора? Ответ в °C/Вт."
     answer: 44
     unit: "°C/Вт"
@@ -165,6 +189,8 @@ questions:
     lesson: "adjustable-lm317"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "Uвых = 1,25 · (1 + R2 / R1)"
     question: "R1 = 240 Ом, R2 = 480 Ом. Каков выход LM317? Ответ в вольтах."
     answer: 3.75
     unit: "В"
@@ -174,6 +200,8 @@ questions:
     lesson: "adjustable-lm317"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R2 = R1 · (Uвых / 1,25 − 1)"
     question: "R1 = 240 Ом, нужно 12 В. Найди R2 в омах."
     answer: 2064
     unit: "Ом"
@@ -205,6 +233,8 @@ questions:
     lesson: "buck"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "D = Uвых / Uвх"
     question: "Вход 12 В, выход 3,3 В. Каково заполнение D идеального buck? Ответ в долях единицы."
     answer: 0.275
     unit: "ед."
@@ -214,6 +244,8 @@ questions:
     lesson: "buck"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "ΔI = (Uвх − Uвых) · D / (L · f)"
     question: "Вход 24 В, выход 5 В (D = 0,208), L = 68 мкГн, f = 300 кГц. Найди пульсации тока дросселя. Ответ в амперах."
     answer: 0.194
     unit: "А"
@@ -223,6 +255,8 @@ questions:
     lesson: "buck"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "L = (Uвх − Uвых) · D / (ΔI · f)"
     question: "Нужны пульсации 0,4 А при 12 → 5 В и f = 250 кГц (D = 0,417). Какая индуктивность нужна? Ответ в микрогенри."
     answer: 29
     unit: "мкГн"
@@ -232,6 +266,8 @@ questions:
     lesson: "buck"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P_потерь = P_вых · (1 − η) / η"
     question: "Buck с КПД 85 % отдаёт 10 Вт. Сколько ватт тепла выделяется в самом преобразователе?"
     answer: 1.76
     unit: "Вт"
@@ -241,6 +277,8 @@ questions:
     lesson: "boost-buckboost"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "D = 1 − Uвх / Uвых"
     question: "Boost повышает 5 В до 12 В. Каково заполнение D идеального преобразователя? Ответ в долях единицы."
     answer: 0.583
     unit: "ед."
@@ -250,6 +288,9 @@ questions:
     lesson: "boost-buckboost"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Pвых = Uвых · Iвых"
+      - "Iвх = Pвых / (η · Uвх)"
     question: "Boost 3,7 В → 5 В, нагрузка 1 А, КПД 90 %. Какой ток течёт от батареи? Ответ в амперах."
     answer: 1.5
     unit: "А"
@@ -281,6 +322,8 @@ questions:
     lesson: "choose-regulator"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · Iвых"
     question: "Нужно получить 5 В при 0,5 А от входа 9 В. Сколько ватт тепла выделит линейный стабилизатор?"
     answer: 2
     unit: "Вт"
@@ -301,6 +344,8 @@ questions:
     lesson: "choose-regulator"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uбат мин = Uвых + dropout"
     question: "LDO с dropout 0,25 В держит 3,3 В. При каком минимальном напряжении батареи это работает? Ответ в вольтах."
     answer: 3.55
     unit: "В"
@@ -321,6 +366,9 @@ questions:
     lesson: "switching-practical"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Isat ≥ (Iвых + ΔI / 2) · 1,2"
+      - "запас 20 %"
     question: "Для buck с Iвых = 1,5 А и ΔI = 0,5 А какой минимальный ток насыщения нужен с запасом 20 %? Ответ в амперах."
     answer: 2.1
     unit: "А"
@@ -330,6 +378,8 @@ questions:
     lesson: "switching-practical"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "ΔUвых = ΔI / (8 · f · C)"
     question: "ΔI = 0,2 А, f = 1 МГц, C = 10 мкФ (ESR не учитываем). Каковы пульсации выходного напряжения? Ответ в милливольтах."
     answer: 2.5
     unit: "мВ"
@@ -350,6 +400,8 @@ questions:
     lesson: "power-sequencing-pg"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = C · U / tss"
     question: "C = 470 мкФ, выход 3,3 В, мягкий старт 5 мс. Каков ток зарядки конденсатора? Ответ в амперах."
     answer: 0.31
     unit: "А"
@@ -359,6 +411,9 @@ questions:
     lesson: "power-sequencing-pg"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "Uвх = Uпор · (R1 + R2) / R2"
+      - "R1 — верхний резистор, R2 — нижний"
     question: "Порог EN = 1,2 В, R2 = 47 кОм, R1 = 130 кОм. При каком входном напряжении включится преобразователь? Ответ в вольтах."
     answer: 4.52
     unit: "В"
@@ -379,6 +434,9 @@ questions:
     lesson: "linear-supply"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "ΔU ≈ I / (f · C)"
+      - "f = 100 Гц для моста"
     question: "Блок питания: ток 0,5 А, C1 = 2200 мкФ, частота пульсаций 100 Гц. Каков размах пульсаций на C1 по формуле? Ответ в вольтах."
     answer: 2.27
     unit: "В"
@@ -388,6 +446,8 @@ questions:
     lesson: "linear-supply"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · Iвых"
     question: "7805: среднее напряжение на C1 12 В, выход 5 В, ток 0,2 А. Сколько ватт рассеивает стабилизатор?"
     answer: 1.4
     unit: "Вт"
@@ -408,6 +468,8 @@ questions:
     lesson: "lm317-bench"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых макс = Uвх − dropout"
     question: "Вход блока на LM317 равен 12 В, dropout 2 В. Каково максимальное выходное напряжение? Ответ в вольтах."
     answer: 10
     unit: "В"
@@ -417,6 +479,8 @@ questions:
     lesson: "lm317-bench"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = 1,25 · (1 + R2 / R1)"
     question: "R1 = 240 Ом, измеренное R2 = 1000 Ом. Каково расчётное выходное напряжение? Ответ в вольтах."
     answer: 6.46
     unit: "В"
@@ -437,6 +501,8 @@ questions:
     lesson: "buck-vs-linear"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "η = Uвых · Iвых / (Uвх · Iвх)"
     question: "Buck: Uвх = 12 В, Iвх = 0,30 А, Uвых = 5 В, Iвых = 0,65 А. Найди КПД в процентах."
     answer: 90.3
     unit: "%"
@@ -457,6 +523,8 @@ questions:
     lesson: "buck-vs-linear"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "η ≈ Uвых / Uвх"
     question: "Линейный стабилизатор снижает 15 В до 5 В. Каков примерный КПД? Ответ в процентах."
     answer: 33.3
     unit: "%"
@@ -466,6 +534,10 @@ questions:
     lesson: "mini-powerbank"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "E = U · C"
+      - "E_вых = E · η"
+      - "C при 5 В = E_вых / 5 В"
     question: "Ячейка 3000 мА·ч (3,7 В), КПД boost 85 %. Сколько мА·ч отдаст повербанк при 5 В?"
     answer: 1887
     unit: "мА·ч"
@@ -475,6 +547,8 @@ questions:
     lesson: "mini-powerbank"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "t = E / P"
     question: "Повербанк с энергией 6,29 Вт·ч питает нагрузку 5 Вт. Сколько часов он проработает? Ответ в часах."
     answer: 1.26
     unit: "ч"

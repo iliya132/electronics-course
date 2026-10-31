@@ -30,6 +30,8 @@ questions:
     lesson: circuit-basics
     difficulty: 2
     type: numeric
+    formula:
+      - "I = E / (r + R)"
     question: "Аккумулятор с E = 3,6 В и внутренним сопротивлением 0,08 Ом замкнули проводом сопротивлением 0,02 Ом. Каков ток короткого замыкания?"
     answer: 36
     unit: "А"
@@ -63,6 +65,8 @@ questions:
     lesson: series
     difficulty: 1
     type: numeric
+    formula:
+      - "R = R1 + R2"
     question: "Резисторы 330 Ом и 470 Ом соединены последовательно. Найди общее сопротивление."
     answer: 800
     unit: "Ом"
@@ -72,6 +76,9 @@ questions:
     lesson: series
     difficulty: 2
     type: numeric
+    formula:
+      - "I = U / (R1 + R2)"
+      - "U₂ = I · R₂"
     question: "К источнику 12 В подключены последовательно резисторы 1 кОм и 2 кОм. Какое напряжение на резисторе 2 кОм?"
     answer: 8
     unit: "В"
@@ -92,6 +99,8 @@ questions:
     lesson: series
     difficulty: 3
     type: numeric
+    formula:
+      - "R = (Uпит − Uсв) / I"
     question: "Светодиод с падением 2 В должен работать при токе 15 мА от источника 5 В. Какой резистор нужно включить последовательно?"
     answer: 200
     unit: "Ом"
@@ -113,6 +122,8 @@ questions:
     lesson: parallel
     difficulty: 1
     type: numeric
+    formula:
+      - "Два одинаковых резистора: R = R1 / 2"
     question: "Два резистора по 1 кОм соединены параллельно. Найди общее сопротивление."
     answer: 500
     unit: "Ом"
@@ -122,6 +133,9 @@ questions:
     lesson: parallel
     difficulty: 2
     type: numeric
+    formula:
+      - "I = U / R для каждой ветви"
+      - "I = I1 + I2"
     question: "К источнику 12 В параллельно подключены резисторы 60 Ом и 120 Ом. Какой общий ток отдаёт источник?"
     answer: 300
     unit: "мА"
@@ -142,6 +156,9 @@ questions:
     lesson: parallel
     difficulty: 3
     type: numeric
+    formula:
+      - "R = R1 · R2 / (R1 + R2)"
+      - "или 1/R = 1/R1 + 1/R2"
     question: "Нужно получить сопротивление 75 Ом, подключив параллельно к резистору 100 Ом ещё один. Какого номинала он должен быть?"
     answer: 300
     unit: "Ом"
@@ -152,6 +169,9 @@ questions:
     lesson: divider
     difficulty: 1
     type: numeric
+    formula:
+      - "Uвых = Uвх · R2 / (R1 + R2)"
+      - "R2 — нижний резистор (к земле), R1 — верхний"
     question: "Делитель: R1 = 6 кОм сверху, R2 = 3 кОм снизу, Uвх = 9 В. Найди Uвых."
     answer: 3
     unit: "В"
@@ -161,6 +181,8 @@ questions:
     lesson: divider
     difficulty: 2
     type: numeric
+    formula:
+      - "R1 = R2 · (Uвх / Uвых − 1)"
     question: "Нужно получить из 5 В половину, то есть 2,5 В. Нижний резистор R2 = 4,7 кОм. Каким должен быть R1 в килоомах?"
     answer: 4.7
     unit: "кОм"
@@ -181,6 +203,10 @@ questions:
     lesson: divider
     difficulty: 3
     type: numeric
+    formula:
+      - "R2экв = R2 · Rн / (R2 + Rн)"
+      - "Uвых = Uвх · R2экв / (R1 + R2экв)"
+      - "Нагрузка Rн включена параллельно R2"
     question: "Делитель из R1 = 20 кОм и R2 = 10 кОм питается от 12 В. К выходу подключили нагрузку 10 кОм. Каково Uвых?"
     answer: 2.4
     unit: "В"
@@ -203,6 +229,8 @@ questions:
     lesson: kirchhoff
     difficulty: 1
     type: numeric
+    formula:
+      - "Узел: Σ I входящих = Σ I выходящих"
     question: "В узел входят токи 4 мА и 9 мА, а выходят 6 мА и ещё один ток. Найди его."
     answer: 7
     unit: "мА"
@@ -212,6 +240,8 @@ questions:
     lesson: kirchhoff
     difficulty: 1
     type: numeric
+    formula:
+      - "Контур: E = U₁ + U₂ + U₃ + …"
     question: "В контуре источник 24 В и четыре резистора. На трёх упало 5 В, 7 В и 9 В. Сколько упало на четвёртом?"
     answer: 3
     unit: "В"
@@ -221,6 +251,9 @@ questions:
     lesson: kirchhoff
     difficulty: 3
     type: numeric
+    formula:
+      - "Источники навстречу: E = E₁ − E₂"
+      - "I = E / R"
     question: "Два источника, 10 В и 4 В, включены в один контур навстречу друг другу, то есть плюс к плюсу. Общее сопротивление контура 200 Ом. Каков ток в контуре?"
     answer: 30
     unit: "мА"
@@ -242,6 +275,8 @@ questions:
     lesson: source-load
     difficulty: 1
     type: numeric
+    formula:
+      - "I = E / (r + Rн)"
     question: "Источник с E = 9 В и r = 1 Ом нагружен резистором 8 Ом. Каков ток?"
     answer: 1
     unit: "А"
@@ -251,6 +286,9 @@ questions:
     lesson: source-load
     difficulty: 2
     type: numeric
+    formula:
+      - "P_max = E² / (4r)"
+      - "достигается при Rн = r"
     question: "Источник E = 10 В, r = 5 Ом. Какую наибольшую мощность можно получить в нагрузке?"
     answer: 5
     unit: "Вт"
@@ -271,6 +309,8 @@ questions:
     lesson: source-load
     difficulty: 2
     type: numeric
+    formula:
+      - "η = Rн / (r + Rн)"
     question: "Источник с r = 0,5 Ом нагружен на Rн = 4,5 Ом. Каков КПД в процентах?"
     answer: 90
     unit: "%"
@@ -280,6 +320,9 @@ questions:
     lesson: source-load
     difficulty: 3
     type: numeric
+    formula:
+      - "I = E / (r + R_кабеля + Rн)"
+      - "U = I · Rн"
     question: "Источник 5 В с r = 0,2 Ом питает нагрузку 4,5 Ом через кабель с сопротивлением 0,3 Ом (туда и обратно). Найди напряжение на нагрузке."
     answer: 4.5
     unit: "В"
@@ -323,6 +366,9 @@ questions:
     lesson: multimeter-breadboard
     difficulty: 3
     type: numeric
+    formula:
+      - "R = R_нагрузки + R_амперметра"
+      - "I = U / R"
     question: "Нагрузка 9,5 Ом подключена к источнику 5 В. В разрыв включили амперметр с собственным сопротивлением 0,5 Ом. Какой ток покажет прибор?"
     answer: 500
     unit: "мА"
@@ -333,6 +379,9 @@ questions:
     lesson: divider-lab
     difficulty: 1
     type: numeric
+    formula:
+      - "Uвых = Uвх · R2 / (R1 + R2)"
+      - "R2 — нижний резистор (к земле), R1 — верхний"
     question: "Делитель из R1 = 10 кОм и R2 = 22 кОм питается от 12 В без нагрузки. Каков Uвых?"
     answer: 8.25
     unit: "В"
@@ -353,6 +402,10 @@ questions:
     lesson: divider-lab
     difficulty: 3
     type: numeric
+    formula:
+      - "R2экв = R2 · Rн / (R2 + Rн)"
+      - "Uвых = Uвх · R2экв / (R1 + R2экв)"
+      - "Нагрузка Rн включена параллельно R2"
     question: "Делитель 10 кОм / 10 кОм питается от 9 В. К выходу подключили нагрузку 5 кОм. Каково Uвых?"
     answer: 2.25
     unit: "В"
@@ -363,6 +416,8 @@ questions:
     lesson: continuity-tester
     difficulty: 1
     type: numeric
+    formula:
+      - "R = (Uпит − Uf) / I"
     question: "Красный светодиод (падение 2 В) должен работать при токе 10 мА от источника 5 В. Какой нужен резистор?"
     answer: 300
     unit: "Ом"
@@ -383,8 +438,44 @@ questions:
     lesson: continuity-tester
     difficulty: 2
     type: numeric
+    formula:
+      - "I = (Uпит − Uf) / R"
     question: "Светодиод (падение 2 В) включён последовательно с резистором 330 Ом и источником 5 В. Каков ток?"
     answer: 9.09
     unit: "мА"
     tolerance_percent: 2
     explanation: "На резисторе падает 5 − 2 = 3 В, I = 3 / 330 ≈ 9,09 мА."
+  # ───── Осциллограф и генератор ─────
+  - id: c-039
+    lesson: scope-generator
+    difficulty: 1
+    type: numeric
+    formula:
+      - "f = 1 / T"
+    question: "На экране один период сигнала занимает 4 деления при развёртке 1 мс/дел. Какова частота сигнала?"
+    answer: 250
+    unit: "Гц"
+    tolerance_percent: 2
+    explanation: "T = 4 × 1 мс = 4 мс = 0,004 с, f = 1 / 0,004 = 250 Гц."
+  - id: c-040
+    lesson: scope-generator
+    difficulty: 2
+    type: single
+    question: "Щуп переключён на 10X, а в канале осциллографа задан коэффициент 10X. На экране сигнал занимает 3 деления при 1 В/дел. Каково напряжение сигнала?"
+    options:
+      - "3 В"
+      - "0,3 В"
+      - "30 В"
+    answer: 0
+    explanation: "Осциллограф учитывает коэффициент щупа сам, поэтому читаем показание по шкале: 3 деления × 1 В/дел = 3 В."
+  - id: c-041
+    lesson: scope-generator
+    difficulty: 3
+    type: single
+    question: "Выход генератора (внутри 50 Ом) настроен как «High Z» на 6 Вpp, но подключён к резистору 50 Ом. Какой размах на резисторе?"
+    options:
+      - "3 В"
+      - "6 В"
+      - "12 В"
+    answer: 0
+    explanation: "Резистор 50 Ом и внутренние 50 Ом образуют делитель 1:2, поэтому на нагрузке получается половина от установленного: 3 В."

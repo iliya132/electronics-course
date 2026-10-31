@@ -17,11 +17,13 @@ questions:
   - id: "ar-002"
     lesson: "arduino-intro"
     difficulty: 1
-    type: "numeric"
+    type: "single"
     question: "Сколько цифровых выводов с ШИМ на Arduino Uno?"
-    answer: 6
-    unit: "шт"
-    tolerance_percent: 1
+    options:
+      - "4"
+      - "6"
+      - "8"
+    answer: 1
     explanation: "3, 5, 6, 9, 10, 11."
   - id: "ar-003"
     lesson: "arduino-intro"
@@ -49,6 +51,9 @@ questions:
     lesson: "blink-program"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "T = t_вкл + t_выкл"
+      - "f = 1 / T"
     question: "Светодиод горит 300 мс и гаснет на 700 мс. Частота мигания, Гц?"
     answer: 1
     unit: "Гц"
@@ -80,6 +85,8 @@ questions:
     lesson: "digital-input-button"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = Vcc / R"
     question: "Подтяжка 25 кОм, 5 В. Ток при нажатой кнопке, мкА?"
     answer: 200
     unit: "мкА"
@@ -100,6 +107,8 @@ questions:
     lesson: "analog-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U = код · Uref / 1024"
     question: "analogRead вернул 409, Uref 5 В. Напряжение, В?"
     answer: 2.0
     unit: "В"
@@ -109,6 +118,9 @@ questions:
     lesson: "analog-pwm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "map(x, a, b, c, d) = (x − a) · (d − c) / (b − a) + c"
+      - "целочисленная арифметика: дробная часть отбрасывается"
     question: "map(300, 0, 1023, 0, 255) — результат (целое)?"
     answer: 74
     unit: "ед."
@@ -129,6 +141,9 @@ questions:
     lesson: "serial-debug"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "время = байты · 10 / скорость (бод)"
+      - "один байт в кадре 8N1 = 10 бит"
     question: "Строка из 40 байт на 9600 бод. Время передачи, мс?"
     answer: 41.7
     unit: "мс"
@@ -149,6 +164,8 @@ questions:
     lesson: "serial-debug"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "байт/с = скорость (бод) / 10"
     question: "Сколько байт в секунду при 19200 бод (8N1)?"
     answer: 1920
     unit: "байт/с"
@@ -169,6 +186,8 @@ questions:
     lesson: "millis-fsm"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "цикл = t_красный + t_зелёный + t_жёлтый"
     question: "Состояния: красный 8 с, зелёный 6 с, жёлтый 2 с. Длительность цикла, с?"
     answer: 16
     unit: "с"
@@ -189,6 +208,8 @@ questions:
     lesson: "sensors-analog"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Rntc = Rf · код / (1024 − код)"
     question: "NTC снизу, 10 кОм сверху, код 768. Rn, Ом?"
     answer: 30000
     unit: "Ом"
@@ -209,6 +230,8 @@ questions:
     lesson: "sensors-analog"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "шум уменьшается в √N раз"
     question: "Усредняем 64 отсчёта. Во сколько раз падает шум?"
     answer: 8
     unit: "раз"
@@ -218,6 +241,8 @@ questions:
     lesson: "servos-motors"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "скважность = t_импульса / T_кадра · 100 %"
     question: "Импульс серво 1,5 мс в кадре 20 мс. Скважность, %?"
     answer: 7.5
     unit: "%"
@@ -238,6 +263,8 @@ questions:
     lesson: "servos-motors"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I_источника = N · I_одного"
     question: "Три серво по 500 мА в стопоре. Ток источника, мА?"
     answer: 1500
     unit: "мА"
@@ -258,6 +285,8 @@ questions:
     lesson: "displays"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "байты = ширина · высота / 8"
     question: "Буфер OLED 128×64 в байтах?"
     answer: 1024
     unit: "байт"
@@ -289,6 +318,8 @@ questions:
     lesson: "libraries-eeprom"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "срок (сут) = ресурс · интервал (с) / 86 400"
     question: "Запись в EEPROM раз в 5 с, ресурс 100 000. Срок, суток (округли)?"
     answer: 5.8
     unit: "сут"
@@ -309,6 +340,8 @@ questions:
     lesson: "power-arduino"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = (Uвх − Uвых) · I"
     question: "Вход 12 В, ток 0,15 А, выход 5 В. Потери в регуляторе, Вт?"
     answer: 1.05
     unit: "Вт"
@@ -340,6 +373,9 @@ questions:
     lesson: "traffic-light"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "цикл = t_красный + t_зелёный + t_жёлтый"
+      - "число циклов = время / цикл"
     question: "Красный 7 с, зелёный 5 с, жёлтый 2 с. Циклов за 1 минуту (целых)?"
     answer: 4
     unit: "ц"
@@ -360,6 +396,8 @@ questions:
     lesson: "traffic-light"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "I = (Uпит − Vf) / R"
     question: "Светодиод Vf 2 В, резистор 470 Ом, 5 В. Ток, мА?"
     answer: 6.4
     unit: "мА"
@@ -369,6 +407,8 @@ questions:
     lesson: "lcd-thermometer"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "разрешение (°C) = LSB / чувствительность"
     question: "Чувствительность 40 мВ/°C, LSB 4,88 мВ. Разрешение, °C/отсчёт?"
     answer: 0.122
     unit: "°C"
@@ -400,6 +440,8 @@ questions:
     lesson: "voltmeter-0-25v"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "k = R2 / (R1 + R2)"
     question: "Делитель R1 = 47 кОм, R2 = 10 кОм. Коэффициент деления?"
     answer: 0.175
     unit: "ед."
@@ -409,6 +451,9 @@ questions:
     lesson: "voltmeter-0-25v"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uа0 = код · Uref / 1024"
+      - "U = Uа0 / k"
     question: "k = 0,2, код 300 (Uref 5 В). Измеряемое напряжение, В?"
     answer: 7.32
     unit: "В"
@@ -429,6 +474,8 @@ questions:
     lesson: "smart-fan"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uср = U · PWM / 255"
     question: "PWM = 191 при 12 В. Среднее напряжение, В?"
     answer: 9
     unit: "В"
@@ -460,6 +507,8 @@ questions:
     lesson: "current-logger-ina"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "E = U · I · t"
     question: "Нагрузка 9 В, 0,4 А. Энергия за 2 часа, Вт·ч?"
     answer: 7.2
     unit: "Вт·ч"
@@ -480,6 +529,9 @@ questions:
     lesson: "current-logger-ina"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "E = U · C"
+      - "t = E / P"
     question: "Ёмкость 3000 мА·ч, 3,7 В; нагрузка 2 Вт. Время работы, ч?"
     answer: 5.55
     unit: "ч"

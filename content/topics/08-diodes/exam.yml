@@ -19,6 +19,8 @@ questions:
     lesson: diode-basics
     difficulty: 1
     type: numeric
+    formula:
+      - "P = Vf · I"
     question: "Кремниевый диод (0,7 В) проводит ток 0,5 А. Сколько ватт он рассеивает?"
     answer: 0.35
     unit: "Вт"
@@ -51,6 +53,8 @@ questions:
     lesson: led
     difficulty: 1
     type: numeric
+    formula:
+      - "R = (Uпит − Vf) / I"
     question: "Красный светодиод (Vf = 2,0 В), питание 5 В, нужен ток 10 мА. Какой резистор нужен? Ответ в омах."
     answer: 300
     unit: "Ом"
@@ -71,6 +75,8 @@ questions:
     lesson: led
     difficulty: 2
     type: numeric
+    formula:
+      - "R = (Uпит − Vf) / I"
     question: "Светодиод Vf = 2,0 В питается от 3,3 В, ток 5 мА. Найди резистор в омах."
     answer: 260
     unit: "Ом"
@@ -80,6 +86,9 @@ questions:
     lesson: led
     difficulty: 3
     type: numeric
+    formula:
+      - "P = (Uпит − Vf) · I"
+      - "мощность на резисторе"
     question: "Светодиод Vf = 2,0 В питается от 12 В, ток 20 мА. Какую мощность рассеивает резистор в ваттах?"
     answer: 0.2
     unit: "Вт"
@@ -112,6 +121,8 @@ questions:
     lesson: schottky-zener
     difficulty: 2
     type: numeric
+    formula:
+      - "Iz = (Uвх − Uz) / R"
     question: "Параметрический стабилизатор: Uвх = 12 В, стабилитрон 5,1 В, R = 330 Ом, нагрузки нет. Какой ток течёт через стабилитрон? Ответ в миллиамперах."
     answer: 20.9
     unit: "мА"
@@ -121,6 +132,8 @@ questions:
     lesson: schottky-zener
     difficulty: 3
     type: numeric
+    formula:
+      - "P = Uz · Iz"
     question: "Для стабилизатора из предыдущей схемы (Iz = 20,9 мА, Uz = 5,1 В) найди мощность стабилитрона в ваттах."
     answer: 0.107
     unit: "Вт"
@@ -142,6 +155,8 @@ questions:
     lesson: rectifier-half-full
     difficulty: 1
     type: numeric
+    formula:
+      - "f_пульсаций = 2 · f_сети (двухполупериодное)"
     question: "Частота сети 50 Гц. Какова частота пульсаций на выходе двухполупериодного выпрямителя? Ответ в герцах."
     answer: 100
     unit: "Гц"
@@ -151,6 +166,8 @@ questions:
     lesson: rectifier-half-full
     difficulty: 2
     type: numeric
+    formula:
+      - "Двухполупериодное: Uср = 2 · Um / π ≈ 0,637 · Um"
     question: "Синусоида с амплитудой 12 В, двухполупериодное выпрямление (диоды идеальные). Каково среднее значение? Ответ в вольтах."
     answer: 7.64
     unit: "В"
@@ -160,6 +177,8 @@ questions:
     lesson: rectifier-half-full
     difficulty: 2
     type: numeric
+    formula:
+      - "Однополупериодное: Uср = Um / π ≈ 0,318 · Um"
     question: "Пик синусоиды 10 В, однополупериодное выпрямление, диод идеальный. Каково среднее значение? Ответ в вольтах."
     answer: 3.18
     unit: "В"
@@ -181,6 +200,9 @@ questions:
     lesson: diode-bridge
     difficulty: 2
     type: numeric
+    formula:
+      - "Uпик = Urms · √2 − 2 · Vf"
+      - "для кремниевых диодов Vf ≈ 0,7 В"
     question: "Адаптер 12 В RMS, мост на кремниевых диодах (0,7 В на диод). Каков пик выходного напряжения без конденсатора? Ответ в вольтах."
     answer: 15.57
     unit: "В"
@@ -190,6 +212,9 @@ questions:
     lesson: diode-bridge
     difficulty: 2
     type: numeric
+    formula:
+      - "Uпик = Urms · √2 − 2 · Vf"
+      - "для кремниевых диодов Vf ≈ 0,7 В"
     question: "Адаптер 9 В RMS, мост кремниевый. Каков пик выхода моста? Ответ в вольтах."
     answer: 11.33
     unit: "В"
@@ -211,6 +236,9 @@ questions:
     lesson: filter-capacitor
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU ≈ I / (f · C)"
+      - "f = 100 Гц для моста, 50 Гц для однополупериодной схемы"
     question: "Мост, нагрузка 0,2 А, конденсатор 2200 мкФ, частота пульсаций 100 Гц. Найди размах пульсаций по формуле ΔU = I/(f·C). Ответ в вольтах."
     answer: 0.91
     unit: "В"
@@ -220,6 +248,9 @@ questions:
     lesson: filter-capacitor
     difficulty: 2
     type: numeric
+    formula:
+      - "C = I / (f · ΔU)"
+      - "f = 100 Гц для моста"
     question: "Блок питания на мосту отдаёт 0,4 А, пульсации 100 Гц, допустимый размах 0,8 В. Какая минимальная ёмкость нужна? Ответ в микрофарадах."
     answer: 5000
     unit: "мкФ"
@@ -263,6 +294,8 @@ questions:
     lesson: reverse-polarity
     difficulty: 1
     type: numeric
+    formula:
+      - "P = Vf · I"
     question: "Диод Шоттки (Vf = 0,35 В) стоит последовательно в шине при токе 0,6 А. Сколько ватт он рассеивает?"
     answer: 0.21
     unit: "Вт"
@@ -272,6 +305,8 @@ questions:
     lesson: reverse-polarity
     difficulty: 2
     type: numeric
+    formula:
+      - "P = I² · Rds(on)"
     question: "P-MOSFET с Rds(on) = 25 мОм стоит в шине при токе 3 А. Сколько ватт он рассеивает?"
     answer: 0.225
     unit: "Вт"
@@ -304,6 +339,9 @@ questions:
     lesson: flyback-tvs
     difficulty: 2
     type: numeric
+    formula:
+      - "U = L · ΔI / Δt"
+      - "L — в генри, Δt — в секундах"
     question: "Катушка 50 мГн, ток 0,1 А прерывается за 50 мкс. Какое напряжение возникает на катушке по U = L·dI/dt? Ответ в вольтах."
     answer: 100
     unit: "В"
@@ -324,6 +362,8 @@ questions:
     lesson: flyback-tvs
     difficulty: 2
     type: numeric
+    formula:
+      - "U_макс = U_пит + Vf"
     question: "Катушка реле питается от 12 В, обратный диод имеет Vf = 0,7 В. Какое наибольшее напряжение окажется на ключе после выключения? Ответ в вольтах."
     answer: 12.7
     unit: "В"
@@ -345,6 +385,8 @@ questions:
     lesson: diode-logic-or
     difficulty: 2
     type: numeric
+    formula:
+      - "U_нагр = max(U₁, U₂) − Vf"
     question: "Адаптер 9,0 В и USB 5,0 В объединены двумя диодами Шоттки (Vf = 0,3 В). Какое напряжение получит нагрузка? Ответ в вольтах."
     answer: 8.7
     unit: "В"
@@ -377,6 +419,9 @@ questions:
     lesson: bridge-supply
     difficulty: 2
     type: numeric
+    formula:
+      - "Uпик = Urms · √2 − 2 · Vf"
+      - "для кремниевых диодов Vf ≈ 0,7 В"
     question: "Адаптер без нагрузки показывает 10,2 В RMS, мост кремниевый. Каков пик выхода моста? Ответ в вольтах."
     answer: 13.02
     unit: "В"
@@ -397,6 +442,8 @@ questions:
     lesson: bridge-supply
     difficulty: 3
     type: numeric
+    formula:
+      - "Для пилы: Uрмс = Uпп / (2√3)"
     question: "Размах пульсаций пилообразной формы равен 0,6 В от пика до пика. Какое действующее значение (RMS) покажет мультиметр в режиме V~? Ответ в вольтах."
     answer: 0.173
     unit: "В"
@@ -418,6 +465,10 @@ questions:
     lesson: reverse-protect-test
     difficulty: 2
     type: numeric
+    formula:
+      - "ΔU = Uбат − Uнагр"
+      - "I = Uнагр / R"
+      - "P = ΔU · I"
     question: "Для диода: Uбат = 6,00 В, Uнагр = 5,35 В, R = 33 Ом. Найди потери на диоде в милливаттах."
     answer: 105
     unit: "мВт"
@@ -438,6 +489,8 @@ questions:
     lesson: reverse-protect-test
     difficulty: 2
     type: numeric
+    formula:
+      - "R = U / I"
     question: "На MOSFET измерено падение 40 мВ при токе 0,18 А. Найди сопротивление канала в омах."
     answer: 0.222
     unit: "Ом"

@@ -29,6 +29,8 @@ questions:
     lesson: "opamp-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвх_разн = Uвых / A"
     question: "ОУ с A = 200 000, питание 0…3,3 В. При какой разности входов выход достигнет 3,3 В? Ответ в микровольтах."
     answer: 16.5
     unit: "мкВ"
@@ -60,11 +62,15 @@ questions:
     lesson: "voltage-follower"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R2экв = R2 · Rн / (R2 + Rн)"
+      - "Uвых = Uвх · R2экв / (R1 + R2экв)"
+      - "Нагрузка Rн включена параллельно R2"
     question: "Делитель 47 кОм + 47 кОм от 5 В, нагрузка 47 кОм параллельно нижнему резистору. Напряжение на нагрузке без буфера? Ответ в вольтах."
     answer: 1.67
     unit: "В"
     tolerance_percent: 3
-    explanation: "Нижнее плечо 47 ∥ 47 = 23,5 кОм; U = 5 · 23,5 / (47 + 23,5) = 1,67 В."
+    explanation: "Нижнее плечо 47 ‖ 47 = 23,5 кОм; U = 5 · 23,5 / (47 + 23,5) = 1,67 В."
   - id: "an-007"
     lesson: "voltage-follower"
     difficulty: 2
@@ -80,6 +86,8 @@ questions:
     lesson: "voltage-follower"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U_ошибки = I_утечки · R_источника"
     question: "Утечка входа АЦП 2 мкА, сопротивление источника 10 кОм. Ошибка по напряжению в милливольтах?"
     answer: 20
     unit: "мВ"
@@ -89,6 +97,8 @@ questions:
     lesson: "non-inverting-inverting"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "K = 1 + Rf / Rg"
     question: "Неинвертирующий усилитель, Rf = 47 кОм, Rg = 4,7 кОм. Чему равно K? Ответ числом."
     answer: 11
     unit: "раз"
@@ -98,6 +108,8 @@ questions:
     lesson: "non-inverting-inverting"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "K = −Rf / Rin"
     question: "Инвертирующий усилитель, Rin = 4,7 кОм, Rf = 47 кОм. Чему равно K (со знаком)?"
     answer: -10
     unit: "раз"
@@ -118,6 +130,9 @@ questions:
     lesson: "non-inverting-inverting"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = K · Uвх"
+      - "не больше напряжения питания"
     question: "Усилитель K = 21, вход 0,12 В, питание 3,3 В (идеальный rail-to-rail). Каков выход? Ответ в вольтах."
     answer: 2.52
     unit: "В"
@@ -138,6 +153,8 @@ questions:
     lesson: "comparator-hysteresis"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "ΔU = V_H · R1 / Rf"
     question: "V_H = 5 В, R1 = 4,7 кОм, Rf = 47 кОм. Гистерезис в милливольтах?"
     answer: 500
     unit: "мВ"
@@ -158,6 +175,8 @@ questions:
     lesson: "comparator-hysteresis"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "U↑ = Uоп · (1 + R1 / Rf)"
     question: "Uоп = 1,65 В, R1 = 10 кОм, Rf = 100 кОм (выход низкий). Верхний порог в вольтах?"
     answer: 1.815
     unit: "В"
@@ -167,6 +186,8 @@ questions:
     lesson: "sensor-conditioning"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "Uвых = Uпит · R_ниж / (R_верх + R_ниж)"
     question: "NTC 10 кОм при 25 °C в верхнем плече, внизу 10 кОм, питание 5 В. Напряжение на нижнем резисторе?"
     answer: 2.5
     unit: "В"
@@ -176,6 +197,8 @@ questions:
     lesson: "sensor-conditioning"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = Uпит · R_ниж / (R_верх + R_ниж)"
     question: "Сигнал 0…5 В к АЦП 0…3,3 В через делитель 12 кОм (верх) и 22 кОм (низ). Выход при 4 В, в вольтах?"
     answer: 2.59
     unit: "В"
@@ -207,6 +230,8 @@ questions:
     lesson: "adc-basics"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "LSB = Uref / 2ⁿ"
     question: "10-разрядный АЦП, Uref = 3,3 В. Чему равен LSB? Ответ в милливольтах."
     answer: 3.22
     unit: "мВ"
@@ -216,6 +241,9 @@ questions:
     lesson: "adc-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "LSB = Uref / 2ⁿ"
+      - "код = Uвх / LSB"
     question: "12-разрядный АЦП, Uref = 3,3 В, вход 2,0 В. Какой код? Ответ числом."
     answer: 2482
     unit: "код"
@@ -236,6 +264,8 @@ questions:
     lesson: "adc-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f_дискр ≥ 2 · f_макс"
     question: "Сигнал до 8 кГц. Минимальная частота дискретизации по Котельникову, в килогерцах?"
     answer: 16
     unit: "кГц"
@@ -245,6 +275,8 @@ questions:
     lesson: "current-sense"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "U = I · R"
     question: "Шунт 0,05 Ом, ток 2 А. Напряжение на шунте в милливольтах?"
     answer: 100
     unit: "мВ"
@@ -254,6 +286,8 @@ questions:
     lesson: "current-sense"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "P = I² · R"
     question: "Шунт 0,02 Ом, ток 10 А. Мощность на шунте, Вт?"
     answer: 2
     unit: "Вт"
@@ -274,6 +308,8 @@ questions:
     lesson: "current-sense"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = I · R · K"
     question: "Шунт 0,1 Ом, ток 0,5 А, INA180A2 (K = 50). Выходное напряжение, В?"
     answer: 2.5
     unit: "В"
@@ -283,6 +319,8 @@ questions:
     lesson: "timer-555"
     difficulty: 1
     type: "numeric"
+    formula:
+      - "f = 1,44 / ((R1 + 2 · R2) · C)"
     question: "Мультивибратор: R1 = 2,2 кОм, R2 = 22 кОм, C = 1 мкФ. Частота в герцах?"
     answer: 31
     unit: "Гц"
@@ -292,6 +330,8 @@ questions:
     lesson: "timer-555"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = 1,1 · R · C"
     question: "Моностабильный режим, R = 220 кОм, C = 10 мкФ. Длительность, с?"
     answer: 2.42
     unit: "с"
@@ -323,6 +363,8 @@ questions:
     lesson: "reference-voltage"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = 2,495 · (1 + R1 / R2)"
     question: "TL431: R1 = 20 кОм, R2 = 10 кОм. Выход в вольтах?"
     answer: 7.49
     unit: "В"
@@ -343,6 +385,8 @@ questions:
     lesson: "reference-voltage"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Rс = (Uвх − Uвых) / I"
     question: "Вход 10 В, TL431 на 5 В, суммарный ток 4 мА. Токовый резистор в омах?"
     answer: 1250
     unit: "Ом"
@@ -352,6 +396,8 @@ questions:
     lesson: "thermostat-comparator"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "полоса (°C) = гистерезис (В) / чувствительность (В/°C)"
     question: "Гистерезис по напряжению 0,2 В, чувствительность 0,1 В/°C. Полоса в градусах?"
     answer: 2
     unit: "°C"
@@ -383,6 +429,8 @@ questions:
     lesson: "555-blinker-tone"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f = 1,44 / ((R1 + 2 · R2) · C)"
     question: "Мигалка R1 = 4,7 кОм, R2 = 47 кОм, C = 22 мкФ. Частота в герцах?"
     answer: 0.66
     unit: "Гц"
@@ -403,6 +451,8 @@ questions:
     lesson: "555-blinker-tone"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "f = 1,44 / ((R1 + 2 · R2) · C)"
     question: "Тон: R1 = 1 кОм, R2 = 47 кОм, C = 10 нФ. Частота в килогерцах?"
     answer: 1.5
     unit: "кГц"
@@ -412,6 +462,8 @@ questions:
     lesson: "shunt-ammeter"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "Uвых = I · R · K"
     question: "Шунт 0,1 Ом, K = 11, ток 1,5 А. Выход в вольтах?"
     answer: 1.65
     unit: "В"
@@ -432,6 +484,8 @@ questions:
     lesson: "shunt-ammeter"
     difficulty: 3
     type: "numeric"
+    formula:
+      - "I_ошибки = Vos / R"
     question: "Смещение ОУ 1 мВ, K = 11, шунт 0,1 Ом. Эквивалентная ошибка по току, в миллиамперах?"
     answer: 10
     unit: "мА"

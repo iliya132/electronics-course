@@ -7,6 +7,9 @@ questions:
     lesson: "uart"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "время = байты · 10 / скорость (бод)"
+      - "один байт в кадре 8N1 = 10 бит"
     question: "Сколько миллисекунд передаются 150 байт на 38400 бод (8N1)?"
     answer: 39.1
     unit: "мс"
@@ -38,6 +41,8 @@ questions:
     lesson: "uart"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "скорость = 1 / t_бита"
     question: "Длительность одного бита 52 мкс. Скорость, бод (округли)?"
     answer: 19231
     unit: "бод"
@@ -47,6 +52,8 @@ questions:
     lesson: "i2c"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = байты · 9 / f_SCL"
     question: "Сколько микросекунд занимает передача 5 байт (с ACK) на 100 кГц?"
     answer: 450
     unit: "мкс"
@@ -67,6 +74,8 @@ questions:
     lesson: "i2c"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R_min = (Vcc − VOL) / I"
     question: "Rmin подтяжки I²C при Vcc 5 В, VOL 0,4 В, ток 3 мА, Ом?"
     answer: 1533
     unit: "Ом"
@@ -98,6 +107,8 @@ questions:
     lesson: "spi"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = байты · 8 / f_SCK"
     question: "SCK = 1 МГц. Время передачи 4 байт, мкс?"
     answer: 32
     unit: "мкс"
@@ -118,6 +129,8 @@ questions:
     lesson: "spi"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = байты · 8 / f_SCK"
     question: "Блок 512 байт на SPI 8 МГц. Теоретическое время, мкс?"
     answer: 512
     unit: "мкс"
@@ -127,6 +140,8 @@ questions:
     lesson: "one-wire"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "время = число измерений · время преобразования"
     question: "Сколько секунд занимает преобразование на 11 битах, если сделать 8 запросов подряд?"
     answer: 3
     unit: "с"
@@ -158,6 +173,8 @@ questions:
     lesson: "logic-analyzer"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "отсчётов на период = f_дискр / f_сигнала"
     question: "Анализатор 12 МГц, сигнал 1 МГц. Отсчётов на период?"
     answer: 12
     unit: "шт"
@@ -178,6 +195,8 @@ questions:
     lesson: "logic-analyzer"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "время записи = память / f_дискр"
     question: "Память 16 млн отсчётов, частота 4 МГц. Длительность записи, с?"
     answer: 4
     unit: "с"
@@ -198,11 +217,13 @@ questions:
     lesson: "rs485-can"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "R = R1 · R2 / (R1 + R2)"
     question: "Два терминатора по 120 Ом параллельно. Общее сопротивление, Ом?"
     answer: 60
     unit: "Ом"
     tolerance_percent: 2
-    explanation: "120∥120 = 60."
+    explanation: "120‖120 = 60."
   - id: "bs-021"
     lesson: "rs485-can"
     difficulty: 1
@@ -240,6 +261,9 @@ questions:
     lesson: "usb-basics"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = объём (Мбит) / скорость (Мбит/с)"
+      - "1 Б = 8 бит"
     question: "Время передачи 3 МБ (24 Мбит) на Full Speed 12 Мбит/с, с?"
     answer: 2
     unit: "с"
@@ -260,6 +284,9 @@ questions:
     lesson: "oled-i2c"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "адрес на шине = адрес · 2 (сдвиг влево на 1 бит)"
+      - "для записи младший бит R/W = 0"
     question: "Адрес 0x3D. Какое значение байта записи на шине (адрес << 1), в десятичной записи?"
     answer: 122
     unit: "ед."
@@ -269,6 +296,8 @@ questions:
     lesson: "oled-i2c"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "t = 1024 · 9 / f_SCL"
     question: "Кадр 1024 байта на 200 кГц. Время, мс?"
     answer: 46
     unit: "мс"
@@ -289,6 +318,8 @@ questions:
     lesson: "sd-logger-spi"
     difficulty: 2
     type: "numeric"
+    formula:
+      - "объём = размер строки · записей в сутки"
     question: "Строка 12 байт, запись раз в 30 с. Сколько КБ в сутки (1 КБ = 1000 байт)?"
     answer: 34.6
     unit: "КБ"

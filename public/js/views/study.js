@@ -1,5 +1,6 @@
 import {api,act} from '../api.js';
 import {el,esc,lessonRow} from '../dom.js';
+const bold=text=>esc(text).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
 export async function review(root){
  const queue=await api('/review/queue');root.className='reading';let index=0;
  const render=()=>{
@@ -9,10 +10,21 @@ export async function review(root){
   show.onclick=()=>{answer.hidden=false;actions.hidden=false;show.hidden=true;};
   for(const correct of [false,true]){
    const button=el('button',{text:correct?'Помню':'Не помню',class:correct?'primary':''});
-   button.onclick=act(async()=>{actions.querySelectorAll('button').forEach(b=>b.disabled=true);try{await api('/review/answer','POST',{card_id:card.card_id,correct});index++;render();document.dispatchEvent(new Event('course:update'));}catch(e){actions.querySelectorAll('button').forEach(b=>b.disabled=false);throw e;}});
+   button.onclick=act(async()=>{actions.querySelectorAll('button').forEach(b=>b.disabled=true);try{await api('/review/answer','POST',{card_id:card.card_id,correct});if(correct){index++;render();}else lecture(card);document.dispatchEvent(new Event('course:update'));}catch(e){actions.querySelectorAll('button').forEach(b=>b.disabled=false);throw e;}});
    actions.append(button);
   }
   root.append(show,answer,actions);
+ };
+ // После «Не помню»: правильный ответ, короткая справка по теме и кнопка «Дальше»
+ const lecture=card=>{
+  root.innerHTML='<p class="eyebrow">Коротко о главном</p><p class="muted">Осталось '+(queue.length-index-1)+'. Карточка вернётся завтра.</p><h1>'+esc(card.q)+'</h1>';
+  const lesson='<a href="#/lesson/'+esc(card.lesson_id)+'">Открыть урок «'+esc(card.lesson_title)+'» →</a>';
+  const body=card.more?.length?card.more.map(p=>'<p>'+bold(p)+'</p>').join('')+'<p class="muted">'+lesson+'</p>'
+   :'<p>Подробный разбор этой темы есть в уроке.</p><p>'+lesson+'</p>';
+  const next=el('button',{class:'primary',text:'Дальше →'});
+  next.onclick=()=>{index++;render();};
+  root.append(el('div',{class:'card-answer',text:card.a}),el('section',{class:'card-lecture',html:body}),next);
+  next.focus();
  };
  render();
 }
