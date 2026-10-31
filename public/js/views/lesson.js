@@ -90,6 +90,8 @@ export async function lesson(root, id) {
     await api('/lessons/' + id + '/complete', 'POST', {});
     complete.textContent = '✓ Урок завершён';
     nextLink.hidden = false;
+    topicLink.hidden = false;
+    courseLink.hidden = false;
     toast('Урок завершён. Карточки добавлены в повторение.');
     document.dispatchEvent(new Event('course:update'));
   });
@@ -111,9 +113,23 @@ export async function lesson(root, id) {
     text: 'Следующий урок →',
     hidden: !l.next_open
   });
+  const done = l.progress.status === 'completed';
+  const topicLink = el('a', {
+    class: 'button',
+    href: '#/topic/' + l.topic,
+    text: 'К теме',
+    hidden: !done
+  });
+  const courseLink = el('a', {
+    class: 'button',
+    href: '#/',
+    text: 'К курсу',
+    hidden: !done
+  });
   if (l.next) {
     actions.lastChild.append(nextLink);
   }
+  actions.lastChild.append(topicLink, courseLink);
   if (l.previous) {
     actions.append(el('p', {}, [el('a', {
       href: '#/lesson/' + l.previous,
